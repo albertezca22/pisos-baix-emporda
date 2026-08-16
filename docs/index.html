@@ -132,8 +132,33 @@
 
   .vacio{text-align:center; padding:60px 20px; color:var(--tenue); font-size:14px}
 
+  /* Botón de filtros: solo aparece en móvil */
+  .cabecera-fila{display:flex; align-items:flex-start; justify-content:space-between; gap:12px}
+  .alternar-filtros{display:none}
+
   @media (max-width:640px){
-    header{padding:18px 14px 0}
+    /* En una pantalla estrecha el encabezado pegado se comía media pantalla.
+       Ahora solo queda fija una barra fina con el título y el botón Filtros;
+       el resto se despliega bajo demanda y se puede recorrer por dentro. */
+    header{padding:12px 14px}
+    h1{font-size:17px}
+    .subtitulo,.cifras,.filtros{display:none}
+    header.abierto .cifras{display:flex}
+    header.abierto .filtros{
+      display:flex; max-height:64vh; overflow-y:auto;
+      padding-top:4px; -webkit-overflow-scrolling:touch;
+    }
+    .alternar-filtros{
+      display:flex; align-items:center; gap:6px; flex:none;
+      font:inherit; font-size:13px; font-weight:500; padding:7px 13px;
+      border:1px solid var(--linea); border-radius:999px; background:#fff;
+      color:var(--tinta); cursor:pointer; white-space:nowrap;
+    }
+    .alternar-filtros[aria-expanded="true"]{background:var(--tinta); border-color:var(--tinta); color:#fff}
+    .alternar-filtros .cuenta{
+      background:var(--oro); color:#fff; border-radius:999px;
+      padding:0 6px; font-size:11px; font-weight:700;
+    }
     main{padding:14px}
     .rejilla{grid-template-columns:repeat(auto-fill,minmax(158px,1fr)); gap:11px}
     .cifras{gap:16px; margin:12px 0 10px}
@@ -149,8 +174,14 @@
 
 <header>
   <div class="envoltorio">
-    <h1>Pisos · Baix Empordà</h1>
-    <div class="subtitulo" id="subtitulo">Cargando…</div>
+    <div class="cabecera-fila">
+      <div>
+        <h1>Pisos · Baix Empordà</h1>
+        <div class="subtitulo" id="subtitulo">Cargando…</div>
+      </div>
+      <button class="alternar-filtros" id="b-filtros" aria-expanded="false"
+              aria-controls="filtros">Filtros</button>
+    </div>
 
     <div class="cifras">
       <div class="cifra"><b id="c-activos">–</b><span>en venta</span></div>
@@ -493,6 +524,8 @@
       `${lista.length} vivienda${lista.length === 1 ? "" : "s"}` +
       (nuevos ? ` · ${nuevos} nueva${nuevos === 1 ? "" : "s"} hoy` : "");
 
+    pintaBotonFiltros();
+
     const act = DATOS.anuncios.filter(a => a.activo);
     $("#c-activos").textContent = act.length;
     $("#c-nuevos").textContent = act.filter(a => a.nuevo).length;
@@ -516,6 +549,20 @@
       });
       contenedor.appendChild(b);
     });
+  }
+
+  // Cuántos filtros hay puestos, para avisar en el botón de móvil de que la
+  // lista está recortada aunque el panel esté cerrado.
+  function filtrosActivos(){
+    return (filtros.texto ? 1 : 0) + (filtros.municipio ? 1 : 0) + (filtros.precio ? 1 : 0)
+         + filtros.hab.size + filtros.banos.size + filtros.extras.size
+         + (filtros.soloNuevos ? 1 : 0) + (filtros.soloDestacados ? 1 : 0)
+         + (filtros.soloFavoritos ? 1 : 0) + (filtros.verRetirados ? 1 : 0);
+  }
+
+  function pintaBotonFiltros(){
+    const n = filtrosActivos();
+    $("#b-filtros").innerHTML = "Filtros" + (n ? ` <span class="cuenta">${n}</span>` : "");
   }
 
   function conmutador(sel, campo){
@@ -560,6 +607,13 @@
     conmutador("#v-retirados", "verRetirados");
 
     $("#b-limpiar").addEventListener("click", () => location.reload());
+
+    const cabecera = document.querySelector("header");
+    $("#b-filtros").addEventListener("click", () => {
+      const abierto = cabecera.classList.contains("abierto");
+      cabecera.classList.toggle("abierto", !abierto);
+      $("#b-filtros").setAttribute("aria-expanded", String(!abierto));
+    });
 
     $("#b-publicar").addEventListener("click", () => {
       $("#txt-marcas").value = JSON.stringify(marcasParaPublicar(), null, 1);
