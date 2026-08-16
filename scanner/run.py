@@ -44,6 +44,12 @@ def main():
     informe = portals.Informe()
     brutos = []
 
+    # Registramos todos los portales de antemano. Si uno falla sin llegar a
+    # anotar nada, se quedaba fuera del informe y desaparecía del pie de la
+    # web: parecía que no se había consultado, en vez de salir en rojo.
+    for nombre in seleccion:
+        informe.anota(nombre)
+
     for nombre in seleccion:
         fn = portals.ESCRAPERS.get(nombre)
         if not fn:

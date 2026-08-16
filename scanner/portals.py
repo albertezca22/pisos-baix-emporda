@@ -98,7 +98,9 @@ def pedir(url, portal, informe, intentos=3):
             time.sleep(4 * (intento + 1))
             continue
         if r.status_code == 404:
+            informe.anota(portal, error=f"404 en {url[:90]}")
             return None
+        informe.anota(portal, error=f"HTTP {r.status_code} en {url[:80]}")
         time.sleep(2 * (intento + 1))
 
     return None
