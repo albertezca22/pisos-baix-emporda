@@ -1,0 +1,97 @@
+name: Escaneo diario de pisos
+
+on:
+  schedule:
+    # GitHub programa siempre en UTC, así que hay dos horarios: uno vale en
+    # horario de verano y el otro en invierno. El paso "Comprobar la hora"
+    # deja pasar solo el que coincide con las 08:00 en España.
+    - cron: "0 6 * * *"   # 08:00 CEST (verano)
+    - cron: "0 7 * * *"   # 08:00 CET  (invierno)
+  workflow_dispatch:       # botón para lanzarlo a mano cuando quieras
+
+permissions:
+  contents: write
+
+concurrency:
+  group: escaneo-pisos
+  cancel-in-progress: false
+
+jobs:
+  escanear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar que en España son las 08:00
+        id: hora
+        run: |
+          HORA=$(TZ=Europe/Madrid date +%H)
+          echo "En Madrid son las $HORA:00"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$HORA" != "08" ]; then
+            echo "Este disparo corresponde al otro horario estacional. Se salta."
+            echo "seguir=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "seguir=si" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preparar Python
+        if: steps.hora.outputs.seguir == 'si'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        if: steps.hora.outputs.seguir == 'si'
+        run: pip install -r requirements.txt
+
+      - name: Lanzar el escaneo
+        if: steps.hora.outputs.seguir == 'si'
+        run: python -m scanner.run
+
+      # Comprobación de cortesía: si fallara la instalación de quickjs no debe
+      # impedir que se publiquen los pisos del día, que es lo importante.
+      - name: Comprobar que la web sigue funcionando
+        if: steps.hora.outputs.seguir == 'si'
+        continue-on-error: true
+        run: |
+          pip install -r requirements-dev.txt
+          python tests/test_ui.py
+
+      - name: Publicar los resultados
+        if: steps.hora.outputs.seguir == 'si'
+        run: |
+          git config user.name  "Escaneo de pisos"
+          git config user.email "actions@github.com"
+          git add data/listings.json docs/data.json docs/data.js
+          if git diff --staged --quiet; then
+            echo "Sin cambios respecto a ayer."
+          else
+            NUEVOS=$(python -c "import json;d=json.load(open('docs/data.json'));print(d['resumen']['nuevos_hoy'])")
+            ACTIVOS=$(python -c "import json;d=json.load(open('docs/data.json'));print(d['resumen']['activos'])")
+            git commit -m "Escaneo $(TZ=Europe/Madrid date +%d/%m/%Y): ${NUEVOS} nuevos, ${ACTIVOS} en venta"
+            git push
+          fi
+
+      - name: Resumen del escaneo
+        if: steps.hora.outputs.seguir == 'si'
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("docs/data.json"))
+          r = d["resumen"]
+          print(f"## Escaneo del {d['generado_texto']}\n")
+          print(f"- **{r['nuevos_hoy']} viviendas nuevas** hoy")
+          print(f"- {r['activos']} en venta ahora mismo")
+          print(f"- {r['duplicados_fundidos']} anuncios duplicados fundidos entre portales")
+          print(f"- Descartados: {r['fuera_zona']} fuera de zona, {r['no_piso']} no son pisos, "
+                f"{r['raros']} raros (ocupados, subastas, nuda propiedad)\n")
+          print("| Portal | Anuncios | Estado |")
+          print("|---|---:|---|")
+          for portal, p in d["portales"].items():
+              estado = "bloqueado" if p["bloqueado"] and not p["anuncios"] else "ok"
+              print(f"| {portal} | {p['anuncios']} | {estado} |")
+          PY
