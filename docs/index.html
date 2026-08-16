@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pisos · Baix Empordà</title>
+<meta name="description" content="Escaneo diario de pisos en venta en el Baix Empordà por debajo de 160.000 €.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<style>
+  :root{
+    --tinta:#111214;      --suave:#6b6f76;   --tenue:#9aa0a6;
+    --linea:#e6e7e9;      --fondo:#ffffff;   --papel:#fafafa;
+    --oro:#b8912f;        --oro-claro:#fdf7e6; --oro-linea:#e8d5a0;
+    --verde:#127a4b;      --verde-claro:#eef8f2; --verde-linea:#b5ddc7;
+    --radio:10px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background:var(--fondo); color:var(--tinta);
+    font-size:15px; line-height:1.45; -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit}
+
+  /* ---------- cabecera ---------- */
+  header{border-bottom:1px solid var(--linea); padding:26px 20px 0; position:sticky; top:0; background:rgba(255,255,255,.96); backdrop-filter:blur(8px); z-index:50}
+  .envoltorio{max-width:1280px; margin:0 auto}
+  h1{font-size:20px; font-weight:600; letter-spacing:-.2px}
+  .subtitulo{color:var(--suave); font-size:13px; margin-top:3px}
+  .cifras{display:flex; gap:22px; margin:16px 0 14px; flex-wrap:wrap}
+  .cifra b{font-size:22px; font-weight:600; letter-spacing:-.5px}
+  .cifra span{display:block; font-size:11px; color:var(--tenue); text-transform:uppercase; letter-spacing:.6px; margin-top:1px}
+  .cifra.oro b{color:var(--oro)} .cifra.verde b{color:var(--verde)}
+
+  /* ---------- filtros ---------- */
+  .filtros{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:flex-end; padding-bottom:14px}
+  .grupo{display:flex; flex-direction:column; gap:5px}
+  .etiqueta{font-size:10px; text-transform:uppercase; letter-spacing:.7px; color:var(--tenue); font-weight:600}
+  .fila{display:flex; gap:5px; flex-wrap:wrap}
+  .chip{
+    font:inherit; font-size:12.5px; padding:5px 11px; border:1px solid var(--linea);
+    background:#fff; border-radius:999px; cursor:pointer; color:var(--suave); white-space:nowrap;
+    transition:.12s;
+  }
+  .chip:hover{border-color:#c9ccd1; color:var(--tinta)}
+  .chip[aria-pressed="true"]{background:var(--tinta); border-color:var(--tinta); color:#fff}
+  .chip.oro[aria-pressed="true"]{background:var(--oro); border-color:var(--oro)}
+  .chip.verde[aria-pressed="true"]{background:var(--verde); border-color:var(--verde)}
+  select,input[type=search]{
+    font:inherit; font-size:13px; padding:6px 9px; border:1px solid var(--linea);
+    border-radius:7px; background:#fff; color:var(--tinta); min-width:150px;
+  }
+  input[type=search]{min-width:190px}
+  .limpiar{font-size:12px; color:var(--tenue); background:none; border:none; cursor:pointer; text-decoration:underline; padding:6px 0}
+
+  /* ---------- listado ---------- */
+  main{max-width:1280px; margin:0 auto; padding:20px}
+  .conteo{font-size:12.5px; color:var(--suave); margin-bottom:14px}
+  .rejilla{display:grid; grid-template-columns:repeat(auto-fill,minmax(288px,1fr)); gap:16px}
+
+  .ficha{
+    border:1px solid var(--linea); border-radius:var(--radio); overflow:hidden;
+    background:#fff; display:flex; flex-direction:column; position:relative; transition:.15s;
+  }
+  .ficha:hover{border-color:#cfd2d6; box-shadow:0 3px 14px rgba(0,0,0,.06)}
+  .ficha.es-nuevo{border-color:var(--oro-linea); background:var(--oro-claro)}
+  .ficha.es-favorito{border-color:var(--verde-linea); background:var(--verde-claro)}
+  .ficha.inactivo{opacity:.5}
+
+  .marco-foto{position:relative; aspect-ratio:4/3; background:var(--papel); overflow:hidden}
+  .marco-foto img{width:100%; height:100%; object-fit:cover; display:block}
+  .sin-foto{display:flex; align-items:center; justify-content:center; height:100%; color:var(--tenue); font-size:12px}
+
+  .distintivos{position:absolute; top:9px; left:9px; display:flex; gap:5px; flex-wrap:wrap}
+  .distintivo{font-size:10px; font-weight:700; letter-spacing:.6px; text-transform:uppercase; padding:3px 7px; border-radius:5px; background:rgba(17,18,20,.78); color:#fff; backdrop-filter:blur(3px)}
+  .distintivo.oro{background:var(--oro)} .distintivo.verde{background:var(--verde)}
+  .distintivo.gris{background:rgba(70,74,80,.85)}
+
+  .acciones{position:absolute; top:9px; right:9px; display:flex; gap:5px}
+  .boton-marca{
+    width:31px; height:31px; border-radius:50%; border:none; cursor:pointer;
+    background:rgba(255,255,255,.94); box-shadow:0 1px 5px rgba(0,0,0,.16);
+    font-size:15px; line-height:1; display:flex; align-items:center; justify-content:center;
+    transition:.12s; padding:0;
+  }
+  .boton-marca:hover{transform:scale(1.1)}
+  .boton-marca.on-estrella{background:var(--oro); color:#fff}
+  .boton-marca.on-favorito{background:var(--verde); color:#fff}
+
+  .cuerpo{padding:12px 13px 13px; display:flex; flex-direction:column; gap:7px; flex:1}
+  .precio{font-size:19px; font-weight:600; letter-spacing:-.4px; display:flex; align-items:baseline; gap:7px; flex-wrap:wrap}
+  .precio .m2p{font-size:11.5px; font-weight:400; color:var(--tenue)}
+  .bajada{font-size:11px; color:var(--verde); font-weight:600}
+  .titulo{font-size:13.5px; font-weight:500; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
+  .lugar{font-size:12px; color:var(--suave)}
+  .lugar .min{color:var(--tenue)}
+  .visto{font-size:11px; color:var(--tenue)}
+  .datos{display:flex; gap:11px; font-size:12.5px; color:var(--tinta); flex-wrap:wrap}
+  .datos span{white-space:nowrap}
+  .extras{display:flex; gap:4px; flex-wrap:wrap; margin-top:1px}
+  .extra{font-size:10.5px; padding:2px 6px; border:1px solid var(--linea); border-radius:4px; color:var(--suave); background:#fff}
+  .enlaces{display:flex; gap:6px; flex-wrap:wrap; margin-top:auto; padding-top:9px; border-top:1px solid var(--linea)}
+  .enlace{font-size:11.5px; text-decoration:none; color:var(--suave); border:1px solid var(--linea); background:#fff; padding:3px 8px; border-radius:5px}
+  .enlace:hover{border-color:var(--tinta); color:var(--tinta)}
+
+  /* ---------- publicar marcas ---------- */
+  .barra-publicar{
+    position:fixed; bottom:0; left:0; right:0; background:var(--tinta); color:#fff;
+    padding:11px 20px; display:none; align-items:center; gap:14px; z-index:80; font-size:13px;
+  }
+  .barra-publicar.visible{display:flex}
+  .barra-publicar button{font:inherit; font-size:12.5px; padding:6px 13px; border-radius:6px; border:none; cursor:pointer; background:#fff; color:var(--tinta); font-weight:600}
+  .barra-publicar .secundario{background:transparent; color:#c9ccd1; border:1px solid #45484d}
+
+  dialog{border:none; border-radius:12px; padding:0; max-width:620px; width:92%; box-shadow:0 18px 50px rgba(0,0,0,.28)}
+  dialog::backdrop{background:rgba(0,0,0,.42)}
+  .dlg{padding:22px}
+  .dlg h2{font-size:16px; margin-bottom:8px; font-weight:600}
+  .dlg p{font-size:13px; color:var(--suave); margin-bottom:12px}
+  .dlg ol{font-size:13px; color:var(--suave); margin:0 0 12px 18px}
+  .dlg li{margin-bottom:5px}
+  .dlg textarea{width:100%; height:170px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:11.5px; border:1px solid var(--linea); border-radius:8px; padding:10px; resize:vertical}
+  .dlg .pie{display:flex; gap:8px; justify-content:flex-end; margin-top:12px}
+  .dlg button{font:inherit; font-size:13px; padding:7px 14px; border-radius:7px; cursor:pointer; border:1px solid var(--linea); background:#fff}
+  .dlg button.primario{background:var(--tinta); color:#fff; border-color:var(--tinta)}
+
+  footer{max-width:1280px; margin:0 auto; padding:26px 20px 80px; color:var(--tenue); font-size:11.5px; line-height:1.7; border-top:1px solid var(--linea)}
+  .estado-portal{display:inline-block; margin-right:12px}
+  .punto{display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:4px; vertical-align:middle}
+  .punto.ok{background:var(--verde)} .punto.mal{background:#c0392b}
+
+  .vacio{text-align:center; padding:60px 20px; color:var(--tenue); font-size:14px}
+
+  @media (max-width:640px){
+    header{padding:18px 14px 0}
+    main{padding:14px}
+    .rejilla{grid-template-columns:repeat(auto-fill,minmax(158px,1fr)); gap:11px}
+    .cifras{gap:16px; margin:12px 0 10px}
+    .cifra b{font-size:18px}
+    .precio{font-size:16px}
+    .filtros{gap:8px 12px}
+    select,input[type=search]{min-width:0; width:100%}
+    .grupo.ancho{width:100%}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="envoltorio">
+    <h1>Pisos · Baix Empordà</h1>
+    <div class="subtitulo" id="subtitulo">Cargando…</div>
+
+    <div class="cifras">
+      <div class="cifra"><b id="c-activos">–</b><span>en venta</span></div>
+      <div class="cifra oro"><b id="c-nuevos">–</b><span>nuevos hoy</span></div>
+      <div class="cifra"><b id="c-destacados">–</b><span>destacados</span></div>
+      <div class="cifra verde"><b id="c-favoritos">–</b><span>favoritos</span></div>
+    </div>
+
+    <div class="filtros" id="filtros">
+      <div class="grupo ancho">
+        <span class="etiqueta">Buscar</span>
+        <input type="search" id="f-texto" placeholder="calle, zona, palabra…">
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Municipio</span>
+        <select id="f-municipio"><option value="">Todos</option></select>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Habitaciones</span>
+        <div class="fila" id="f-hab"></div>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Baños</span>
+        <div class="fila" id="f-banos"></div>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Extras</span>
+        <div class="fila" id="f-extras"></div>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Precio máx.</span>
+        <select id="f-precio">
+          <option value="">Sin tope</option>
+          <option value="80000">80.000 €</option>
+          <option value="100000">100.000 €</option>
+          <option value="120000">120.000 €</option>
+          <option value="140000">140.000 €</option>
+          <option value="160000">160.000 €</option>
+        </select>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Ordenar por</span>
+        <select id="f-orden">
+          <option value="destacados">Destacados primero</option>
+          <option value="nuevos">Novedades primero</option>
+          <option value="precio-asc">Precio · más barato</option>
+          <option value="precio-desc">Precio · más caro</option>
+          <option value="m2-desc">m² · más grande</option>
+          <option value="m2-asc">m² · más pequeño</option>
+          <option value="eurom2">€/m² · mejor precio</option>
+          <option value="cerca">Más cerca de Mas de Torrent</option>
+        </select>
+      </div>
+
+      <div class="grupo">
+        <span class="etiqueta">Ver</span>
+        <div class="fila">
+          <button class="chip oro" id="v-nuevos" aria-pressed="false">Solo nuevos</button>
+          <button class="chip" id="v-destacados" aria-pressed="false">★ Destacados</button>
+          <button class="chip verde" id="v-favoritos" aria-pressed="false">Favoritos de Albert</button>
+          <button class="chip" id="v-retirados" aria-pressed="false">Incluir retirados</button>
+        </div>
+      </div>
+
+      <button class="limpiar" id="b-limpiar">Limpiar filtros</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="conteo" id="conteo"></div>
+  <div class="rejilla" id="rejilla"></div>
+  <div class="vacio" id="vacio" style="display:none">Ningún piso cumple estos filtros.</div>
+</main>
+
+<footer>
+  <div id="pie-portales"></div>
+  <div id="pie-criterios" style="margin-top:8px"></div>
+  <div style="margin-top:8px">
+    Las marcas que hagas se guardan en este navegador al instante. Para que las vea todo el
+    mundo, pulsa <b>Publicar marcas</b> y sigue los tres pasos: quedan fijadas en el
+    siguiente escaneo y ya no se pierden nunca.
+  </div>
+</footer>
+
+<script src="data.js"></script>
+
+<div class="barra-publicar" id="barra-publicar">
+  <span id="texto-pendientes"></span>
+  <button id="b-publicar">Publicar marcas</button>
+  <button class="secundario" id="b-descartar">Descartar cambios</button>
+</div>
+
+<dialog id="dlg-publicar">
+  <div class="dlg">
+    <h2>Publicar tus marcas para todo el mundo</h2>
+    <p>Copia este contenido y pégalo en el fichero <b>data/marks.json</b> del repositorio.
+       El escaneo de mañana a las 08:00 las dejará fijadas para siempre.</p>
+    <ol>
+      <li>Pulsa <b>Copiar</b>.</li>
+      <li>Abre <b>data/marks.json</b> en GitHub y dale al lápiz de editar.</li>
+      <li>Selecciona todo, pega y confirma con <i>Commit changes</i>.</li>
+    </ol>
+    <textarea id="txt-marcas" readonly></textarea>
+    <div class="pie">
+      <button id="b-copiar" class="primario">Copiar</button>
+      <button id="b-cerrar">Cerrar</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(() => {
+  "use strict";
+
+  const LS = "pisos-baix-emporda:marcas-v1";
+  const eur = n => n == null ? "–" : n.toLocaleString("es-ES") + " €";
+  const $ = s => document.querySelector(s);
+  const fecha = iso => {                       // "2026-08-17" -> "17/08"
+    const p = String(iso || "").split("-");
+    return p.length === 3 ? `${p[2]}/${p[1]}` : "";
+  };
+
+  const NOMBRE_EXTRA = {
+    parking:"Parking", terraza:"Terraza", balcon:"Balcón", ascensor:"Ascensor",
+    piscina:"Piscina", jardin:"Jardín", trastero:"Trastero", aire:"Aire ac.",
+    calefaccion:"Calefacción", amueblado:"Amueblado", reformado:"Reformado",
+    vistas_mar:"Vistas al mar"
+  };
+  const NOMBRE_PORTAL = {
+    idealista:"Idealista", fotocasa:"Fotocasa", habitaclia:"Habitaclia",
+    pisos:"pisos.com", milanuncios:"Milanuncios"
+  };
+
+  let DATOS = null;
+  // publicadas = las que vienen del repositorio (las ve todo el mundo)
+  // anadidas   = las que acabas de marcar en este navegador
+  // quitadas   = las publicadas que acabas de desmarcar aquí
+  // Lo que se ve = (publicadas ∪ anadidas) − quitadas
+  let publicadas = { destacados:new Set(), favoritos:new Set() };
+  let anadidas   = { destacados:new Set(), favoritos:new Set() };
+  let quitadas   = { destacados:new Set(), favoritos:new Set() };
+
+  const filtros = {
+    texto:"", municipio:"", hab:new Set(), banos:new Set(), extras:new Set(),
+    precio:"", orden:"destacados",
+    soloNuevos:false, soloDestacados:false, soloFavoritos:false, verRetirados:false
+  };
+
+  // ---------- marcas ----------
+  function cargaLocales(){
+    try{
+      const g = JSON.parse(localStorage.getItem(LS) || "{}");
+      anadidas.destacados = new Set(g.destacados || []);
+      anadidas.favoritos  = new Set(g.favoritos  || []);
+      quitadas.destacados = new Set((g.quitados && g.quitados.destacados) || []);
+      quitadas.favoritos  = new Set((g.quitados && g.quitados.favoritos)  || []);
+    }catch(e){ /* almacenamiento no disponible: seguimos sin marcas locales */ }
+  }
+  function guardaLocales(){
+    try{
+      localStorage.setItem(LS, JSON.stringify({
+        destacados:[...anadidas.destacados],
+        favoritos:[...anadidas.favoritos],
+        quitados:{ destacados:[...quitadas.destacados], favoritos:[...quitadas.favoritos] }
+      }));
+    }catch(e){}
+    pintaBarra();
+  }
+
+  function marcado(tipo, id){
+    if (quitadas[tipo].has(id)) return false;
+    return publicadas[tipo].has(id) || anadidas[tipo].has(id);
+  }
+  const esDestacado = id => marcado("destacados", id);
+  const esFavorito  = id => marcado("favoritos", id);
+
+  function alterna(tipo, id){
+    if (marcado(tipo, id)) {
+      // Quitar: si era mía y aún sin publicar basta con borrarla; si ya estaba
+      // publicada hay que registrar la baja para poder publicarla también.
+      anadidas[tipo].delete(id);
+      if (publicadas[tipo].has(id)) quitadas[tipo].add(id);
+    } else {
+      quitadas[tipo].delete(id);
+      if (!publicadas[tipo].has(id)) anadidas[tipo].add(id);
+    }
+    guardaLocales();
+    render();
+  }
+
+  function pendientes(){
+    return anadidas.destacados.size + anadidas.favoritos.size
+         + quitadas.destacados.size + quitadas.favoritos.size;
+  }
+
+  function marcasParaPublicar(){
+    const fundir = tipo => [...new Set([...publicadas[tipo], ...anadidas[tipo]])]
+      .filter(id => !quitadas[tipo].has(id)).sort();
+    return {
+      destacados: fundir("destacados"),
+      favoritos:  fundir("favoritos"),
+      notas: (DATOS.marcas && DATOS.marcas.notas) || {}
+    };
+  }
+  function pintaBarra(){
+    const n = pendientes();
+    $("#barra-publicar").classList.toggle("visible", n > 0);
+    $("#texto-pendientes").textContent =
+      n === 1 ? "1 marca sin publicar" : `${n} marcas sin publicar`;
+  }
+
+  // ---------- filtros ----------
+  function pasaFiltros(a){
+    if (!filtros.verRetirados && !a.activo) return false;
+    if (filtros.soloNuevos && !a.nuevo) return false;
+    if (filtros.soloDestacados && !esDestacado(a.id)) return false;
+    if (filtros.soloFavoritos && !esFavorito(a.id)) return false;
+    if (filtros.municipio && a.municipio !== filtros.municipio) return false;
+    if (filtros.precio && (a.precio || 0) > +filtros.precio) return false;
+
+    if (filtros.hab.size){
+      const h = a.habitaciones;
+      if (h == null) return false;
+      const clave = h >= 4 ? "4" : String(h);
+      if (!filtros.hab.has(clave)) return false;
+    }
+    if (filtros.banos.size){
+      const b = a.banos;
+      if (b == null) return false;
+      const clave = b >= 3 ? "3" : String(b);
+      if (!filtros.banos.has(clave)) return false;
+    }
+    for (const e of filtros.extras) if (!(a.extras || {})[e]) return false;
+
+    if (filtros.texto){
+      const t = filtros.texto.toLowerCase();
+      const heno = `${a.titulo||""} ${a.descripcion||""} ${a.municipio||""} ${a.zona||""}`.toLowerCase();
+      if (!heno.includes(t)) return false;
+    }
+    return true;
+  }
+
+  function ordena(lista){
+    const inf = 1e12;
+    const cmp = {
+      "precio-asc": (x,y) => (x.precio??inf) - (y.precio??inf),
+      "precio-desc":(x,y) => (y.precio??-1) - (x.precio??-1),
+      "m2-desc":    (x,y) => (y.m2??-1) - (x.m2??-1),
+      "m2-asc":     (x,y) => (x.m2??inf) - (y.m2??inf),
+      "eurom2":     (x,y) => (x.precio_m2??inf) - (y.precio_m2??inf),
+      "cerca":      (x,y) => (x.minutos??99) - (y.minutos??99) || (x.precio??inf)-(y.precio??inf),
+      "nuevos":     (x,y) => (y.nuevo?1:0)-(x.nuevo?1:0) || (x.precio??inf)-(y.precio??inf),
+      "destacados": (x,y) => {
+        const p = a => (esFavorito(a.id)?2:0) + (esDestacado(a.id)?1:0);
+        return p(y)-p(x) || (y.nuevo?1:0)-(x.nuevo?1:0) || (x.precio??inf)-(y.precio??inf);
+      }
+    }[filtros.orden];
+    return lista.sort(cmp);
+  }
+
+  // ---------- pintado ----------
+  function ficha(a){
+    const nuevo = a.nuevo, dest = esDestacado(a.id), fav = esFavorito(a.id);
+    const el = document.createElement("article");
+    el.className = "ficha" + (fav ? " es-favorito" : nuevo ? " es-nuevo" : "")
+                 + (a.activo ? "" : " inactivo");
+
+    const distintivos = [];
+    if (nuevo) distintivos.push('<span class="distintivo oro">Nuevo</span>');
+    if (fav) distintivos.push('<span class="distintivo verde">Favorito de Albert</span>');
+    if (!a.activo) distintivos.push('<span class="distintivo gris">Retirado</span>');
+    if (a.preferente && !nuevo && !fav) distintivos.push('<span class="distintivo">Zona top</span>');
+
+    const extras = Object.entries(a.extras || {}).filter(([,v]) => v)
+      .map(([k]) => `<span class="extra">${NOMBRE_EXTRA[k] || k}</span>`).join("");
+
+    const enlaces = (a.enlaces || [])
+      .map(l => `<a class="enlace" href="${l.url}" target="_blank" rel="noopener">${NOMBRE_PORTAL[l.portal] || l.portal} ↗</a>`)
+      .join("");
+
+    const datos = [
+      a.habitaciones != null ? `${a.habitaciones} hab.` : null,
+      a.banos != null ? `${a.banos} baño${a.banos === 1 ? "" : "s"}` : null,
+      a.m2 ? `${a.m2} m²` : null,
+      a.planta || null
+    ].filter(Boolean).map(d => `<span>${d}</span>`).join("");
+
+    el.innerHTML = `
+      <div class="marco-foto">
+        ${a.foto ? `<img loading="lazy" src="${a.foto}" alt="">`
+                 : `<div class="sin-foto">sin foto</div>`}
+        <div class="distintivos">${distintivos.join("")}</div>
+        <div class="acciones">
+          <button class="boton-marca ${dest ? "on-estrella" : ""}" data-marca="estrella"
+                  title="Destacar" aria-label="Destacar">${dest ? "★" : "☆"}</button>
+          <button class="boton-marca ${fav ? "on-favorito" : ""}" data-marca="favorito"
+                  title="Favorito de Albert" aria-label="Favorito de Albert">${fav ? "●" : "○"}</button>
+        </div>
+      </div>
+      <div class="cuerpo">
+        <div class="precio">${eur(a.precio)}
+          ${a.precio_m2 ? `<span class="m2p">${a.precio_m2.toLocaleString("es-ES")} €/m²</span>` : ""}
+          ${a.precio_anterior && a.precio_anterior > a.precio
+             ? `<span class="bajada">▼ antes ${eur(a.precio_anterior)}</span>` : ""}
+        </div>
+        <div class="titulo">${a.titulo || "Piso"}</div>
+        <div class="lugar">${a.municipio || ""}${a.zona ? " · " + a.zona : ""}
+          ${a.minutos != null ? `<span class="min">· ${a.minutos} min</span>` : ""}</div>
+        ${!nuevo && a.first_seen ? `<div class="visto">En la lista desde el ${fecha(a.first_seen)}</div>` : ""}
+        <div class="datos">${datos}</div>
+        ${extras ? `<div class="extras">${extras}</div>` : ""}
+        <div class="enlaces">${enlaces}</div>
+      </div>`;
+
+    el.querySelector('[data-marca="estrella"]')
+      .addEventListener("click", () => alterna("destacados", a.id));
+    el.querySelector('[data-marca="favorito"]')
+      .addEventListener("click", () => alterna("favoritos", a.id));
+    return el;
+  }
+
+  function render(){
+    const lista = ordena(DATOS.anuncios.filter(pasaFiltros));
+    const rejilla = $("#rejilla");
+    rejilla.innerHTML = "";
+    const frag = document.createDocumentFragment();
+    lista.forEach(a => frag.appendChild(ficha(a)));
+    rejilla.appendChild(frag);
+
+    $("#vacio").style.display = lista.length ? "none" : "block";
+    const nuevos = lista.filter(a => a.nuevo).length;
+    $("#conteo").textContent =
+      `${lista.length} vivienda${lista.length === 1 ? "" : "s"}` +
+      (nuevos ? ` · ${nuevos} nueva${nuevos === 1 ? "" : "s"} hoy` : "");
+
+    const act = DATOS.anuncios.filter(a => a.activo);
+    $("#c-activos").textContent = act.length;
+    $("#c-nuevos").textContent = act.filter(a => a.nuevo).length;
+    $("#c-destacados").textContent = act.filter(a => esDestacado(a.id)).length;
+    $("#c-favoritos").textContent = act.filter(a => esFavorito(a.id)).length;
+  }
+
+  // ---------- construcción de controles ----------
+  function chips(contenedor, valores, conjunto, clase){
+    contenedor.innerHTML = "";
+    valores.forEach(([valor, texto]) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (clase ? " " + clase : "");
+      b.textContent = texto;
+      b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", () => {
+        const on = b.getAttribute("aria-pressed") === "true";
+        b.setAttribute("aria-pressed", String(!on));
+        on ? conjunto.delete(valor) : conjunto.add(valor);
+        render();
+      });
+      contenedor.appendChild(b);
+    });
+  }
+
+  function conmutador(sel, campo){
+    const b = $(sel);
+    b.addEventListener("click", () => {
+      filtros[campo] = !filtros[campo];
+      b.setAttribute("aria-pressed", String(filtros[campo]));
+      render();
+    });
+  }
+
+  function montaControles(){
+    chips($("#f-hab"), [["1","1"],["2","2"],["3","3"],["4","4+"]], filtros.hab);
+    chips($("#f-banos"), [["1","1"],["2","2"],["3","3+"]], filtros.banos);
+    chips($("#f-extras"),
+      ["parking","terraza","ascensor","piscina","jardin","trastero","balcon","vistas_mar","reformado"]
+        .map(k => [k, NOMBRE_EXTRA[k]]), filtros.extras);
+
+    const sel = $("#f-municipio");
+    const municipios = [...new Set(DATOS.anuncios.filter(a => a.municipio).map(a => a.municipio))]
+      .sort((x, y) => (DATOS.criterios.municipios[x] ?? 99) - (DATOS.criterios.municipios[y] ?? 99));
+    municipios.forEach(m => {
+      const o = document.createElement("option");
+      o.value = m;
+      o.textContent = `${m} · ${DATOS.criterios.municipios[m] ?? "?"} min`;
+      sel.appendChild(o);
+    });
+
+    sel.addEventListener("change", e => { filtros.municipio = e.target.value; render(); });
+    $("#f-precio").addEventListener("change", e => { filtros.precio = e.target.value; render(); });
+    $("#f-orden").addEventListener("change", e => { filtros.orden = e.target.value; render(); });
+
+    let temporizador;
+    $("#f-texto").addEventListener("input", e => {
+      clearTimeout(temporizador);
+      temporizador = setTimeout(() => { filtros.texto = e.target.value.trim(); render(); }, 180);
+    });
+
+    conmutador("#v-nuevos", "soloNuevos");
+    conmutador("#v-destacados", "soloDestacados");
+    conmutador("#v-favoritos", "soloFavoritos");
+    conmutador("#v-retirados", "verRetirados");
+
+    $("#b-limpiar").addEventListener("click", () => location.reload());
+
+    $("#b-publicar").addEventListener("click", () => {
+      $("#txt-marcas").value = JSON.stringify(marcasParaPublicar(), null, 1);
+      $("#dlg-publicar").showModal();
+    });
+    $("#b-copiar").addEventListener("click", async () => {
+      const ta = $("#txt-marcas");
+      try { await navigator.clipboard.writeText(ta.value); }
+      catch (e) { ta.select(); document.execCommand("copy"); }
+      $("#b-copiar").textContent = "Copiado ✓";
+      setTimeout(() => { $("#b-copiar").textContent = "Copiar"; }, 1600);
+    });
+    $("#b-cerrar").addEventListener("click", () => $("#dlg-publicar").close());
+    $("#b-descartar").addEventListener("click", () => {
+      if (!confirm("¿Descartar las marcas que aún no has publicado?")) return;
+      anadidas.destacados.clear(); anadidas.favoritos.clear();
+      quitadas.destacados.clear(); quitadas.favoritos.clear();
+      guardaLocales(); render();
+    });
+  }
+
+  function pintaPie(){
+    const p = DATOS.portales || {};
+    $("#pie-portales").innerHTML = "Portales escaneados: " + Object.entries(p).map(([n, d]) => {
+      const ok = d.anuncios > 0;
+      return `<span class="estado-portal"><span class="punto ${ok ? "ok" : "mal"}"></span>${
+        NOMBRE_PORTAL[n] || n} ${d.anuncios}</span>`;
+    }).join("");
+
+    const c = DATOS.criterios;
+    $("#pie-criterios").textContent =
+      `Criterios: pisos hasta ${c.precio_max.toLocaleString("es-ES")} €, ` +
+      `a ${c.minutos_max} minutos o menos en coche de Mas de Torrent. ` +
+      `Se excluyen automáticamente ocupados, subastas, nuda propiedad y viviendas con inquilinos.`;
+  }
+
+  // ---------- arranque ----------
+  function arranca(d){
+    DATOS = d;
+    publicadas.destacados = new Set((d.marcas && d.marcas.destacados) || []);
+    publicadas.favoritos  = new Set((d.marcas && d.marcas.favoritos)  || []);
+    cargaLocales();
+    $("#subtitulo").textContent =
+      `Actualizado el ${d.generado_texto} · escaneo automático diario a las 08:00`;
+    montaControles();
+    pintaPie();
+    pintaBarra();
+    render();
+  }
+
+  if (window.DATOS && window.DATOS.anuncios) {
+    arranca(window.DATOS);
+  } else {
+    $("#subtitulo").textContent =
+      "No se han podido cargar los datos. ¿Falta docs/data.js? Lanza el escaneo.";
+  }
+})();
+</script>
+</body>
+</html>
