@@ -589,6 +589,24 @@
     });
   }
 
+  // Se vuelve a llamar si llegan datos más frescos, así que limpia antes de
+  // rellenar: si no, las opciones se duplicaban.
+  function rellenaMunicipios(){
+    const sel = $("#f-municipio");
+    const previo = sel.value;
+    sel.innerHTML = '<option value="">Todos</option>';
+    [...new Set(DATOS.anuncios.filter(a => a.municipio).map(a => a.municipio))]
+      .sort((x, y) => (DATOS.criterios.municipios[x] ?? 99) - (DATOS.criterios.municipios[y] ?? 99))
+      .forEach(m => {
+        const o = document.createElement("option");
+        o.value = m;
+        o.textContent = `${m} · ${DATOS.criterios.municipios[m] ?? "?"} min`;
+        sel.appendChild(o);
+      });
+    sel.value = previo;                       // no perdemos el filtro puesto
+    filtros.municipio = sel.value;
+  }
+
   function montaControles(){
     chips($("#f-hab"), [["1","1"],["2","2"],["3","3"],["4","4+"]], filtros.hab);
     chips($("#f-banos"), [["1","1"],["2","2"],["3","3+"]], filtros.banos);
@@ -597,15 +615,7 @@
         .map(k => [k, NOMBRE_EXTRA[k]]), filtros.extras);
 
     const sel = $("#f-municipio");
-    const municipios = [...new Set(DATOS.anuncios.filter(a => a.municipio).map(a => a.municipio))]
-      .sort((x, y) => (DATOS.criterios.municipios[x] ?? 99) - (DATOS.criterios.municipios[y] ?? 99));
-    municipios.forEach(m => {
-      const o = document.createElement("option");
-      o.value = m;
-      o.textContent = `${m} · ${DATOS.criterios.municipios[m] ?? "?"} min`;
-      sel.appendChild(o);
-    });
-
+    rellenaMunicipios();
     sel.addEventListener("change", e => { filtros.municipio = e.target.value; render(); });
     $("#f-precio").addEventListener("change", e => { filtros.precio = e.target.value; render(); });
     $("#f-orden").addEventListener("change", e => { filtros.orden = e.target.value; render(); });
@@ -666,6 +676,8 @@
   }
 
   // ---------- arranque ----------
+  let controlesMontados = false;
+
   function arranca(d){
     DATOS = d;
     publicadas.destacados = new Set((d.marcas && d.marcas.destacados) || []);
@@ -673,7 +685,12 @@
     cargaLocales();
     $("#subtitulo").textContent =
       `Actualizado el ${d.generado_texto} · escaneo automático diario a las 08:00`;
-    montaControles();
+    if (!controlesMontados) {
+      montaControles();            // los escuchadores se enganchan una sola vez
+      controlesMontados = true;
+    } else {
+      rellenaMunicipios();         // pueden haber cambiado los pueblos con stock
+    }
     pintaPie();
     pintaBarra();
     render();
@@ -684,6 +701,21 @@
   } else {
     $("#subtitulo").textContent =
       "No se han podido cargar los datos. ¿Falta docs/data.js? Lanza el escaneo.";
+  }
+
+  // GitHub Pages manda cachear data.js diez minutos, y los móviles lo estiran
+  // bastante más: se veía el escaneo de antes. Pintamos ya con lo que haya en
+  // caché (rápido y funciona como fichero local) y acto seguido comprobamos si
+  // hay algo más reciente, sin caché. Si lo hay, se repinta.
+  if (location.protocol === "http:" || location.protocol === "https:") {
+    fetch("data.json?v=" + Date.now(), { cache: "no-store" })
+      .then(r => r.ok ? r.json() : null)
+      .then(fresco => {
+        if (!fresco || !fresco.anuncios) return;
+        if (DATOS && fresco.generado === DATOS.generado) return;   // ya al día
+        arranca(fresco);
+      })
+      .catch(() => { /* sin red: nos quedamos con lo que ya se ve */ });
   }
 })();
 </script>
