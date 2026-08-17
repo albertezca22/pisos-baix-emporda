@@ -217,7 +217,8 @@ comprueba("Ordenar por precio funciona", len(nums) > 2 and nums == sorted(nums),
 # ---------------------------------------------------------------- escenario 2
 # Una marca que YA venía publicada en el repositorio: al quitarla tiene que
 # guardarse la baja y poder publicarse, no revertirse al recargar.
-primero = leer(ctx, "DATOS_ID_PRIMERO", "") or leer(ctx, "window.DATOS.anuncios[0].id")
+# Ha de ser una ficha activa: las retiradas no se pintan salvo que se pidan.
+primero = leer(ctx, "window.DATOS.anuncios.filter(function(a){return a.activo;})[0].id")
 ctx2 = corre(f'window.DATOS.marcas = {{destacados:["{primero}"], favoritos:[], notas:{{}}}};')
 
 comprueba("Una marca publicada se ve al abrir",

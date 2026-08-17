@@ -30,12 +30,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--portales", default="", help="lista separada por comas")
     ap.add_argument("--paginas", type=int, default=0, help="tope de páginas (pruebas)")
+    ap.add_argument("--sin-escaneo", action="store_true",
+                    help="no consulta los portales: solo rehace la web con lo "
+                         "que ya hay guardado. Útil al cambiar criterios.")
     args = ap.parse_args()
 
     if args.paginas:
         cfg.MAX_PAGINAS = args.paginas
 
-    seleccion = ([p.strip() for p in args.portales.split(",") if p.strip()]
+    seleccion = ([] if args.sin_escaneo
+                 else [p.strip() for p in args.portales.split(",") if p.strip()]
                  or [p for p, c in cfg.PORTALES.items() if c["activo"]])
     seleccion.sort(key=lambda p: cfg.PORTALES.get(p, {}).get("prioridad", 99))
 
@@ -43,6 +47,10 @@ def main():
     hoy = t0.date().isoformat()
     informe = portals.Informe()
     brutos = []
+    previo = pl.carga_json(cfg.FICHERO_SALIDA, {})
+
+    if args.sin_escaneo:
+        print("Sin escaneo: se rehace la web con lo que ya hay guardado.\n")
 
     # Registramos todos los portales de antemano. Si uno falla sin llegar a
     # anotar nada, se quedaba fuera del informe y desaparecía del pie de la
@@ -86,9 +94,11 @@ def main():
         buena = portals.foto_valida(f.get("foto"))
         logos += bool(f.get("foto")) and not buena
         f["foto"] = buena
-        # También al histórico, para que la etiqueta "ideal" aparezca en las
-        # fichas guardadas antes de existir el criterio.
+        # Recalculado sobre todo el histórico, no solo sobre lo de hoy: así un
+        # cambio de criterio se aplica también a las fichas ya guardadas.
         f["ideal"] = pl.es_ideal(f)
+        # Una ficha retirada no es una novedad, por muy de hoy que sea su fecha.
+        f["nuevo"] = bool(f.get("activo")) and f.get("first_seen") == hoy
 
     # Los pisos que Albert ha fijado a mano salen siempre en verde, los haya
     # encontrado el escaneo o no.
@@ -120,7 +130,9 @@ def main():
             "fijados_anadidos": fij["anadidos"],
             **stats,
         },
-        "portales": informe.por_portal,
+        # Sin escaneo no hay portales que informar: se conserva el estado del
+        # último, para que el pie de la web no se quede en blanco.
+        "portales": informe.por_portal or previo.get("portales", {}),
         "portales_cubiertos": cubiertos,
         "marcas": marcas,
         "anuncios": sorted(fichas, key=lambda f: (not f.get("nuevo"),
@@ -151,10 +163,11 @@ def main():
     print(f"  Con foto ............. {con_foto}/{len(activos)}"
           + (f"  ({logos} logos de agencia descartados)" if logos else ""))
     ideales = sum(1 for f in activos if f.get("ideal"))
-    dudosos = sum(1 for f in activos
-                  if f.get("habitaciones") == 1 and f.get("banos") is None)
-    print(f"  Ideales (1 hab/1 baño) {ideales}"
-          + (f"  ({dudosos} de 1 hab sin dato de baños, sin marcar)" if dudosos else ""))
+    rozando = sum(1 for f in activos
+                  if f.get("habitaciones") == cfg.IDEAL_HABITACIONES
+                  and (f.get("precio") or 0) > cfg.IDEAL_PRECIO_MAX)
+    print(f"  Ideales (1 hab, ≤{cfg.IDEAL_PRECIO_MAX // 1000}k) {ideales}"
+          + (f"  ({rozando} de 1 hab se pasan de precio)" if rozando else ""))
     print(f"  Descartados: fuera de zona {stats['fuera_zona']} | "
           f"no piso {stats['no_piso']} | precio {stats['precio']} | raros {stats['raros']}")
     if stats["motivos_raros"]:

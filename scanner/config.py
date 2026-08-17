@@ -9,6 +9,13 @@ escaneo es suficiente; no hay que tocar el resto del código.
 PRECIO_MAX = 160_000
 PRECIO_MIN = 20_000  # descarta plazas de garaje y errores de publicación
 
+# --- Qué es un piso "ideal" (etiqueta fucsia) ------------------------------
+# El perfil de buena compra que busca Albert. No se mira el número de baños.
+# El tope es inclusivo: un piso de 130.000 € clavados cuenta como ideal.
+
+IDEAL_HABITACIONES = 1
+IDEAL_PRECIO_MAX = 130_000
+
 # --- Zona ------------------------------------------------------------------
 # Minutos en coche desde Mas de Torrent (Torrent, Baix Empordà), el lugar de
 # trabajo. Son estimaciones por carretera; ajusta libremente si algún pueblo

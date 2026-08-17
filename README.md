@@ -29,14 +29,21 @@ marcas con estrella o lo pones como favorito.
 | | Qué significa | Quién lo ve |
 |---|---|---|
 | **Dorado** | Vivienda nueva, no estaba en escaneos anteriores | Todo el mundo |
-| **Fucsia · Ideal** | Exactamente 1 habitación y 1 baño | Todo el mundo |
+| **Fucsia · Ideal** | 1 habitación y hasta 130.000 € | Todo el mundo |
 | **★ Estrella** | Destacado. Se mantiene en todas las versiones posteriores | Todo el mundo |
 | **Verde** | Favorito de Albert | Todo el mundo |
 
-El **ideal** no mira el precio: es solo 1 habitación y 1 baño, el perfil de buena
-compra que se busca. Se exige el dato de baños publicado, no se supone, para que
-la etiqueta signifique siempre lo mismo; los de 1 habitación sin ese dato salen
-contados aparte en el resumen del escaneo. Hay filtro y ordenación propios.
+El **ideal** es el perfil de buena compra que se busca: 1 habitación y hasta
+130.000 €, sin mirar los baños. El tope es inclusivo (130.000 clavados entra).
+Se ajusta con `IDEAL_HABITACIONES` e `IDEAL_PRECIO_MAX` en `scanner/config.py`.
+Tiene filtro y ordenación propios, y el resumen del escaneo dice cuántos pisos
+de 1 habitación se quedan fuera solo por precio.
+
+Después de cambiar un criterio no hace falta volver a rastrear los portales:
+
+```bash
+./.venv/bin/python -m scanner.run --sin-escaneo
+```
 
 ## Puesta en marcha (una sola vez)
 

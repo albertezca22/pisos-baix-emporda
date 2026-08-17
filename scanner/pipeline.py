@@ -130,32 +130,47 @@ VIAS = ("calle", "carrer", "avenida", "avinguda", "av", "passeig", "paseo",
         "ronda", "carretera", "ctra", "urbanitzacio", "urbanizacion", "pasaje",
         "passatge", "baixada", "bajada", "pujada", "riera", "muralla")
 
-ARTICULOS = {"de", "del", "dels", "la", "les", "el", "els", "l", "d", "les", "en"}
+ARTICULOS = {"de", "del", "dels", "la", "les", "el", "els", "l", "d", "en"}
+
+# Palabras que ya no forman parte del nombre de la calle: en cuanto aparece
+# una, el nombre se ha terminado. Sin esto, de "Carrer del bruc. Piso en venta"
+# se sacaba "bruc piso en", que no casaba con el "bruc" del otro portal y
+# dejaba el mismo piso duplicado.
+PARADAS = {"piso", "pisos", "duplex", "atico", "estudio", "apartamento", "loft",
+           "casa", "planta", "bajo", "venta", "vender", "alquiler", "vivienda",
+           "zona", "barrio", "ref", "referencia", "oportunidad", "exclusiva",
+           "inmobiliaria", "reformado", "reformada", "nuevo", "nueva", "gran",
+           "amplio", "amplia", "bonito", "bonita", "con", "sin", "para", "por"}
 
 RE_NUMERO_VIA = re.compile(r"^(\d{1,4})[a-z]?$")
 
 
 def via_de(a):
-    """Saca (nombre de calle, número) del título. (None, None) si no se ve."""
-    palabras = clave_municipio(f"{a.get('titulo') or ''} {a.get('zona') or ''}").split()
-    for i, p in enumerate(palabras):
-        if p not in VIAS:
-            continue
-        nombre, numero = [], None
-        for w in palabras[i + 1:i + 7]:
-            m = RE_NUMERO_VIA.match(w)
-            if m:
-                if nombre:
-                    numero = m.group(1)
+    """Saca (nombre de calle, número) del título. (None, None) si no se ve.
+
+    Se trabaja frase a frase: el nombre de una calle nunca cruza un punto.
+    """
+    bruto = f"{a.get('titulo') or ''}. {a.get('zona') or ''}"
+    for frase in re.split(r"[.;:|–—]", bruto):
+        palabras = clave_municipio(frase).split()
+        for i, p in enumerate(palabras):
+            if p not in VIAS:
+                continue
+            nombre, numero = [], None
+            for w in palabras[i + 1:i + 8]:
+                m = RE_NUMERO_VIA.match(w)
+                if m:
+                    if nombre:
+                        numero = m.group(1)
+                        break
+                    continue
+                if w in ARTICULOS:
+                    continue                       # "de la", "dels"... se ignoran
+                if w in VIAS or w in PARADAS or len(nombre) >= 3:
                     break
-                continue
-            if w in ARTICULOS and not nombre:
-                continue
-            if w in VIAS or len(nombre) >= 3:
-                break
-            nombre.append(w)
-        if nombre:
-            return " ".join(nombre), numero
+                nombre.append(w)
+            if nombre:
+                return " ".join(nombre), numero
     return None, None
 
 
@@ -321,13 +336,14 @@ def precio_m2(f):
 
 
 def es_ideal(f):
-    """Exactamente 1 habitación y 1 baño: el perfil que busca Albert.
+    """1 habitación y hasta 130.000 €: el perfil que busca Albert.
 
-    No depende del precio. Se exige el dato de baños, no se supone: un piso de
-    1 habitación con los baños sin publicar no se marca, para que la etiqueta
-    signifique siempre lo mismo.
+    El número de baños no cuenta. El tope de precio es inclusivo.
     """
-    return f.get("habitaciones") == 1 and f.get("banos") == 1
+    precio = f.get("precio")
+    return (f.get("habitaciones") == cfg.IDEAL_HABITACIONES
+            and precio is not None
+            and precio <= cfg.IDEAL_PRECIO_MAX)
 
 
 # --- memoria histórica -----------------------------------------------------

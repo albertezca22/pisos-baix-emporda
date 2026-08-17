@@ -180,11 +180,23 @@ def dedupe():
               ])) == 2)
 
     # --- la calle se extrae bien -----------------------------------------
+    # El mismo dúplex descrito de dos maneras: el nombre de la calle no puede
+    # arrastrar la frase siguiente ("del bruc. Piso en venta...").
+    comprueba("Funde el mismo dúplex con títulos muy distintos",
+              son_el_mismo(
+                  anuncio("habitaclia", "Dúplex  Carrer del bruc. Piso en venta en calle bruc",
+                          79_148, 74, 1, 2),
+                  anuncio("pisos", "Dúplex en Carrer del Bruc", 79_148, 74, 1, 2,
+                          planta="2ª planta")))
+
     for titulo, esperado in [
         ("Piso en Carrer dels Plans, 19, Palafrugell", ("plans", "19")),
         ("Dúplex en Carrer del Bruc", ("bruc", None)),
+        ("Dúplex  Carrer del bruc. Piso en venta en calle bruc", ("bruc", None)),
         ("Piso en Avinguda de garcía lorca 2", ("garcia lorca", "2")),
         ("Planta baja en Camí dels plans 29a", ("plans", "29")),
+        ("Piso  Calle marçal de la trinxeria. Amplio piso para reformar",
+         ("marcal trinxeria", None)),
         ("Piso en La Bisbal d'Empordà", (None, None)),
     ]:
         obtenido = pl.via_de({"titulo": titulo})
@@ -253,6 +265,23 @@ def fijados():
               f"{anadido['municipio']} / {anadido['minutos']} min")
 
 
+def ideales():
+    """Ideal = 1 habitación y hasta 130.000 €. Los baños no cuentan."""
+    casos = [
+        ({"habitaciones": 1, "banos": 1, "precio": 86_000}, True, "1 hab barato"),
+        ({"habitaciones": 1, "banos": 2, "precio": 99_000}, True, "1 hab, 2 baños: cuenta igual"),
+        ({"habitaciones": 1, "banos": None, "precio": 120_000}, True, "1 hab sin dato de baños"),
+        ({"habitaciones": 1, "banos": 1, "precio": 130_000}, True, "130.000 clavados entra"),
+        ({"habitaciones": 1, "banos": 1, "precio": 130_001}, False, "un euro más ya no"),
+        ({"habitaciones": 2, "banos": 1, "precio": 90_000}, False, "2 habitaciones no"),
+        ({"habitaciones": None, "banos": 1, "precio": 90_000}, False, "sin dato de habitaciones no"),
+        ({"habitaciones": 1, "banos": 1, "precio": None}, False, "sin precio no"),
+    ]
+    for ficha, esperado, nombre in casos:
+        comprueba(f"Ideal · {nombre}", pl.es_ideal(ficha) is esperado,
+                  f"{ficha.get('habitaciones')}h {ficha.get('precio')}€")
+
+
 def consolidacion():
     """El mismo piso llegando en escaneos distintos (Mac y GitHub)."""
     def ficha_completa(uid, portal, precio, m2, hab, banos, titulo,
@@ -306,6 +335,7 @@ def consolidacion():
 
 con_estado_temporal(escenario)
 dedupe()
+ideales()
 fijados()
 consolidacion()
 
