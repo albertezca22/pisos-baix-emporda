@@ -320,6 +320,16 @@ def precio_m2(f):
     return None
 
 
+def es_ideal(f):
+    """Exactamente 1 habitación y 1 baño: el perfil que busca Albert.
+
+    No depende del precio. Se exige el dato de baños, no se supone: un piso de
+    1 habitación con los baños sin publicar no se marca, para que la etiqueta
+    signifique siempre lo mismo.
+    """
+    return f.get("habitaciones") == 1 and f.get("banos") == 1
+
+
 # --- memoria histórica -----------------------------------------------------
 
 def carga_json(ruta, por_defecto):
@@ -428,6 +438,7 @@ def aplica_fijados(fichas, marcas, hoy):
             "fuera_de_criterios": bool(fij.get("precio") and fij["precio"] > cfg.PRECIO_MAX),
         }
         ficha["precio_m2"] = precio_m2(ficha)
+        ficha["ideal"] = es_ideal(ficha)
         fichas.append(ficha)
         favoritos.add(uid)
         anadidos += 1
@@ -477,12 +488,75 @@ def procesa(brutos):
         # agencia retoque el precio y cambie la forma de agrupar.
         f["id"] = uid_de(f["portal_ids"][0])
         f["precio_m2"] = precio_m2(f)
+        f["ideal"] = es_ideal(f)
         f["portales"] = sorted({e["portal"] for e in f["enlaces"]})
         fichas.append(f)
 
     stats["fichas"] = len(fichas)
     stats["duplicados_fundidos"] = len(validos) - len(fichas)
     return fichas, stats
+
+
+def consolida(fichas, marcas, hoy):
+    """Segunda pasada de deduplicado, ya sobre el conjunto completo.
+
+    agrupa() solo compara los anuncios del escaneo en curso. Como el Mac y
+    GitHub llegan a portales distintos, el mismo piso acaba como dos fichas:
+    una traída hoy por Idealista y otra guardada ayer por Habitaclia. Aquí se
+    juntan, y las estrellas y favoritos de la ficha absorbida se trasladan a la
+    que sobrevive para que no se pierda ninguna marca.
+    """
+    activos = [f for f in fichas if f.get("activo")]
+    for f in activos:
+        f["municipio_norm"] = f.get("municipio")
+
+    destacados = set(marcas.get("destacados") or ())
+    favoritos = set(marcas.get("favoritos") or ())
+    absorbidas, fundidas = set(), 0
+
+    for grupo in agrupa(activos):
+        if len(grupo) < 2:
+            continue
+        # Sobrevive la que lleve marcas; si no, la más antigua.
+        marcada = [f for f in grupo if f["id"] in destacados or f["id"] in favoritos]
+        grupo.sort(key=lambda f: (f["id"] not in {m["id"] for m in marcada},
+                                  f.get("first_seen") or "9999"))
+        principal, resto = grupo[0], grupo[1:]
+
+        for otra in resto:
+            ya = {e["portal"] for e in principal["enlaces"]}
+            principal["enlaces"] += [e for e in otra.get("enlaces", [])
+                                     if e["portal"] not in ya]
+            principal["portal_ids"] = sorted(set(principal.get("portal_ids", []))
+                                             | set(otra.get("portal_ids", [])))
+            for campo in ("m2", "habitaciones", "banos", "planta", "zona",
+                          "lat", "lon", "foto", "descripcion"):
+                if principal.get(campo) in (None, "", 0) and otra.get(campo):
+                    principal[campo] = otra[campo]
+            for k, v in (otra.get("extras") or {}).items():
+                principal["extras"][k] = principal["extras"].get(k, False) or v
+            if otra.get("fijado"):
+                principal["fijado"] = True
+            if otra.get("first_seen") and otra["first_seen"] < (principal.get("first_seen") or "9999"):
+                principal["first_seen"] = otra["first_seen"]
+            # La marca viaja con el piso, no con el anuncio que la llevaba.
+            if otra["id"] in destacados:
+                destacados.discard(otra["id"]); destacados.add(principal["id"])
+            if otra["id"] in favoritos:
+                favoritos.discard(otra["id"]); favoritos.add(principal["id"])
+            absorbidas.add(otra["id"])
+            fundidas += 1
+
+        principal["portales"] = sorted({e["portal"] for e in principal["enlaces"]})
+        principal["precio_m2"] = precio_m2(principal)
+        principal["ideal"] = es_ideal(principal)
+        principal["nuevo"] = principal.get("first_seen") == hoy
+
+    if absorbidas:
+        marcas["destacados"] = sorted(destacados)
+        marcas["favoritos"] = sorted(favoritos)
+
+    return [f for f in fichas if f["id"] not in absorbidas], fundidas
 
 
 def aplica_historico(fichas, hoy, portales_cubiertos):
@@ -562,3 +636,15 @@ def aplica_historico(fichas, hoy, portales_cubiertos):
     estado["ultima_actualizacion"] = datetime.now().isoformat(timespec="seconds")
     guarda_json(cfg.FICHERO_ESTADO, estado)
     return resultado
+
+
+def guarda_estado(fichas):
+    """Reescribe el histórico. Se llama después de consolidar, para que las
+    fichas absorbidas no vuelvan a aparecer mañana."""
+    for f in fichas:
+        f.pop("_via", None)
+        f.pop("municipio_norm", None)
+    guarda_json(cfg.FICHERO_ESTADO, {
+        "anuncios": {f["id"]: f for f in fichas},
+        "ultima_actualizacion": datetime.now().isoformat(timespec="seconds"),
+    })

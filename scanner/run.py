@@ -72,6 +72,13 @@ def main():
     fichas, stats = pl.procesa(brutos)
     fichas = pl.aplica_historico(fichas, hoy, cubiertos)
 
+    marcas = pl.carga_json(cfg.FICHERO_MARCAS,
+                           {"destacados": [], "favoritos": [], "notas": {}})
+
+    # Segunda pasada de deduplicado, ahora contra el histórico: el mismo piso
+    # puede venir hoy de Idealista y estar guardado de ayer por Habitaclia.
+    fichas, refundidas = pl.consolida(fichas, marcas, hoy)
+
     # Saneamos las fotos de todo, también de lo que venía del histórico: así se
     # limpian los logos de agencia que se colaron antes de filtrarlos.
     logos = 0
@@ -79,14 +86,15 @@ def main():
         buena = portals.foto_valida(f.get("foto"))
         logos += bool(f.get("foto")) and not buena
         f["foto"] = buena
-
-    marcas = pl.carga_json(cfg.FICHERO_MARCAS,
-                           {"destacados": [], "favoritos": [], "notas": {}})
+        # También al histórico, para que la etiqueta "ideal" aparezca en las
+        # fichas guardadas antes de existir el criterio.
+        f["ideal"] = pl.es_ideal(f)
 
     # Los pisos que Albert ha fijado a mano salen siempre en verde, los haya
     # encontrado el escaneo o no.
     fichas, fij = pl.aplica_fijados(fichas, marcas, hoy)
 
+    pl.guarda_estado(fichas)
     activos = [f for f in fichas if f.get("activo")]
     nuevos = [f for f in activos if f.get("nuevo")]
 
@@ -106,6 +114,8 @@ def main():
             "nuevos_hoy": len(nuevos),
             "historico": len(fichas),
             "con_foto": sum(1 for f in activos if f.get("foto")),
+            "ideales": sum(1 for f in activos if f.get("ideal")),
+            "refundidas_historico": refundidas,
             "fijados_encontrados": fij["encontrados"],
             "fijados_anadidos": fij["anadidos"],
             **stats,
@@ -133,12 +143,18 @@ def main():
     print(f"  Fichas activas ....... {len(activos)}")
     print(f"  Nuevas hoy ........... {len(nuevos)}")
     print(f"  Histórico total ...... {len(fichas)}")
-    print(f"  Duplicados fundidos .. {stats['duplicados_fundidos']}")
+    print(f"  Duplicados fundidos .. {stats['duplicados_fundidos']}"
+          + (f" (+{refundidas} contra el histórico)" if refundidas else ""))
     print(f"  Fijados por Albert ... {fij['encontrados']} encontrados, "
           f"{fij['anadidos']} añadidos a mano")
     con_foto = sum(1 for f in activos if f.get("foto"))
     print(f"  Con foto ............. {con_foto}/{len(activos)}"
           + (f"  ({logos} logos de agencia descartados)" if logos else ""))
+    ideales = sum(1 for f in activos if f.get("ideal"))
+    dudosos = sum(1 for f in activos
+                  if f.get("habitaciones") == 1 and f.get("banos") is None)
+    print(f"  Ideales (1 hab/1 baño) {ideales}"
+          + (f"  ({dudosos} de 1 hab sin dato de baños, sin marcar)" if dudosos else ""))
     print(f"  Descartados: fuera de zona {stats['fuera_zona']} | "
           f"no piso {stats['no_piso']} | precio {stats['precio']} | raros {stats['raros']}")
     if stats["motivos_raros"]:

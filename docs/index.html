@@ -12,6 +12,7 @@
     --linea:#e6e7e9;      --fondo:#ffffff;   --papel:#fafafa;
     --oro:#b8912f;        --oro-claro:#fdf7e6; --oro-linea:#e8d5a0;
     --verde:#127a4b;      --verde-claro:#eef8f2; --verde-linea:#b5ddc7;
+    --fucsia:#c2186b;     --fucsia-claro:#fdeff6; --fucsia-linea:#f0bfd6;
     --radio:10px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
@@ -32,6 +33,7 @@
   .cifra b{font-size:22px; font-weight:600; letter-spacing:-.5px}
   .cifra span{display:block; font-size:11px; color:var(--tenue); text-transform:uppercase; letter-spacing:.6px; margin-top:1px}
   .cifra.oro b{color:var(--oro)} .cifra.verde b{color:var(--verde)}
+  .cifra.fucsia b{color:var(--fucsia)}
 
   /* ---------- filtros ---------- */
   .filtros{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:flex-end; padding-bottom:14px}
@@ -47,6 +49,7 @@
   .chip[aria-pressed="true"]{background:var(--tinta); border-color:var(--tinta); color:#fff}
   .chip.oro[aria-pressed="true"]{background:var(--oro); border-color:var(--oro)}
   .chip.verde[aria-pressed="true"]{background:var(--verde); border-color:var(--verde)}
+  .chip.fucsia[aria-pressed="true"]{background:var(--fucsia); border-color:var(--fucsia)}
   select,input[type=search]{
     font:inherit; font-size:13px; padding:6px 9px; border:1px solid var(--linea);
     border-radius:7px; background:#fff; color:var(--tinta); min-width:150px;
@@ -66,6 +69,7 @@
   .ficha:hover{border-color:#cfd2d6; box-shadow:0 3px 14px rgba(0,0,0,.06)}
   .ficha.es-nuevo{border-color:var(--oro-linea); background:var(--oro-claro)}
   .ficha.es-favorito{border-color:var(--verde-linea); background:var(--verde-claro)}
+  .ficha.es-ideal{border-color:var(--fucsia-linea); background:var(--fucsia-claro)}
   .ficha.inactivo{opacity:.5}
 
   .marco-foto{position:relative; aspect-ratio:4/3; background:var(--papel); overflow:hidden}
@@ -80,6 +84,7 @@
   }
   .distintivo{font-size:10px; font-weight:700; letter-spacing:.6px; text-transform:uppercase; padding:3px 7px; border-radius:5px; background:rgba(17,18,20,.78); color:#fff; backdrop-filter:blur(3px)}
   .distintivo.oro{background:var(--oro)} .distintivo.verde{background:var(--verde)}
+  .distintivo.fucsia{background:var(--fucsia)}
   .distintivo.gris{background:rgba(70,74,80,.85)}
 
   .acciones{position:absolute; top:9px; right:9px; display:flex; gap:5px}
@@ -197,6 +202,7 @@
     <div class="cifras">
       <div class="cifra"><b id="c-activos">–</b><span>en venta</span></div>
       <div class="cifra oro"><b id="c-nuevos">–</b><span>nuevos hoy</span></div>
+      <div class="cifra fucsia"><b id="c-ideales">–</b><span>ideales</span></div>
       <div class="cifra"><b id="c-destacados">–</b><span>destacados</span></div>
       <div class="cifra verde"><b id="c-favoritos">–</b><span>favoritos</span></div>
     </div>
@@ -243,6 +249,7 @@
         <span class="etiqueta">Ordenar por</span>
         <select id="f-orden">
           <option value="destacados">Destacados primero</option>
+          <option value="ideales">Ideales primero</option>
           <option value="nuevos">Novedades primero</option>
           <option value="precio-asc">Precio · más barato</option>
           <option value="precio-desc">Precio · más caro</option>
@@ -256,6 +263,7 @@
       <div class="grupo">
         <span class="etiqueta">Ver</span>
         <div class="fila">
+          <button class="chip fucsia" id="v-ideales" aria-pressed="false">Ideales · 1 hab + 1 baño</button>
           <button class="chip oro" id="v-nuevos" aria-pressed="false">Solo nuevos</button>
           <button class="chip" id="v-destacados" aria-pressed="false">★ Destacados</button>
           <button class="chip verde" id="v-favoritos" aria-pressed="false">Favoritos de Albert</button>
@@ -345,7 +353,8 @@
   const filtros = {
     texto:"", municipio:"", hab:new Set(), banos:new Set(), extras:new Set(),
     precio:"", orden:"destacados",
-    soloNuevos:false, soloDestacados:false, soloFavoritos:false, verRetirados:false
+    soloIdeales:false, soloNuevos:false, soloDestacados:false,
+    soloFavoritos:false, verRetirados:false
   };
 
   // ---------- marcas ----------
@@ -414,6 +423,7 @@
   // ---------- filtros ----------
   function pasaFiltros(a){
     if (!filtros.verRetirados && !a.activo) return false;
+    if (filtros.soloIdeales && !a.ideal) return false;
     if (filtros.soloNuevos && !a.nuevo) return false;
     if (filtros.soloDestacados && !esDestacado(a.id)) return false;
     if (filtros.soloFavoritos && !esFavorito(a.id)) return false;
@@ -452,6 +462,7 @@
       "eurom2":     (x,y) => (x.precio_m2??inf) - (y.precio_m2??inf),
       "cerca":      (x,y) => (x.minutos??99) - (y.minutos??99) || (x.precio??inf)-(y.precio??inf),
       "nuevos":     (x,y) => (y.nuevo?1:0)-(x.nuevo?1:0) || (x.precio??inf)-(y.precio??inf),
+      "ideales":    (x,y) => (y.ideal?1:0)-(x.ideal?1:0) || (x.precio??inf)-(y.precio??inf),
       "destacados": (x,y) => {
         const p = a => (esFavorito(a.id)?2:0) + (esDestacado(a.id)?1:0);
         return p(y)-p(x) || (y.nuevo?1:0)-(x.nuevo?1:0) || (x.precio??inf)-(y.precio??inf);
@@ -464,10 +475,15 @@
   function ficha(a){
     const nuevo = a.nuevo, dest = esDestacado(a.id), fav = esFavorito(a.id);
     const el = document.createElement("article");
-    el.className = "ficha" + (fav ? " es-favorito" : nuevo ? " es-nuevo" : "")
+    // El fondo respeta el orden de siempre (favorito, luego novedad); el
+    // fucsia entra cuando la ficha no es ninguna de las dos, para que un
+    // ideal nunca pase desapercibido.
+    el.className = "ficha"
+                 + (fav ? " es-favorito" : nuevo ? " es-nuevo" : a.ideal ? " es-ideal" : "")
                  + (a.activo ? "" : " inactivo");
 
     const distintivos = [];
+    if (a.ideal) distintivos.push('<span class="distintivo fucsia">Ideal</span>');
     if (nuevo) distintivos.push('<span class="distintivo oro">Nuevo</span>');
     // El trozo .largo se oculta en móvil: la tarjeta es demasiado estrecha
     // para "Fijado por Albert" sin comerse los botones.
@@ -544,6 +560,7 @@
     const act = DATOS.anuncios.filter(a => a.activo);
     $("#c-activos").textContent = act.length;
     $("#c-nuevos").textContent = act.filter(a => a.nuevo).length;
+    $("#c-ideales").textContent = act.filter(a => a.ideal).length;
     $("#c-destacados").textContent = act.filter(a => esDestacado(a.id)).length;
     $("#c-favoritos").textContent = act.filter(a => esFavorito(a.id)).length;
   }
@@ -571,8 +588,9 @@
   function filtrosActivos(){
     return (filtros.texto ? 1 : 0) + (filtros.municipio ? 1 : 0) + (filtros.precio ? 1 : 0)
          + filtros.hab.size + filtros.banos.size + filtros.extras.size
-         + (filtros.soloNuevos ? 1 : 0) + (filtros.soloDestacados ? 1 : 0)
-         + (filtros.soloFavoritos ? 1 : 0) + (filtros.verRetirados ? 1 : 0);
+         + (filtros.soloIdeales ? 1 : 0) + (filtros.soloNuevos ? 1 : 0)
+         + (filtros.soloDestacados ? 1 : 0) + (filtros.soloFavoritos ? 1 : 0)
+         + (filtros.verRetirados ? 1 : 0);
   }
 
   function pintaBotonFiltros(){
@@ -626,6 +644,7 @@
       temporizador = setTimeout(() => { filtros.texto = e.target.value.trim(); render(); }, 180);
     });
 
+    conmutador("#v-ideales", "soloIdeales");
     conmutador("#v-nuevos", "soloNuevos");
     conmutador("#v-destacados", "soloDestacados");
     conmutador("#v-favoritos", "soloFavoritos");

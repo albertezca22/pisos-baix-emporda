@@ -253,9 +253,61 @@ def fijados():
               f"{anadido['municipio']} / {anadido['minutos']} min")
 
 
+def consolidacion():
+    """El mismo piso llegando en escaneos distintos (Mac y GitHub)."""
+    def ficha_completa(uid, portal, precio, m2, hab, banos, titulo,
+                       first_seen="2026-08-17", planta=None):
+        return {
+            "id": uid, "activo": True, "nuevo": False, "first_seen": first_seen,
+            "titulo": titulo, "precio": precio, "m2": m2, "habitaciones": hab,
+            "banos": banos, "planta": planta, "municipio": "Palafrugell",
+            "minutos": 5, "zona": None, "extras": {"parking": portal == "habitaclia"},
+            "enlaces": [{"portal": portal, "url": f"https://{portal}.example/{uid}"}],
+            "portales": [portal], "portal_ids": [f"{portal}:{uid}"],
+            "lat": None, "lon": None, "foto": None if portal == "idealista" else "https://f/x.jpg",
+        }
+
+    # Ayer GitHub lo vio en Habitaclia y Albert le puso una estrella.
+    # Hoy el Mac lo trae desde Idealista, con otro título.
+    viejo = ficha_completa("hab1", "habitaclia", 86_000, 43, 1, 1,
+                           "Piso  Calle mont-ras. Piso en palafrugell", "2026-08-15")
+    nuevo = ficha_completa("ide1", "idealista", 86_000, 43, 1, 1,
+                           "Piso en Molí de Vent-La Sauleda, Palafrugell", "2026-08-17")
+    otro = ficha_completa("ide2", "idealista", 132_000, 90, 3, 2,
+                          "Piso en Carrer de Barcelona, Palafrugell")
+
+    marcas = {"destacados": ["hab1"], "favoritos": [], "notas": {}}
+    resultado, fundidas = pl.consolida([viejo, nuevo, otro], marcas, "2026-08-17")
+
+    comprueba("Funde el mismo piso venido de dos escaneos", fundidas == 1, f"{fundidas}")
+    comprueba("Queda una ficha menos", len(resultado) == 2, len(resultado))
+
+    superviviente = [f for f in resultado if f["id"] in ("hab1", "ide1")][0]
+    comprueba("Sobrevive la ficha que llevaba la estrella",
+              superviviente["id"] == "hab1", superviviente["id"])
+    comprueba("La estrella no se pierde", marcas["destacados"] == ["hab1"],
+              marcas["destacados"])
+    comprueba("Conserva los enlaces de los dos portales",
+              sorted(superviviente["portales"]) == ["habitaclia", "idealista"],
+              superviviente["portales"])
+    comprueba("Mantiene la fecha en que se vio por primera vez",
+              superviviente["first_seen"] == "2026-08-15" and superviviente["nuevo"] is False,
+              superviviente["first_seen"])
+    comprueba("Sigue marcado como ideal", superviviente["ideal"] is True)
+    comprueba("Acumula los extras de ambos", superviviente["extras"]["parking"] is True)
+    comprueba("El piso distinto se queda solo",
+              any(f["id"] == "ide2" for f in resultado))
+
+    # Sin nada que fundir no debe tocar nada.
+    marcas2 = {"destacados": [], "favoritos": [], "notas": {}}
+    r2, f2 = pl.consolida([otro], marcas2, "2026-08-17")
+    comprueba("No inventa fusiones cuando no las hay", f2 == 0 and len(r2) == 1)
+
+
 con_estado_temporal(escenario)
 dedupe()
 fijados()
+consolidacion()
 
 print()
 ok = True

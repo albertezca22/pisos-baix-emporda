@@ -26,9 +26,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/42982-261/oportunitat-pis-modern-i-reformat-en-edifici-tranquil-torroella-de-montgri_138974eb-eb6d-407f-b4c3-fc7167e2fdd1.jpg",
+   "foto": "https://images.habimg.com/imgh/42982-261/oportunitat-pis-modern-i-reformat-en-edifici-tranquil-torroella-de-montgri_138974eb-eb6d-407f-b4c3-fc7167e2fdd1.jpg",
    "habitaciones": 2,
    "id": "02b8e3f9a729",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -77,9 +78,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/14795-4378333/cabanyes-mas-ambros-mas-palli-piso-calonge_77acf87b-d4cd-49cc-b7b4-4ab21af09ec1.jpg",
+   "foto": "https://images.habimg.com/imgh/14795-4378333/cabanyes-mas-ambros-mas-palli-piso-calonge_77acf87b-d4cd-49cc-b7b4-4ab21af09ec1.jpg",
    "habitaciones": 2,
    "id": "03a0786d1f39",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -128,9 +130,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/15934-4151348/piso-2-habitaciones-balcon-planta-2-con-ascensor-carrer-marca-palafrugell_e0204504-b7c9-4a2a-8f62-14a99133065c.jpg",
+   "foto": "https://images.habimg.com/imgh/15934-4151348/piso-2-habitaciones-balcon-planta-2-con-ascensor-carrer-marca-palafrugell_e0204504-b7c9-4a2a-8f62-14a99133065c.jpg",
    "habitaciones": 2,
    "id": "052c7431fdbc",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -179,9 +182,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443550/piso-reformado-en-edificio-con-ascensor--primera-planta--listo-palafrugell_d572f602-d541-470d-9f00-ba69812a1d3a.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443550/piso-reformado-en-edificio-con-ascensor--primera-planta--listo-palafrugell_d572f602-d541-470d-9f00-ba69812a1d3a.jpg",
    "habitaciones": 3,
    "id": "05e597261105",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -216,6 +220,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/moli-de-vent-la-sauleda/190141779/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-para_reformar_a_la_venta_en-palafrugell-i45161000000722.htm"
     }
    ],
    "extras": {
@@ -236,6 +244,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/7c/15/cc/1453007106.webp",
    "habitaciones": 3,
    "id": "0675dbabc8d7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91567983617515,
    "lon": 3.1563019755594866,
@@ -248,12 +257,15 @@
     "fotocasa:187990571",
     "fotocasa:189773063",
     "fotocasa:190141779",
+    "habitaclia:0000722160000159",
+    "habitaclia:0001151160000159",
     "idealista:109719485",
     "idealista:111557602",
     "idealista:111927028"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 98000,
@@ -276,6 +288,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/aire-acondicionado-parking-ascensor-no-amueblado/189629226/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-la_punxa-palafrugell-i5498002984654.htm"
     }
    ],
    "extras": {
@@ -296,6 +312,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/f2/cd/77/1461485902.webp",
    "habitaciones": 1,
    "id": "09b878591877",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.923397595928535,
    "lon": 3.1645169508804507,
@@ -306,10 +323,13 @@
    "planta": null,
    "portal_ids": [
     "fotocasa:189629226",
+    "habitaclia:0298465416000055",
+    "habitaclia:2984654160000159",
     "idealista:112184127"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 160000,
@@ -349,6 +369,7 @@
    "foto": null,
    "habitaciones": 1,
    "id": "0c4c75af68fa",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -403,6 +424,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6a/94/2c/1409363432.webp",
    "habitaciones": 1,
    "id": "0ce6568bb740",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.9576191,
    "lon": 3.0395918,
@@ -452,9 +474,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/500-6028425/gran-oportunidad-ulla_fee2a856-2b01-46c1-920f-67b2029404fc.jpg",
+   "foto": "https://images.habimg.com/imgh/500-6028425/gran-oportunidad-ulla_fee2a856-2b01-46c1-920f-67b2029404fc.jpg",
    "habitaciones": 2,
    "id": "0ce7c6f78fd2",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -513,6 +536,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6f/c1/8f/1389327429.webp",
    "habitaciones": 1,
    "id": "0eb4f256e675",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.05161544080601,
    "lon": 3.1942222222785643,
@@ -565,9 +589,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/28475-1.gif",
+   "foto": null,
    "habitaciones": 1,
    "id": "0f667979f186",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -617,9 +642,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443586/torroella-de-montgri--planta-baja-reformada-con-encanto-y-techo-torroella-de-montgri_28f77351-e84d-46e3-80e3-32a7b8cbb199.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443586/torroella-de-montgri--planta-baja-reformada-con-encanto-y-techo-torroella-de-montgri_28f77351-e84d-46e3-80e3-32a7b8cbb199.jpg",
    "habitaciones": 1,
    "id": "0f677ee595b7",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -655,6 +681,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-ascensor/190164219/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-en_venta_en-palafrugell-i1533004266647.htm"
     }
    ],
    "extras": {
@@ -675,6 +705,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/32/57/87/1454349974.webp",
    "habitaciones": 1,
    "id": "0fac19a1f560",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.91544059302784,
    "lon": 3.1589854836271605,
@@ -685,10 +716,12 @@
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:190164219",
+    "habitaclia:4266647160000159",
     "idealista:111948436"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 157500,
@@ -731,6 +764,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/9d/41/48/1389422590.webp",
    "habitaciones": 1,
    "id": "10477bdff9ae",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.05189165623469,
    "lon": 3.1963862706298922,
@@ -782,9 +816,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/56447-257/piso-en-palafrugell-palafrugell_d26019d6-e85c-420d-b562-3ef8e72b23c4.jpg",
+   "foto": "https://images.habimg.com/imgh/56447-257/piso-en-palafrugell-palafrugell_d26019d6-e85c-420d-b562-3ef8e72b23c4.jpg",
    "habitaciones": 1,
    "id": "11c1c10a206e",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -832,9 +867,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/50647-1.gif",
+   "foto": null,
    "habitaciones": 2,
    "id": "12ecc33b9d60",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -891,6 +927,7 @@
    "foto": "https://static.fotocasa.es/images/ads/fbfbce82-e62d-48a8-9c12-57abab260362?rule=original",
    "habitaciones": 2,
    "id": "13c5ece52a96",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.96243969759928,
    "lon": 3.040553257059673,
@@ -929,6 +966,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-54244526162_105900/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-en-palafrugell-i56447000000257.htm"
     }
    ],
    "extras": {
@@ -949,6 +990,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/35/52/88/1340510468.webp",
    "habitaciones": 1,
    "id": "146639cc0c34",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.91215695194169,
    "lon": 3.1578529717914448,
@@ -959,12 +1001,14 @@
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:187256159",
+    "habitaclia:0000257160000159",
     "idealista:108317443",
     "pisos:24057062445400",
     "pisos:44526162105900"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista",
     "pisos"
    ],
@@ -1004,6 +1048,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/d0/10/e1/1437598202.webp",
    "habitaciones": 3,
    "id": "17f7d227124e",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1024,107 +1069,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en Calle del Pedró, 9, La Bisbal d'Empordà",
-   "zona": null
-  },
-  "1adcde9d0602": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Piso  Llavia i serra. Oportunidad en el centro con parking y terraza Palafrugell - La Punxa 62m 2 - 2 habitaciones - 2 baños - 2.548€/m 2 OPORTUNIDAD EN EL CENTRO CON PARKING y TERRAZA Cómodo apartamento de 62m2 ubicado en la periferia del núcleo urbano de Palafruge... actualizado hace 10 días Añadir a favoritos 158.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-oportunidad_en_el_centro_con_parking_y_terraza-palafrugell-i10351004348821.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": true,
-    "piscina": false,
-    "reformado": false,
-    "terraza": true,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/10351-1.gif",
-   "habitaciones": 2,
-   "id": "1adcde9d0602",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 62,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:4348821160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 158000,
-   "precio_anterior": null,
-   "precio_m2": 2548,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  Llavia i serra. Oportunidad en el centro con parking y terraza",
-   "zona": null
-  },
-  "1b372b27e481": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Torroella de Montgrí Piso  en  Torroella de Montgrí. Oportunitat pis modern i reformat en edifici tranquil Torroella de Montgrí 65m 2 - 2 habitaciones - 1 baño - 2.462€/m 2 Pis reformat amb encant i acabats moderns, situat en una finca tranquil·la de només 6 veïns. L’habitatge disposa de 2 habitacion... Añadir a favoritos Oportunidad 160.000 € ha bajado 5.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-oportunitat_pis_modern_i_reformat_en_edifici_tranquil-torroella_de_montgri-i42982000000261.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": true,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/42982-1.gif",
-   "habitaciones": 2,
-   "id": "1b372b27e481",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 65,
-   "minutos": 14,
-   "municipio": "Torroella de Montgrí",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000026116000055",
-    "habitaclia:0000261160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 160000,
-   "precio_anterior": null,
-   "precio_m2": 2462,
-   "preferente": false,
-   "tipo": "piso",
-   "titulo": "Piso  en  Torroella de Montgrí. Oportunitat pis modern i reformat en edifici tranquil",
    "zona": null
   },
   "1deea1dbaa6b": {
@@ -1159,6 +1103,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/32/47/22/1426965909.webp",
    "habitaciones": 3,
    "id": "1deea1dbaa6b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.956512717,
    "lon": 3.038457014,
@@ -1215,6 +1160,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1007/419/1007_HI1-AURE-30419_1_2024103008100363015.jpg",
    "habitaciones": 3,
    "id": "1e5a70b08dcd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1272,6 +1218,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/46/f2/21/1313188459.webp",
    "habitaciones": 1,
    "id": "1fd6cde8479e",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.0557021,
    "lon": 3.1975209,
@@ -1325,9 +1272,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/53343-196/piso-reformado-con-parking-palafrugell_b64bbff2-f0cd-4a76-8e9a-c229fed9abd2.jpg",
+   "foto": "https://images.habimg.com/imgh/53343-196/piso-reformado-con-parking-palafrugell_b64bbff2-f0cd-4a76-8e9a-c229fed9abd2.jpg",
    "habitaciones": 2,
    "id": "210ef3e281f1",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1376,9 +1324,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443555/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_d728d668-234c-4545-801d-a9049ed552d7.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443555/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_d728d668-234c-4545-801d-a9049ed552d7.jpg",
    "habitaciones": 2,
    "id": "21b7b3ac4a6a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1433,6 +1382,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/3230323630383135/72190c59-d667-47a5-93c0-a65c3f57f5c9.jpg",
    "habitaciones": 2,
    "id": "2627b04c23ef",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1489,6 +1439,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/79/b3/9e/1426667339.webp",
    "habitaciones": 3,
    "id": "26cda726c779",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.042025160213434,
    "lon": 3.1950618918606186,
@@ -1539,9 +1490,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/28714-4497720/2-hab-planta-baja-sin-escaleras-de-accesso-con-todos-los-servici-palafrugell_0cbf3dbc-83d9-4204-a13d-f1667b61d33c.jpg",
+   "foto": "https://images.habimg.com/imgh/28714-4497720/2-hab-planta-baja-sin-escaleras-de-accesso-con-todos-los-servici-palafrugell_0cbf3dbc-83d9-4204-a13d-f1667b61d33c.jpg",
    "habitaciones": 2,
    "id": "270bbc2186e5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1592,6 +1544,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/90/id.pro.es.image.master/a4/43/ec/1218228261.webp",
    "habitaciones": 1,
    "id": "27679536f755",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1622,6 +1575,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/pals/no-amueblado/188167813/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-estudio-en_venta_en_calle_dels_horts_1-pals-i38277000001104.htm"
     }
    ],
    "extras": {
@@ -1642,6 +1599,7 @@
    "foto": "https://static.fotocasa.es/images/ads/a2c015aa-1ff6-421e-ac1f-fe11a3a392dc?rule=original",
    "habitaciones": null,
    "id": "283d091515f3",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9702799,
    "lon": 3.1479587,
@@ -1651,10 +1609,12 @@
    "nuevo": true,
    "planta": null,
    "portal_ids": [
-    "fotocasa:188167813"
+    "fotocasa:188167813",
+    "habitaclia:0000110416000055"
    ],
    "portales": [
-    "fotocasa"
+    "fotocasa",
+    "habitaclia"
    ],
    "precio": 145000,
    "precio_anterior": null,
@@ -1676,6 +1636,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-parking-terraza-no-amueblado/190350038/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-oportunidad_en_el_centro_con_parking_y_terraza-palafrugell-i10351004348821.htm"
     }
    ],
    "extras": {
@@ -1692,10 +1656,12 @@
     "trastero": false,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/1d/a5/da/1459966791.webp",
    "habitaciones": 2,
    "id": "2a32da894054",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.919150478462534,
    "lon": 3.16555737886441,
@@ -1706,10 +1672,12 @@
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:190350038",
+    "habitaclia:4348821160000159",
     "idealista:112137967"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 158000,
@@ -1748,6 +1716,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/3b/5e/d0/1460494116.webp",
    "habitaciones": 2,
    "id": "2b95c2ae9386",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1782,6 +1751,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion/185564288/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-solvia_inmobiliaria-palafrugell-i41124000090130.htm"
     }
    ],
    "extras": {
@@ -1802,6 +1775,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/56/ee/01/1357802137.webp",
    "habitaciones": 1,
    "id": "2be18dd8f302",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.91363302439128,
    "lon": 3.1542586790022664,
@@ -1812,11 +1786,13 @@
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:185564288",
+    "habitaclia:0090130160000159",
     "idealista:108881013",
     "idealista:91681450"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 125000,
@@ -1855,6 +1831,7 @@
    "foto": null,
    "habitaciones": 2,
    "id": "2becd7f8961a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1903,9 +1880,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/15934-4151358/piso-84m2-3-habitaciones-planta-4-sin-ascensor-carrer-carrile-palafrugell_c7caf788-2e24-4cd3-9ac9-a3ce8846c60f.jpg",
+   "foto": "https://images.habimg.com/imgh/15934-4151358/piso-84m2-3-habitaciones-planta-4-sin-ascensor-carrer-carrile-palafrugell_c7caf788-2e24-4cd3-9ac9-a3ce8846c60f.jpg",
    "habitaciones": 3,
    "id": "2ce87652342c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -1954,9 +1932,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/45161-722/piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_da2f0e43-1875-4d58-b2a3-f6f08191ae0f.jpg",
+   "foto": "https://images.habimg.com/imgh/45161-722/piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_da2f0e43-1875-4d58-b2a3-f6f08191ae0f.jpg",
    "habitaciones": 3,
    "id": "2d5eb693ddac",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2006,9 +1985,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/56447-258/piso-alquilado-en-torroella-de-montgri-torroella-de-montgri_a7e5df69-2c26-491f-b886-103be5bf218a.jpg",
+   "foto": "https://images.habimg.com/imgh/56447-258/piso-alquilado-en-torroella-de-montgri-torroella-de-montgri_a7e5df69-2c26-491f-b886-103be5bf218a.jpg",
    "habitaciones": 3,
    "id": "2e4d6c716130",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2056,9 +2036,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/28976-1.gif",
+   "foto": null,
    "habitaciones": 4,
    "id": "2fbb3e17ab8b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2107,9 +2088,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/57258-148/piso-en-venta-en-calle-bruc-palafrugell_e59fdb75-dae0-410d-ba29-3d922c8232b3.jpg",
+   "foto": "https://images.habimg.com/imgh/57258-148/piso-en-venta-en-calle-bruc-palafrugell_e59fdb75-dae0-410d-ba29-3d922c8232b3.jpg",
    "habitaciones": 1,
    "id": "310b97f9ee35",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2134,12 +2116,16 @@
   },
   "3331e6ac6254": {
    "activo": true,
-   "banos": null,
+   "banos": 1,
    "descripcion": "Piso en venta, ACTUALMENTE ALQUILADO y con rendimiento inmediato del 4,90% anual.\nLa vivienda se encuentra alquilada, se vende con inquilino y contrato de arrendamiento vigente.\nInversión asegurada en una zona de alta demanda de vivienda y en una ubicación privilegiada.\nSe trata de un piso situado en una calle",
    "enlaces": [
     {
      "portal": "idealista",
      "url": "https://www.idealista.com/inmueble/108310308/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-en_rendimiento-palafrugell-i1533004266494.htm"
     }
    ],
    "extras": {
@@ -2160,6 +2146,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/8c/b2/29/1340310256.webp",
    "habitaciones": 2,
    "id": "3331e6ac6254",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2169,9 +2156,11 @@
    "nuevo": true,
    "planta": "2ª planta",
    "portal_ids": [
+    "habitaclia:4266494160000159",
     "idealista:108310308"
    ],
    "portales": [
+    "habitaclia",
     "idealista"
    ],
    "precio": 156000,
@@ -2214,6 +2203,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/4454/54217398076.445400/4454_54217398076_1_20250512162200471.jpg",
    "habitaciones": 3,
    "id": "3341818bd27f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2266,9 +2256,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/500-6041308/piso-de-1-habitacion-con-plaza-de-parking-y-ascensor-bisbal-d-emporda_3e2b2c4d-f85b-45d7-baf7-62650edb875b.jpg",
+   "foto": "https://images.habimg.com/imgh/500-6041308/piso-de-1-habitacion-con-plaza-de-parking-y-ascensor-bisbal-d-emporda_3e2b2c4d-f85b-45d7-baf7-62650edb875b.jpg",
    "habitaciones": 1,
    "id": "335fc137b94f",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2317,9 +2308,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5969-4023019/de-santiago-rusinol-apartamento-platja-d-aro_62301081-4858-49b9-916b-b3eaeaeff279.jpg",
+   "foto": "https://images.habimg.com/imgh/5969-4023019/de-santiago-rusinol-apartamento-platja-d-aro_62301081-4858-49b9-916b-b3eaeaeff279.jpg",
    "habitaciones": 1,
    "id": "337acb0c7c22",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2378,6 +2370,7 @@
    "foto": "https://static.fotocasa.es/images/ads/be698e19-7c55-4b94-8c4b-91e2d8f2de4d?rule=original",
    "habitaciones": 3,
    "id": "33c04d6bba90",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.0617460835055,
    "lon": 3.0464316927114647,
@@ -2441,6 +2434,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/e5/f7/2f/1410464411.webp",
    "habitaciones": 2,
    "id": "33fbe1e3a4d7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2492,9 +2486,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/57258-1.gif",
+   "foto": null,
    "habitaciones": 1,
    "id": "34c180fd4588",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2549,6 +2544,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/52/60/c7/1374509847.webp",
    "habitaciones": 2,
    "id": "35288852d91c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2605,6 +2601,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6e/7b/8c/1464590703.webp",
    "habitaciones": 2,
    "id": "37b453771ac2",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.05196268199631,
    "lon": 3.1942698304659394,
@@ -2671,6 +2668,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/1b/1c/a1/1439219319.webp",
    "habitaciones": null,
    "id": "37ed328ff832",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.98589352324076,
    "lon": 3.1873343839119674,
@@ -2733,6 +2731,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/bd/ea/88/1452892472.webp",
    "habitaciones": 4,
    "id": "390961a10e2f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91680425088601,
    "lon": 3.160223150254103,
@@ -2784,9 +2783,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13685-818/vivienda-alquilada-en-rentabilidad-bisbal-d-emporda_f36c3a10-e81d-4ba0-bc2b-a54bcfc32638.jpg",
+   "foto": "https://images.habimg.com/imgh/13685-818/vivienda-alquilada-en-rentabilidad-bisbal-d-emporda_f36c3a10-e81d-4ba0-bc2b-a54bcfc32638.jpg",
    "habitaciones": 2,
    "id": "39b8fb454692",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2835,9 +2835,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/500-6028425/gran-oportunidad-ulla_fee2a856-2b01-46c1-920f-67b2029404fc.jpg",
+   "foto": "https://images.habimg.com/imgh/500-6028425/gran-oportunidad-ulla_fee2a856-2b01-46c1-920f-67b2029404fc.jpg",
    "habitaciones": 2,
    "id": "3abd5d47c477",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2886,9 +2887,10 @@
     "vistas_mar": true
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/500-4452222/estudio-reformado-con-vistas-al-mar-y-parking-en-platja-daro-platja-d-aro_7f195ae5-cb0a-46c8-8f76-275725f940e4.jpg",
+   "foto": "https://images.habimg.com/imgh/500-4452222/estudio-reformado-con-vistas-al-mar-y-parking-en-platja-daro-platja-d-aro_7f195ae5-cb0a-46c8-8f76-275725f940e4.jpg",
    "habitaciones": null,
    "id": "3adb8672c0d0",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2939,6 +2941,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/530006/55023456465.530006/530006_55023456465_44cb5093-2943-43db-b86f-fdabb2181c9a.jpg",
    "habitaciones": 2,
    "id": "3b6958dda538",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -2989,10 +2992,12 @@
     "trastero": true,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/3d/71/1d/1461915204.webp",
    "habitaciones": 2,
    "id": "3c17de371388",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.92043885595624,
    "lon": 3.1544271444893313,
@@ -3043,9 +3048,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/27367-4443690/estudio-en-venta-en-torroella-de-montgriestudio-de-52m2-construi-torroella-de-montgri_c0968cfe-cb7e-4df5-94d9-23027c812fba.jpg",
+   "foto": "https://images.habimg.com/imgh/27367-4443690/estudio-en-venta-en-torroella-de-montgriestudio-de-52m2-construi-torroella-de-montgri_c0968cfe-cb7e-4df5-94d9-23027c812fba.jpg",
    "habitaciones": null,
    "id": "3c77896692bd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3104,6 +3110,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/86/89/98/1441307733.webp",
    "habitaciones": null,
    "id": "3dd37a84137b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.0507594,
    "lon": 3.1946659,
@@ -3156,9 +3163,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5498-2984654/de-pi-i-margall-piso-palafrugell_03a05ae9-4833-479e-96ed-cc83d276771e.jpg",
+   "foto": "https://images.habimg.com/imgh/5498-2984654/de-pi-i-margall-piso-palafrugell_03a05ae9-4833-479e-96ed-cc83d276771e.jpg",
    "habitaciones": 1,
    "id": "3ef3f55e160d",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3193,6 +3201,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor/190107005/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-apartamento-piso_reformado_con_parking-palafrugell-i53343000000196.htm"
     }
    ],
    "extras": {
@@ -3209,10 +3221,12 @@
     "trastero": false,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/b1/3a/64/1451818829.webp",
    "habitaciones": 2,
    "id": "3f1a6d9bbfbb",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.913132876073966,
    "lon": 3.1705016797156356,
@@ -3223,10 +3237,12 @@
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:190107005",
+    "habitaclia:0000196160000159",
     "idealista:111891364"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 130000,
@@ -3261,10 +3277,12 @@
     "trastero": false,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a9/d7/91/1391829639.webp",
    "habitaciones": 2,
    "id": "3fa687e727c7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3315,6 +3333,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/531014/60032911569.531014/531014_60032911569_d1a939ac-0f4b-451c-99ee-11c57388b401.jpg",
    "habitaciones": 3,
    "id": "3fa99c44972b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3363,9 +3382,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1533-4266647/piso-en-venta-en-palafrugell-palafrugell_94f65733-bd25-4bec-a8a4-cc2d9ffa4b85.jpg",
+   "foto": "https://images.habimg.com/imgh/1533-4266647/piso-en-venta-en-palafrugell-palafrugell_94f65733-bd25-4bec-a8a4-cc2d9ffa4b85.jpg",
    "habitaciones": 1,
    "id": "400f93b5344c",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3416,6 +3436,7 @@
    "foto": "https://static.fotocasa.es/images/ads/921c97b7-1716-461a-a730-eba14f497517?rule=original",
    "habitaciones": 3,
    "id": "4163e78561df",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9608901925302,
    "lon": 3.0369770072902487,
@@ -3464,9 +3485,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/38277-1154/piso-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_40203327-48c6-4972-9dd9-192d8e8ac9cb.jpg",
+   "foto": "https://images.habimg.com/imgh/38277-1154/piso-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_40203327-48c6-4972-9dd9-192d8e8ac9cb.jpg",
    "habitaciones": 3,
    "id": "42eaf3fc9600",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3501,6 +3523,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-terraza-trastero-ascensor-amueblado/190163229/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-atico-duplex_en_venta_en_centre-palafrugell-i1533004266645.htm"
     }
    ],
    "extras": {
@@ -3521,6 +3547,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/74/71/d9/1453685469.webp",
    "habitaciones": 1,
    "id": "44f1a0c07441",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91883237374709,
    "lon": 3.157735219734989,
@@ -3531,10 +3558,13 @@
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:190163229",
+    "habitaclia:0426664516000055",
+    "habitaclia:4266645160000159",
     "idealista:111947217"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 155500,
@@ -3571,9 +3601,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11565-2561/oportunidad-de-inversion-en-torroella-de-montgri-girona-piso-en-torroella-de-montgri_1719a28c-ae9f-4601-bf71-20cd2e42044b.jpg",
+   "foto": "https://images.habimg.com/imgh/11565-2561/oportunidad-de-inversion-en-torroella-de-montgri-girona-piso-en-torroella-de-montgri_1719a28c-ae9f-4601-bf71-20cd2e42044b.jpg",
    "habitaciones": 3,
    "id": "451ee1028e0b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3632,6 +3663,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a6/aa/c6/1379282334.webp",
    "habitaciones": 3,
    "id": "45f76e58f19b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3688,6 +3720,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/9f/2d/9d/1271176479.webp",
    "habitaciones": 2,
    "id": "478932c266fe",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3708,58 +3741,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en Calle de la Devesa, 20, L'Estartit poble, Torroella de Montgrí",
-   "zona": null
-  },
-  "47ef70039d49": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Apartamento  Carrer marçal de la trinxeria. Piso 2 habitaciones, balcón, planta 2 con ascensor, carrer marça Palafrugell - La Punxa 79m 2 - 4 habitaciones - 2 baños - 1.696€/m 2 PISO 2 HABITACIONES, BALCÓN, PLANTA 2 CON ASCENSOR, CARRER MARÇAL DE LA TRINXERIA, PALAFRUGELL.  SE VENDE CON INFORME INH. Es un... Añadir a favoritos 134.000 € ha bajado 6.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-amplio_para_reformar_a_la_venta_en_la_punxa-palafrugell-i45161000000727.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": true,
-    "balcon": true,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/45161-1.gif",
-   "habitaciones": 2,
-   "id": "47ef70039d49",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 78,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000072716000055",
-    "habitaclia:0000727160000159",
-    "habitaclia:4151348160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 134000,
-   "precio_anterior": null,
-   "precio_m2": 1718,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  Calle marçal de la trinxeria. Amplio piso para reformar a la venta en palafrugell",
    "zona": null
   },
   "4807996be5bf": {
@@ -3788,9 +3769,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443558/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_ec50a831-926f-42c5-b845-146335c96d14.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443558/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_ec50a831-926f-42c5-b845-146335c96d14.jpg",
    "habitaciones": 3,
    "id": "4807996be5bf",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3827,6 +3809,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-no-amueblado/186530218/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-reformado_en_edificio_con_ascensor_primera_planta_listo_cami_dels_plans_29a-palafrugell-i11955004443550.htm"
     }
    ],
    "extras": {
@@ -3847,6 +3833,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/7b/4c/61/1337282660.webp",
    "habitaciones": 3,
    "id": "4ab50cb9e677",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9139956,
    "lon": 3.1704637,
@@ -3857,10 +3844,12 @@
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:186530218",
+    "habitaclia:4443550160000159",
     "idealista:108212814"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 150000,
@@ -3899,6 +3888,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1005/058/1005_212752988058_1_2025122922121430556.jpg",
    "habitaciones": 4,
    "id": "4b9a78919537",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3948,9 +3938,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/41124-80765/solvia-inmobiliaria-piso-forallac-bisbal-d-emporda_b9fa62ac-0e63-48e3-aabb-f48ce407ee37.jpg",
+   "foto": "https://images.habimg.com/imgh/41124-80765/solvia-inmobiliaria-piso-forallac-bisbal-d-emporda_b9fa62ac-0e63-48e3-aabb-f48ce407ee37.jpg",
    "habitaciones": 2,
    "id": "51ba14e0a8e4",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -3985,6 +3976,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/torroella-de-montgri/torroella-de-montgri/189706836/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-oportunitat_pis_modern_i_reformat_en_edifici_tranquil-torroella_de_montgri-i42982000000261.htm"
     }
    ],
    "extras": {
@@ -4005,6 +4000,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/e9/87/c3/1361676660.webp",
    "habitaciones": 2,
    "id": "51e240840852",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.041108323160245,
    "lon": 3.1224745674252703,
@@ -4015,10 +4011,13 @@
    "planta": "3ª planta",
    "portal_ids": [
     "fotocasa:189706836",
+    "habitaclia:0000026116000055",
+    "habitaclia:0000261160000159",
     "idealista:109012017"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 159000,
@@ -4061,6 +4060,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6f/2f/63/1464553291.webp",
    "habitaciones": 2,
    "id": "5262eb1ad2f3",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.04268775065804,
    "lon": 3.123263641615376,
@@ -4118,9 +4118,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/10351-4348823/planta-baja-con-trastero-en-zona-residencial-tranquila-palafrugell_ee0f62fe-b4fa-46d8-8570-b0a81a4707ca.jpg",
+   "foto": "https://images.habimg.com/imgh/10351-4348823/planta-baja-con-trastero-en-zona-residencial-tranquila-palafrugell_ee0f62fe-b4fa-46d8-8570-b0a81a4707ca.jpg",
    "habitaciones": 2,
    "id": "54998c7f9787",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4143,20 +4144,20 @@
    "titulo": "Piso  Andalusia. Planta baja con trastero en zona residencial tranquila",
    "zona": null
   },
-  "549deeb6bc5b": {
+  "56e07e643706": {
    "activo": true,
-   "banos": 2,
-   "descripcion": "Piso  en  Cabanyes-Mas Ambrós-Mas Pallí Calonge - Cabanyes-Mas Ambrós-Mas Pallí 73m 2 - 2 habitaciones - 2 baños - 2.192€/m 2 ¡No dejes pasar esta oportunidad! Apartamento con licencia turística.  Se trata de un apartamento muy soleado y luminoso que n... Añadir a favoritos 160.000 € Avísame si baja",
+   "banos": null,
+   "descripcion": "",
    "enlaces": [
     {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-cabanyes_mas_ambros_mas_palli-calonge-i14795004378333.htm"
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-internet-no-amueblado/186666830/d"
     }
    ],
    "extras": {
     "aire": false,
     "amueblado": false,
-    "ascensor": false,
+    "ascensor": true,
     "balcon": false,
     "calefaccion": false,
     "jardin": false,
@@ -4167,30 +4168,32 @@
     "trastero": false,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/14795-1.gif",
-   "habitaciones": 2,
-   "id": "549deeb6bc5b",
+   "foto": null,
+   "fuera_de_criterios": false,
+   "habitaciones": null,
+   "id": "56e07e643706",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
-   "m2": 73,
-   "minutos": 20,
-   "municipio": "Calonge i Sant Antoni",
+   "m2": 59,
+   "minutos": 5,
+   "municipio": "Palafrugell",
    "nuevo": false,
    "planta": null,
    "portal_ids": [
-    "habitaclia:0437833316000055"
+    "fotocasa:186666830"
    ],
    "portales": [
-    "habitaclia"
+    "fotocasa"
    ],
-   "precio": 160000,
-   "precio_anterior": null,
-   "precio_m2": 2192,
-   "preferente": false,
+   "precio": 140000,
+   "precio_m2": 2373,
+   "preferente": true,
    "tipo": "piso",
-   "titulo": "Piso  en  Cabanyes-Mas Ambrós-Mas Pallí",
+   "titulo": "Piso con ascensor en Palafrugell",
    "zona": null
   },
   "56e5c59d8e9c": {
@@ -4219,9 +4222,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1898-2178941/oportunidad-de-inversion-en-venta-local-con-gran-terraza-en-les-bisbal-d-emporda_17bfe846-a43b-4bf3-ab29-cb7703e52a34.jpg",
+   "foto": "https://images.habimg.com/imgh/1898-2178941/oportunidad-de-inversion-en-venta-local-con-gran-terraza-en-les-bisbal-d-emporda_17bfe846-a43b-4bf3-ab29-cb7703e52a34.jpg",
    "habitaciones": 2,
    "id": "56e5c59d8e9c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4276,6 +4280,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/53/e0/e9/1460543922.webp",
    "habitaciones": 3,
    "id": "5723298a9259",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4326,9 +4331,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/10351-4348821/oportunidad-en-el-centro-con-parking-y-terraza-palafrugell_e13555b6-c039-41ef-8071-c3fddea704a0.jpg",
+   "foto": "https://images.habimg.com/imgh/10351-4348821/oportunidad-en-el-centro-con-parking-y-terraza-palafrugell_e13555b6-c039-41ef-8071-c3fddea704a0.jpg",
    "habitaciones": 2,
    "id": "5732915f3482",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4377,9 +4383,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/30303-41163/muralla-16torroella-de-montgri-torroella-de-montgri_6fd03f06-a432-440b-86a6-3a2345d68990.jpg",
+   "foto": "https://images.habimg.com/imgh/30303-41163/muralla-16torroella-de-montgri-torroella-de-montgri_6fd03f06-a432-440b-86a6-3a2345d68990.jpg",
    "habitaciones": 2,
    "id": "5913ac046e35",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4400,6 +4407,58 @@
    "preferente": true,
    "tipo": "dúplex",
    "titulo": "Dúplex  en  Torroella de Montgrí. Muralla 16torroella de montgri",
+   "zona": null
+  },
+  "5a0f4ec4039d": {
+   "activo": true,
+   "banos": null,
+   "descripcion": "",
+   "enlaces": [
+    {
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-terraza-ascensor-no-amueblado/190284566/d"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": false,
+    "calefaccion": true,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": true,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "fijado": true,
+   "first_seen": "2026-08-17",
+   "foto": null,
+   "fuera_de_criterios": true,
+   "habitaciones": null,
+   "id": "5a0f4ec4039d",
+   "ideal": false,
+   "last_seen": "2026-08-17",
+   "lat": null,
+   "lon": null,
+   "m2": 76,
+   "minutos": 5,
+   "municipio": "Palafrugell",
+   "nuevo": false,
+   "planta": null,
+   "portal_ids": [
+    "fotocasa:190284566"
+   ],
+   "portales": [
+    "fotocasa"
+   ],
+   "precio": 175000,
+   "precio_m2": 2303,
+   "preferente": true,
+   "tipo": "piso",
+   "titulo": "Piso con terraza y ascensor en Palafrugell",
    "zona": null
   },
   "5b062dde7109": {
@@ -4438,9 +4497,10 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/51/3d/26/1464368710.webp",
    "habitaciones": 2,
    "id": "5b062dde7109",
+   "ideal": false,
    "last_seen": "2026-08-17",
-   "lat": 42.042396181176,
-   "lon": 3.1948815229399328,
+   "lat": 42.04127311444209,
+   "lon": 3.19208933368974,
    "m2": 48,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
@@ -4490,9 +4550,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1606-2342759/calongeplantabaja-calonge_2fb6faa4-f15d-48b9-a0d7-7abe6d97e00b.jpg",
+   "foto": "https://images.habimg.com/imgh/1606-2342759/calongeplantabaja-calonge_2fb6faa4-f15d-48b9-a0d7-7abe6d97e00b.jpg",
    "habitaciones": 1,
    "id": "5c0c63b6c5d1",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4541,9 +4602,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/42982-261/oportunitat-pis-modern-i-reformat-en-edifici-tranquil-torroella-de-montgri_138974eb-eb6d-407f-b4c3-fc7167e2fdd1.jpg",
+   "foto": "https://images.habimg.com/imgh/42982-261/oportunitat-pis-modern-i-reformat-en-edifici-tranquil-torroella-de-montgri_138974eb-eb6d-407f-b4c3-fc7167e2fdd1.jpg",
    "habitaciones": 2,
    "id": "5c3720482bba",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4598,6 +4660,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/63/5f/2e/1446179791.webp",
    "habitaciones": 1,
    "id": "5c819034d1e9",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.051664803065,
    "lon": 3.1930997187921,
@@ -4648,9 +4711,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443544/encantador-piso-rehabilitado-en-el-casco-antiguo-forallac_ba1195f6-a848-4f3c-9742-550b341c537c.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443544/encantador-piso-rehabilitado-en-el-casco-antiguo-forallac_ba1195f6-a848-4f3c-9742-550b341c537c.jpg",
    "habitaciones": 2,
    "id": "5ce97060d487",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4705,6 +4769,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/f7/3f/25/1429346021.webp",
    "habitaciones": 3,
    "id": "5ebc596a17bb",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.951499379,
    "lon": 3.032947151,
@@ -4754,9 +4819,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/1606-1.gif",
+   "foto": null,
    "habitaciones": 1,
    "id": "5ef40db381f0",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4805,9 +4871,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/41124-90130/solvia-inmobiliaria-piso-palafrugell-palafrugell_1b41f13d-217c-4fb0-a84b-1046f5e20004.jpg",
+   "foto": "https://images.habimg.com/imgh/41124-90130/solvia-inmobiliaria-piso-palafrugell-palafrugell_1b41f13d-217c-4fb0-a84b-1046f5e20004.jpg",
    "habitaciones": 1,
    "id": "608f47ee3403",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4856,9 +4923,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/500-6022785/zona-tranquila-bisbal-d-emporda_5285e19b-e9d1-4168-974a-c3dc85cd3ac1.jpg",
+   "foto": "https://images.habimg.com/imgh/500-6022785/zona-tranquila-bisbal-d-emporda_5285e19b-e9d1-4168-974a-c3dc85cd3ac1.jpg",
    "habitaciones": 3,
    "id": "6170e1a0d546",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4907,9 +4975,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443586/torroella-de-montgri--planta-baja-reformada-con-encanto-y-techo-torroella-de-montgri_28f77351-e84d-46e3-80e3-32a7b8cbb199.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443586/torroella-de-montgri--planta-baja-reformada-con-encanto-y-techo-torroella-de-montgri_28f77351-e84d-46e3-80e3-32a7b8cbb199.jpg",
    "habitaciones": 1,
    "id": "622019bf03db",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -4962,6 +5031,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/56/ee/01/1357802137.jpg",
    "habitaciones": null,
    "id": "65c0b50f9bfd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5020,6 +5090,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/8e/8c/1c/1364201702.webp",
    "habitaciones": 1,
    "id": "6642ea7421b7",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.042158626242,
    "lon": 3.1933900673011,
@@ -5079,6 +5150,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/c7/cc/59/1397103873.webp",
    "habitaciones": 2,
    "id": "67374ee9528b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.96305492486988,
    "lon": 3.0349966553386816,
@@ -5129,9 +5201,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5966-4390244/se-vende-con-inquilino-inversores-platja-d-aro_ab68869c-2bdd-46bc-a4db-7b71ab8422cb.jpg",
+   "foto": "https://images.habimg.com/imgh/5966-4390244/se-vende-con-inquilino-inversores-platja-d-aro_ab68869c-2bdd-46bc-a4db-7b71ab8422cb.jpg",
    "habitaciones": 1,
    "id": "6742bd19c4f6",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5180,9 +5253,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1533-4266645/aticoduplex-en-venta-en-palafrugell-palafrugell_6a56e498-c35d-413e-8bae-ec089731f80c.jpg",
+   "foto": "https://images.habimg.com/imgh/1533-4266645/aticoduplex-en-venta-en-palafrugell-palafrugell_6a56e498-c35d-413e-8bae-ec089731f80c.jpg",
    "habitaciones": 1,
    "id": "684cb45a3dd4",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5231,9 +5305,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/50647-24951/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_b090ad9f-9898-4d87-b29a-af26782beadb.jpg",
+   "foto": "https://images.habimg.com/imgh/50647-24951/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_b090ad9f-9898-4d87-b29a-af26782beadb.jpg",
    "habitaciones": 2,
    "id": "6868c5dc19f2",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5256,63 +5331,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso  Calle st antoni. Piso de 2 habitaciones con 3 terrazas  79 m",
-   "zona": null
-  },
-  "688ee1738d3b": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "131.000 € Piso en Carrer del Mestre Sagrera Palafrugell Poble (Palafrugell) 3 habs. 1 baño 78 m² Oportunidad de inversión: inmueble alquilado. Vivienda ubicada en palafrugell, girona, ideal para familias. Con una superficie de ...",
-   "enlaces": [
-    {
-     "portal": "pisos",
-     "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-61692079744_105900/"
-    },
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-solvia_inmobiliaria-palafrugell-i41124000099663.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": null,
-   "habitaciones": 3,
-   "id": "688ee1738d3b",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 78,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0056602160000159",
-    "habitaclia:0099663160000159",
-    "pisos:92079744105900"
-   ],
-   "portales": [
-    "habitaclia",
-    "pisos"
-   ],
-   "precio": 131000,
-   "precio_anterior": null,
-   "precio_m2": 1679,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso en Carrer del Mestre Sagrera",
    "zona": null
   },
   "698834d42b50": {
@@ -5351,6 +5369,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/e0/d7/3b/1374495483.webp",
    "habitaciones": 1,
    "id": "698834d42b50",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.049393432956,
    "lon": 3.1944334460291,
@@ -5407,9 +5426,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1533-4266494/piso-en-rendimiento-palafrugell_fd26a896-db7a-4cc9-88a6-ffa19d304117.jpg",
+   "foto": "https://images.habimg.com/imgh/1533-4266494/piso-en-rendimiento-palafrugell_fd26a896-db7a-4cc9-88a6-ffa19d304117.jpg",
    "habitaciones": 2,
    "id": "6d23e6691243",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5460,6 +5480,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1070/156/1070_AS1-52895156_1_202602171215008908779.jpg",
    "habitaciones": null,
    "id": "6e24f40c0346",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5514,6 +5535,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/8f/3b/1b/1437957350.webp",
    "habitaciones": 1,
    "id": "6e6894c20bd4",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5564,9 +5586,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/11955-1.gif",
+   "foto": null,
    "habitaciones": 2,
    "id": "70107d9b9cf5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5602,7 +5625,11 @@
     },
     {
      "portal": "fotocasa",
-     "url": "https://www.fotocasa.es/es/comprar/vivienda/palamos/amueblado/190160113/d"
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/palamos/terraza-patio-amueblado/189682270/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-apartamento-vivienda_reformada_con_terraza_en_el_centro_de_centre-palamos-i12230002676191.htm"
     }
    ],
    "extras": {
@@ -5614,7 +5641,7 @@
     "jardin": true,
     "parking": false,
     "piscina": false,
-    "reformado": false,
+    "reformado": true,
     "terraza": true,
     "trastero": false,
     "vistas_mar": false
@@ -5623,9 +5650,10 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/17/04/68/1462835040.webp",
    "habitaciones": 1,
    "id": "70704cc43191",
+   "ideal": true,
    "last_seen": "2026-08-17",
-   "lat": 41.847559527751564,
-   "lon": 3.132191427567039,
+   "lat": 41.84998477635275,
+   "lon": 3.130564362085627,
    "m2": 41,
    "minutos": 16,
    "municipio": "Palamós",
@@ -5634,11 +5662,14 @@
    "portal_ids": [
     "fotocasa:189682270",
     "fotocasa:190160113",
+    "habitaclia:0267616516000055",
+    "habitaclia:0267619116000055",
     "idealista:110295413",
     "idealista:111474315"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 160000,
@@ -5677,6 +5708,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/27/30/0b/1416317994.webp",
    "habitaciones": 1,
    "id": "70f0dc685f5d",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5727,6 +5759,7 @@
    "foto": "https://static.fotocasa.es/images/anuncio/2023/05/09/177746527/3074540656.jpg?rule=original",
    "habitaciones": 3,
    "id": "7197cd5d4bbd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.0519291,
    "lon": 3.1922704,
@@ -5774,9 +5807,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/53343-1.gif",
+   "foto": null,
    "habitaciones": 3,
    "id": "71db9c85ec17",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5825,9 +5859,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/51128-53/piso-en-venta-en-calle-de-bruselles-platja-d-aro_bcaea74d-588e-470b-b7f1-e5188f4593ec.jpg",
+   "foto": "https://images.habimg.com/imgh/51128-53/piso-en-venta-en-calle-de-bruselles-platja-d-aro_bcaea74d-588e-470b-b7f1-e5188f4593ec.jpg",
    "habitaciones": 1,
    "id": "7371008d57b9",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5882,6 +5917,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1013/419/1013_inmo_01436_393419_19_202605270706118099560.jpg",
    "habitaciones": 3,
    "id": "75b4bb6a7a60",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5932,9 +5968,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/38277-1150/atico-rustico-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_85ac96a2-d444-45b9-a188-f88c7c361f3d.jpg",
+   "foto": "https://images.habimg.com/imgh/38277-1150/atico-rustico-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_85ac96a2-d444-45b9-a188-f88c7c361f3d.jpg",
    "habitaciones": 3,
    "id": "781bcc2ecab3",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -5985,6 +6022,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/500582/60861118535.500582/500582_60861118535_069e0fb0-c223-4834-b4e9-c397b351992a.jpg",
    "habitaciones": 2,
    "id": "7966617a9b63",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6040,6 +6078,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6e/7b/8c/1464590703.jpg",
    "habitaciones": 2,
    "id": "7b6cbbdfb2b7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.05196268199631,
    "lon": 3.1942698304659394,
@@ -6092,6 +6131,7 @@
    "foto": "https://static.fotocasa.es/images/anuncio/2017/02/17/141488294/337955374.jpg?rule=original",
    "habitaciones": 2,
    "id": "7c1b586a7358",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9138455,
    "lon": 3.158377,
@@ -6142,6 +6182,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/e5/a0/5b/1391350995.webp",
    "habitaciones": 3,
    "id": "7ce3d7474360",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6190,9 +6231,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443559/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_745023fc-25c8-4ee2-8502-70235fd6e6de.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443559/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_745023fc-25c8-4ee2-8502-70235fd6e6de.jpg",
    "habitaciones": 3,
    "id": "7d834faf314c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6247,6 +6289,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6a/86/e8/1312586642.webp",
    "habitaciones": 1,
    "id": "7d92f871cd99",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.04058498996872,
    "lon": 3.19469979610137,
@@ -6300,6 +6343,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/32/0f/a9/1440856253.webp",
    "habitaciones": 1,
    "id": "807e2c2c70ef",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6354,6 +6398,7 @@
    "foto": "https://static.fotocasa.es/images/ads/db8520bc-9648-4232-a3d6-c6dcd2fd65f6?rule=original",
    "habitaciones": null,
    "id": "80b6b844953b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.96877020471721,
    "lon": 3.043553933090427,
@@ -6376,56 +6421,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en La Bisbal d'Empordà",
-   "zona": null
-  },
-  "80cbea1e7b23": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  Calle mont-ras. Piso en palafrugell Palafrugell - Molí de Vent-La Sauleda 43m 2 - 1 habitacion - 1 baño - 2.000€/m 2 Práctico Piso en Palafrugell, Girona, ideal para parejas. Este cómodo Piso consta de 43 m² construidos distribuidos en una habit... Añadir a favoritos 86.000 € ha bajado 8.600 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-en-palafrugell-i56447000000257.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/56447-1.gif",
-   "habitaciones": 1,
-   "id": "80cbea1e7b23",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 43,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000257160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 86000,
-   "precio_anterior": null,
-   "precio_m2": 2000,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  Calle mont-ras. Piso en palafrugell",
    "zona": null
   },
   "811c51c707fc": {
@@ -6464,6 +6459,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/c4/08/c2/1460653749.webp",
    "habitaciones": 1,
    "id": "811c51c707fc",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.051858523676614,
    "lon": 3.1934408161480925,
@@ -6525,9 +6521,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/38277-1164/estudio-en-venta-en-playa-de-aro-platja-d-aro_61978f0a-aa65-4c25-b984-8e3fa47bbcc8.jpg",
+   "foto": "https://images.habimg.com/imgh/38277-1164/estudio-en-venta-en-playa-de-aro-platja-d-aro_61978f0a-aa65-4c25-b984-8e3fa47bbcc8.jpg",
    "habitaciones": null,
    "id": "82338e84f846",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6582,6 +6579,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/64/95/e7/1446206002.webp",
    "habitaciones": 3,
    "id": "8303e5e6c7c7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.05194050185,
    "lon": 3.1921293185427,
@@ -6638,6 +6636,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/76/c9/d3/1456661602.webp",
    "habitaciones": 3,
    "id": "840d3976fdb8",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.923112750980266,
    "lon": 3.153458053472351,
@@ -6688,9 +6687,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/22364-400/estudio-loft-torroella-de-montgri_7eb817a2-4b8e-4be0-9238-40c4a3ec9f0f.jpg",
+   "foto": "https://images.habimg.com/imgh/22364-400/estudio-loft-torroella-de-montgri_7eb817a2-4b8e-4be0-9238-40c4a3ec9f0f.jpg",
    "habitaciones": 1,
    "id": "846a507edb2f",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6745,6 +6745,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/15/54/52/1342009239.webp",
    "habitaciones": 3,
    "id": "8681fc5c51ae",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9139956,
    "lon": 3.1704637,
@@ -6798,9 +6799,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/12223-598/venta-de-estudio-en-platja-daro-frontal-al-mar-platja-d-aro_28fa541e-b702-454c-8fb3-3f694651c207.jpg",
+   "foto": "https://images.habimg.com/imgh/12223-598/venta-de-estudio-en-platja-daro-frontal-al-mar-platja-d-aro_28fa541e-b702-454c-8fb3-3f694651c207.jpg",
    "habitaciones": 1,
    "id": "886fc7c035d2",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6852,6 +6854,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6a/86/e8/1312586642.jpg",
    "habitaciones": 1,
    "id": "89442f002552",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -6902,6 +6905,7 @@
    "foto": "https://static.fotocasa.es/images/anuncio/2026/04/21/189451534/4893797302.jpg?rule=original",
    "habitaciones": 3,
    "id": "8f6f204b2adf",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.913082075676634,
    "lon": 3.1576683530701866,
@@ -6932,6 +6936,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/calonge-i-sant-antoni/poble/182127338/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-atico-encantador_piso_en_a_un_paso_de_la_playa_poble-calonge-i44863000000101.htm"
     }
    ],
    "extras": {
@@ -6952,6 +6960,7 @@
    "foto": "https://static.fotocasa.es/images/ads/094fda8b-a6b2-4f35-8e5e-0c46c9e0d9e3?rule=original",
    "habitaciones": 2,
    "id": "91c911e5c0f1",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.85882032835353,
    "lon": 3.0763213276696004,
@@ -6959,12 +6968,14 @@
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
    "nuevo": true,
-   "planta": null,
+   "planta": "Ático",
    "portal_ids": [
-    "fotocasa:182127338"
+    "fotocasa:182127338",
+    "habitaclia:0000010116000055"
    ],
    "portales": [
-    "fotocasa"
+    "fotocasa",
+    "habitaclia"
    ],
    "precio": 107000,
    "precio_anterior": null,
@@ -7002,10 +7013,12 @@
     "trastero": false,
     "vistas_mar": false
    },
+   "fijado": true,
    "first_seen": "2026-08-17",
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/06/66/4c/1342067560.webp",
    "habitaciones": 2,
    "id": "91d5e89d9a03",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9139956,
    "lon": 3.1704637,
@@ -7031,57 +7044,6 @@
    "tipo": "piso",
    "titulo": "Piso en Calle dels Plans, 26, Piverd-La Roella-Bruguerol, Palafrugell",
    "zona": "Vila de Palafrugell"
-  },
-  "9243699fabb7": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  Barcelona. Piso 3 habitaciones en palafrugell  oportunidad inversión  econó Palafrugell - Molí de Vent-La Sauleda 78m 2 - 3 habitaciones - 1 baño - 1.603€/m 2 Piso 3 habitaciones en Palafrugell | Oportunidad inversión | Económico | Fácil aparcamiento OPORTUNIDAD DE INVERSIÓN EN PALAFRUG... Añadir a favoritos 125.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-3_habitaciones_en_oportunidad_inversion_econo_moli_de_vent_la_sauleda-palafrugell-i44863000000347.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": true,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/44863-1.gif",
-   "habitaciones": 3,
-   "id": "9243699fabb7",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 78,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000034716000055",
-    "habitaclia:0000347160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 125000,
-   "precio_anterior": null,
-   "precio_m2": 1603,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  Barcelona. Piso 3 habitaciones en palafrugell  oportunidad inversión  econó",
-   "zona": null
   },
   "93c50ea1e616": {
    "activo": true,
@@ -7111,6 +7073,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/4b/1b/f6/1434453527.webp",
    "habitaciones": 3,
    "id": "93c50ea1e616",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7160,9 +7123,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5498-2984570/carrer-marques-de-cruilles-piso-bisbal-d-emporda_b805b2ca-9ddb-4cb7-b2c1-4fd4d9e1e883.jpg",
+   "foto": "https://images.habimg.com/imgh/5498-2984570/carrer-marques-de-cruilles-piso-bisbal-d-emporda_b805b2ca-9ddb-4cb7-b2c1-4fd4d9e1e883.jpg",
    "habitaciones": 2,
    "id": "940f03fa7f84",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7213,6 +7177,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/10/da/e8/1371409387.webp",
    "habitaciones": 1,
    "id": "945c62c901d0",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7263,6 +7228,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/bc/7f/ab/1412125486.webp",
    "habitaciones": 3,
    "id": "975f22ca74dd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7311,9 +7277,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443546/oportunidad-unica-en-palafrugell-palafrugell_51ed4c03-e9cb-4764-93b2-0af392ec321e.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443546/oportunidad-unica-en-palafrugell-palafrugell_51ed4c03-e9cb-4764-93b2-0af392ec321e.jpg",
    "habitaciones": 3,
    "id": "97f2e246eb61",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7376,6 +7343,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/5d/bf/5c/1455377205.webp",
    "habitaciones": 1,
    "id": "97f53320e218",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.987633308864154,
    "lon": 3.1851651682873072,
@@ -7437,6 +7405,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/fc/ec/74/1342986033.webp",
    "habitaciones": 3,
    "id": "982d873776d9",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9145009,
    "lon": 3.1694208,
@@ -7488,9 +7457,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/38277-1161/piso-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_c1f84daf-7eef-4729-83c0-3615f765fc31.jpg",
+   "foto": "https://images.habimg.com/imgh/38277-1161/piso-en-venta-en-la-bisbal-demporda-bisbal-d-emporda_c1f84daf-7eef-4729-83c0-3615f765fc31.jpg",
    "habitaciones": 3,
    "id": "99c922a055d8",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7539,9 +7509,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/53343-207/planta-baja-vpo-palafrugell_4d31cae9-c156-4b46-a30e-e7133dfb17c4.jpg",
+   "foto": "https://images.habimg.com/imgh/53343-207/planta-baja-vpo-palafrugell_4d31cae9-c156-4b46-a30e-e7133dfb17c4.jpg",
    "habitaciones": 3,
    "id": "9b07181206b5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7593,6 +7564,7 @@
    "foto": null,
    "habitaciones": 1,
    "id": "9b11f61d50e7",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7641,9 +7613,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/44863-347/piso-3-habitaciones-en-palafrugell-oportunidad-inversion-econo-palafrugell_390e2d8e-4348-40d2-a1cf-28f6b08f523c.jpg",
+   "foto": "https://images.habimg.com/imgh/44863-347/piso-3-habitaciones-en-palafrugell-oportunidad-inversion-econo-palafrugell_390e2d8e-4348-40d2-a1cf-28f6b08f523c.jpg",
    "habitaciones": 3,
    "id": "9e1b72abfe4a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7692,9 +7665,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/38277-1104/estudio-en-venta-en-pals-pals_a2c015aa-1ff6-421e-ac1f-fe11a3a392dc.jpg",
+   "foto": "https://images.habimg.com/imgh/38277-1104/estudio-en-venta-en-pals-pals_a2c015aa-1ff6-421e-ac1f-fe11a3a392dc.jpg",
    "habitaciones": null,
    "id": "9e3bcd931c7f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7725,6 +7699,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/no-amueblado/189279741/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-3_habitaciones_en_oportunidad_inversion_econo_moli_de_vent_la_sauleda-palafrugell-i44863000000347.htm"
     }
    ],
    "extras": {
@@ -7745,6 +7723,7 @@
    "foto": "https://static.fotocasa.es/images/ads/390e2d8e-4348-40d2-a1cf-28f6b08f523c?rule=original",
    "habitaciones": 3,
    "id": "a01c8597c94c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.914464851638904,
    "lon": 3.1561570827939853,
@@ -7754,10 +7733,13 @@
    "nuevo": true,
    "planta": null,
    "portal_ids": [
-    "fotocasa:189279741"
+    "fotocasa:189279741",
+    "habitaclia:0000034716000055",
+    "habitaclia:0000347160000159"
    ],
    "portales": [
-    "fotocasa"
+    "fotocasa",
+    "habitaclia"
    ],
    "precio": 125000,
    "precio_anterior": null,
@@ -7766,6 +7748,58 @@
    "tipo": "piso",
    "titulo": "Piso en Vila de Palafrugell · Palafrugell",
    "zona": "Vila de Palafrugell"
+  },
+  "a1bcc7cb5393": {
+   "activo": true,
+   "banos": null,
+   "descripcion": "",
+   "enlaces": [
+    {
+     "portal": "pisos",
+     "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-66749195905_500582/"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": false,
+    "balcon": false,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "fijado": true,
+   "first_seen": "2026-08-17",
+   "foto": null,
+   "fuera_de_criterios": true,
+   "habitaciones": null,
+   "id": "a1bcc7cb5393",
+   "ideal": false,
+   "last_seen": "2026-08-17",
+   "lat": null,
+   "lon": null,
+   "m2": 65,
+   "minutos": 5,
+   "municipio": "Palafrugell",
+   "nuevo": false,
+   "planta": null,
+   "portal_ids": [
+    "pisos:66749195905"
+   ],
+   "portales": [
+    "pisos"
+   ],
+   "precio": 165000,
+   "precio_m2": 2538,
+   "preferente": true,
+   "tipo": "piso",
+   "titulo": "Piso en Palafrugell (Poble)",
+   "zona": null
   },
   "a274db746605": {
    "activo": true,
@@ -7795,6 +7829,7 @@
    "foto": "https://static.fotocasa.es/images/ads/32d9e544-e9b1-426c-a2ea-5ce72eef3490?rule=original",
    "habitaciones": 1,
    "id": "a274db746605",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.04309416770542,
    "lon": 3.1255013663567097,
@@ -7843,9 +7878,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/45161-727/amplio-piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_6b934c40-5802-4879-8240-e13a6631de83.jpg",
+   "foto": "https://images.habimg.com/imgh/45161-727/amplio-piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_6b934c40-5802-4879-8240-e13a6631de83.jpg",
    "habitaciones": 2,
    "id": "a2a90d3cf356",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -7901,6 +7937,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/84/eb/e6/1464185708.webp",
    "habitaciones": 1,
    "id": "a3b679e3ccf0",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 41.8484842997509,
    "lon": 3.1104047215569115,
@@ -7957,6 +7994,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/88/d3/c4/1374538696.webp",
    "habitaciones": 3,
    "id": "a462156470fe",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8009,6 +8047,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/585/1064_IJ31283-101251585_1_202605251124196773582.jpg",
    "habitaciones": 1,
    "id": "a619e75b5e73",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8058,9 +8097,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/43082-1403/piso-en-venta-en-calle-marcal-de-la-trinxeria-palafrugell-giron-palafrugell_9ea8b4f6-3e3f-4e73-a507-893c2e0a57f7.jpg",
+   "foto": "https://images.habimg.com/imgh/43082-1403/piso-en-venta-en-calle-marcal-de-la-trinxeria-palafrugell-giron-palafrugell_9ea8b4f6-3e3f-4e73-a507-893c2e0a57f7.jpg",
    "habitaciones": 4,
    "id": "a662cf4af813",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8109,9 +8149,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/2471-4350204/del-carrilet-piso-palafrugell_8205a17d-cdf3-44db-adc9-1b8e50935859.jpg",
+   "foto": "https://images.habimg.com/imgh/2471-4350204/del-carrilet-piso-palafrugell_8205a17d-cdf3-44db-adc9-1b8e50935859.jpg",
    "habitaciones": 3,
    "id": "a70c6d68e1f5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8162,6 +8203,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/587/1064_IJ31283-101251587_1_202605251124198468190.jpg",
    "habitaciones": 1,
    "id": "a79acc25be59",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8213,6 +8255,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/d6/f3/fa/1363807879.webp",
    "habitaciones": 1,
    "id": "a7c1f0d86b03",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8233,66 +8276,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en Cr Torroella, 36, L'Estartit poble, Torroella de Montgrí",
-   "zona": null
-  },
-  "a7ca443c6265": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "134.000 € Piso en Carrer de Marçal de la Trinxeria Palafrugell Poble (Palafrugell) 4 habs. 2 baños 78 m² 2ª planta ¡ Oportunidad !\nVivienda de 78 m² con 4 dormitorios a la venta en el municipio de palafrugell, girona.\nLa vivienda está distribuid...",
-   "enlaces": [
-    {
-     "portal": "pisos",
-     "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-58387399399_109300/"
-    },
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-en_venta_en_calle_marcal_de_la_trinxeria_giron_la_punxa-palafrugell-i43082000001403.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": null,
-   "habitaciones": 4,
-   "id": "a7ca443c6265",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 78,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": "2ª planta",
-   "portal_ids": [
-    "habitaclia:0000140316000055",
-    "habitaclia:0001349160000159",
-    "habitaclia:0001403160000159",
-    "habitaclia:00072716000055",
-    "habitaclia:0015866160000159",
-    "pisos:87399399109300"
-   ],
-   "portales": [
-    "habitaclia",
-    "pisos"
-   ],
-   "precio": 134000,
-   "precio_anterior": null,
-   "precio_m2": 1718,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso en Carrer de Marçal de la Trinxeria",
    "zona": null
   },
   "a8039206cfe0": {
@@ -8323,6 +8306,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/593/1064_IJ31283-101251593_1_202605251124201088688.jpg",
    "habitaciones": 1,
    "id": "a8039206cfe0",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8375,6 +8359,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/4b/1b/f6/1434453527.jpg",
    "habitaciones": 3,
    "id": "abab0cd2a2fe",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8423,9 +8408,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/28257-1199/gironapiso-bisbal-d-emporda_816c2903-8202-47fc-80d2-a40543d067da.jpg",
+   "foto": "https://images.habimg.com/imgh/28257-1199/gironapiso-bisbal-d-emporda_816c2903-8202-47fc-80d2-a40543d067da.jpg",
    "habitaciones": 4,
    "id": "ac867c4ca731",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8478,6 +8464,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630373138/c172e8f7-cb10-4e34-af81-32c7482f44b7.jpg",
    "habitaciones": 1,
    "id": "ae5e1605e29d",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8528,6 +8515,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/85/ca/cf/1457687064.webp",
    "habitaciones": 2,
    "id": "b119478ea2f0",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8578,6 +8566,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/2a/5b/98/254432495.webp",
    "habitaciones": null,
    "id": "b3faf2333df9",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8640,6 +8629,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/87/bd/c8/1449213177.webp",
    "habitaciones": 3,
    "id": "b40dc9166ea3",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9153611,
    "lon": 3.1713544,
@@ -8697,9 +8687,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443553/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_284b002f-1ce4-430d-a78b-7b01bb0da9a7.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443553/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_284b002f-1ce4-430d-a78b-7b01bb0da9a7.jpg",
    "habitaciones": 3,
    "id": "b8ea6526fc7a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8750,6 +8741,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1018/445/1018_107789445_1_202606032028254246941.jpg",
    "habitaciones": 1,
    "id": "b8f3d9a2d450",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8804,6 +8796,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/4e/b6/ba/1455045015.webp",
    "habitaciones": 1,
    "id": "ba7d05b4cf1e",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.04154659414876,
    "lon": 3.1944897753535098,
@@ -8854,9 +8847,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/12230-2676191/vivienda-reformada-con-terraza-en-el-centro-de-palamos-palamos_fb83fd46-9bc7-42b1-a0ff-41459bf91cbc.jpg",
+   "foto": "https://images.habimg.com/imgh/12230-2676191/vivienda-reformada-con-terraza-en-el-centro-de-palamos-palamos_fb83fd46-9bc7-42b1-a0ff-41459bf91cbc.jpg",
    "habitaciones": 1,
    "id": "bb2b244b0053",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8916,6 +8910,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/e4/a0/87/1452420628.webp",
    "habitaciones": 2,
    "id": "bb9ad7a588aa",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8969,9 +8964,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/11955-1.gif",
+   "foto": null,
    "habitaciones": 3,
    "id": "bc5e04d151ad",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -8997,56 +8993,6 @@
    "preferente": true,
    "tipo": "planta baja",
    "titulo": "Planta baja  en  Camí dels plans 29a. Planta baja reformada en venta – calle plans 29, palafrugell",
-   "zona": null
-  },
-  "bc9044e7714d": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  en  Centre. Piso en venta en palafrugell Palafrugell - Centre 79m 2 - 1 habitacion - 1 baño - 1.994€/m 2 Piso en venta ubicado en una calle tranquila y rodeado de buenas conexiones con las carreteras principales y a pocos minutos de... Premium Añadir a favoritos 157.500 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-en_venta_en-palafrugell-i1533004266647.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/1533-1.gif",
-   "habitaciones": 1,
-   "id": "bc9044e7714d",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 79,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": "principal",
-   "portal_ids": [
-    "habitaclia:4266647160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 157500,
-   "precio_anterior": null,
-   "precio_m2": 1994,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  en  Centre. Piso en venta en palafrugell",
    "zona": null
   },
   "bd07278831fd": {
@@ -9075,9 +9021,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/44863-101/encantador-piso-en-calonge-a-un-paso-de-la-playa-calonge_094fda8b-a6b2-4f35-8e5e-0c46c9e0d9e3.jpg",
+   "foto": "https://images.habimg.com/imgh/44863-101/encantador-piso-en-calonge-a-un-paso-de-la-playa-calonge_094fda8b-a6b2-4f35-8e5e-0c46c9e0d9e3.jpg",
    "habitaciones": 2,
    "id": "bd07278831fd",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9132,6 +9079,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/11/ce/06/1318882053.webp",
    "habitaciones": 2,
    "id": "bd2fed1a221f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.962780894272385,
    "lon": 3.045150695478091,
@@ -9154,57 +9102,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en Calle Montserrat s/n, Forallac",
-   "zona": null
-  },
-  "be5ebdc2f860": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Ático  en  Centre. Aticodúplex en venta en palafrugell Palafrugell - Centre 47m 2 - 1 habitacion - 2 baños - 3.309€/m 2 Ático-Dúplex en venta, ubicada en una calle tranquila y rodeado de buenas conexiones con las carreteras principales y a pocos mi... Añadir a favoritos Oportunidad 155.500 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-atico-duplex_en_venta_en_centre-palafrugell-i1533004266645.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/1533-1.gif",
-   "habitaciones": 1,
-   "id": "be5ebdc2f860",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 47,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": "Ático",
-   "portal_ids": [
-    "habitaclia:0426664516000055",
-    "habitaclia:4266645160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 155500,
-   "precio_anterior": null,
-   "precio_m2": 3309,
-   "preferente": true,
-   "tipo": "ático",
-   "titulo": "Ático  en  Centre. Aticodúplex en venta en palafrugell",
    "zona": null
   },
   "bf86f7575854": {
@@ -9233,9 +9130,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5664-4285940/piso-luminoso-en-palafrugell-con-vistas-despejadas-y-excelente-u-palafrugell_e0b53474-6077-4d68-b014-d992c73d191d.jpg",
+   "foto": "https://images.habimg.com/imgh/5664-4285940/piso-luminoso-en-palafrugell-con-vistas-despejadas-y-excelente-u-palafrugell_e0b53474-6077-4d68-b014-d992c73d191d.jpg",
    "habitaciones": 3,
    "id": "bf86f7575854",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9295,6 +9193,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/30/c7/c0/1452692091.webp",
    "habitaciones": 1,
    "id": "c182a6aaeac1",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.04117587949988,
    "lon": 3.193474479069484,
@@ -9357,6 +9256,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/47/f8/9e/1353505255.webp",
    "habitaciones": 2,
    "id": "c19c71504a5b",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.054227,
    "lon": 3.1990797,
@@ -9411,9 +9311,10 @@
     "vistas_mar": true
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/40042-1826/maritim-piso-platja-d-aro_b84b3fbd-232a-460c-bba4-de5eb330bb91.jpg",
+   "foto": "https://images.habimg.com/imgh/40042-1826/maritim-piso-platja-d-aro_b84b3fbd-232a-460c-bba4-de5eb330bb91.jpg",
    "habitaciones": 1,
    "id": "c2accf5c49e0",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9462,9 +9363,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443558/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_ec50a831-926f-42c5-b845-146335c96d14.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443558/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_ec50a831-926f-42c5-b845-146335c96d14.jpg",
    "habitaciones": 3,
    "id": "c43d79dda9d6",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9513,9 +9415,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/45396-7088/venta-en-condiciones-especiales-modalidad-cesion-de-remate-palafrugell_395cd4f8-7b9d-4298-8825-ee2422bb2f38.jpg",
+   "foto": "https://images.habimg.com/imgh/45396-7088/venta-en-condiciones-especiales-modalidad-cesion-de-remate-palafrugell_395cd4f8-7b9d-4298-8825-ee2422bb2f38.jpg",
    "habitaciones": 2,
    "id": "c601ca91645f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9564,9 +9467,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/45396-7088/venta-en-condiciones-especiales-modalidad-cesion-de-remate-palafrugell_395cd4f8-7b9d-4298-8825-ee2422bb2f38.jpg",
+   "foto": "https://images.habimg.com/imgh/45396-7088/venta-en-condiciones-especiales-modalidad-cesion-de-remate-palafrugell_395cd4f8-7b9d-4298-8825-ee2422bb2f38.jpg",
    "habitaciones": 2,
    "id": "c6bafc2dcd4f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9615,9 +9519,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13805-5831/estudio-rustico-en-bellcaire-demporda-bellcaire-d-emporda_5fab8681-1798-4742-ab86-a0bb0a1b60fc.jpg",
+   "foto": "https://images.habimg.com/imgh/13805-5831/estudio-rustico-en-bellcaire-demporda-bellcaire-d-emporda_5fab8681-1798-4742-ab86-a0bb0a1b60fc.jpg",
    "habitaciones": 1,
    "id": "c74d2239c405",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9666,9 +9571,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13156-953/atico-bisbal-d-emporda_921c97b7-1716-461a-a730-eba14f497517.jpg",
+   "foto": "https://images.habimg.com/imgh/13156-953/atico-bisbal-d-emporda_921c97b7-1716-461a-a730-eba14f497517.jpg",
    "habitaciones": 3,
    "id": "c836dd4b7f56",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9719,6 +9625,7 @@
    "foto": "https://static.fotocasa.es/images/ads/838c77cc-e51b-49a0-939d-4f41b18b97c2?rule=original",
    "habitaciones": 1,
    "id": "c8b8caac1d88",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.0413927,
    "lon": 3.1959133,
@@ -9740,6 +9647,58 @@
    "tipo": "apartamento",
    "titulo": "Apartamento en Els Griells · L'Estartit",
    "zona": "Els Griells"
+  },
+  "c9d6c20ed524": {
+   "activo": true,
+   "banos": null,
+   "descripcion": "",
+   "enlaces": [
+    {
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-parking-no-amueblado/189945527/d"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": false,
+    "balcon": false,
+    "calefaccion": true,
+    "jardin": false,
+    "parking": true,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "fijado": true,
+   "first_seen": "2026-08-17",
+   "foto": null,
+   "fuera_de_criterios": true,
+   "habitaciones": null,
+   "id": "c9d6c20ed524",
+   "ideal": false,
+   "last_seen": "2026-08-17",
+   "lat": null,
+   "lon": null,
+   "m2": 61,
+   "minutos": 5,
+   "municipio": "Palafrugell",
+   "nuevo": false,
+   "planta": null,
+   "portal_ids": [
+    "fotocasa:189945527"
+   ],
+   "portales": [
+    "fotocasa"
+   ],
+   "precio": 175000,
+   "precio_m2": 2869,
+   "preferente": true,
+   "tipo": "piso",
+   "titulo": "Piso con parking en Palafrugell",
+   "zona": null
   },
   "ca8009f40bde": {
    "activo": true,
@@ -9769,6 +9728,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1018/471/1018_107947471_1_202603211908364605225.jpg",
    "habitaciones": 2,
    "id": "ca8009f40bde",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9819,6 +9779,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/44/e4/bb/1340103536.webp",
    "habitaciones": 2,
    "id": "caf551d51df8",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9870,6 +9831,7 @@
    "foto": null,
    "habitaciones": 1,
    "id": "cc030ca898fb",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9918,9 +9880,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/39291-189/se-vende-piso-alquilado-en-planta-baja-con-gran-terraza-dos-pla-palafrugell_c7cf08b7-5f61-45ef-bef6-24ff76edcd5b.jpg",
+   "foto": "https://images.habimg.com/imgh/39291-189/se-vende-piso-alquilado-en-planta-baja-con-gran-terraza-dos-pla-palafrugell_c7cf08b7-5f61-45ef-bef6-24ff76edcd5b.jpg",
    "habitaciones": 2,
    "id": "cdaeda2c06c8",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -9969,9 +9932,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/1533-4266645/aticoduplex-en-venta-en-palafrugell-palafrugell_6a56e498-c35d-413e-8bae-ec089731f80c.jpg",
+   "foto": "https://images.habimg.com/imgh/1533-4266645/aticoduplex-en-venta-en-palafrugell-palafrugell_6a56e498-c35d-413e-8bae-ec089731f80c.jpg",
    "habitaciones": 1,
    "id": "cdfa435f045f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10026,6 +9990,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/84/f9/d1/1446196906.webp",
    "habitaciones": 1,
    "id": "ceb4dcbfb798",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.042214213291025,
    "lon": 3.192182107151167,
@@ -10078,6 +10043,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/1e/51/82/1425403445.webp",
    "habitaciones": 3,
    "id": "cf135b44411f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10126,9 +10092,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13156-924/piso-bisbal-d-emporda_fbfbce82-e62d-48a8-9c12-57abab260362.jpg",
+   "foto": "https://images.habimg.com/imgh/13156-924/piso-bisbal-d-emporda_fbfbce82-e62d-48a8-9c12-57abab260362.jpg",
    "habitaciones": 2,
    "id": "cf26dae5901c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10179,6 +10146,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a2/4d/0b/1246783955.webp",
    "habitaciones": 3,
    "id": "cfaa4127810f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10209,6 +10177,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/calonge-i-sant-antoni/aire-acondicionado-terraza-piscina/187856489/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-cabanyes_mas_ambros_mas_palli-calonge-i14795004378333.htm"
     }
    ],
    "extras": {
@@ -10229,6 +10201,7 @@
    "foto": "https://static.fotocasa.es/images/ads/77acf87b-d4cd-49cc-b7b4-4ab21af09ec1?rule=original",
    "habitaciones": 2,
    "id": "d0af3b740694",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.85635565741384,
    "lon": 3.079683052674259,
@@ -10238,10 +10211,12 @@
    "nuevo": true,
    "planta": null,
    "portal_ids": [
-    "fotocasa:187856489"
+    "fotocasa:187856489",
+    "habitaclia:0437833316000055"
    ],
    "portales": [
-    "fotocasa"
+    "fotocasa",
+    "habitaclia"
    ],
    "precio": 160000,
    "precio_anterior": null,
@@ -10291,6 +10266,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a5/ea/69/1418756829.webp",
    "habitaciones": 1,
    "id": "d0e147dfad76",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.04196325514064,
    "lon": 3.1253307544499633,
@@ -10321,7 +10297,7 @@
     "pisos"
    ],
    "precio": 116000,
-   "precio_anterior": 115900,
+   "precio_anterior": null,
    "precio_m2": 2367,
    "preferente": false,
    "tipo": "piso",
@@ -10354,9 +10330,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443554/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_a292d59b-9aa2-47af-9ebe-153d8ae77154.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443554/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_a292d59b-9aa2-47af-9ebe-153d8ae77154.jpg",
    "habitaciones": 3,
    "id": "d19271253908",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10377,56 +10354,6 @@
    "preferente": false,
    "tipo": "planta baja",
    "titulo": "Piso  en  Camí dels plans 29a. Planta baja reformada en venta – calle plans 29, palafrugell",
-   "zona": null
-  },
-  "d25c33e73955": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  en  Molí de Vent-La Sauleda. Piso en rendimiento Palafrugell - Molí de Vent-La Sauleda 78m 2 - 2 habitaciones - 1 baño - 2.000€/m 2 Piso en venta, ACTUALMENTE ALQUILADO y con rendimiento inmediato del 4,90% anual. La vivienda se encuentra alquilada, se vende... Añadir a favoritos 156.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-en_rendimiento-palafrugell-i1533004266494.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/1533-1.gif",
-   "habitaciones": 2,
-   "id": "d25c33e73955",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 78,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:4266494160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 156000,
-   "precio_anterior": null,
-   "precio_m2": 2000,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  en  Molí de Vent-La Sauleda. Piso en rendimiento",
    "zona": null
   },
   "d3ba061658c7": {
@@ -10465,9 +10392,10 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/7a/fd/39/1458082402.webp",
    "habitaciones": 1,
    "id": "d3ba061658c7",
+   "ideal": true,
    "last_seen": "2026-08-17",
-   "lat": 42.0540113298232,
-   "lon": 3.1999901600195972,
+   "lat": 42.0561150963741,
+   "lon": 3.1979124210662726,
    "m2": 57,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
@@ -10518,9 +10446,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/44863-347/piso-3-habitaciones-en-palafrugell-oportunidad-inversion-econo-palafrugell_390e2d8e-4348-40d2-a1cf-28f6b08f523c.jpg",
+   "foto": "https://images.habimg.com/imgh/44863-347/piso-3-habitaciones-en-palafrugell-oportunidad-inversion-econo-palafrugell_390e2d8e-4348-40d2-a1cf-28f6b08f523c.jpg",
    "habitaciones": 3,
    "id": "d3f239425e6d",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10576,6 +10505,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a1/78/31/1440389675.jpg",
    "habitaciones": 3,
    "id": "d65570c073e5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91601681342383,
    "lon": 3.1562473063756546,
@@ -10633,6 +10563,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/ac/6b/98/1319721030.jpg",
    "habitaciones": 1,
    "id": "d93fe43d9c44",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.0557021,
    "lon": 3.1975209,
@@ -10656,107 +10587,6 @@
    "tipo": "piso",
    "titulo": "Piso en Calle de Barcelona, L'Estartit poble, Torroella de Montgrí",
    "zona": "L'Estartit Poble"
-  },
-  "db7cf67841d5": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Piso  en  Centre. Vivienda reformada con terraza en el centro de palamós Palamós - Centre 41m 2 - 1 habitacion - 1 baño - 3.902€/m 2 Vivienda céntrica con una habitación doble y un baño completo con ducha en suite. Amplio y luminoso salón con cocina moderna equ... Premium actualizado hace 2 días Añadir a favoritos Oportunidad 160.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-apartamento-vivienda_reformada_con_terraza_en_el_centro_de_centre-palamos-i12230002676191.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": true,
-    "terraza": true,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/12230-1.gif",
-   "habitaciones": 1,
-   "id": "db7cf67841d5",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 41,
-   "minutos": 16,
-   "municipio": "Palamós",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0267616516000055",
-    "habitaclia:0267619116000055"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 160000,
-   "precio_anterior": null,
-   "precio_m2": 3902,
-   "preferente": true,
-   "tipo": "apartamento",
-   "titulo": "Apartamento  en  Centre. Vivienda reformada con terraza en el centro de palamós",
-   "zona": null
-  },
-  "dba7973e7d1a": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  C/ lleida. Solvia inmobiliaria  piso palafrugell Palafrugell - Molí de Vent-La Sauleda 56m 2 - 1 habitacion - 1 baño - 2.232€/m 2 Piso de 56 m² ubicado en Palafrugell, Girona. Se trata de un piso de 56 m² distribuidos en salón-comedor, cocina, 1 dormitorio y... Añadir a favoritos 125.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-solvia_inmobiliaria-palafrugell-i41124000090130.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/41124-1.gif",
-   "habitaciones": 1,
-   "id": "dba7973e7d1a",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 56,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0090130160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 125000,
-   "precio_anterior": null,
-   "precio_m2": 2232,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  C/ lleida. Solvia inmobiliaria  piso palafrugell",
-   "zona": null
   },
   "dbe5b0604095": {
    "activo": true,
@@ -10783,9 +10613,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/10351-1.gif",
+   "foto": null,
    "habitaciones": 2,
    "id": "dbe5b0604095",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -10836,6 +10667,7 @@
    "foto": "https://static.fotocasa.es/images/ads/cd955d00-f552-4a7d-88c7-c438315e1ded?rule=original",
    "habitaciones": 2,
    "id": "dc023e413c8a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.96062546711085,
    "lon": 3.0381952307691837,
@@ -10874,6 +10706,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-58387399399_109300/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-en_venta_en_calle_marcal_de_la_trinxeria_giron_la_punxa-palafrugell-i43082000001403.htm"
     }
    ],
    "extras": {
@@ -10894,6 +10730,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/8c/34/f6/1438605011.webp",
    "habitaciones": 4,
    "id": "dc3f686bbb82",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91894142119888,
    "lon": 3.1569154968321067,
@@ -10905,12 +10742,18 @@
    "portal_ids": [
     "fotocasa:187929385",
     "fotocasa:189731361",
+    "habitaclia:0000140316000055",
+    "habitaclia:0001349160000159",
+    "habitaclia:0001403160000159",
+    "habitaclia:00072716000055",
+    "habitaclia:0015866160000159",
     "idealista:111393110",
     "idealista:111516778",
     "pisos:87399399109300"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista",
     "pisos"
    ],
@@ -10954,6 +10797,7 @@
    "foto": "https://static.fotocasa.es/images/ads/17bfe846-a43b-4bf3-ab29-cb7703e52a34?rule=original",
    "habitaciones": 2,
    "id": "dc6c7f54705c",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.961323349155485,
    "lon": 3.0394691723344733,
@@ -11004,9 +10848,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443555/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_d728d668-234c-4545-801d-a9049ed552d7.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443555/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_d728d668-234c-4545-801d-a9049ed552d7.jpg",
    "habitaciones": 2,
    "id": "dcb85269a170",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11055,9 +10900,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443552/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_40603aae-e651-4c89-907a-19017ae9e01d.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443552/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_40603aae-e651-4c89-907a-19017ae9e01d.jpg",
    "habitaciones": 2,
    "id": "dcc0c81de19a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11106,9 +10952,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13156-1130/piso-bisbal-d-emporda_cd955d00-f552-4a7d-88c7-c438315e1ded.jpg",
+   "foto": "https://images.habimg.com/imgh/13156-1130/piso-bisbal-d-emporda_cd955d00-f552-4a7d-88c7-c438315e1ded.jpg",
    "habitaciones": 2,
    "id": "debf6e542efa",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11129,61 +10976,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso  en  Bisbal d´Empordà (La)",
-   "zona": null
-  },
-  "df11a0fdeb94": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Piso  en  Carrer dels plans 19. Primera planta reformada en venta – calle plans 29, palafrugell Palafrugell - Piverd-Vila-Seca-Bruguerol 84m 2 - 3 habitaciones - 2 baños - 1.786€/m 2 Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunida... Premium Añadir a favoritos 150.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-primera_planta_reformada_en_venta_calle_plans_29_calle_dels_plans_19_piverd_vila_seca_bruguerol-palafrugell-i11955004443558.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": true,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": true,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/11955-1.gif",
-   "habitaciones": 3,
-   "id": "df11a0fdeb94",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 84,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0444355816000055",
-    "habitaclia:0444355916000055",
-    "habitaclia:4443546160000159",
-    "habitaclia:4443557160000159",
-    "habitaclia:4443558160000159",
-    "habitaclia:4443559160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 150000,
-   "precio_anterior": null,
-   "precio_m2": 1786,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  en  Carrer dels plans 19. Primera planta reformada en venta – calle plans 29, palafrugell",
    "zona": null
   },
   "df686066010f": {
@@ -11212,9 +11004,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/5498-2984654/de-pi-i-margall-piso-palafrugell_03a05ae9-4833-479e-96ed-cc83d276771e.jpg",
+   "foto": "https://images.habimg.com/imgh/5498-2984654/de-pi-i-margall-piso-palafrugell_03a05ae9-4833-479e-96ed-cc83d276771e.jpg",
    "habitaciones": 1,
    "id": "df686066010f",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11265,6 +11058,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/04/87/60/1441067252.webp",
    "habitaciones": 3,
    "id": "e03489fae053",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11315,6 +11109,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/29/5b/b3/1319671707.webp",
    "habitaciones": 1,
    "id": "e0714445a5be",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11363,9 +11158,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/41124-99663/solvia-inmobiliaria-piso-palafrugell-palafrugell_606c55a1-118c-4e2b-bfa4-d96a59643e40.jpg",
+   "foto": "https://images.habimg.com/imgh/41124-99663/solvia-inmobiliaria-piso-palafrugell-palafrugell_606c55a1-118c-4e2b-bfa4-d96a59643e40.jpg",
    "habitaciones": 3,
    "id": "e07196d8f297",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11414,9 +11210,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/15934-1.gif",
+   "foto": null,
    "habitaciones": 3,
    "id": "e0ae26c899b2",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11465,9 +11262,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443559/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_745023fc-25c8-4ee2-8502-70235fd6e6de.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443559/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_745023fc-25c8-4ee2-8502-70235fd6e6de.jpg",
    "habitaciones": 3,
    "id": "e177d973227a",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11515,9 +11313,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/55381-1.gif",
+   "foto": null,
    "habitaciones": 1,
    "id": "e1c71279bd57",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11566,9 +11365,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/27367-4443690/estudio-en-venta-en-torroella-de-montgriestudio-de-52m2-construi-torroella-de-montgri_c0968cfe-cb7e-4df5-94d9-23027c812fba.jpg",
+   "foto": "https://images.habimg.com/imgh/27367-4443690/estudio-en-venta-en-torroella-de-montgriestudio-de-52m2-construi-torroella-de-montgri_c0968cfe-cb7e-4df5-94d9-23027c812fba.jpg",
    "habitaciones": null,
    "id": "e21c2de16797",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11627,6 +11427,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/d0/4f/b0/1399368278.webp",
    "habitaciones": 2,
    "id": "e319931879a7",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.04193601589388,
    "lon": 3.194260829714767,
@@ -11679,9 +11480,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/43082-1403/piso-en-venta-en-calle-marcal-de-la-trinxeria-palafrugell-giron-palafrugell_9ea8b4f6-3e3f-4e73-a507-893c2e0a57f7.jpg",
+   "foto": "https://images.habimg.com/imgh/43082-1403/piso-en-venta-en-calle-marcal-de-la-trinxeria-palafrugell-giron-palafrugell_9ea8b4f6-3e3f-4e73-a507-893c2e0a57f7.jpg",
    "habitaciones": 4,
    "id": "e3ab9cbfd832",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11733,6 +11535,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/54/6b/9f/1354311319.webp",
    "habitaciones": 1,
    "id": "e3e6282debfe",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11753,57 +11556,6 @@
    "preferente": false,
    "tipo": "piso",
    "titulo": "Piso en Calle Major, 15, Calonge Poble, Calonge",
-   "zona": null
-  },
-  "e50182199829": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Torroella de Montgrí Piso  Codina. Estudio en venta en torroella de montgríestudio de 52m2 construi Torroella de Montgrí 52m 2 - 1 baño - 2.231€/m 2 Estudio en venta en Torroella de Montgrí Estudio de 52 m2 construidos, amplio, con cedula de habitabilidad, precioso en venta c... Añadir a favoritos 116.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-estudio_en_venta_en_estudio_de_52m2_construi-torroella_de_montgri-i27367004443690.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/27367-1.gif",
-   "habitaciones": null,
-   "id": "e50182199829",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 52,
-   "minutos": 14,
-   "municipio": "Torroella de Montgrí",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0444369016000055",
-    "habitaclia:4443690160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 116000,
-   "precio_anterior": null,
-   "precio_m2": 2231,
-   "preferente": false,
-   "tipo": "estudio",
-   "titulo": "Piso  Codina. Estudio en venta en torroella de montgríestudio de 52m2 construi",
    "zona": null
   },
   "e59f2fd20ad7": {
@@ -11832,9 +11584,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/17949-2193/platja-daroapartamento-platja-d-aro_85150563-6c82-4e89-a108-5bad07c8eeba.jpg",
+   "foto": "https://images.habimg.com/imgh/17949-2193/platja-daroapartamento-platja-d-aro_85150563-6c82-4e89-a108-5bad07c8eeba.jpg",
    "habitaciones": 1,
    "id": "e59f2fd20ad7",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11889,6 +11642,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/a2/ee/ac/1456272129.webp",
    "habitaciones": 1,
    "id": "e654058588fd",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": 42.0497796,
    "lon": 3.1902557,
@@ -11939,9 +11693,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13805-5832/piso-rustico-en-bellcaire-demporda-bellcaire-d-emporda_00fc27b8-3d84-4c85-99fb-3d963dbd27f3.jpg",
+   "foto": "https://images.habimg.com/imgh/13805-5832/piso-rustico-en-bellcaire-demporda-bellcaire-d-emporda_00fc27b8-3d84-4c85-99fb-3d963dbd27f3.jpg",
    "habitaciones": 2,
    "id": "e663c532a3eb",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -11992,6 +11747,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/3230323630373037/345f85b5-b7e7-48fe-b1c5-abb207742992.jpg",
    "habitaciones": 2,
    "id": "e675b57a978d",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12026,6 +11782,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/torroella-de-montgri/torroella-de-montgri/188976834/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-estudio_en_venta_en_estudio_de_52m2_construi-torroella_de_montgri-i27367004443690.htm"
     }
    ],
    "extras": {
@@ -12046,6 +11806,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/32/28/5b/1415241261.webp",
    "habitaciones": null,
    "id": "e82949652042",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.041629539418935,
    "lon": 3.1253579922507044,
@@ -12056,10 +11817,13 @@
    "planta": null,
    "portal_ids": [
     "fotocasa:188976834",
+    "habitaclia:0444369016000055",
+    "habitaclia:4443690160000159",
     "idealista:110778219"
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 116000,
@@ -12110,6 +11874,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/8c/8a/2e/1452348677.webp",
    "habitaciones": 4,
    "id": "e86142ed8309",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.91755265901399,
    "lon": 3.1578669110391573,
@@ -12150,6 +11915,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/terraza-ascensor/190142487/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-amplio_para_reformar_a_la_venta_en_la_punxa-palafrugell-i45161000000727.htm"
     }
    ],
    "extras": {
@@ -12170,6 +11939,7 @@
    "foto": "https://static.fotocasa.es/images/ads/6b934c40-5802-4879-8240-e13a6631de83?rule=original",
    "habitaciones": 2,
    "id": "ec837fde874f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.918701479737905,
    "lon": 3.1569856025352006,
@@ -12179,10 +11949,14 @@
    "nuevo": true,
    "planta": null,
    "portal_ids": [
-    "fotocasa:190142487"
+    "fotocasa:190142487",
+    "habitaclia:0000072716000055",
+    "habitaclia:0000727160000159",
+    "habitaclia:4151348160000159"
    ],
    "portales": [
-    "fotocasa"
+    "fotocasa",
+    "habitaclia"
    ],
    "precio": 134000,
    "precio_anterior": null,
@@ -12220,6 +11994,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/eb/1a/6f/1250682050.webp",
    "habitaciones": 2,
    "id": "ecdfb183c58f",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12240,57 +12015,6 @@
    "preferente": true,
    "tipo": "piso",
    "titulo": "Piso en Passatge Rutlla, Sant Joan-Vilarromà, Palamós",
-   "zona": null
-  },
-  "ee2c333ed2a8": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  De pi i margall Palafrugell - La Punxa 50m 2 - 1 habitacion - 1 baño - 3.200€/m 2 EN PROYECTO, EXCLUSIVAS VIVIENDAS DE OBRA NUEVA CON TERRAZAS Y PÁRQUING EN PALAFRUGELL  Descubre esta exclusiva promoción de o... actualizado hace 13 días Añadir a favoritos 160.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-la_punxa-palafrugell-i5498002984654.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": true,
-    "piscina": false,
-    "reformado": true,
-    "terraza": true,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/5498-1.gif",
-   "habitaciones": 1,
-   "id": "ee2c333ed2a8",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 50,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0298465416000055",
-    "habitaclia:2984654160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 160000,
-   "precio_anterior": null,
-   "precio_m2": 3200,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  De pi i margall",
    "zona": null
   },
   "ee4fc5193f12": {
@@ -12319,9 +12043,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443554/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_a292d59b-9aa2-47af-9ebe-153d8ae77154.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443554/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_a292d59b-9aa2-47af-9ebe-153d8ae77154.jpg",
    "habitaciones": 3,
    "id": "ee4fc5193f12",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12372,6 +12097,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/37/6e/9e/1452029765.webp",
    "habitaciones": null,
    "id": "eee9af6692dc",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12420,9 +12146,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/28475-224/pis-1-habitacio-torroella-de-montgri-torroella-de-montgri_32d9e544-e9b1-426c-a2ea-5ce72eef3490.jpg",
+   "foto": "https://images.habimg.com/imgh/28475-224/pis-1-habitacio-torroella-de-montgri-torroella-de-montgri_32d9e544-e9b1-426c-a2ea-5ce72eef3490.jpg",
    "habitaciones": 1,
    "id": "ef7562b3a63a",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12471,9 +12198,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/50647-24951/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_b090ad9f-9898-4d87-b29a-af26782beadb.jpg",
+   "foto": "https://images.habimg.com/imgh/50647-24951/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_b090ad9f-9898-4d87-b29a-af26782beadb.jpg",
    "habitaciones": 2,
    "id": "efe4ed50f080",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12525,9 +12253,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/17949-2277/platja-daroestudio-platja-d-aro_397ba0f0-9c8e-43d0-bda3-8626a5cfa60e.jpg",
+   "foto": "https://images.habimg.com/imgh/17949-2277/platja-daroestudio-platja-d-aro_397ba0f0-9c8e-43d0-bda3-8626a5cfa60e.jpg",
    "habitaciones": null,
    "id": "f0b71fc47a62",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12548,56 +12277,6 @@
    "preferente": false,
    "tipo": "estudio",
    "titulo": "Estudio  en  Centre-Platja. Platja daroestudio",
-   "zona": null
-  },
-  "f0bd12eefc05": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Ático  Carrer doctor josep maria vilaseca. Encantador piso en calonge, a un paso de la playa Calonge - Poble 39m 2 - 2 habitaciones - 2 baños - 2.744€/m 2 Si estás buscando comprar piso en Calonge, te presentamos una oportunidad única que combina la tranquilidad de vivir cerca de la... Prioritario Añadir a favoritos 107.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-atico-encantador_piso_en_a_un_paso_de_la_playa_poble-calonge-i44863000000101.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/44863-1.gif",
-   "habitaciones": 2,
-   "id": "f0bd12eefc05",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 39,
-   "minutos": 20,
-   "municipio": "Calonge i Sant Antoni",
-   "nuevo": false,
-   "planta": "Ático",
-   "portal_ids": [
-    "habitaclia:0000010116000055"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 107000,
-   "precio_anterior": null,
-   "precio_m2": 2744,
-   "preferente": false,
-   "tipo": "ático",
-   "titulo": "Ático  Carrer doctor josep maria vilaseca. Encantador piso en calonge, a un paso de la playa",
    "zona": null
   },
   "f12107fded7d": {
@@ -12626,9 +12305,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/39291-195/piso-grande-para-reformar-palafrugell_725c02dc-4862-4675-aba4-911e1508d0f7.jpg",
+   "foto": "https://images.habimg.com/imgh/39291-195/piso-grande-para-reformar-palafrugell_725c02dc-4862-4675-aba4-911e1508d0f7.jpg",
    "habitaciones": 4,
    "id": "f12107fded7d",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12651,107 +12331,6 @@
    "titulo": "Piso  en  La Punxa. Piso grande para reformar",
    "zona": null
   },
-  "f133f5c18db8": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  en  Molí de Vent-La Sauleda. Oportunidad en palafrugell! piso amplio y luminoso para reformar Palafrugell - Molí de Vent-La Sauleda 84m 2 - 3 habitaciones - 1 baño - 1.167€/m 2 ¿Buscas una vivienda con potencial para diseñar a tu medida en una zona tranquila y bien comunicada? Este piso de 84 m² en la C... Añadir a favoritos 98.000 € ha bajado 3.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-para_reformar_a_la_venta_en-palafrugell-i45161000000722.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/45161-1.gif",
-   "habitaciones": 3,
-   "id": "f133f5c18db8",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 84,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000722160000159",
-    "habitaclia:0001151160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 98000,
-   "precio_anterior": null,
-   "precio_m2": 1167,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  en  Molí de Vent-La Sauleda. Piso para reformar a la venta en palafrugell",
-   "zona": null
-  },
-  "f280ac63cfa0": {
-   "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Apartamento  en  Piverd-Vila-Seca-Bruguerol. Piso reformado con parking Palafrugell - Piverd-Vila-Seca-Bruguerol 65m 2 - 2 habitaciones - 1 baño - 2.000€/m 2 PISO REFORMADO soleado. Se trata de una vivienda situada cerca de la Avenida Garcia Lorca de Palafrugell, a un paso de los super... Añadir a favoritos 130.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-apartamento-piso_reformado_con_parking-palafrugell-i53343000000196.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": true,
-    "piscina": false,
-    "reformado": true,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/53343-1.gif",
-   "habitaciones": 2,
-   "id": "f280ac63cfa0",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 65,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000196160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 130000,
-   "precio_anterior": null,
-   "precio_m2": 2000,
-   "preferente": true,
-   "tipo": "apartamento",
-   "titulo": "Apartamento  en  Piverd-Vila-Seca-Bruguerol. Piso reformado con parking",
-   "zona": null
-  },
   "f34cdee2be59": {
    "activo": true,
    "banos": 2,
@@ -12764,6 +12343,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-no-amueblado/186704672/d"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-primera_planta_reformada_en_venta_calle_plans_29_calle_dels_plans_19_piverd_vila_seca_bruguerol-palafrugell-i11955004443558.htm"
     }
    ],
    "extras": {
@@ -12784,6 +12367,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/81/d5/1f/1342847459.webp",
    "habitaciones": 3,
    "id": "f34cdee2be59",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.9139956,
    "lon": 3.1704637,
@@ -12797,6 +12381,12 @@
     "fotocasa:186704672",
     "fotocasa:186706428",
     "fotocasa:186706929",
+    "habitaclia:0444355816000055",
+    "habitaclia:0444355916000055",
+    "habitaclia:4443546160000159",
+    "habitaclia:4443557160000159",
+    "habitaclia:4443558160000159",
+    "habitaclia:4443559160000159",
     "idealista:107799452",
     "idealista:108390659",
     "idealista:108393436",
@@ -12804,6 +12394,7 @@
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista"
    ],
    "precio": 150000,
@@ -12840,9 +12431,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/11955-4443553/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_284b002f-1ce4-430d-a78b-7b01bb0da9a7.jpg",
+   "foto": "https://images.habimg.com/imgh/11955-4443553/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_284b002f-1ce4-430d-a78b-7b01bb0da9a7.jpg",
    "habitaciones": 3,
    "id": "f6f0b03640e0",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12894,6 +12486,7 @@
    "foto": "https://static.fotocasa.es/images/ads/60e4d01d-d92f-4878-9a62-30cd98f8e9ba?rule=original",
    "habitaciones": null,
    "id": "f810884828d5",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 42.041534464137435,
    "lon": 3.1962927063193827,
@@ -12942,9 +12535,10 @@
     "vistas_mar": true
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/13158-374/estudio-en-primera-linea-de-mar-en-el-corazon-de-platja-daro-platja-d-aro_60972925-d62a-405a-ae70-01b25a7b4059.jpg",
+   "foto": "https://images.habimg.com/imgh/13158-374/estudio-en-primera-linea-de-mar-en-el-corazon-de-platja-daro-platja-d-aro_60972925-d62a-405a-ae70-01b25a7b4059.jpg",
    "habitaciones": 1,
    "id": "f8aca348ad01",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -12967,106 +12561,6 @@
    "titulo": "Piso  Av de la ciutat de girona. Estudio en primera línea de mar en el corazón de platja daro.",
    "zona": null
   },
-  "f955f5a39f41": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Piso  en  Camí dels plans 29a. Piso reformado en edificio con ascensor – primera planta – listo Palafrugell - Piverd-Vila-Seca-Bruguerol 71m 2 - 3 habitaciones - 2 baños - 2.113€/m 2 Ponemos a la venta 19 viviendas en un edificio con ascensor, construido en 2006 y rehabilitado íntegramente en 2025, ubicado en... Añadir a favoritos 150.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-reformado_en_edificio_con_ascensor_primera_planta_listo_cami_dels_plans_29a-palafrugell-i11955004443550.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": true,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": true,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/11955-1.gif",
-   "habitaciones": 3,
-   "id": "f955f5a39f41",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 71,
-   "minutos": 5,
-   "municipio": "Palafrugell",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:4443550160000159"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 150000,
-   "precio_anterior": null,
-   "precio_m2": 2113,
-   "preferente": true,
-   "tipo": "piso",
-   "titulo": "Piso  en  Camí dels plans 29a. Piso reformado en edificio con ascensor – primera planta – listo",
-   "zona": null
-  },
-  "fdc27dec41e7": {
-   "activo": true,
-   "banos": 2,
-   "descripcion": "Estudio  en  Carrer dels horts 1. Estudio en venta en pals Pals 70m 2 - 2 baños - 2.071€/m 2 Local diáfano en planta baja a nivel de calle, con todas las comodidades para habilitar como vivienda. Dispone de todos los ser... Añadir a favoritos 145.000 € Avísame si baja",
-   "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-estudio-en_venta_en_calle_dels_horts_1-pals-i38277000001104.htm"
-    }
-   ],
-   "extras": {
-    "aire": false,
-    "amueblado": false,
-    "ascensor": false,
-    "balcon": false,
-    "calefaccion": false,
-    "jardin": false,
-    "parking": false,
-    "piscina": false,
-    "reformado": false,
-    "terraza": false,
-    "trastero": false,
-    "vistas_mar": false
-   },
-   "first_seen": "2026-08-17",
-   "foto": "//static.habimg.com/hab_logos/38277-1.gif",
-   "habitaciones": null,
-   "id": "fdc27dec41e7",
-   "last_seen": "2026-08-17",
-   "lat": null,
-   "lon": null,
-   "m2": 70,
-   "minutos": 7,
-   "municipio": "Pals",
-   "nuevo": false,
-   "planta": null,
-   "portal_ids": [
-    "habitaclia:0000110416000055"
-   ],
-   "portales": [
-    "habitaclia"
-   ],
-   "precio": 145000,
-   "precio_anterior": null,
-   "precio_m2": 2071,
-   "preferente": true,
-   "tipo": "estudio",
-   "titulo": "Estudio  en  Carrer dels horts 1. Estudio en venta en pals",
-   "zona": null
-  },
   "fdebe6c94181": {
    "activo": true,
    "banos": 1,
@@ -13083,6 +12577,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-61692079744_105900/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-solvia_inmobiliaria-palafrugell-i41124000099663.htm"
     }
    ],
    "extras": {
@@ -13103,6 +12601,7 @@
    "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/44/87/6d/1218910824.webp",
    "habitaciones": 3,
    "id": "fdebe6c94181",
+   "ideal": false,
    "last_seen": "2026-08-17",
    "lat": 41.913809226914715,
    "lon": 3.170622911658845,
@@ -13114,6 +12613,8 @@
    "portal_ids": [
     "fotocasa:189388796",
     "fotocasa:189389137",
+    "habitaclia:0056602160000159",
+    "habitaclia:0099663160000159",
     "idealista:102170359",
     "idealista:111204760",
     "idealista:111205227",
@@ -13122,6 +12623,7 @@
    ],
    "portales": [
     "fotocasa",
+    "habitaclia",
     "idealista",
     "pisos"
    ],
@@ -13159,9 +12661,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "//images.habimg.com/imgh/28475-224/pis-1-habitacio-torroella-de-montgri-torroella-de-montgri_32d9e544-e9b1-426c-a2ea-5ce72eef3490.jpg",
+   "foto": "https://images.habimg.com/imgh/28475-224/pis-1-habitacio-torroella-de-montgri-torroella-de-montgri_32d9e544-e9b1-426c-a2ea-5ce72eef3490.jpg",
    "habitaciones": 1,
    "id": "fe05118fefdd",
+   "ideal": true,
    "last_seen": "2026-08-17",
    "lat": null,
    "lon": null,
@@ -13185,5 +12688,5 @@
    "zona": null
   }
  },
- "ultima_actualizacion": "2026-08-17T11:15:31"
+ "ultima_actualizacion": "2026-08-17T20:48:15"
 }
