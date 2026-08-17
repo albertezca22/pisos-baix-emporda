@@ -333,11 +333,58 @@ def consolidacion():
     comprueba("No inventa fusiones cuando no las hay", f2 == 0 and len(r2) == 1)
 
 
+def marcas_reencaminadas():
+    """Una marca publicada contra un anuncio que luego se fundió con otro."""
+    alias = {}
+    viejo = {"id": "hab9", "activo": True, "nuevo": False, "first_seen": "2026-08-15",
+             "titulo": "Piso en Carrer Nou 4", "precio": 100_000, "m2": 60,
+             "habitaciones": 2, "banos": 1, "planta": None, "municipio": "Palafrugell",
+             "minutos": 5, "zona": None, "extras": {}, "lat": None, "lon": None,
+             "foto": None, "enlaces": [{"portal": "habitaclia", "url": "https://h/9"}],
+             "portales": ["habitaclia"], "portal_ids": ["habitaclia:9"]}
+    nuevo = dict(viejo, id="ide9", first_seen="2026-08-17",
+                 titulo="Piso en Carrer Nou, 4, Palafrugell",
+                 enlaces=[{"portal": "idealista", "url": "https://i/9"}],
+                 portales=["idealista"], portal_ids=["idealista:9"], extras={})
+
+    # Con una marca puesta, sobrevive la ficha marcada: así no hay nada que
+    # reencaminar y la marca se queda donde Albert la dejó.
+    marcas = {"destacados": [], "favoritos": ["ide9"], "notas": {}}
+    pl.consolida([viejo, nuevo], marcas, "2026-08-17", alias)
+
+    comprueba("Sobrevive la ficha marcada y se anota a quién sustituye",
+              alias.get("hab9") == "ide9", alias)
+    comprueba("El favorito se queda donde estaba",
+              marcas["favoritos"] == ["ide9"], marcas["favoritos"])
+
+    # Sin marcas de por medio sobrevive la más antigua.
+    alias2 = {}
+    sin_marcas = {"destacados": [], "favoritos": [], "notas": {}}
+    pl.consolida([dict(viejo), dict(nuevo)], sin_marcas, "2026-08-17", alias2)
+    comprueba("Sin marcas sobrevive la ficha más antigua",
+              alias2.get("ide9") == "hab9", alias2)
+
+    # Una marca publicada MÁS TARDE contra el identificador ya absorbido.
+    tardias = {"destacados": ["ide9"], "favoritos": ["ide9", "hab9"], "notas": {}}
+    cambiadas = pl.resuelve_marcas(tardias, {"ide9": "hab9"})
+    comprueba("Una marca publicada tarde contra el id absorbido se reencamina",
+              tardias["destacados"] == ["hab9"] and cambiadas >= 1, tardias["destacados"])
+    comprueba("Y no se duplica si ya estaba la buena",
+              tardias["favoritos"] == ["hab9"], tardias["favoritos"])
+
+    # Cadena: a -> b -> c
+    encadenado = {"destacados": ["a"], "favoritos": [], "notas": {}}
+    pl.resuelve_marcas(encadenado, {"a": "b", "b": "c"})
+    comprueba("Sigue cadenas de fusiones", encadenado["destacados"] == ["c"],
+              encadenado["destacados"])
+
+
 con_estado_temporal(escenario)
 dedupe()
 ideales()
 fijados()
 consolidacion()
+marcas_reencaminadas()
 
 print()
 ok = True

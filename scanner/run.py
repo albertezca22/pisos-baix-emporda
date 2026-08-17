@@ -83,9 +83,20 @@ def main():
     marcas = pl.carga_json(cfg.FICHERO_MARCAS,
                            {"destacados": [], "favoritos": [], "notas": {}})
 
+    # Las marcas publicadas apuntan a un identificador. Si el piso se fundió
+    # con otro desde entonces, se reencaminan en vez de perderse.
+    alias = pl.carga_alias()
+    reencaminadas = pl.resuelve_marcas(marcas, alias)
+
     # Segunda pasada de deduplicado, ahora contra el histórico: el mismo piso
     # puede venir hoy de Idealista y estar guardado de ayer por Habitaclia.
-    fichas, refundidas = pl.consolida(fichas, marcas, hoy)
+    fichas, refundidas = pl.consolida(fichas, marcas, hoy, alias)
+
+    # Lo que Albert ha publicado, antes de sumarle los fijados: es lo único que
+    # debe volver a data/marks.json.
+    marcas_publicadas = {"destacados": list(marcas["destacados"]),
+                         "favoritos": list(marcas["favoritos"]),
+                         "notas": marcas.get("notas", {})}
 
     # Saneamos las fotos de todo, también de lo que venía del histórico: así se
     # limpian los logos de agencia que se colaron antes de filtrarlos.
@@ -104,7 +115,13 @@ def main():
     # encontrado el escaneo o no.
     fichas, fij = pl.aplica_fijados(fichas, marcas, hoy)
 
-    pl.guarda_estado(fichas)
+    pl.guarda_estado(fichas, alias)
+
+    # Si alguna marca ha cambiado de sitio, se deja arreglada en el fichero
+    # para que la próxima vez ya apunte bien.
+    if reencaminadas:
+        pl.guarda_json(cfg.FICHERO_MARCAS, marcas_publicadas)
+
     activos = [f for f in fichas if f.get("activo")]
     nuevos = [f for f in activos if f.get("nuevo")]
 

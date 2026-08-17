@@ -513,7 +513,35 @@ def procesa(brutos):
     return fichas, stats
 
 
-def consolida(fichas, marcas, hoy):
+def carga_alias():
+    """Identificadores absorbidos por el deduplicado -> el que los sustituye."""
+    return dict((carga_json(cfg.FICHERO_ESTADO, {}) or {}).get("alias") or {})
+
+
+def resuelve_marcas(marcas, alias):
+    """Traduce las marcas cuyo piso se fundió con otro.
+
+    Albert publica estrellas y favoritos por identificador. Si después el
+    deduplicado funde ese anuncio con otro, la marca apuntaría a una ficha que
+    ya no existe y desaparecería de la web sin avisar. Aquí se reencaminan.
+    """
+    cambiadas = 0
+    for clave in ("destacados", "favoritos"):
+        salida, vistos = [], set()
+        for ident in marcas.get(clave) or []:
+            destino, saltos = ident, 0
+            while destino in alias and saltos < 10:   # cadenas de absorciones
+                destino, saltos = alias[destino], saltos + 1
+            if destino != ident:
+                cambiadas += 1
+            if destino not in vistos:
+                vistos.add(destino)
+                salida.append(destino)
+        marcas[clave] = sorted(salida)
+    return cambiadas
+
+
+def consolida(fichas, marcas, hoy, alias=None):
     """Segunda pasada de deduplicado, ya sobre el conjunto completo.
 
     agrupa() solo compara los anuncios del escaneo en curso. Como el Mac y
@@ -522,6 +550,7 @@ def consolida(fichas, marcas, hoy):
     juntan, y las estrellas y favoritos de la ficha absorbida se trasladan a la
     que sobrevive para que no se pierda ninguna marca.
     """
+    alias = {} if alias is None else alias
     activos = [f for f in fichas if f.get("activo")]
     for f in activos:
         f["municipio_norm"] = f.get("municipio")
@@ -561,6 +590,9 @@ def consolida(fichas, marcas, hoy):
             if otra["id"] in favoritos:
                 favoritos.discard(otra["id"]); favoritos.add(principal["id"])
             absorbidas.add(otra["id"])
+            # Se anota para siempre: una marca publicada mañana contra el
+            # identificador viejo seguirá encontrando su piso.
+            alias[otra["id"]] = principal["id"]
             fundidas += 1
 
         principal["portales"] = sorted({e["portal"] for e in principal["enlaces"]})
@@ -654,7 +686,7 @@ def aplica_historico(fichas, hoy, portales_cubiertos):
     return resultado
 
 
-def guarda_estado(fichas):
+def guarda_estado(fichas, alias=None):
     """Reescribe el histórico. Se llama después de consolidar, para que las
     fichas absorbidas no vuelvan a aparecer mañana."""
     for f in fichas:
@@ -662,5 +694,6 @@ def guarda_estado(fichas):
         f.pop("municipio_norm", None)
     guarda_json(cfg.FICHERO_ESTADO, {
         "anuncios": {f["id"]: f for f in fichas},
+        "alias": alias or {},
         "ultima_actualizacion": datetime.now().isoformat(timespec="seconds"),
     })

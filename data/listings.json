@@ -1,4 +1,9 @@
 {
+ "alias": {
+  "91d5e89d9a03": "56e07e643706",
+  "a16dc04cb76e": "56e07e643706",
+  "b8f3d9a2d450": "34c180fd4588"
+ },
  "anuncios": {
   "02b8e3f9a729": {
    "activo": false,
@@ -12509,5 +12514,5 @@
    "zona": null
   }
  },
- "ultima_actualizacion": "2026-08-17T21:15:45"
+ "ultima_actualizacion": "2026-08-17T22:24:27"
 }
