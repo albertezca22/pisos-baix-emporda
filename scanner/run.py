@@ -72,6 +72,14 @@ def main():
     fichas, stats = pl.procesa(brutos)
     fichas = pl.aplica_historico(fichas, hoy, cubiertos)
 
+    # Saneamos las fotos de todo, también de lo que venía del histórico: así se
+    # limpian los logos de agencia que se colaron antes de filtrarlos.
+    logos = 0
+    for f in fichas:
+        buena = portals.foto_valida(f.get("foto"))
+        logos += bool(f.get("foto")) and not buena
+        f["foto"] = buena
+
     marcas = pl.carga_json(cfg.FICHERO_MARCAS,
                            {"destacados": [], "favoritos": [], "notas": {}})
 
@@ -97,6 +105,7 @@ def main():
             "activos": len(activos),
             "nuevos_hoy": len(nuevos),
             "historico": len(fichas),
+            "con_foto": sum(1 for f in activos if f.get("foto")),
             "fijados_encontrados": fij["encontrados"],
             "fijados_anadidos": fij["anadidos"],
             **stats,
@@ -127,6 +136,9 @@ def main():
     print(f"  Duplicados fundidos .. {stats['duplicados_fundidos']}")
     print(f"  Fijados por Albert ... {fij['encontrados']} encontrados, "
           f"{fij['anadidos']} añadidos a mano")
+    con_foto = sum(1 for f in activos if f.get("foto"))
+    print(f"  Con foto ............. {con_foto}/{len(activos)}"
+          + (f"  ({logos} logos de agencia descartados)" if logos else ""))
     print(f"  Descartados: fuera de zona {stats['fuera_zona']} | "
           f"no piso {stats['no_piso']} | precio {stats['precio']} | raros {stats['raros']}")
     if stats["motivos_raros"]:

@@ -72,7 +72,12 @@
   .marco-foto img{width:100%; height:100%; object-fit:cover; display:block}
   .sin-foto{display:flex; align-items:center; justify-content:center; height:100%; color:var(--tenue); font-size:12px}
 
-  .distintivos{position:absolute; top:9px; left:9px; display:flex; gap:5px; flex-wrap:wrap}
+  /* El hueco de la derecha es de los botones de estrella y favorito: las
+     etiquetas no pueden llegar hasta ahí o se solapan en pantallas estrechas. */
+  .distintivos{
+    position:absolute; top:9px; left:9px; display:flex; gap:5px; flex-wrap:wrap;
+    max-width:calc(100% - 84px);
+  }
   .distintivo{font-size:10px; font-weight:700; letter-spacing:.6px; text-transform:uppercase; padding:3px 7px; border-radius:5px; background:rgba(17,18,20,.78); color:#fff; backdrop-filter:blur(3px)}
   .distintivo.oro{background:var(--oro)} .distintivo.verde{background:var(--verde)}
   .distintivo.gris{background:rgba(70,74,80,.85)}
@@ -161,6 +166,12 @@
     }
     main{padding:14px}
     .rejilla{grid-template-columns:repeat(auto-fill,minmax(158px,1fr)); gap:11px}
+    .largo{display:none}
+    .distintivo{font-size:9.5px; padding:2px 5px; letter-spacing:.4px}
+    .distintivos{max-width:calc(100% - 78px); gap:4px}
+    .boton-marca{width:28px; height:28px; font-size:14px}
+    .acciones{top:7px; right:7px; gap:4px}
+    .distintivos{top:7px; left:7px}
     .cifras{gap:16px; margin:12px 0 10px}
     .cifra b{font-size:18px}
     .precio{font-size:16px}
@@ -458,9 +469,11 @@
 
     const distintivos = [];
     if (nuevo) distintivos.push('<span class="distintivo oro">Nuevo</span>');
-    if (a.fijado) distintivos.push('<span class="distintivo verde">Fijado por Albert</span>');
-    else if (fav) distintivos.push('<span class="distintivo verde">Favorito de Albert</span>');
-    if (a.fuera_de_criterios) distintivos.push('<span class="distintivo gris">Sobre presupuesto</span>');
+    // El trozo .largo se oculta en móvil: la tarjeta es demasiado estrecha
+    // para "Fijado por Albert" sin comerse los botones.
+    if (a.fijado) distintivos.push('<span class="distintivo verde">Fijado<span class="largo"> por Albert</span></span>');
+    else if (fav) distintivos.push('<span class="distintivo verde">Favorito<span class="largo"> de Albert</span></span>');
+    if (a.fuera_de_criterios) distintivos.push('<span class="distintivo gris">Sobre<span class="largo"> presupuesto</span></span>');
     if (!a.activo) distintivos.push('<span class="distintivo gris">Retirado</span>');
     if (a.preferente && !nuevo && !fav) distintivos.push('<span class="distintivo">Zona top</span>');
 

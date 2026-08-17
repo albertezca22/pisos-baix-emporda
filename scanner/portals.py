@@ -181,6 +181,46 @@ def tipo_de(texto):
     return None
 
 
+RECHAZA_FOTO = ("hab_logos", "/logo", "logo.", "placeholder", "no-photo",
+                "sin-foto", "nofoto", "blank.", "default.", "sprite", ".svg")
+
+
+def foto_valida(url):
+    """Descarta logos de agencia y marcadores de hueco.
+
+    Habitaclia sirve el logo de la inmobiliaria en el mismo sitio donde
+    esperarías la foto del piso; enseñarlo era peor que no enseñar nada.
+    """
+    if not url:
+        return None
+    u = str(url).strip()
+    if u.startswith("//"):
+        u = "https:" + u
+    bajo = u.lower()
+    if any(m in bajo for m in RECHAZA_FOTO) or bajo.endswith(".gif"):
+        return None
+    return u if u.startswith("http") else None
+
+
+def _foto_de_nodo(nodo):
+    """Primera imagen aprovechable de un bloque, mirando también los atributos
+    de carga diferida que usan los portales."""
+    if nodo is None:
+        return None
+    for el in nodo.find_all(["img", "source"]):
+        for atributo in ("data-ondemand-img", "data-src", "data-original",
+                         "data-lazy", "data-srcset", "srcset", "src"):
+            valor = el.get(atributo)
+            if not valor:
+                continue
+            # srcset trae varias medidas: "url 320w, url 640w"
+            candidata = str(valor).split(",")[0].strip().split(" ")[0]
+            buena = foto_valida(candidata)
+            if buena:
+                return buena
+    return None
+
+
 def _abs(base, href):
     if not href:
         return None
@@ -234,11 +274,7 @@ def idealista(informe):
             partes = [p.strip() for p in titulo.split(",") if p.strip()]
             municipio = partes[-1] if len(partes) > 1 else None
 
-            foto = None
-            img = art.select_one("picture img, img")
-            if img:
-                foto = (img.get("data-ondemand-img") or img.get("data-src")
-                        or img.get("src"))
+            foto = _foto_de_nodo(art)
 
             out.append({
                 "portal": "idealista",
@@ -388,11 +424,13 @@ def fotocasa(informe):
             if isinstance(detalle, dict):
                 detalle = detalle.get("es-ES") or next(iter(detalle.values()), None)
 
-            multi = reg.get("multimedia") or []
+            # multimedia trae la galería completa: nos vale la primera imagen.
             foto = None
-            if isinstance(multi, list) and multi:
-                primero = multi[0]
-                foto = primero.get("src") if isinstance(primero, dict) else primero
+            for medio in (reg.get("multimedia") or []):
+                bruta = medio.get("src") if isinstance(medio, dict) else medio
+                foto = foto_valida(bruta)
+                if foto:
+                    break
 
             hab, banos, m2, extras_portal = _fotocasa_features(reg)
             subtipo = reg.get("buildingSubtype") or reg.get("buildingType")
@@ -444,6 +482,30 @@ def fotocasa(informe):
 
 # --- pisos.com -------------------------------------------------------------
 
+def _pisos_fotos(sopa):
+    """Mapa enlace -> foto del inmueble, leído del JSON-LD de la página.
+
+    Las tarjetas de pisos.com no llevan <img>: las imágenes las pinta el
+    navegador después. Pero cada anuncio viene descrito en un bloque
+    application/ld+json que sí trae la foto buena.
+    """
+    fotos = {}
+    for sc in sopa.find_all("script", type="application/ld+json"):
+        try:
+            o = json.loads(sc.string or "")
+        except Exception:
+            continue
+        if isinstance(o, dict) and o.get("url"):
+            imagen = o.get("image")
+            if isinstance(imagen, list):
+                imagen = imagen[0] if imagen else None
+            if isinstance(imagen, dict):
+                imagen = imagen.get("contentUrl") or imagen.get("url")
+            if imagen:
+                fotos[o["url"]] = imagen
+    return fotos
+
+
 def pisos(informe):
     # El tramo "hasta-N" sí filtra por precio aunque el título de la página no
     # cambie. Sin él, las primeras páginas vienen ordenadas por precio alto y
@@ -464,6 +526,7 @@ def pisos(informe):
         tarjetas = sopa.select("div.ad-preview__info")
         if not tarjetas:
             break
+        fotos = _pisos_fotos(sopa)
 
         nuevos = 0
         for info in tarjetas:
@@ -493,12 +556,7 @@ def pisos(informe):
             m = re.search(r"\(([^)]+)\)", loc)
             municipio = (m.group(1) if m else loc).strip() or None
 
-            foto = None
-            cont = info.parent
-            if cont:
-                img = cont.find("img")
-                if img:
-                    foto = img.get("data-src") or img.get("src")
+            foto = foto_valida(fotos.get(href)) or _foto_de_nodo(info.parent)
 
             out.append({
                 "portal": "pisos",
@@ -587,8 +645,7 @@ def habitaclia(informe):
             slug_mun = RE_FICHA_HABITACLIA.search(href).group(1)
 
             titulo = (enlace.get("title") or enlace.get_text(" ", strip=True)).strip()
-            img = tarjeta.find("img") or (tarjeta.parent.find("img") if tarjeta.parent else None)
-            foto = (img.get("data-src") or img.get("src")) if img else None
+            foto = _foto_de_nodo(tarjeta) or _foto_de_nodo(tarjeta.parent)
 
             out.append({
                 "portal": "habitaclia",
@@ -682,10 +739,14 @@ def milanuncios(informe):
                 if isinstance(t, dict):
                     etiquetas[str(t.get("type", "")).lower()] = str(t.get("text", ""))
 
-            imagenes = reg.get("images") or []
-            foto = imagenes[0] if imagenes else None
-            if foto and not str(foto).startswith("http"):
-                foto = "https://" + str(foto)
+            foto = None
+            for imagen in (reg.get("images") or []):
+                bruta = str(imagen)
+                if not bruta.startswith("http"):
+                    bruta = "https://" + bruta
+                foto = foto_valida(bruta)
+                if foto:
+                    break
 
             desc = reg.get("description") or ""
             tipo = tipo_de(f"{reg.get('seoTitle') or ''} {desc[:200]}") or "piso"
