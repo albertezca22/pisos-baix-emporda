@@ -458,7 +458,9 @@
 
     const distintivos = [];
     if (nuevo) distintivos.push('<span class="distintivo oro">Nuevo</span>');
-    if (fav) distintivos.push('<span class="distintivo verde">Favorito de Albert</span>');
+    if (a.fijado) distintivos.push('<span class="distintivo verde">Fijado por Albert</span>');
+    else if (fav) distintivos.push('<span class="distintivo verde">Favorito de Albert</span>');
+    if (a.fuera_de_criterios) distintivos.push('<span class="distintivo gris">Sobre presupuesto</span>');
     if (!a.activo) distintivos.push('<span class="distintivo gris">Retirado</span>');
     if (a.preferente && !nuevo && !fav) distintivos.push('<span class="distintivo">Zona top</span>');
 

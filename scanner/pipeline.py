@@ -32,20 +32,33 @@ def texto_completo(a):
 
 # --- municipio -------------------------------------------------------------
 
-_CANON = {sin_acentos(m): m for m in cfg.MUNICIPIOS}
-_CANON.update({sin_acentos(k): v for k, v in cfg.ALIAS_MUNICIPIOS.items()})
+def clave_municipio(t):
+    """Reduce un nombre de municipio a una forma comparable.
+
+    Cada portal lo escribe a su manera: "La Bisbal d'Empordà",
+    "la_bisbal_d_emporda" (slug de Habitaclia), "Bisbal d´Empordà (La)".
+    Todo acaba en "la bisbal d emporda".
+    """
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", sin_acentos(t))).strip()
+
+
+_CANON = {clave_municipio(m): m for m in cfg.MUNICIPIOS}
+_CANON.update({clave_municipio(k): v for k, v in cfg.ALIAS_MUNICIPIOS.items()})
 
 
 def normaliza_municipio(nombre):
     """Devuelve el nombre canónico del municipio, o None si cae fuera de zona."""
     if not nombre:
         return None
-    limpio = sin_acentos(nombre).strip()
-    limpio = re.sub(r"\s*\(.*?\)\s*", "", limpio).strip()
+    limpio = clave_municipio(re.sub(r"\s*\(.*?\)\s*", " ", str(nombre)))
     if limpio in _CANON:
         return _CANON[limpio]
+    # "Bisbal d'Empordà (La)" -> el artículo va al final
+    m = re.match(r"^(.*?)\s+(la|el|les|els|l)$", limpio)
+    if m and clave_municipio(f"{m.group(2)} {m.group(1)}") in _CANON:
+        return _CANON[clave_municipio(f"{m.group(2)} {m.group(1)}")]
     # "l'estartit - torroella", "palamos centre", etc.
-    for trozo in re.split(r"[-–/,]", limpio):
+    for trozo in re.split(r"[-–/,]", clave_municipio(str(nombre))):
         t = trozo.strip()
         if t in _CANON:
             return _CANON[t]
@@ -102,21 +115,151 @@ def detecta_extras(a):
 
 # --- deduplicado -----------------------------------------------------------
 
-def clave_dedupe(a):
-    """Misma vivienda publicada en varios portales -> misma clave."""
-    mun = sin_acentos(a.get("municipio_norm") or "")
-    precio = a.get("precio") or 0
-    m2 = a.get("m2")
-    hab = a.get("habitaciones")
-    if m2:
-        return f"{mun}|{precio}|{m2}"
-    if hab is not None:
-        return f"{mun}|{precio}|h{hab}"
-    return f"{mun}|{precio}|{sin_acentos(a.get('titulo'))[:40]}"
-
-
 def uid_de(clave):
     return hashlib.sha1(clave.encode("utf-8")).hexdigest()[:12]
+
+
+# --- ¿son el mismo piso? ---------------------------------------------------
+# Un mismo piso puede estar anunciado por tres agencias con precio distinto
+# (149.000 / 150.000), superficie distinta (construida o útil) y títulos que
+# no se parecen en nada. Comparamos varias señales a la vez en lugar de
+# exigir que precio y metros coincidan exactamente.
+
+VIAS = ("calle", "carrer", "avenida", "avinguda", "av", "passeig", "paseo",
+        "plaza", "placa", "rambla", "cami", "camino", "travessia", "travesia",
+        "ronda", "carretera", "ctra", "urbanitzacio", "urbanizacion", "pasaje",
+        "passatge", "baixada", "bajada", "pujada", "riera", "muralla")
+
+ARTICULOS = {"de", "del", "dels", "la", "les", "el", "els", "l", "d", "les", "en"}
+
+RE_NUMERO_VIA = re.compile(r"^(\d{1,4})[a-z]?$")
+
+
+def via_de(a):
+    """Saca (nombre de calle, número) del título. (None, None) si no se ve."""
+    palabras = clave_municipio(f"{a.get('titulo') or ''} {a.get('zona') or ''}").split()
+    for i, p in enumerate(palabras):
+        if p not in VIAS:
+            continue
+        nombre, numero = [], None
+        for w in palabras[i + 1:i + 7]:
+            m = RE_NUMERO_VIA.match(w)
+            if m:
+                if nombre:
+                    numero = m.group(1)
+                    break
+                continue
+            if w in ARTICULOS and not nombre:
+                continue
+            if w in VIAS or len(nombre) >= 3:
+                break
+            nombre.append(w)
+        if nombre:
+            return " ".join(nombre), numero
+    return None, None
+
+
+def planta_de_ficha(a):
+    """Normaliza la planta a algo comparable: '1', 'bajo'... o None."""
+    t = sin_acentos(a.get("planta") or "")
+    if not t:
+        return None
+    if "bajo" in t or "baja" in t:
+        return "bajo"
+    if "atico" in t:
+        return "atico"
+    m = re.search(r"(\d+)", t)
+    return m.group(1) if m else None
+
+
+def _metros_cerca(a, b):
+    """Distancia aproximada en metros entre dos anuncios geolocalizados."""
+    if not (a.get("lat") and a.get("lon") and b.get("lat") and b.get("lon")):
+        return None
+    dlat = (float(a["lat"]) - float(b["lat"])) * 111_320
+    dlon = (float(a["lon"]) - float(b["lon"])) * 111_320 * 0.74  # cos(42º)
+    return (dlat ** 2 + dlon ** 2) ** 0.5
+
+
+def mismo_piso(a, b):
+    """True si dos anuncios son, con bastante seguridad, la misma vivienda."""
+    # Plantas distintas conocidas: son pisos distintos del mismo edificio.
+    pa, pb = planta_de_ficha(a), planta_de_ficha(b)
+    if pa and pb and pa != pb:
+        return False
+
+    via_a, num_a = a["_via"]
+    via_b, num_b = b["_via"]
+    if via_a and via_b and via_a != via_b:
+        return False                      # calles distintas
+    if num_a and num_b and num_a != num_b:
+        return False                      # misma calle, portal distinto
+    misma_via = bool(via_a and via_b and via_a == via_b)
+
+    m2a, m2b = a.get("m2"), b.get("m2")
+    pra, prb = a.get("precio"), b.get("precio")
+
+    # Vetos: por muy bien que encaje todo lo demás, esto delata dos pisos
+    # distintos del mismo edificio. Sin ellos se fundía un piso de 2
+    # habitaciones con uno de 4, y uno de 71 m² con uno de 96.
+    ha, hb = a.get("habitaciones"), b.get("habitaciones")
+    if ha is not None and hb is not None and ha != hb:
+        return False
+    if m2a and m2b and abs(m2a - m2b) > max(6, 0.12 * max(m2a, m2b)):
+        return False
+
+    # La superficie baila entre construida y útil; el precio, entre agencias.
+    mismos_m2 = bool(m2a and m2b and abs(m2a - m2b) <= max(2, 0.04 * max(m2a, m2b)))
+    mismo_precio = bool(pra and prb and abs(pra - prb) <= max(1_000, 0.02 * max(pra, prb)))
+    mismas_hab = a.get("habitaciones") is not None and a.get("habitaciones") == b.get("habitaciones")
+    mismos_banos = a.get("banos") is not None and a.get("banos") == b.get("banos")
+
+    metros = _metros_cerca(a, b)
+    mismo_edificio = metros is not None and metros <= 40
+
+    if mismos_m2 and mismo_precio:
+        return True
+    if misma_via and (mismos_m2 or mismo_precio):
+        return True
+    if mismo_edificio and mismos_m2 and mismas_hab:
+        return True
+    if misma_via and num_a and num_a == num_b and mismas_hab and mismos_banos:
+        return True
+    return False
+
+
+def agrupa(validos):
+    """Agrupa los anuncios que son el mismo piso. Compara solo dentro del
+    mismo municipio, que es lo que hace el coste irrelevante."""
+    for a in validos:
+        a["_via"] = via_de(a)
+
+    por_municipio = {}
+    for a in validos:
+        por_municipio.setdefault(a["municipio_norm"], []).append(a)
+
+    grupos = []
+    for lista in por_municipio.values():
+        padre = list(range(len(lista)))
+
+        def raiz(i):
+            while padre[i] != i:
+                padre[i] = padre[padre[i]]
+                i = padre[i]
+            return i
+
+        for i in range(len(lista)):
+            for j in range(i + 1, len(lista)):
+                ri, rj = raiz(i), raiz(j)
+                if ri != rj and mismo_piso(lista[i], lista[j]):
+                    padre[ri] = rj
+
+        cubos = {}
+        for i, a in enumerate(lista):
+            cubos.setdefault(raiz(i), []).append(a)
+        grupos.extend(cubos.values())
+
+    return grupos
 
 
 ORDEN_PORTALES = ["idealista", "fotocasa", "habitaclia", "pisos", "milanuncios"]
@@ -193,6 +336,106 @@ def guarda_json(ruta, datos):
         json.dump(datos, fh, ensure_ascii=False, indent=1, sort_keys=True)
 
 
+# --- favoritos fijados a mano ----------------------------------------------
+
+PORTAL_POR_DOMINIO = {
+    "idealista.com": "idealista", "fotocasa.es": "fotocasa",
+    "habitaclia.com": "habitaclia", "pisos.com": "pisos",
+    "milanuncios.com": "milanuncios",
+}
+
+
+def huella_url(url):
+    """(portal, id del anuncio) de un enlace, para reconocerlo aunque el portal
+    le cambie los parámetros o reescriba la ruta.
+
+    Nos quedamos solo con la ristra de dígitos más larga, que es el
+    identificador del anuncio. Comparar cualquier número de cinco cifras daba
+    falsos positivos: "17200" es el código postal de Palafrugell y aparece en
+    media pisos.com.
+    """
+    u = str(url or "").lower()
+    portal = next((p for dom, p in PORTAL_POR_DOMINIO.items() if dom in u), None)
+    numeros = re.findall(r"\d{6,}", u.split("?")[0])
+    ident = max(numeros, key=len) if numeros else None
+    return portal, ident
+
+
+def aplica_fijados(fichas, marcas, hoy):
+    """Marca como favorito lo que Albert ha fijado a mano.
+
+    Si el escaneo lo ha encontrado, se le pone la marca verde. Si no (porque
+    se ha retirado, porque el portal lo esconde o porque se sale del
+    presupuesto), se añade la ficha con los datos del fichero para que no
+    desaparezca del enlace público.
+    """
+    fijados = carga_json(cfg.FICHERO_FIJADOS, [])
+    if not isinstance(fijados, list) or not fijados:
+        return fichas, {"encontrados": 0, "anadidos": 0}
+
+    favoritos = set(marcas.get("favoritos") or ())
+    indice = {}
+    for f in fichas:
+        for e in f.get("enlaces", []):
+            portal, ident = huella_url(e["url"])
+            if ident:
+                indice.setdefault((portal, ident), f)
+
+    encontrados = anadidos = 0
+    for fij in fijados:
+        portal, ident = huella_url(fij.get("url"))
+        hallada = indice.get((portal, ident)) if ident else None
+
+        if hallada is not None:
+            favoritos.add(hallada["id"])
+            hallada["fijado"] = True
+            # Un piso fijado a mano se ve siempre: para eso se fija. Aunque un
+            # escaneo lo diera por retirado (o no llegara a comprobar su
+            # portal), sigue en la lista para quien abra el enlace público.
+            hallada["activo"] = True
+            encontrados += 1
+            continue
+
+        municipio = normaliza_municipio(fij.get("municipio"))
+        uid = uid_de(f"fijado:{portal}:{ident or fij.get('url')}")
+        extras = {k: (k in (fij.get("extras") or [])) for k in cfg.EXTRAS}
+        ficha = {
+            "id": uid,
+            "titulo": fij.get("titulo") or "Piso fijado por Albert",
+            "precio": fij.get("precio"),
+            "m2": fij.get("m2"),
+            "habitaciones": fij.get("habitaciones"),
+            "banos": fij.get("banos"),
+            "planta": None,
+            "municipio": municipio,
+            "minutos": cfg.MUNICIPIOS.get(municipio),
+            "preferente": municipio in cfg.PREFERENTES,
+            "zona": None,
+            "tipo": "piso",
+            "descripcion": fij.get("descripcion") or "",
+            "foto": fij.get("foto"),
+            "lat": None, "lon": None,
+            "extras": extras,
+            "enlaces": [{"portal": portal or "enlace", "url": fij["url"]}],
+            "portales": [portal or "enlace"],
+            "portal_ids": [f"{portal}:{ident or uid}"],
+            "precio_m2": None,
+            "first_seen": fij.get("desde") or hoy,
+            "last_seen": hoy,
+            "nuevo": False,
+            "activo": True,
+            "fijado": True,
+            "fuera_de_criterios": bool(fij.get("precio") and fij["precio"] > cfg.PRECIO_MAX),
+        }
+        ficha["precio_m2"] = precio_m2(ficha)
+        fichas.append(ficha)
+        favoritos.add(uid)
+        anadidos += 1
+
+    marcas["favoritos"] = sorted(favoritos)
+    return fichas, {"encontrados": encontrados, "anadidos": anadidos}
+
+
 def procesa(brutos):
     """De anuncios en bruto a fichas limpias y deduplicadas.
 
@@ -226,15 +469,13 @@ def procesa(brutos):
         a["extras"] = detecta_extras(a)
         validos.append(a)
 
-    grupos = {}
-    for a in validos:
-        grupos.setdefault(clave_dedupe(a), []).append(a)
-
     fichas = []
-    for clave, grupo in grupos.items():
+    for grupo in agrupa(validos):
         f = fusiona(grupo)
-        f["id"] = uid_de(clave)
-        f["clave"] = clave
+        # El identificador cuelga de un anuncio concreto del grupo, no del
+        # precio ni de los metros: así una estrella no se pierde porque una
+        # agencia retoque el precio y cambie la forma de agrupar.
+        f["id"] = uid_de(f["portal_ids"][0])
         f["precio_m2"] = precio_m2(f)
         f["portales"] = sorted({e["portal"] for e in f["enlaces"]})
         fichas.append(f)
@@ -244,8 +485,17 @@ def procesa(brutos):
     return fichas, stats
 
 
-def aplica_historico(fichas, hoy):
-    """Asigna first_seen, marca novedades y conserva las fichas ya desaparecidas."""
+def aplica_historico(fichas, hoy, portales_cubiertos):
+    """Asigna first_seen, marca novedades y conserva las fichas desaparecidas.
+
+    `portales_cubiertos` son los portales que esta ejecución ha conseguido
+    consultar de verdad. Es la pieza que permite combinar escaneos parciales:
+    si hoy solo hemos podido mirar Habitaclia, un piso que solo estaba en
+    Idealista NO se marca como retirado, porque no tenemos ninguna prueba
+    sobre él. Sin esto, el escaneo del Mac y el de GitHub se borrarían los
+    hallazgos mutuamente.
+    """
+    portales_cubiertos = set(portales_cubiertos or ())
     estado = carga_json(cfg.FICHERO_ESTADO, {"anuncios": {}})
     anuncios = estado.get("anuncios", {})
 
@@ -263,7 +513,25 @@ def aplica_historico(fichas, hoy):
             for pid in f["portal_ids"]:
                 if pid in indice:
                     anterior = anuncios.get(indice[pid])
+                    # Adoptamos el identificador que ya tenía en el histórico:
+                    # las estrellas y los favoritos se guardan por ese
+                    # identificador y no deben perderse si cambia la agrupación.
+                    if anterior:
+                        anuncios.pop(uid, None)
+                        uid = indice[pid]
+                        f["id"] = uid
                     break
+        # Los enlaces de portales que hoy no hemos mirado se conservan: si
+        # ayer Habitaclia encontró este piso y hoy solo hemos podido ver
+        # Idealista, la ficha debe seguir enseñando los dos.
+        if anterior:
+            ya = {e["portal"] for e in f["enlaces"]}
+            f["enlaces"] = f["enlaces"] + [
+                e for e in anterior.get("enlaces", [])
+                if e["portal"] not in ya and e["portal"] not in portales_cubiertos]
+            f["portales"] = sorted({e["portal"] for e in f["enlaces"]})
+            f["portal_ids"] = sorted(set(f["portal_ids"]) | set(anterior.get("portal_ids", [])))
+
         f["first_seen"] = (anterior or {}).get("first_seen", hoy)
         f["nuevo"] = f["first_seen"] == hoy
         f["last_seen"] = hoy
@@ -274,10 +542,17 @@ def aplica_historico(fichas, hoy):
         anuncios[uid] = f
         vistos_hoy.add(uid)
 
-    # las que ya no aparecen se conservan, marcadas como no activas
+    # Las que ya no aparecen se conservan. Solo se dan por retiradas si hoy
+    # hemos consultado TODOS los portales donde estaban: si alguna de sus
+    # fuentes se quedó sin mirar, se deja tal cual estaba.
     resultado = list(fichas)
     for uid, viejo in anuncios.items():
         if uid in vistos_hoy:
+            continue
+        fuentes = set(viejo.get("portales") or ())
+        if not fuentes or not fuentes <= portales_cubiertos:
+            viejo["nuevo"] = False
+            resultado.append(viejo)
             continue
         viejo["activo"] = False
         viejo["nuevo"] = False

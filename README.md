@@ -46,6 +46,48 @@ marcas con estrella o lo pones como favorito.
 La web queda en `https://<tu-usuario>.github.io/<repositorio>/`. Ese es el
 enlace que puedes pasar a quien quieras: es público y no hace falta cuenta.
 
+## Complemento en el Mac (rellena Idealista, Fotocasa y Milanuncios)
+
+Idealista, Fotocasa y Milanuncios bloquean las IPs de centros de datos: desde
+GitHub devuelven cero, y desde una conexión doméstica funcionan. El complemento
+del Mac cubre ese hueco los días que el ordenador esté encendido.
+
+```bash
+./bin/instalar-mac.sh          # cada día a las 21:00
+./bin/instalar-mac.sh 07 45    # o a la hora que quieras
+```
+
+```bash
+launchctl start com.albertezca22.pisos-baix-emporda   # lanzarlo ahora
+tail -f data/escaneo-local.log                        # ver qué hace
+./bin/instalar-mac.sh --quitar                        # desinstalarlo
+```
+
+Los dos escaneos **se combinan, no se pisan**: cada ejecución solo puede retirar
+anuncios de los portales que ha conseguido consultar de verdad. Si GitHub no
+llega a Idealista, los pisos que solo estaban ahí siguen en la lista. Está
+cubierto por `tests/test_fusion.py`.
+
+Si el Mac está apagado a la hora prevista, macOS lanza la tarea en cuanto
+vuelve a estar disponible.
+
+## Fijar pisos a mano
+
+En [`data/fijados.json`](data/fijados.json) puedes clavar pisos por su enlace.
+Salen **siempre** como favoritos de Albert para todo el que abra el enlace
+público, incluso si el escaneo no los encuentra, si el anuncio se retira o si
+se salen del presupuesto (en ese caso se avisa con la etiqueta *Sobre
+presupuesto*).
+
+```json
+{"url": "https://www.idealista.com/inmueble/109987514/",
+ "precio": 140000, "m2": 77, "municipio": "Palafrugell",
+ "titulo": "Piso en Palafrugell", "extras": ["parking"]}
+```
+
+El emparejado va por el identificador del anuncio, no por la URL literal, así
+que sigue funcionando cuando el portal le cambia los parámetros al enlace.
+
 ## Cómo se guardan las estrellas y los favoritos
 
 Al pulsar una estrella o un favorito, la marca se guarda **al instante en tu
@@ -88,29 +130,63 @@ Todo lo editable está en [`scanner/config.py`](scanner/config.py):
 
 ## Sobre la fiabilidad de cada portal
 
-| Portal | Cómo se consulta | Fiabilidad |
-|---|---|---|
-| Idealista | comarca entera, con paginación | alta |
-| Fotocasa | comarca entera, datos estructurados del propio portal | alta |
-| pisos.com | comarca entera | alta |
-| Habitaclia | municipio a municipio, despacio | limita el ritmo con frecuencia |
-| Milanuncios | municipio a municipio, despacio | limita el ritmo con frecuencia |
+Comprobado con peticiones reales, y no coincide desde los dos sitios:
 
-Idealista y Fotocasa cubren la gran mayoría del mercado y son los que mejor
-aguantan. Habitaclia y Milanuncios cortan el acceso a menudo: cuando ocurre, el
-escaneo **sigue adelante** y lo deja registrado en el pie de la web, donde cada
-portal aparece con un punto verde o rojo y el número de anuncios que aportó.
+| Portal | Cómo se consulta | Desde GitHub | Desde el Mac |
+|---|---|---|---|
+| Idealista | comarca entera, con paginación | bloqueado | funciona |
+| Fotocasa | comarca entera, datos del propio portal | bloqueado | funciona |
+| pisos.com | comarca entera, con filtro de precio | funciona | funciona |
+| Habitaclia | municipio a municipio, despacio | funciona | irregular |
+| Milanuncios | municipio a municipio, despacio | bloqueado | funciona |
+
+De ahí el complemento del Mac. Detalles que costaron encontrar:
+
+- Idealista rechaza el perfil TLS de Chrome (403) y acepta el de Safari.
+- Milanuncios sirve el muro anti-bot en cuanto recibe una cabecera propia:
+  basta un `Accept-Language`. Sin cabeceras personalizadas, responde bien.
+- Habitaclia rellena la lista de un pueblo con anuncios de los vecinos, así que
+  el municipio se lee del enlace de cada anuncio, nunca de la página consultada.
+- En pisos.com el filtro `hasta-160000` sí funciona aunque el título de la
+  página no cambie; sin él, las primeras páginas son todas de pisos caros.
+
+Cuando un portal falla, el escaneo **sigue adelante** y lo deja registrado en el
+pie de la web, donde cada uno aparece con un punto verde o rojo y el número de
+anuncios que aportó. Ninguno puede desaparecer del informe en silencio.
+
+**Pendiente:** el slug de Habitaclia para La Bisbal d'Empordà no está
+verificado (devuelve 404 y no pude comprobar el correcto sin que Habitaclia me
+bloqueara). No rompe nada: un slug equivocado cuesta una petición y La Bisbal
+sigue llegando vía pisos.com y vía las páginas de los pueblos vecinos.
 
 ## Estructura
 
 ```
-scanner/config.py    zona, presupuesto y exclusiones (lo editable)
-scanner/portals.py   los cinco escrapers
-scanner/pipeline.py  normalizado, deduplicado e histórico
-scanner/run.py       orquestador
-docs/index.html      la web
-docs/data.js         datos que consume la web (se regenera cada día)
-data/listings.json   histórico: de aquí sale qué es "nuevo"
-data/marks.json      estrellas y favoritos publicados
-tests/test_ui.py     comprueba que la web sigue pintando y filtrando bien
+scanner/config.py     zona, presupuesto y exclusiones (lo editable)
+scanner/portals.py    los cinco escrapers
+scanner/pipeline.py   normalizado, deduplicado, fusión de escaneos e histórico
+scanner/run.py        orquestador
+bin/escaneo-local.sh  el escaneo del Mac
+bin/instalar-mac.sh   lo programa con launchd
+docs/index.html       la web
+docs/data.js          datos que consume la web (se regenera cada día)
+data/listings.json    histórico: de aquí sale qué es "nuevo"
+data/marks.json       estrellas y favoritos publicados
+data/fijados.json     pisos clavados a mano por enlace
+tests/test_ui.py      la web pinta, filtra, ordena y guarda marcas
+tests/test_fusion.py  deduplicado y combinación de escaneos parciales
 ```
+
+## Cómo se decide que dos anuncios son el mismo piso
+
+El mismo piso lo anuncian tres agencias con precio distinto (149.000 y 150.000),
+superficie distinta (construida o útil) y títulos que no se parecen en nada. En
+lugar de exigir coincidencia exacta se comparan varias señales: calle y número
+extraídos del título, superficie con tolerancia, precio con tolerancia y
+coordenadas cuando las hay.
+
+Y con dos vetos, porque el error grave es fundir pisos distintos del mismo
+edificio: **nunca** se fusionan dos anuncios con número de habitaciones distinto
+conocido, con superficies desproporcionadas (más de un 12%) o con plantas
+distintas. En los datos reales esto evitaba juntar un piso de 2 habitaciones con
+uno de 4, y uno de 71 m² con uno de 96.

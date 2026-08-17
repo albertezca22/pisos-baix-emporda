@@ -169,9 +169,20 @@ comprueba("Avisa de marcas sin publicar",
           "sin publicar" in str(leer(ctx, "__reg['#texto-pendientes'].textContent")),
           leer(ctx, "__reg['#texto-pendientes'].textContent"))
 
-leer(ctx, "__reg['#rejilla'].children[0].__q['[data-marca=\"favorito\"]'].click()")
+# Contamos la diferencia, no el total, y pulsamos sobre una ficha que aún no
+# sea favorita: ya hay favoritos publicados (los que Albert fija a mano en
+# data/fijados.json) y sobre esos el botón lo que hace es quitar la marca.
+fav_antes = int(str(leer(ctx, "String(__reg['#c-favoritos'].textContent)")) or 0)
+indice_libre = leer(ctx, """(function(){
+  var f = __reg['#rejilla'].children;
+  for (var i=0;i<f.length;i++) if (f[i].innerHTML.indexOf('on-favorito') < 0) return i;
+  return -1;
+})()""", -1)
+leer(ctx, f"__reg['#rejilla'].children[{indice_libre}].__q['[data-marca=\"favorito\"]'].click()")
+fav_despues = int(str(leer(ctx, "String(__reg['#c-favoritos'].textContent)")) or 0)
 comprueba("El favorito verde se registra",
-          str(leer(ctx, "String(__reg['#c-favoritos'].textContent)")) == "1")
+          indice_libre >= 0 and fav_despues == fav_antes + 1,
+          f"ficha #{indice_libre}: {fav_antes} -> {fav_despues}")
 
 # --- filtro de habitaciones ---
 todas = leer(ctx, "__reg['#rejilla'].children.length", -1)

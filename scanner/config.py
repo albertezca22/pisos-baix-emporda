@@ -222,5 +222,6 @@ DIR_DATOS = RAIZ / "data"
 DIR_WEB = RAIZ / "docs"
 FICHERO_ESTADO = DIR_DATOS / "listings.json"   # histórico con first_seen
 FICHERO_MARCAS = DIR_DATOS / "marks.json"      # estrellas y favoritos de Albert
+FICHERO_FIJADOS = DIR_DATOS / "fijados.json"   # favoritos fijados a mano por URL
 FICHERO_SALIDA = DIR_WEB / "data.json"         # lo que consume la web
 ZONA_HORARIA = "Europe/Madrid"

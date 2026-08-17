@@ -1,0 +1,52 @@
+[
+ {
+  "url": "https://www.habitaclia.com/comprar-apartamento-piso_reformado_con_parking_piverd_vila_seca_bruguerol-palafrugell-i53343000000196.htm",
+  "precio": 130000, "m2": 65, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso reformado con parking, Piverd-Vila-Seca-Bruguerol",
+  "extras": ["parking"]
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/no-amueblado/186695079/d",
+  "precio": 140000, "m2": 57, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso en Palafrugell", "extras": []
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-internet-no-amueblado/186666830/d",
+  "precio": 140000, "m2": 59, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso con ascensor en Palafrugell", "extras": ["ascensor"]
+ },
+ {
+  "url": "https://www.idealista.com/inmueble/109987514/",
+  "precio": 140000, "m2": 77, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso en Palafrugell", "extras": []
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-parking-terraza-no-amueblado/190350038/d",
+  "precio": 158000, "m2": 62, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso con parking y terraza en Palafrugell",
+  "extras": ["parking", "terraza", "calefaccion"]
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-trastero-ascensor-no-amueblado/190404161/d",
+  "precio": 160000, "m2": 80, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso con trastero y ascensor en Palafrugell",
+  "extras": ["trastero", "ascensor", "calefaccion"]
+ },
+ {
+  "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-66749195905_500582/",
+  "precio": 165000, "m2": 65, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso en Palafrugell (Poble)", "extras": []
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-parking-no-amueblado/189945527/d",
+  "precio": 175000, "m2": 61, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso con parking en Palafrugell",
+  "extras": ["parking", "calefaccion"]
+ },
+ {
+  "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-terraza-ascensor-no-amueblado/190284566/d",
+  "precio": 175000, "m2": 76, "habitaciones": null, "banos": null,
+  "municipio": "Palafrugell", "titulo": "Piso con terraza y ascensor en Palafrugell",
+  "extras": ["terraza", "ascensor", "calefaccion"]
+ }
+]

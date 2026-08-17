@@ -69,11 +69,16 @@ class Reloj:
         return True
 
 
-def pedir(url, portal, informe, intentos=3):
+def pedir(url, portal, informe, intentos=3, estado=None):
     """GET con reintentos, rotación de perfil TLS y detección de muro anti-bot.
 
-    Devuelve el HTML o None. Nunca lanza.
+    Devuelve el HTML o None. Nunca lanza. Si se pasa un diccionario en
+    `estado`, se anota ahí el último código HTTP: sirve para distinguir un
+    slug que no existe (404, fallo permanente y sin remedio) de un bloqueo
+    temporal, que es lo que debe hacer abandonar el portal.
     """
+    if estado is None:
+        estado = {}
     cabeceras = CABECERAS_POR_PORTAL.get(portal, CABECERAS)
     for intento in range(intentos):
         perfil = PERFILES[intento % len(PERFILES)]
@@ -86,6 +91,7 @@ def pedir(url, portal, informe, intentos=3):
             time.sleep(2 * (intento + 1))
             continue
 
+        estado["codigo"] = r.status_code
         if r.status_code == 200:
             bajo = r.text[:4000].lower()
             if any(m in bajo for m in MUROS):
@@ -522,6 +528,11 @@ def pisos(informe):
 
 # --- Habitaclia (mejor esfuerzo, municipio a municipio) --------------------
 
+# .../comprar-piso-<descripcion>-<municipio>-i<id>.htm
+# El municipio real del anuncio va justo antes del identificador.
+RE_FICHA_HABITACLIA = re.compile(r"-([a-z_]+)-i\d+\.htm")
+
+
 def habitaclia(informe):
     out = []
     vistos = set()
@@ -534,8 +545,11 @@ def habitaclia(informe):
         if not slug:
             continue
         url = f"https://www.habitaclia.com/viviendas-{slug}.htm?pmax={cfg.PRECIO_MAX}"
-        html = pedir(url, "habitaclia", informe, intentos=2)
+        estado = {}
+        html = pedir(url, "habitaclia", informe, intentos=2, estado=estado)
         if not html:
+            if estado.get("codigo") == 404:
+                continue          # slug equivocado: ni cuenta ni hace esperar
             fallos += 1
             if fallos >= cfg.FALLOS_SEGUIDOS_MAX:
                 informe.anota("habitaclia",
@@ -546,42 +560,47 @@ def habitaclia(informe):
         fallos = 0
 
         sopa = BeautifulSoup(html, "lxml")
-        tarjetas = sopa.select("article")
+        # div.list-item-info es el único contenedor que agrupa enlace, precio,
+        # municipio y superficie del MISMO anuncio. El <article> de arriba deja
+        # el precio en un hermano, y cogerlo de ahí mezclaba precios entre
+        # anuncios contiguos.
         nuevos = 0
-        for art in tarjetas:
-            enlace = art.find("a", href=True)
+        for tarjeta in sopa.select("div.list-item-info"):
+            enlace = None
+            for a in tarjeta.find_all("a", href=True):
+                if RE_FICHA_HABITACLIA.search(a["href"]):
+                    enlace = a
+                    break
             if not enlace:
                 continue
             href = enlace["href"]
-            if "habitaclia.com" not in href and not href.startswith("/"):
-                continue
             if href in vistos:
                 continue
             vistos.add(href)
 
-            texto = art.get_text(" ", strip=True)
-            if "€" not in texto:
-                continue
+            texto = tarjeta.get_text(" ", strip=True)
 
-            titulo = (enlace.get("title") or "").strip()
-            if not titulo:
-                h = art.find(["h2", "h3"])
-                titulo = h.get_text(" ", strip=True) if h else texto[:90]
+            # El municipio se lee del propio enlace, no de la página que
+            # estamos consultando: habitaclia rellena la lista de un pueblo
+            # con anuncios de los vecinos, y dábamos por Begur pisos que
+            # estaban en Palafrugell.
+            slug_mun = RE_FICHA_HABITACLIA.search(href).group(1)
 
-            img = art.find("img")
+            titulo = (enlace.get("title") or enlace.get_text(" ", strip=True)).strip()
+            img = tarjeta.find("img") or (tarjeta.parent.find("img") if tarjeta.parent else None)
             foto = (img.get("data-src") or img.get("src")) if img else None
 
             out.append({
                 "portal": "habitaclia",
-                "id_portal": re.sub(r"\D", "", href)[-14:] or href,
-                "url": _abs("https://www.habitaclia.com", href),
+                "id_portal": re.sub(r"\D", "", href)[-16:] or href,
+                "url": _abs("https://www.habitaclia.com", href.split("?")[0]),
                 "titulo": titulo,
                 "precio": precio_de(texto),
                 "m2": m2_de(texto),
                 "habitaciones": hab_de(texto),
                 "banos": banos_de(texto),
                 "planta": planta_de(texto),
-                "municipio": municipio,
+                "municipio": slug_mun.replace("_", " "),
                 "descripcion": texto,
                 "foto": foto,
                 "tipo": tipo_de(titulo + " " + texto[:120]),
@@ -631,8 +650,11 @@ def milanuncios(informe):
             continue
         url = (f"https://www.milanuncios.com/venta-de-pisos-en-{slug}/"
                f"?desde=0&hasta={cfg.PRECIO_MAX}")
-        html = pedir(url, "milanuncios", informe, intentos=2)
+        estado = {}
+        html = pedir(url, "milanuncios", informe, intentos=2, estado=estado)
         if not html:
+            if estado.get("codigo") == 404:
+                continue          # slug equivocado: ni cuenta ni hace esperar
             fallos += 1
             if fallos >= cfg.FALLOS_SEGUIDOS_MAX:
                 informe.anota("milanuncios",

@@ -65,11 +65,19 @@ def main():
         print(f"  {nombre}: {len(encontrados)} anuncios en bruto", flush=True)
         brutos.extend(encontrados)
 
+    # Un portal solo "cuenta" si ha devuelto algo: si lo bloquearon, no
+    # tenemos ninguna prueba de qué sigue publicado en él.
+    cubiertos = sorted(p for p, d in informe.por_portal.items() if d["anuncios"] > 0)
+
     fichas, stats = pl.procesa(brutos)
-    fichas = pl.aplica_historico(fichas, hoy)
+    fichas = pl.aplica_historico(fichas, hoy, cubiertos)
 
     marcas = pl.carga_json(cfg.FICHERO_MARCAS,
                            {"destacados": [], "favoritos": [], "notas": {}})
+
+    # Los pisos que Albert ha fijado a mano salen siempre en verde, los haya
+    # encontrado el escaneo o no.
+    fichas, fij = pl.aplica_fijados(fichas, marcas, hoy)
 
     activos = [f for f in fichas if f.get("activo")]
     nuevos = [f for f in activos if f.get("nuevo")]
@@ -89,9 +97,12 @@ def main():
             "activos": len(activos),
             "nuevos_hoy": len(nuevos),
             "historico": len(fichas),
+            "fijados_encontrados": fij["encontrados"],
+            "fijados_anadidos": fij["anadidos"],
             **stats,
         },
         "portales": informe.por_portal,
+        "portales_cubiertos": cubiertos,
         "marcas": marcas,
         "anuncios": sorted(fichas, key=lambda f: (not f.get("nuevo"),
                                                   f.get("precio") or 10**9)),
@@ -114,6 +125,8 @@ def main():
     print(f"  Nuevas hoy ........... {len(nuevos)}")
     print(f"  Histórico total ...... {len(fichas)}")
     print(f"  Duplicados fundidos .. {stats['duplicados_fundidos']}")
+    print(f"  Fijados por Albert ... {fij['encontrados']} encontrados, "
+          f"{fij['anadidos']} añadidos a mano")
     print(f"  Descartados: fuera de zona {stats['fuera_zona']} | "
           f"no piso {stats['no_piso']} | precio {stats['precio']} | raros {stats['raros']}")
     if stats["motivos_raros"]:
