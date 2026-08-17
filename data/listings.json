@@ -1807,7 +1807,7 @@
    "zona": null
   },
   "335fc137b94f": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|160000|54",
    "descripcion": "30 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Raig 9. Piso de 1 habitación con plaza de parking y ascensor Bisbal d´Empordà (La) 54m 2 - 1 habitacion - 1 baño - 2.963€/m 2 Piso listo para entrar a vivir con plaza de aparcamiento incluida en el precio.  Tu nuevo hogar por solo 670 € al mes (cuota hip... Añadir a favoritos 160.000 € Avísame si baja",
@@ -1841,7 +1841,7 @@
    "m2": 54,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:41308160000159"
@@ -2182,7 +2182,7 @@
    "zona": null
   },
   "39b8fb454692": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|78000|78",
    "descripcion": "3 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Bisbal d´Empordà (La). Vivienda alquilada  en rentabilidad Bisbal d´Empordà (La) 78m 2 - 2 habitaciones - 1 baño - 1.000€/m 2 VIvienda Alquilada  en rentabilidad, de 3 habitaciones y un baño con balcón. Al estar alquilado no se puede financiar. Consúlten... Añadir a favoritos 78.000 € ha bajado 1.000 € Avísame si baja",
@@ -2216,7 +2216,7 @@
    "m2": 78,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:00818160000159"
@@ -2857,7 +2857,7 @@
    "zona": null
   },
   "42eaf3fc9600": {
-   "activo": true,
+   "activo": false,
    "banos": 2,
    "clave": "forallac|103500|87",
    "descripcion": "8 fotos Se encuentra en Bisbal d´Empordà (La) Apartamento  en  Avenida sant francesc 2. Piso en venta en la bisbal dempordà Bisbal d´Empordà (La) 87m 2 - 3 habitaciones - 2 baños - 1.190€/m 2 La vivienda cuenta con 87,46 m² construidos y se sitúa en una cuarta planta sin ascensor. Dispone de 3 habitaciones, perfectas t... Añadir a favoritos Oportunidad 103.500 € Avísame si baja",
@@ -2891,7 +2891,7 @@
    "m2": 87,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:01154160000159"
@@ -3234,7 +3234,7 @@
    "zona": null
   },
   "51ba14e0a8e4": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|85000|69",
    "descripcion": "1 foto Se encuentra en Bisbal d´Empordà (La) Piso  Av puig negre. Solvia inmobiliaria  piso forallac Bisbal d´Empordà (La) 69m 2 - 2 habitaciones - 1 baño - 1.232€/m 2 Vivienda en el municipio de Barcelona, provincia de Barcelona. El inmueble se encuentra en una zona tranquila, rodeado por vivie... Añadir a favoritos 85.000 € ha bajado 5.000 € Avísame si baja",
@@ -3268,7 +3268,7 @@
    "m2": 69,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:80765160000159"
@@ -3387,7 +3387,7 @@
    "zona": null
   },
   "56e5c59d8e9c": {
-   "activo": true,
+   "activo": false,
    "banos": null,
    "clave": "forallac|75000|114",
    "descripcion": "12 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Bisbal d´Empordà (La). Oportunidad de inversión en venta local con gran terraza en les Bisbal d´Empordà (La) 114m 2 - 2 habitaciones - 658€/m 2 ¡EXCLUSIVA EN VENTA EN EL CENTRO DE LA BISBAL D’EMPORDÀ! AMPLIO LOCAL CON GRAN TERRAZA EN LA ZONA DE LES VOLTES.  En la emblemát... actualizado hace 5 días Añadir a favoritos 75.000 € Avísame si baja",
@@ -3421,7 +3421,7 @@
    "m2": 114,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:78941160000159"
@@ -3801,7 +3801,7 @@
    "zona": "L'Estartit Poble"
   },
   "5ce97060d487": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|130000|93",
    "descripcion": "17 fotos Piso  Carrer montserrat. ?? encantador piso rehabilitado en el casco antiguo Forallac 93m 2 - 2 habitaciones - 1 baño - 1.398€/m 2 Este interesante piso en planta baja se encuentra en una calle tranquila dentro de un edificio rehabilitado de 1925, conservando... Premium Añadir a favoritos 130.000 € Avísame si baja",
@@ -3835,7 +3835,7 @@
    "m2": 93,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:44354416000055"
@@ -3960,7 +3960,7 @@
    "zona": null
   },
   "6170e1a0d546": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|83000|60",
    "descripcion": "5 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Carrer de l'aigüeta 6. Zona tranquila. Bisbal d´Empordà (La) 60m 2 - 3 habitaciones - 1 baño - 1.383€/m 2 Vivienda en buen estado, cocina reformada, suelos de parquet, ventanales de aluminio con doble cristal, 2 habitaciones amplias y... Añadir a favoritos 83.000 € Avísame si baja",
@@ -3994,7 +3994,7 @@
    "m2": 60,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:22785160000159"
@@ -4899,7 +4899,7 @@
    "zona": null
   },
   "781bcc2ecab3": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|135000|308",
    "descripcion": "15 fotos Se encuentra en Bisbal d´Empordà (La) Ático  en  Calle ramon de cabrera 50. Ático rústico en venta en la bisbal dempordà Bisbal d´Empordà (La) 308m 2 - 3 habitaciones - 1 baño - 438€/m 2 Ubicado a pocos minutos del centro, en una zona tranquila con comercios cercanos y facilidad de aparcamiento, este inmueble ofre... Añadir a favoritos 135.000 € Avísame si baja",
@@ -4933,7 +4933,7 @@
    "m2": 308,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "habitaclia:01150160000159"
@@ -5943,7 +5943,7 @@
    "zona": null
   },
   "940f03fa7f84": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|130000|52",
    "descripcion": "13 fotos Se encuentra en Bisbal d´Empordà (La) Piso  Carrer marquès de cruïlles Bisbal d´Empordà (La) 52m 2 - 2 habitaciones - 1 baño - 2.500€/m 2 PISO ACOGEDOR DE 52 M², EN PRIMERA PLANTA CON ASCENSOR Y PARKING, EN VENTA A LAS AFUERAS DE LA BISBAL D’EMPORDÀ.  NOTA INFORMA... Añadir a favoritos Oportunidad 130.000 € Avísame si baja",
@@ -5977,7 +5977,7 @@
    "m2": 52,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:84570160000159"
@@ -6204,7 +6204,7 @@
    "zona": null
   },
   "99c922a055d8": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|115000|75",
    "descripcion": "21 fotos Se encuentra en Bisbal d´Empordà (La) Piso  Calle pedro, del. Piso en venta en la bisbal dempordà Bisbal d´Empordà (La) 75m 2 - 3 habitaciones - 1 baño - 1.533€/m 2 Piso en venta en La Bisbal d'Empordà, excelente oportunidad para inversores.  La vivienda cuenta con 75 m² construidos y se si... Añadir a favoritos 115.000 € Avísame si baja",
@@ -6238,7 +6238,7 @@
    "m2": 75,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:01161160000159"
@@ -7033,7 +7033,7 @@
    "zona": null
   },
   "ac867c4ca731": {
-   "activo": true,
+   "activo": false,
    "banos": 2,
    "clave": "forallac|133300|120",
    "descripcion": "5 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Bisbal d´Empordà (La). Gironapiso Bisbal d´Empordà (La) 120m 2 - 4 habitaciones - 2 baños - 1.111€/m 2 Piso en ESTÁ EN LA BISBAL D`EMPORDÁ CERCA DE LA PLZA DEL CARGOL, con 120 m² construidos, 4 dormitorios, 2 baños, buen estado, as... Premium Añadir a favoritos 133.300 € ha bajado 1.800 € Avísame si baja",
@@ -7067,7 +7067,7 @@
    "m2": 120,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:01199160000159",
@@ -7974,7 +7974,7 @@
    "zona": null
   },
   "c836dd4b7f56": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|135000|284",
    "descripcion": "28 fotos Se encuentra en Bisbal d´Empordà (La) Ático  en  Bisbal d´Empordà (La) Bisbal d´Empordà (La) 284m 2 - 3 habitaciones - 1 baño - 475€/m 2 Piso Ático Rústico para reformar en Venta en La Bisbal d’Emprdà  Se Vende Piso Ático Rústico en La Bisbal d’Empordà. Buena s... Añadir a favoritos 135.000 € ha bajado 15.000 € Avísame si baja",
@@ -8008,7 +8008,7 @@
    "m2": 284,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "habitaclia:00953160000159"
@@ -8439,7 +8439,7 @@
    "zona": null
   },
   "cf26dae5901c": {
-   "activo": true,
+   "activo": false,
    "banos": 2,
    "clave": "forallac|158000|83",
    "descripcion": "21 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Bisbal d´Empordà (La) Bisbal d´Empordà (La) 83m 2 - 2 habitaciones - 2 baños - 1.904€/m 2 Se vende bonito piso en medio del pueblo de la Bisbal  Se vende piso en planta segunda, en el centro de La Bisbal en edificio... Añadir a favoritos 158.000 € ha bajado 7.000 € Avísame si baja",
@@ -8473,7 +8473,7 @@
    "m2": 83,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:00924160000159"
@@ -9126,7 +9126,7 @@
    "zona": null
   },
   "debf6e542efa": {
-   "activo": true,
+   "activo": false,
    "banos": 1,
    "clave": "forallac|150000|89",
    "descripcion": "15 fotos Se encuentra en Bisbal d´Empordà (La) Piso  en  Bisbal d´Empordà (La) Bisbal d´Empordà (La) 89m 2 - 2 habitaciones - 1 baño - 1.685€/m 2 Piso céntrico semireformado en segunda planta en venta en La Bisbal d’Empordà.  Se vende piso céntrico semireformado en La Bis... Añadir a favoritos Oportunidad 150.000 € Avísame si baja",
@@ -9160,7 +9160,7 @@
    "m2": 89,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:01130160000159"
@@ -10485,5 +10485,5 @@
    "zona": null
   }
  },
- "ultima_actualizacion": "2026-08-16T23:24:41"
+ "ultima_actualizacion": "2026-08-17T06:58:44"
 }
