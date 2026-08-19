@@ -371,6 +371,56 @@
    "titulo": "Ático en Avinguda de Roma, 79",
    "zona": null
   },
+  "0c87c9efe70e": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Planta baja  en  Platja Gran. Planta baja en venta en segunda línea de mar – platja gran, pala Palamós - Platja Gran 50m 2 - 1 habitacion - 1 baño - 2.900€/m 2 ¡Vivir en Palamós, a tan solo una calle del Passeig del Mar y de la Platja Gran, ahora puede estar a su alcance!  Se vende plant... Prioritario actualizado hace 22 horas Añadir a favoritos 145.000 € Avísame si baja",
+   "enlaces": [
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-planta_baja-en_venta_en_segunda_linea_de_mar_platja_gran_pala_platja_gran-palamos-i10339004443790.htm"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": false,
+    "balcon": false,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://images.habimg.com/imgh/10339-4443790/planta-baja-en-venta-en-segunda-linea-de-mar--platja-gran-pala-palamos_a8cc98dd-66c1-4f9c-95f0-7b3581e44dfe.jpg",
+   "habitaciones": 1,
+   "id": "0c87c9efe70e",
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
+   "m2": 50,
+   "minutos": 16,
+   "municipio": "Palamós",
+   "nuevo": true,
+   "planta": null,
+   "portal_ids": [
+    "habitaclia:0444379016000055"
+   ],
+   "portales": [
+    "habitaclia"
+   ],
+   "precio": 145000,
+   "precio_anterior": null,
+   "precio_m2": 2900,
+   "preferente": true,
+   "tipo": "planta baja",
+   "titulo": "Planta baja  en  Platja Gran. Planta baja en venta en segunda línea de mar – platja gran, pala",
+   "zona": null
+  },
   "0ce6568bb740": {
    "activo": true,
    "banos": 1,
@@ -455,7 +505,7 @@
    "foto": "https://images.habimg.com/imgh/500-6028425/gran-oportunidad-ulla_fee2a856-2b01-46c1-920f-67b2029404fc.jpg",
    "habitaciones": 2,
    "id": "0ce7c6f78fd2",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 75,
@@ -513,7 +563,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630363330/c4e27c9f-902c-413d-a18f-9a72be7574fa.jpg",
    "habitaciones": 1,
    "id": "0eb4f256e675",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 38,
@@ -543,7 +593,7 @@
   "0f667979f186": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se encuentra en Torroella de Montgrí Piso  Carrer de mar. Pis 1 habitacio torroella de montgrí Torroella de Montgrí - 1 habitacion - 1 baño PIS D'UNA HABITACIÓ MOLT BEN SITUAT A TORROELLA DE MONTGRÍ. POSSIBILITAT DE PLAÇA DE PARQUING.... actualizado hace 14 días Añadir a favoritos 155.000 € Avísame si baja",
+   "descripcion": "Se encuentra en Torroella de Montgrí Piso  Carrer de mar. Pis 1 habitacio torroella de montgrí Torroella de Montgrí - 1 habitacion - 1 baño PIS D'UNA HABITACIÓ MOLT BEN SITUAT A TORROELLA DE MONTGRÍ. POSSIBILITAT DE PLAÇA DE PARQUING.... Añadir a favoritos 155.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -568,7 +618,7 @@
    "foto": "https://images.habimg.com/imgh/28475-224/pis-1-habitacio-torroella-de-montgri-torroella-de-montgri_32d9e544-e9b1-426c-a2ea-5ce72eef3490.jpg",
    "habitaciones": 1,
    "id": "0f667979f186",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": null,
@@ -814,7 +864,7 @@
    "enlaces": [
     {
      "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-de_2_habitaciones_con_3_terrazas_79_m_calle_sant_antoni_17257_torroella_de_montgri_girona-torroella_de_montgri-i3475004021971.htm"
+     "url": "https://www.habitaclia.com/comprar-piso-de_2_habitaciones_con_3_terrazas_79_m-torroella_de_montgri-i50647000024951.htm"
     }
    ],
    "extras": {
@@ -832,10 +882,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://images.habimg.com/imgh/3475-4021971/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_ec08d57e-57ef-490b-a16c-8b141f24ed14.jpg",
+   "foto": "https://images.habimg.com/imgh/50647-24951/piso-de-2-habitaciones-con-3-terrazas-79-m-torroella-de-montgri_b090ad9f-9898-4d87-b29a-af26782beadb.jpg",
    "habitaciones": 2,
    "id": "12ecc33b9d60",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 79,
@@ -845,13 +895,17 @@
    "planta": null,
    "portal_ids": [
     "habitaclia:0000043216000055",
+    "habitaclia:0000131216000055",
     "habitaclia:0000302160000159",
     "habitaclia:0000432160000159",
+    "habitaclia:0001312160000159",
     "habitaclia:0002495016000055",
     "habitaclia:0002495116000055",
     "habitaclia:0024950160000159",
     "habitaclia:0024951160000159",
+    "habitaclia:0358464316000055",
     "habitaclia:0402197116000055",
+    "habitaclia:3584643160000159",
     "habitaclia:4021971160000159"
    ],
    "portales": [
@@ -862,7 +916,7 @@
    "precio_m2": 1633,
    "preferente": false,
    "tipo": "piso",
-   "titulo": "Piso  en  Carrer sant antoni, , 17257, torroella de montgrí, girona. Piso de 2 habitaciones con 3 terrazas  79 m",
+   "titulo": "Piso  Calle st antoni. Piso de 2 habitaciones con 3 terrazas  79 m",
    "zona": null
   },
   "13c5ece52a96": {
@@ -951,7 +1005,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1059/144/1059_AN1-ANT00030668144_1_2025052911055715716.jpg",
    "habitaciones": 1,
    "id": "146639cc0c34",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 43,
@@ -1031,7 +1085,7 @@
   "1adcde9d0602": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Piso  Llavia i serra. Oportunidad en el centro con parking y terraza Palafrugell - La Punxa 62m 2 - 2 habitaciones - 2 baños - 2.548€/m 2 OPORTUNIDAD EN EL CENTRO CON PARKING y TERRAZA Cómodo apartamento de 62m2 ubicado en la periferia del núcleo urbano de Palafruge... actualizado hace 11 días Añadir a favoritos 158.000 € Avísame si baja",
+   "descripcion": "Se encuentra en Palafrugell Piso  Llavia i serra. Oportunidad en el centro con parking y terraza Palafrugell - La Punxa 62m 2 - 2 habitaciones - 2 baños - 2.548€/m 2 OPORTUNIDAD EN EL CENTRO CON PARKING y TERRAZA Cómodo apartamento de 62m2 ubicado en la periferia del núcleo urbano de Palafruge... actualizado hace 12 días Añadir a favoritos 158.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -1056,7 +1110,7 @@
    "foto": "https://images.habimg.com/imgh/10351-4348821/oportunidad-en-el-centro-con-parking-y-terraza-palafrugell_e13555b6-c039-41ef-8071-c3fddea704a0.jpg",
    "habitaciones": 2,
    "id": "1adcde9d0602",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 62,
@@ -1106,7 +1160,7 @@
    "foto": "https://images.habimg.com/imgh/42982-261/oportunitat-pis-modern-i-reformat-en-edifici-tranquil-torroella-de-montgri_138974eb-eb6d-407f-b4c3-fc7167e2fdd1.jpg",
    "habitaciones": 2,
    "id": "1b372b27e481",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 65,
@@ -1188,12 +1242,8 @@
   "1e5a70b08dcd": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Piso  Santiago rusiñol Palamós - Sant Joan - Vilarromà 87m 2 - 3 habitaciones - 2 baños - 1.431€/m 2 ¿Deseas convertir la casa de tus sueños en una realidad?   ¡Esta es tu oportunidad!  Les ofrecemos en exclusiva este piso en edi... Añadir a favoritos 124.500 € Avísame si baja",
+   "descripcion": "124.500 € Piso en Carrer de Santiago Rusinyol Sant Joan de Palamós-El Figuerar (Palamós) 3 habs. 2 baños 87 m² ¿Deseas convertir la casa de tus sueños en una realidad? \n\n¡Esta es tu oportunidad!\n\nLes ofrecemos en exclusiva este piso en edifi...",
    "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-sant_joan_vilarroma-palamos-i52793000002938.htm"
-    },
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-sant_joan_de_palamos_el_figuerar-48337011882_100700/"
@@ -1214,10 +1264,10 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://images.habimg.com/imgh/52793-2938/santiago-rusinol-piso-palamos_c37d3918-50ac-4d8c-944a-26ac4b71804d.jpg",
+   "foto": "https://fotos.imghs.net/mm-wp/1007/419/1007_HI1-AURE-30419_1_2024103008100363015.jpg",
    "habitaciones": 3,
    "id": "1e5a70b08dcd",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 87,
@@ -1231,7 +1281,6 @@
     "pisos:37011882100700"
    ],
    "portales": [
-    "habitaclia",
     "pisos"
    ],
    "precio": 124500,
@@ -1239,7 +1288,7 @@
    "precio_m2": 1431,
    "preferente": true,
    "tipo": "piso",
-   "titulo": "Piso  Santiago rusiñol",
+   "titulo": "Piso en Carrer de Santiago Rusinyol",
    "zona": null
   },
   "1fd6cde8479e": {
@@ -1435,7 +1484,7 @@
    "foto": "https://images.habimg.com/imgh/28714-4497720/2-hab-planta-baja-sin-escaleras-de-accesso-con-todos-los-servici-palafrugell_0cbf3dbc-83d9-4204-a13d-f1667b61d33c.jpg",
    "habitaciones": 2,
    "id": "2627b04c23ef",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 70,
@@ -2061,7 +2110,7 @@
    "foto": "https://images.habimg.com/imgh/28976-5496/venta-duplex-garaje-en-palamos-girona-palamos_e7e0c030-efdf-4061-9186-3fb8a50e15fb.jpg",
    "habitaciones": 4,
    "id": "2fbb3e17ab8b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
@@ -2216,7 +2265,7 @@
    "foto": "https://images.habimg.com/imgh/56447-258/piso-alquilado-en-torroella-de-montgri-torroella-de-montgri_a7e5df69-2c26-491f-b886-103be5bf218a.jpg",
    "habitaciones": 3,
    "id": "3341818bd27f",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 99,
@@ -2380,7 +2429,7 @@
    "foto": "https://images.habimg.com/imgh/3422-3378320/piso-en-el-corazon-de-verges-verges_be698e19-7c55-4b94-8c4b-91e2d8f2de4d.jpg",
    "habitaciones": 3,
    "id": "33c04d6bba90",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 77,
@@ -2443,7 +2492,7 @@
    "foto": "https://images.habimg.com/imgh/39291-189/se-vende-piso-alquilado-en-planta-baja-con-gran-terraza-dos-pla-palafrugell_c7cf08b7-5f61-45ef-bef6-24ff76edcd5b.jpg",
    "habitaciones": 2,
    "id": "33fbe1e3a4d7",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 116,
@@ -2472,7 +2521,7 @@
   "34c180fd4588": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Dúplex  Carrer del bruc. Piso en venta en calle bruc Palafrugell - Piverd-Vila-Seca-Bruguerol 74m 2 - 1 habitacion - 2 baños - 1.070€/m 2 Agenda tu llamada aquí y recibe toda la información que necesitas: calendly. com/inversores-kalma  ¿Busca una oportunidad única... actualizado hace 3 días Añadir a favoritos 79.148 € Avísame si baja",
+   "descripcion": "Se encuentra en Palafrugell Dúplex  Carrer del bruc. Piso en venta en calle bruc Palafrugell - Piverd-Vila-Seca-Bruguerol 74m 2 - 1 habitacion - 2 baños - 1.070€/m 2 Agenda tu llamada aquí y recibe toda la información que necesitas: calendly. com/inversores-kalma  ¿Busca una oportunidad única... actualizado hace 4 días Añadir a favoritos 79.148 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -2497,7 +2546,7 @@
    "foto": "https://images.habimg.com/imgh/57258-148/piso-en-venta-en-calle-bruc-palafrugell_e59fdb75-dae0-410d-ba29-3d922c8232b3.jpg",
    "habitaciones": 1,
    "id": "34c180fd4588",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 74,
@@ -2551,7 +2600,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/599/1064_IJ31283-101251599_1_202605251124202066690.jpg",
    "habitaciones": 2,
    "id": "35288852d91c",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 52,
@@ -2636,7 +2685,7 @@
   "37ed328ff832": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Estudio  Barri rodors. Encantador estudio reformado en venta a pocos minutos de la play Pals - Platja de Pals 29m 2 - 1 baño - 4.655€/m 2 ¡Descubre este encantador estudio reformado en venta, ideal para disfrutar de la vida cerca de la playa de Pals! Con 29 m2 const... Añadir a favoritos Oportunidad 135.000 € Avísame si baja",
+   "descripcion": "Estudio  Barri rodors. Encantador estudio reformado en venta a pocos minutos de la play Pals - Platja de Pals 29m 2 - 1 baño - 4.655€/m 2 ¡Descubre este encantador estudio reformado en venta, ideal para disfrutar de la vida cerca de la playa de Pals! Con 29 m2 const... Añadir a favoritos 135.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -2673,7 +2722,7 @@
    "foto": "https://images.habimg.com/imgh/50562-313/encantador-estudio-reformado-en-venta-a-pocos-minutos-de-la-play-pals_d90fa6d5-d5cd-441d-b369-d31be78aa8d6.jpg",
    "habitaciones": null,
    "id": "37ed328ff832",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 29,
@@ -2941,7 +2990,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/530006/55023456465.530006/530006_55023456465_44cb5093-2943-43db-b86f-fdabb2181c9a.jpg",
    "habitaciones": 2,
    "id": "3b6958dda538",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 63,
@@ -3106,7 +3155,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630373138/88ff0523-9ffe-46cd-9c02-c92ce6aefd70.jpg",
    "habitaciones": null,
    "id": "3dd37a84137b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 25,
@@ -3317,7 +3366,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/531014/60032911569.531014/531014_60032911569_d1a939ac-0f4b-451c-99ee-11c57388b401.jpg",
    "habitaciones": 3,
    "id": "3fa99c44972b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 88,
@@ -3634,7 +3683,7 @@
    "foto": "https://images.habimg.com/imgh/11565-2561/oportunidad-de-inversion-en-torroella-de-montgri-girona-piso-en-torroella-de-montgri_1719a28c-ae9f-4601-bf71-20cd2e42044b.jpg",
    "habitaciones": 3,
    "id": "45f76e58f19b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 95,
@@ -3719,7 +3768,7 @@
    "enlaces": [
     {
      "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-apartamento-piso_2_habitaciones_balcon_planta_2_con_ascensor_carrer_marca-palafrugell-i15934004151348.htm"
+     "url": "https://www.habitaclia.com/comprar-piso-amplio_para_reformar_a_la_venta_en_la_punxa-palafrugell-i45161000000727.htm"
     }
    ],
    "extras": {
@@ -3737,13 +3786,13 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://images.habimg.com/imgh/15934-4151348/piso-2-habitaciones-balcon-planta-2-con-ascensor-carrer-marca-palafrugell_e0204504-b7c9-4a2a-8f62-14a99133065c.jpg",
+   "foto": "https://images.habimg.com/imgh/45161-727/amplio-piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_6b934c40-5802-4879-8240-e13a6631de83.jpg",
    "habitaciones": 2,
    "id": "47ef70039d49",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
-   "m2": 79,
+   "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
    "nuevo": false,
@@ -3758,10 +3807,10 @@
    ],
    "precio": 134000,
    "precio_anterior": null,
-   "precio_m2": 1696,
+   "precio_m2": 1718,
    "preferente": true,
-   "tipo": "apartamento",
-   "titulo": "Apartamento  Carrer marçal de la trinxeria. Piso 2 habitaciones, balcón, planta 2 con ascensor, carrer marça",
+   "tipo": "piso",
+   "titulo": "Piso  Calle marçal de la trinxeria. Amplio piso para reformar a la venta en palafrugell",
    "zona": null
   },
   "4807996be5bf": {
@@ -3901,7 +3950,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1005/058/1005_212752988058_1_2025122922121430556.jpg",
    "habitaciones": 4,
    "id": "4b9a78919537",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
@@ -4173,7 +4222,7 @@
    "foto": "https://images.habimg.com/imgh/14795-4378333/cabanyes-mas-ambros-mas-palli-piso-calonge_77acf87b-d4cd-49cc-b7b4-4ab21af09ec1.jpg",
    "habitaciones": 2,
    "id": "549deeb6bc5b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 73,
@@ -4278,7 +4327,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1066/3230323630383031/8ab70490-5a63-4bcf-b493-26f666583896.jpg",
    "habitaciones": 3,
    "id": "5723298a9259",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 95,
@@ -4404,6 +4453,57 @@
    "titulo": "Dúplex  en  Torroella de Montgrí. Muralla 16torroella de montgri",
    "zona": null
   },
+  "5ae18b467d47": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Se encuentra en Torroella de Montgrí Apartamento  Carrer sant antoni 25 25. Apartamento en venta en fontanilles girona Torroella de Montgrí 55m 2 - 2 habitaciones - 1 baño - 2.345€/m 2 Se vende acogedor piso de 79 m², situado en una segunda planta sin ascensor, con una distribución cómoda y varios espacios exter... actualizado hace 37 minutos Añadir a favoritos 129.000 € Avísame si baja",
+   "enlaces": [
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-apartamento-en_venta_en_fontanilles_girona-torroella_de_montgri-i10880004490571.htm"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": false,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://images.habimg.com/imgh/10880-4490571/apartamento-en-venta-en-fontanilles-girona-torroella-de-montgri_3f7be9df-42b8-4a5c-a360-1b2d96c51b55.jpg",
+   "habitaciones": 2,
+   "id": "5ae18b467d47",
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
+   "m2": 55,
+   "minutos": 14,
+   "municipio": "Torroella de Montgrí",
+   "nuevo": true,
+   "planta": null,
+   "portal_ids": [
+    "habitaclia:0449057116000055",
+    "habitaclia:4490571160000159"
+   ],
+   "portales": [
+    "habitaclia"
+   ],
+   "precio": 129000,
+   "precio_anterior": null,
+   "precio_m2": 2345,
+   "preferente": false,
+   "tipo": "apartamento",
+   "titulo": "Apartamento  Carrer sant antoni 25 25. Apartamento en venta en fontanilles girona",
+   "zona": null
+  },
   "5b062dde7109": {
    "activo": true,
    "banos": 1,
@@ -4440,7 +4540,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1085/3230323630383134/19321dfc-9c98-4812-9e8d-cb3e01c037b7.jpg",
    "habitaciones": 2,
    "id": "5b062dde7109",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 48,
@@ -4734,7 +4834,7 @@
   "5ef40db381f0": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Planta baja  en  Poble. Calongeplantabaja Calonge - Poble 105m 2 - 1 habitacion - 1 baño - 943€/m 2 ¡¡Oportunidad de Inversión!! Compre este inmueble por debajo del precio de mercado por tiempo limitado, ahorrándose los gastos n... Añadir a favoritos Oportunidad 99.000 € ha bajado 8.000 € Avísame si baja",
+   "descripcion": "Planta baja  en  Poble. Calongeplantabaja Calonge - Poble 105m 2 - 1 habitacion - 1 baño - 943€/m 2 ¡¡Oportunidad de Inversión!! Compre este inmueble por debajo del precio de mercado por tiempo limitado, ahorrándose los gastos n... Añadir a favoritos 99.000 € ha bajado 8.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -4759,7 +4859,7 @@
    "foto": "https://images.habimg.com/imgh/1606-2342759/calongeplantabaja-calonge_2fb6faa4-f15d-48b9-a0d7-7abe6d97e00b.jpg",
    "habitaciones": 1,
    "id": "5ef40db381f0",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 105,
@@ -5292,7 +5392,7 @@
    "foto": "https://images.habimg.com/imgh/41124-99663/solvia-inmobiliaria-piso-palafrugell-palafrugell_606c55a1-118c-4e2b-bfa4-d96a59643e40.jpg",
    "habitaciones": 3,
    "id": "688ee1738d3b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 79,
@@ -5310,7 +5410,7 @@
     "pisos"
    ],
    "precio": 130000,
-   "precio_anterior": 131000,
+   "precio_anterior": null,
    "precio_m2": 1646,
    "preferente": true,
    "tipo": "piso",
@@ -5462,7 +5562,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1070/156/1070_AS1-52895156_1_202602171215008908779.jpg",
    "habitaciones": null,
    "id": "6e24f40c0346",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
@@ -5516,7 +5616,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/529567/64233111907.529567/529567_64233111907_48f0506b-ba31-441a-9c83-cee80c874b35.jpg",
    "habitaciones": 1,
    "id": "6e6894c20bd4",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 35,
@@ -5569,7 +5669,7 @@
    "foto": "https://images.habimg.com/imgh/11955-4443555/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_d728d668-234c-4545-801d-a9049ed552d7.jpg",
    "habitaciones": 2,
    "id": "70107d9b9cf5",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 57,
@@ -5779,7 +5879,7 @@
    "foto": "https://images.habimg.com/imgh/53343-207/planta-baja-vpo-palafrugell_4d31cae9-c156-4b46-a30e-e7133dfb17c4.jpg",
    "habitaciones": 3,
    "id": "71db9c85ec17",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 103,
@@ -5855,7 +5955,7 @@
   "75b4bb6a7a60": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  Del carrilet Palafrugell - Molí de Vent-La Sauleda 75m 2 - 3 habitaciones - 1 baño - 1.600€/m 2 SE VENDE CON EL INQUILINO. PISO ALQUILADO, ES PARA INVERIÓN. En una segunda planta sin ascensor tenemos este piso actualmente... actualizado hace 10 días Añadir a favoritos Oportunidad 120.000 € Avísame si baja",
+   "descripcion": "Se encuentra en Palafrugell Piso  Del carrilet Palafrugell - Molí de Vent-La Sauleda 75m 2 - 3 habitaciones - 1 baño - 1.600€/m 2 SE VENDE CON EL INQUILINO. PISO ALQUILADO, ES PARA INVERIÓN. En una segunda planta sin ascensor tenemos este piso actualmente... actualizado hace 11 días Añadir a favoritos 120.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -5884,7 +5984,7 @@
    "foto": "https://images.habimg.com/imgh/2471-4350204/del-carrilet-piso-palafrugell_8205a17d-cdf3-44db-adc9-1b8e50935859.jpg",
    "habitaciones": 3,
    "id": "75b4bb6a7a60",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 75,
@@ -5988,7 +6088,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/500582/60861118535.500582/500582_60861118535_069e0fb0-c223-4834-b4e9-c397b351992a.jpg",
    "habitaciones": 2,
    "id": "7966617a9b63",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 131,
@@ -6357,7 +6457,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1083/073/1083_0044461073_1_2024110712112691294.jpg",
    "habitaciones": null,
    "id": "80b6b844953b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 120,
@@ -6409,7 +6509,7 @@
    "foto": "https://images.habimg.com/imgh/56447-257/piso-en-palafrugell-palafrugell_d26019d6-e85c-420d-b562-3ef8e72b23c4.jpg",
    "habitaciones": 1,
    "id": "80cbea1e7b23",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 43,
@@ -7042,7 +7142,7 @@
    "enlaces": [
     {
      "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-3_habitaciones_en_oportunidad_inversion_econo_moli_de_vent_la_sauleda-palafrugell-i44863000000347.htm"
+     "url": "https://www.habitaclia.com/comprar-piso-3_habitaciones_en_oportunidad_inversion_econo-palafrugell-i44863000000347.htm"
     }
    ],
    "extras": {
@@ -7063,7 +7163,7 @@
    "foto": "https://images.habimg.com/imgh/44863-347/piso-3-habitaciones-en-palafrugell-oportunidad-inversion-econo-palafrugell_390e2d8e-4348-40d2-a1cf-28f6b08f523c.jpg",
    "habitaciones": 3,
    "id": "9243699fabb7",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
@@ -7342,7 +7442,7 @@
   "97f53320e218": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Apartamento  en  Platja de Pals. Apartamento con encanto en pals , cerca del mar y rodeado de tra Pals - Platja de Pals 32m 2 - 1 habitacion - 1 baño - 4.219€/m 2 Acogedor apartamento en primera planta, muy funcional y totalmente reformado para aprovechar al máximo cada espacio.  Al entra... actualizado hace 4 días Añadir a favoritos 135.000 € Avísame si baja",
+   "descripcion": "Apartamento  en  Platja de Pals. Apartamento con encanto en pals , cerca del mar y rodeado de tra Pals - Platja de Pals 32m 2 - 1 habitacion - 1 baño - 4.219€/m 2 Acogedor apartamento en primera planta, muy funcional y totalmente reformado para aprovechar al máximo cada espacio.  Al entra... actualizado hace 5 días Añadir a favoritos 135.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -7379,7 +7479,7 @@
    "foto": "https://images.habimg.com/imgh/47513-67/apartamento-con-encanto-en-pals--cerca-del-mar-y-rodeado-de-tra-pals_6327677f-ea0e-4e9b-8002-9a2f0149be9c.jpg",
    "habitaciones": 1,
    "id": "97f53320e218",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 32,
@@ -7960,7 +8060,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/595/1064_IJ31283-101251595_1_202605251124199457638.jpg",
    "habitaciones": 3,
    "id": "a462156470fe",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 90,
@@ -7991,7 +8091,7 @@
    "enlaces": [
     {
      "portal": "pisos",
-     "url": "https://www.pisos.com/comprar/piso-estartit_distrito-66705213758_106100/"
+     "url": "https://www.pisos.com/comprar/atico-torroella_de_montgri-64196117216_106400/"
     }
    ],
    "extras": {
@@ -8009,17 +8109,17 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630383032/f124a25b-a983-4c58-89cc-20e5ebc6ba12.jpg",
+   "foto": "https://fotos.imghs.net/mm-wp/1064/585/1064_IJ31283-101251585_1_202605251124196773582.jpg",
    "habitaciones": 1,
    "id": "a619e75b5e73",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
-   "m2": 47,
+   "m2": 45,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
    "nuevo": false,
-   "planta": "Principal",
+   "planta": "Ático",
    "portal_ids": [
     "pisos:05213758106100",
     "pisos:96117216106400"
@@ -8029,10 +8129,10 @@
    ],
    "precio": 150000,
    "precio_anterior": null,
-   "precio_m2": 3191,
+   "precio_m2": 3333,
    "preferente": false,
-   "tipo": "piso",
-   "titulo": "Piso en L'Estartit",
+   "tipo": "ático",
+   "titulo": "Ático en Carrer de Milà",
    "zona": null
   },
   "a662cf4af813": {
@@ -8165,7 +8265,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/587/1064_IJ31283-101251587_1_202605251124198468190.jpg",
    "habitaciones": 1,
    "id": "a79acc25be59",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 45,
@@ -8270,7 +8370,7 @@
    "foto": "https://images.habimg.com/imgh/43082-1403/piso-en-venta-en-calle-marcal-de-la-trinxeria-palafrugell-giron-palafrugell_9ea8b4f6-3e3f-4e73-a507-893c2e0a57f7.jpg",
    "habitaciones": 4,
    "id": "a7ca443c6265",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 80,
@@ -8291,7 +8391,7 @@
     "pisos"
    ],
    "precio": 140000,
-   "precio_anterior": 134000,
+   "precio_anterior": null,
    "precio_m2": 1750,
    "preferente": true,
    "tipo": "piso",
@@ -8326,7 +8426,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/593/1064_IJ31283-101251593_1_202605251124201088688.jpg",
    "habitaciones": 1,
    "id": "a8039206cfe0",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 46,
@@ -8481,7 +8581,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630373138/c172e8f7-cb10-4e34-af81-32c7482f44b7.jpg",
    "habitaciones": 1,
    "id": "ae5e1605e29d",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 41,
@@ -8643,7 +8743,7 @@
    "foto": "https://images.habimg.com/imgh/5664-4285940/piso-luminoso-en-palafrugell-con-vistas-despejadas-y-excelente-u-palafrugell_e0b53474-6077-4d68-b014-d992c73d191d.jpg",
    "habitaciones": 3,
    "id": "b40dc9166ea3",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 70,
@@ -8753,7 +8853,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1018/445/1018_107789445_1_202606032028254246941.jpg",
    "habitaciones": 1,
    "id": "b8f3d9a2d450",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 74,
@@ -8919,7 +9019,7 @@
    "foto": "https://images.habimg.com/imgh/30303-41163/muralla-16torroella-de-montgri-torroella-de-montgri_6fd03f06-a432-440b-86a6-3a2345d68990.jpg",
    "habitaciones": 2,
    "id": "bb9ad7a588aa",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 104,
@@ -8975,7 +9075,7 @@
    "foto": "https://images.habimg.com/imgh/11955-4443553/planta-baja-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_284b002f-1ce4-430d-a78b-7b01bb0da9a7.jpg",
    "habitaciones": 3,
    "id": "bc5e04d151ad",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 96,
@@ -9030,7 +9130,7 @@
    "foto": "https://images.habimg.com/imgh/1533-4266647/piso-en-venta-en-palafrugell-palafrugell_94f65733-bd25-4bec-a8a4-cc2d9ffa4b85.jpg",
    "habitaciones": 1,
    "id": "bc9044e7714d",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 79,
@@ -9187,7 +9287,7 @@
    "foto": "https://images.habimg.com/imgh/1533-4266645/aticoduplex-en-venta-en-palafrugell-palafrugell_6a56e498-c35d-413e-8bae-ec089731f80c.jpg",
    "habitaciones": 1,
    "id": "be5ebdc2f860",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 47,
@@ -9298,7 +9398,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630373034/7bc54fae-23d1-4a9f-9484-9273116bfd10.jpg",
    "habitaciones": 1,
    "id": "c182a6aaeac1",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 53,
@@ -9360,7 +9460,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1061/3230323630383136/b80bc8d1-31ed-4608-93da-ca0db2437098.jpg",
    "habitaciones": 2,
    "id": "c19c71504a5b",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 80,
@@ -9519,7 +9619,7 @@
    "foto": "https://images.habimg.com/imgh/45396-7088/venta-en-condiciones-especiales-modalidad-cesion-de-remate-palafrugell_395cd4f8-7b9d-4298-8825-ee2422bb2f38.jpg",
    "habitaciones": 2,
    "id": "c601ca91645f",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
@@ -9772,7 +9872,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1018/471/1018_107947471_1_202603211908364605225.jpg",
    "habitaciones": 2,
    "id": "ca8009f40bde",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
@@ -10294,7 +10394,7 @@
    "foto": "https://images.habimg.com/imgh/11955-4443586/torroella-de-montgri--planta-baja-reformada-con-encanto-y-techo-torroella-de-montgri_28f77351-e84d-46e3-80e3-32a7b8cbb199.jpg",
    "habitaciones": 1,
    "id": "d0e147dfad76",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 49,
@@ -10410,7 +10510,7 @@
    "foto": "https://images.habimg.com/imgh/1533-4266494/piso-en-rendimiento-palafrugell_fd26a896-db7a-4cc9-88a6-ffa19d304117.jpg",
    "habitaciones": 2,
    "id": "d25c33e73955",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
@@ -10468,7 +10568,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1085/3230323630383134/64352898-d82c-4d97-b326-58b0e58a70b8.jpg",
    "habitaciones": 1,
    "id": "d3ba061658c7",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 57,
@@ -10663,7 +10763,7 @@
   "db7cf67841d5": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Apartamento  en  Centre. Vivienda reformada con terraza en el centro de palamós Palamós - Centre 41m 2 - 1 habitacion - 1 baño - 3.902€/m 2 Vivienda céntrica con una habitación doble y un baño completo con ducha en suite. Amplio y luminoso salón con cocina moderna equ... Prioritario actualizado hace 14 horas Añadir a favoritos 160.000 € Avísame si baja",
+   "descripcion": "Apartamento  en  Centre. Vivienda reformada con terraza en el centro de palamós Palamós - Centre 41m 2 - 1 habitacion - 1 baño - 3.902€/m 2 Vivienda céntrica con una habitación doble y un baño completo con ducha en suite. Amplio y luminoso salón con cocina moderna equ... Prioritario actualizado hace 15 horas Añadir a favoritos 160.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -10688,7 +10788,7 @@
    "foto": "https://images.habimg.com/imgh/12230-2676191/vivienda-reformada-con-terraza-en-el-centro-de-palamos-palamos_fb83fd46-9bc7-42b1-a0ff-41459bf91cbc.jpg",
    "habitaciones": 1,
    "id": "db7cf67841d5",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 41,
@@ -10739,7 +10839,7 @@
    "foto": "https://images.habimg.com/imgh/41124-90130/solvia-inmobiliaria-piso-palafrugell-palafrugell_1b41f13d-217c-4fb0-a84b-1046f5e20004.jpg",
    "habitaciones": 1,
    "id": "dba7973e7d1a",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 56,
@@ -10764,7 +10864,7 @@
   "dbe5b0604095": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  Andalusia. Planta baja con trastero en zona residencial tranquila Palafrugell - La Punxa 80m 2 - 2 habitaciones - 1 baño - 2.000€/m 2 PLANTA BAJA CON TRASTERO EN ZONA RESIDENCIAL TRANQUILA Ubicado en la periferia del centro de Palafrugell, a tan solo 15 minutos... actualizado hace 6 días Añadir a favoritos 160.000 € Avísame si baja",
+   "descripcion": "Se encuentra en Palafrugell Piso  Andalusia. Planta baja con trastero en zona residencial tranquila Palafrugell - La Punxa 80m 2 - 2 habitaciones - 1 baño - 2.000€/m 2 PLANTA BAJA CON TRASTERO EN ZONA RESIDENCIAL TRANQUILA Ubicado en la periferia del centro de Palafrugell, a tan solo 15 minutos... actualizado hace 7 días Añadir a favoritos 160.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -10789,7 +10889,7 @@
    "foto": "https://images.habimg.com/imgh/10351-4348823/planta-baja-con-trastero-en-zona-residencial-tranquila-palafrugell_ee0f62fe-b4fa-46d8-8570-b0a81a4707ca.jpg",
    "habitaciones": 2,
    "id": "dbe5b0604095",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 80,
@@ -10957,7 +11057,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/995275/65064578386.995275/995275_65064578386_1_20260620123334239.jpg",
    "habitaciones": 2,
    "id": "dc6c7f54705c",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 114,
@@ -11162,7 +11262,7 @@
    "foto": "https://images.habimg.com/imgh/11955-4443558/primera-planta-reformada-en-venta--calle-plans-29-palafrugell-palafrugell_ec50a831-926f-42c5-b845-146335c96d14.jpg",
    "habitaciones": 3,
    "id": "df11a0fdeb94",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
@@ -11421,7 +11521,7 @@
    "foto": "https://images.habimg.com/imgh/15934-4151358/piso-84m2-3-habitaciones-planta-4-sin-ascensor-carrer-carrile-palafrugell_c7caf788-2e24-4cd3-9ac9-a3ce8846c60f.jpg",
    "habitaciones": 3,
    "id": "e0ae26c899b2",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
@@ -11497,7 +11597,7 @@
   "e1c71279bd57": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso  Calle industria. Piso a 150 m de la playa y en pleno centro  edificio muntaner Palamós - Avinguda Catalunya 35m 2 - 1 habitacion - 1 baño - 3.914€/m 2 Ideal para inversión: vivienda en el centro de Palamós con ingresos desde el primer momento Gran oportunidad en Palamós, a tan s... Premium Añadir a favoritos Oportunidad 137.000 € Avísame si baja",
+   "descripcion": "Piso  Calle industria. Piso a 150 m de la playa y en pleno centro  edificio muntaner Palamós - Avinguda Catalunya 35m 2 - 1 habitacion - 1 baño - 3.914€/m 2 Ideal para inversión: vivienda en el centro de Palamós con ingresos desde el primer momento Gran oportunidad en Palamós, a tan s... Prioritario Premium Añadir a favoritos Oportunidad 137.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -11522,7 +11622,7 @@
    "foto": "https://images.habimg.com/imgh/55381-85/piso-a-150-m-de-la-playa-y-en-pleno-centro-edificio-muntaner-palamos_b82209b2-96a7-4200-9c3a-8ed0e014c5b7.jpg",
    "habitaciones": 1,
    "id": "e1c71279bd57",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 35,
@@ -11631,7 +11731,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1005/584/1005_275907903584_1_202604021338328567349.jpg",
    "habitaciones": 2,
    "id": "e319931879a7",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 55,
@@ -11787,7 +11887,7 @@
    "foto": "https://images.habimg.com/imgh/27367-4443690/estudio-en-venta-en-torroella-de-montgriestudio-de-52m2-construi-torroella-de-montgri_c0968cfe-cb7e-4df5-94d9-23027c812fba.jpg",
    "habitaciones": null,
    "id": "e50182199829",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 52,
@@ -11996,7 +12096,7 @@
    "foto": "https://fotos.imghs.net/mm-wp/1064/3230323630373037/345f85b5-b7e7-48fe-b1c5-abb207742992.jpg",
    "habitaciones": 2,
    "id": "e675b57a978d",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 94,
@@ -12114,7 +12214,7 @@
    "foto": "https://images.habimg.com/imgh/39291-195/piso-grande-para-reformar-palafrugell_725c02dc-4862-4675-aba4-911e1508d0f7.jpg",
    "habitaciones": 4,
    "id": "e86142ed8309",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 102,
@@ -12249,7 +12349,7 @@
   "ee2c333ed2a8": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Piso  De pi i margall Palafrugell - La Punxa 50m 2 - 1 habitacion - 1 baño - 3.200€/m 2 EN PROYECTO, EXCLUSIVAS VIVIENDAS DE OBRA NUEVA CON TERRAZAS Y PÁRQUING EN PALAFRUGELL  Descubre esta exclusiva promoción de o... actualizado hace 14 días Añadir a favoritos 160.000 € Avísame si baja",
+   "descripcion": "Se encuentra en Palafrugell Piso  De pi i margall Palafrugell - La Punxa 50m 2 - 1 habitacion - 1 baño - 3.200€/m 2 EN PROYECTO, EXCLUSIVAS VIVIENDAS DE OBRA NUEVA CON TERRAZAS Y PÁRQUING EN PALAFRUGELL  Descubre esta exclusiva promoción de o... Añadir a favoritos 160.000 € Avísame si baja",
    "enlaces": [
     {
      "portal": "habitaclia",
@@ -12274,7 +12374,7 @@
    "foto": "https://images.habimg.com/imgh/5498-2984654/de-pi-i-margall-piso-palafrugell_03a05ae9-4833-479e-96ed-cc83d276771e.jpg",
    "habitaciones": 1,
    "id": "ee2c333ed2a8",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 50,
@@ -12582,7 +12682,7 @@
    "foto": "https://images.habimg.com/imgh/44863-101/encantador-piso-en-calonge-a-un-paso-de-la-playa-calonge_094fda8b-a6b2-4f35-8e5e-0c46c9e0d9e3.jpg",
    "habitaciones": 2,
    "id": "f0bd12eefc05",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 39,
@@ -12662,7 +12762,7 @@
    "enlaces": [
     {
      "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-para_reformar_a_la_venta_en-palafrugell-i45161000000722.htm"
+     "url": "https://www.habitaclia.com/comprar-piso-para_reformar_a_la_venta_en_moli_de_vent_la_sauleda-palafrugell-i45161000000722.htm"
     }
    ],
    "extras": {
@@ -12683,7 +12783,7 @@
    "foto": "https://images.habimg.com/imgh/45161-722/piso-para-reformar-a-la-venta-en-palafrugell-palafrugell_da2f0e43-1875-4d58-b2a3-f6f08191ae0f.jpg",
    "habitaciones": 3,
    "id": "f133f5c18db8",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
@@ -12692,6 +12792,7 @@
    "nuevo": false,
    "planta": null,
    "portal_ids": [
+    "habitaclia:0000072216000055",
     "habitaclia:0000722160000159",
     "habitaclia:0001151160000159"
    ],
@@ -12734,7 +12835,7 @@
    "foto": "https://images.habimg.com/imgh/53343-196/piso-reformado-con-parking-palafrugell_b64bbff2-f0cd-4a76-8e9a-c229fed9abd2.jpg",
    "habitaciones": 2,
    "id": "f280ac63cfa0",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 65,
@@ -12999,7 +13100,7 @@
    "foto": "https://images.habimg.com/imgh/11955-4443550/piso-reformado-en-edificio-con-ascensor--primera-planta--listo-palafrugell_d572f602-d541-470d-9f00-ba69812a1d3a.jpg",
    "habitaciones": 3,
    "id": "f955f5a39f41",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 71,
@@ -13049,7 +13150,7 @@
    "foto": "https://images.habimg.com/imgh/38277-1104/estudio-en-venta-en-pals-pals_a2c015aa-1ff6-421e-ac1f-fe11a3a392dc.jpg",
    "habitaciones": null,
    "id": "fdc27dec41e7",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 70,
@@ -13189,5 +13290,5 @@
    "zona": null
   }
  },
- "ultima_actualizacion": "2026-08-18T06:45:40"
+ "ultima_actualizacion": "2026-08-19T06:46:11"
 }
