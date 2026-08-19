@@ -137,6 +137,10 @@ EXCLUIR_KW = [
     # alquilado con inquilinos
     "alquilado con inquilino", "con inquilinos", "llogat amb llogater",
     "rentabilidad garantizada con inquilino",
+    # anuncios que no son viviendas, colados en el listado de pisos
+    "prestamo hipotecario", "préstamo hipotecario", "prestamos hipotecarios",
+    "préstamos hipotecarios", "reunificacion de deudas", "reunificación de deudas",
+    "capital privado", "financiacion al 100", "financiación al 100",
     # otras rarezas
     "obra parada", "sin cedula de habitabilidad", "sin cédula de habitabilidad",
     "ruina", "para derribar", "derribo",

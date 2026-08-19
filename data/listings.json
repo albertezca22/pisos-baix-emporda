@@ -216,7 +216,7 @@
   "0675dbabc8d7": {
    "activo": true,
    "banos": 1,
-   "descripcion": "PISO PARA REFORMAR A LA VENTA EN PALAFRUGELL\n\n**Incluimos imágenes generadas con técnicas de edición gráfica y visualización arquitectónica aplicadas a fotografía inmobiliaria para ayudarte a imaginar el potencial de esta vivienda** \n\nBartrina y Asociados presenta A LA VENTA este piso de 84 m2, una oportunidad ideal para quienes buscan un inmueble con posibilidades reales de transformación en Palafrugell, dentro de la zona de Vila Palafrugell, un entorno residencial consolidado que destaca por su proximidad a servicios, su buena comunicación y su ambiente práctico y dinámico. Para quienes analizan oportunidades de inversión inmobiliaria, este tipo de propiedades ofrece un recorrido muy interesante.\n\nLa vivienda se encuentra en una 4ª planta de un bloque SIN ascensor y cuenta con una distribución funcional que permite imaginar múltiples propuestas de reforma. El salón‑comedor ofrece un es",
+   "descripcion": "Ref: 00748. PISO PARA REFORMAR A LA VENTA EN PALAFRUGELL\n\n**Incluimos imágenes generadas con técnicas de edición gráfica y visualización arquitectónica aplicadas a fotografía inmobiliaria para ayudarte a imaginar el potencial de esta vivienda** \n\nBartrina y Asociados presenta A LA VENTA este piso de 84 m2, una oportunidad ideal para quienes buscan un inmueble con posibilidades reales de transformación en Palafrugell, dentro de la zona de Vila Palafrugell, un entorno residencial consolidado que destaca por su proximidad a servicios, su buena comunicación y su ambiente práctico y dinámico. Para quienes analizan oportunidades de inversión inmobiliaria, este tipo de propiedades ofrece un recorrido muy interesante.\n\nLa vivienda se encuentra en una 4ª planta de un bloque SIN ascensor y cuenta con una distribución funcional que permite imaginar múltiples propuestas de reforma. El salón‑comedor ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -225,6 +225,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/moli-de-vent-la-sauleda/190141779/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-603886394.htm"
     },
     {
      "portal": "habitaclia",
@@ -250,13 +254,13 @@
    "habitaciones": 3,
    "id": "0675dbabc8d7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91567983617515,
    "lon": 3.1563019755594866,
    "m2": 84,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "4ª planta",
    "portal_ids": [
     "fotocasa:187990571",
@@ -266,12 +270,15 @@
     "habitaclia:0001151160000159",
     "idealista:109719485",
     "idealista:111557602",
-    "idealista:111927028"
+    "idealista:111927028",
+    "milanuncios:564541536",
+    "milanuncios:603886394"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 98000,
    "precio_anterior": null,
@@ -284,7 +291,7 @@
   "09b878591877": {
    "activo": true,
    "banos": 1,
-   "descripcion": "EN PROYECTO, EXCLUSIVAS VIVIENDAS DE OBRA NUEVA CON TERRAZAS Y PÁRQUING EN PALAFRUGELL\r\n\r\nDescubre esta exclusiva promoción de obra nueva formada por solo 7 viviendas, situada en una zona tranquila y bien comunicada de Palafrugell, a pocos minutos del centro y con vistas despejadas y buena orientación. Una pequeña comunidad pensada para disfrutar de la luz, la comodidad y la tranquilidad en el día a día.\r\n\r\nEl edificio, esquinero y orientado al sur y oeste, ofrece viviendas muy luminosas, con distribuciones modernas y espacios exteriores privados que conectan interior y exterior de forma natural.\r\n\r\nLa promoción se distribuye en planta baja más dos plantas y aparcamiento en sótano. Últimas unidades disponibles:\r\n\r\nEn la planta baja encontramos:\r\n• Un estudio de 1 habitación de 49,20 m² (42,30 m² útiles) con terraza privada de 12,15 m²\r\n\r\nEn la segunda planta:\r\n• 1 exclusiva vivienda de 3",
+   "descripcion": "Ref: ON-193. EN PROYECTO, EXCLUSIVAS VIVIENDAS DE OBRA NUEVA CON TERRAZAS Y PÁRQUING EN PALAFRUGELL\r\n\r\nDescubre esta exclusiva promoción de obra nueva formada por solo 7 viviendas, situada en una zona tranquila y bien comunicada de Palafrugell, a pocos minutos del centro y con vistas despejadas y buena orientación. Una pequeña comunidad pensada para disfrutar de la luz, la comodidad y la tranquilidad en el día a día.\r\n\r\nEl edificio, esquinero y orientado al sur y oeste, ofrece viviendas muy luminosas, con distribuciones modernas y espacios exteriores privados que conectan interior y exterior de forma natural.\r\n\r\nLa promoción se distribuye en planta baja más dos plantas y aparcamiento en sótano. Últimas unidades disponibles:\r\n\r\nEn la planta baja encontramos:\r\n• Un estudio de 1 habitación de 49,20 m² (42,30 m² útiles) con terraza privada de 12,15 m²\r\n\r\nEn la segunda planta:\r\n• 1 exclusiva ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -293,6 +300,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/aire-acondicionado-parking-ascensor-no-amueblado/189629226/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-594352006.htm"
     },
     {
      "portal": "habitaclia",
@@ -318,24 +329,26 @@
    "habitaciones": 1,
    "id": "09b878591877",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.923397595928535,
    "lon": 3.1645169508804507,
    "m2": 50,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189629226",
     "habitaclia:0298465416000055",
     "habitaclia:2984654160000159",
-    "idealista:112184127"
+    "idealista:112184127",
+    "milanuncios:594352006"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 160000,
    "precio_anterior": null,
@@ -430,13 +443,13 @@
    "habitaciones": 1,
    "id": "0ce6568bb740",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9576191,
    "lon": 3.0395918,
    "m2": 54,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:188851477",
@@ -489,7 +502,7 @@
    "m2": 75,
    "minutos": 16,
    "municipio": "Ullà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:6028425160000159"
@@ -542,13 +555,13 @@
    "habitaciones": 1,
    "id": "0eb4f256e675",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.05161544080601,
    "lon": 3.1942222222785643,
    "m2": 38,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:188124479",
@@ -604,7 +617,7 @@
    "m2": null,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:0000022416000055",
@@ -677,7 +690,7 @@
   "0fac19a1f560": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso en venta ubicado en una calle tranquila y rodeado de buenas conexiones con las carreteras principales y a pocos minutos de la estación de autobuses.\r\nLa vivienda está distribuida en vestíbulo, cocina abierta al salón-comedor con salida directa al balcón de la fachada principal, un dormitorio doble y un baño completo.\r\nVivienda amueblada y con electrodomésticos.\r\nTodas las estancias son exteriores, proporcionando mucha luminosidad y abundante luz natural en toda la vivienda.\r\nEl edificio está reformado hace pocos años, se encuentra en muy buen estado y dispone de ascensor. \r\nAdemás, existe la posibilidad de adquirir una o varias plazas de aparcamiento en el mismo edificio.",
+   "descripcion": "Ref: 2418. Piso en venta ubicado en una calle tranquila y rodeado de buenas conexiones con las carreteras principales y a pocos minutos de la estación de autobuses.\r\nLa vivienda está distribuida en vestíbulo, cocina abierta al salón-comedor con salida directa al balcón de la fachada principal, un dormitorio doble y un baño completo.\r\nVivienda amueblada y con electrodomésticos.\r\nTodas las estancias son exteriores, proporcionando mucha luminosidad y abundante luz natural en toda la vivienda.\r\nEl edificio está reformado hace pocos años, se encuentra en muy buen estado y dispone de ascensor. \r\nAdemás, existe la posibilidad de adquirir una o varias plazas de aparcamiento en el mismo edificio. # Armarios # Lavadero # Balcón # Alarma # Lavadora # Frigorífico #Horno #",
    "enlaces": [
     {
      "portal": "idealista",
@@ -686,6 +699,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-ascensor/190164219/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-604306739.htm"
     },
     {
      "portal": "habitaclia",
@@ -711,23 +728,25 @@
    "habitaciones": 1,
    "id": "0fac19a1f560",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91544059302784,
    "lon": 3.1589854836271605,
    "m2": 79,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:190164219",
     "habitaclia:4266647160000159",
-    "idealista:111948436"
+    "idealista:111948436",
+    "milanuncios:604306739"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 157500,
    "precio_anterior": null,
@@ -770,13 +789,13 @@
    "habitaciones": 1,
    "id": "10477bdff9ae",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.05189165623469,
    "lon": 3.1963862706298922,
    "m2": 25,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:188506710",
@@ -882,7 +901,7 @@
    "m2": 79,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:0000043216000055",
@@ -933,13 +952,13 @@
    "habitaciones": 2,
    "id": "13c5ece52a96",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.96243969759928,
    "lon": 3.040553257059673,
    "m2": 83,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:182207988"
@@ -996,13 +1015,13 @@
    "habitaciones": 1,
    "id": "146639cc0c34",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91215695194169,
    "lon": 3.1578529717914448,
    "m2": 43,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:187256159",
@@ -1054,13 +1073,13 @@
    "habitaciones": 3,
    "id": "17f7d227124e",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 75,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:111469113"
@@ -1109,13 +1128,13 @@
    "habitaciones": 3,
    "id": "1deea1dbaa6b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.956512717,
    "lon": 3.038457014,
    "m2": 308,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:189334878",
@@ -1166,13 +1185,13 @@
    "habitaciones": 3,
    "id": "1e5a70b08dcd",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 87,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:0000293816000055",
@@ -1224,13 +1243,13 @@
    "habitaciones": 1,
    "id": "1fd6cde8479e",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0557021,
    "lon": 3.1975209,
    "m2": 56,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:185359144",
@@ -1288,7 +1307,7 @@
    "m2": 65,
    "minutos": 12,
    "municipio": "Begur",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:00196160000159"
@@ -1359,11 +1378,15 @@
   "2627b04c23ef": {
    "activo": true,
    "banos": 1,
-   "descripcion": "115.000 € Piso en Palafrugell Palafrugell 2 habs. 1 baño 70 m² Cr vilà.\nPiso a reformar en planta baja de 70 m² construidos.\n1 habitación doble.\n1 habitación individual.\nBaño con ducha.\nCocina ...",
+   "descripcion": "Ref: PB VILA. CR VILÀ.\nPISO A REFORMAR EN PLANTA BAJA DE 70 m² CONSTRUIDOS.\n1 HABITACIÓN DOBLE.\n1 HABITACIÓN INDIVIDUAL.\nBAÑO CON DUCHA.\nCOCINA INDEPENDIENTE CON SALIDA A PEQUEÑA GALERIA CON TRASTERO.\nSALÓN COMEDOR.\nTODO ES EXTERIOR CON VENTANAS Y REJAS DE SEGURIDAD.\nENTRADA INDEPENDIENTE DESDE LA CALLE.\nSE PUEDE ENTRAR A VIVIR, PERO NECESITA REFORMA.\nIDEAL PARA PERSONAS CON MINUSVALIA YA QUE NO TIENE NINGUNA ESCALERA DE ACCESO.\nZONA CON TODOS LOS SERVICIOS (GASOLINERA, SUPERMERCADO, FARMACIA, ETC…).\nA 2 MINUTOS DE LA ESTACIÓN DE AUTOBUSES Y A 10 MINUTOS ANDANDO AL CENTRO.\nZONA DE APARCAMIENTO EXTERIOR GRATUITA Y SIN PROBLEMAS EN TODO EL PERÍMETRO.\nEl piso está alquilado hasta 06/2026 con una buena renta,\nInquilinos serios y solventes sin ningún impago\n115.000.-€\n¡¡¡¡¡¡¡ LLÁMAME, VAMOS A VISITARLO Y HABLAMOS, SEGURO LLEGAMOS A UN ACUERDO !!!!!!!\nAPI 5696-AICAT A10467\n\nTodos los gastos e ",
    "enlaces": [
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell-66747956359_106400/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-586000893.htm"
     },
     {
      "portal": "habitaclia",
@@ -1377,11 +1400,11 @@
     "balcon": false,
     "calefaccion": false,
     "jardin": false,
-    "parking": false,
+    "parking": true,
     "piscina": false,
     "reformado": false,
     "terraza": false,
-    "trastero": false,
+    "trastero": true,
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
@@ -1389,20 +1412,22 @@
    "habitaciones": 2,
    "id": "2627b04c23ef",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 70,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:4497720160000159",
+    "milanuncios:586000893",
     "pisos:47956359106400"
    ],
    "portales": [
     "habitaclia",
+    "milanuncios",
     "pisos"
    ],
    "precio": 115000,
@@ -1446,13 +1471,13 @@
    "habitaciones": 3,
    "id": "26cda726c779",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.042025160213434,
    "lon": 3.1950618918606186,
    "m2": 54,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:189284505",
@@ -1551,13 +1576,13 @@
    "habitaciones": 1,
    "id": "27679536f755",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 33,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:104362551"
@@ -1606,13 +1631,13 @@
    "habitaciones": null,
    "id": "283d091515f3",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9702799,
    "lon": 3.1479587,
    "m2": 70,
    "minutos": 7,
    "municipio": "Pals",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:188167813",
@@ -1633,7 +1658,7 @@
   "2a32da894054": {
    "activo": true,
    "banos": 2,
-   "descripcion": "OPORTUNIDAD EN EL CENTRO CON PARKING y TERRAZA\nCómodo apartamento de 62m2 ubicado en la periferia del núcleo urbano de Palafrugell.\nConsta de recibidor, salón comedor muy luminoso con salida a una terracita con vistas al pueblo, cocina equipada, amplia y cómoda, 2 habitaciones dobles con armarios empotrados, 2 baños completos (uno con ducha y otro, con bañera).\nSe trata de un primer piso sin ascensor, en una escalera de tan solo 6 vecinos, donde los gastos comunitarios son mínimos, lo que lo convierte en una gran oportunidad de inversión con un coste mínimo de mantenimiento.\nLa plaza de parking se encuentra en la planta -1 de la misma escalera, cómoda y de fácil acceso.\nSi buscas una OPORTUNIDAD a pocos quilómetros de las mejores playas de la Costa Brava, a pocos minutos caminando de tiendas y supermercados y con parking... no lo pienses demasiado y contacta con nosotros para concertar u",
+   "descripcion": "Ref: 1638. OPORTUNIDAD EN EL CENTRO CON PARKING y TERRAZA\nCómodo apartamento de 62m2 ubicado en la periferia del núcleo urbano de Palafrugell.\nConsta de recibidor, salón comedor muy luminoso con salida a una terracita con vistas al pueblo, cocina equipada, amplia y cómoda, 2 habitaciones dobles con armarios empotrados, 2 baños completos (uno con ducha y otro, con bañera).\nSe trata de un primer piso sin ascensor, en una escalera de tan solo 6 vecinos, donde los gastos comunitarios son mínimos, lo que lo convierte en una gran oportunidad de inversión con un coste mínimo de mantenimiento.\nLa plaza de parking se encuentra en la planta -1 de la misma escalera, cómoda y de fácil acceso.\nSi buscas una OPORTUNIDAD a pocos quilómetros de las mejores playas de la Costa Brava, a pocos minutos caminando de tiendas y supermercados y con parking... no lo pienses demasiado y contacta con nosotros para ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -1642,6 +1667,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-parking-terraza-no-amueblado/190350038/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-607638520.htm"
     },
     {
      "portal": "habitaclia",
@@ -1668,23 +1697,25 @@
    "habitaciones": 2,
    "id": "2a32da894054",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.919150478462534,
    "lon": 3.16555737886441,
    "m2": 62,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:190350038",
     "habitaclia:4348821160000159",
-    "idealista:112137967"
+    "idealista:112137967",
+    "milanuncios:607638520"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 158000,
    "precio_anterior": null,
@@ -1723,13 +1754,13 @@
    "habitaciones": 2,
    "id": "2b95c2ae9386",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 55,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "idealista:112154113"
@@ -1748,7 +1779,7 @@
   "2be18dd8f302": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso de 56 m² ubicado en Palafrugell, Girona. Se trata de un piso de 56 m² distribuidos en salón-comedor, cocina, 1 dormitorio y 1 baño. Piso situado en el núcleo urbano de Palafrugell, con buenos accesos por la carretera C-31. Dispone de transporte público mediante líneas de autobús interurbano. En la zona se pueden encontrar servicios como supermercados, restaurantes, instalaciones deportivas, centros educativos, oficinas bancarias y otros negocios comerciales. Cerca del activo se encuentra el Museo del Corcho y a pocos minutos la playa de Llafranc. Con nuestros servicios podrá encontrar el piso que necesita y asegurar su inversión con el mejor de los asesoramientos especializados. Empiece ahora mismo pidiendo más información. Un responsable cercano a usted le atenderá personalmente.\n\n ",
+   "descripcion": "Ref: CG-00080-0001. Piso de 56 m² ubicado en Palafrugell, Girona. Se trata de un piso de 56 m² distribuidos en salón-comedor, cocina, 1 dormitorio y 1 baño. Piso situado en el núcleo urbano de Palafrugell, con buenos accesos por la carretera C-31. Dispone de transporte público mediante líneas de autobús interurbano. En la zona se pueden encontrar servicios como supermercados, restaurantes, instalaciones deportivas, centros educativos, oficinas bancarias y otros negocios comerciales. Cerca del activo se encuentra el Museo del Corcho y a pocos minutos la playa de Llafranc. Con nuestros servicios podrá encontrar el piso que necesita y asegurar su inversión con el mejor de los asesoramientos especializados. Empiece ahora mismo pidiendo más información. Un responsable cercano a usted le atenderá personalmente.\n\n ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -1757,6 +1788,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion/185564288/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-535718276.htm"
     },
     {
      "portal": "habitaclia",
@@ -1782,24 +1817,26 @@
    "habitaciones": 1,
    "id": "2be18dd8f302",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91363302439128,
    "lon": 3.1542586790022664,
    "m2": 55,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:185564288",
     "habitaclia:0090130160000159",
     "idealista:108881013",
-    "idealista:91681450"
+    "idealista:91681450",
+    "milanuncios:535718276"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 125000,
    "precio_anterior": null,
@@ -2020,15 +2057,15 @@
   "2fbb3e17ab8b": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Piso  Calle gavarres. Venta dúplex  garaje en palamós girona Palamós - Sant Joan - Vilarromà 84m 2 - 4 habitaciones - 2 baños - 1.661€/m 2 ¡OPORTUNIDAD! LEA LAS CONDICIONES DE COMPRA DETALLADAS A CONTINUACIÓN.  Dúplex situado en planta baja del edificio en Calle Gava... Añadir a favoritos 139.500 € Avísame si baja",
+   "descripcion": "139.500 € Piso en Carrer de les Gavarres Sant Joan de Palamós-El Figuerar (Palamós) 4 habs. 2 baños 84 m² Bajo ¡Oportunidad! Lea las condiciones de compra detalladas a continuación.\n\nDúplex situado en planta baja del edificio en calle gavarr...",
    "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-piso-venta_duplex_garaje_en_girona_sant_joan_vilarroma-palamos-i28976000005496.htm"
-    },
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-sant_joan_de_palamos_el_figuerar-60044969050_100500/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-piso-venta_duplex_garaje_en_girona_sant_joan_vilarroma-palamos-i28976000005496.htm"
     }
    ],
    "extras": {
@@ -2038,7 +2075,7 @@
     "balcon": false,
     "calefaccion": false,
     "jardin": false,
-    "parking": true,
+    "parking": false,
     "piscina": false,
     "reformado": false,
     "terraza": false,
@@ -2050,13 +2087,13 @@
    "habitaciones": 4,
    "id": "2fbb3e17ab8b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "habitaclia:0000549616000055",
@@ -2071,8 +2108,8 @@
    "precio_anterior": null,
    "precio_m2": 1661,
    "preferente": true,
-   "tipo": "dúplex",
-   "titulo": "Piso  Calle gavarres. Venta dúplex  garaje en palamós girona",
+   "tipo": "piso",
+   "titulo": "Piso en Carrer de les Gavarres",
    "zona": null
   },
   "310b97f9ee35": {
@@ -2130,11 +2167,15 @@
   "3331e6ac6254": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso en venta, ACTUALMENTE ALQUILADO y con rendimiento inmediato del 4,90% anual.\nLa vivienda se encuentra alquilada, se vende con inquilino y contrato de arrendamiento vigente.\nInversión asegurada en una zona de alta demanda de vivienda y en una ubicación privilegiada.\nSe trata de un piso situado en una calle",
+   "descripcion": "Ref: 2192. Piso en venta, ACTUALMENTE ALQUILADO y con rendimiento inmediato del 4,90% anual.\r\nLa vivienda se encuentra alquilada, se vende con inquilino y contrato de arrendamiento vigente.\r\nInversión asegurada en una zona de alta demanda de vivienda y en una ubicación privilegiada.\r\nSe trata de un piso situado en una calle tranquila y rodeado de buenas conexiones con las carreteras principales y a pocos minutos de la estación de autobuses.\r\nDistribuido en un espacioso comedor con cocina abierta, dos dormitorios dobles y un baño completo.\r\nTodas las estancias tienen acceso directo a un amplio balcón, completamente exteriores, proporcionando mucha luminosidad y abundante luz natural en toda la vivienda.\r\nVivienda amueblada y con electrodomésticos.\r\nEl edificio está reformado hace pocos años, está en muy buen estado y dispone de ascensor.\r\nAdemás, existe la posibilidad de adquirir una o va",
    "enlaces": [
     {
      "portal": "idealista",
      "url": "https://www.idealista.com/inmueble/108310308/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-604723967.htm"
     },
     {
      "portal": "habitaclia",
@@ -2145,12 +2186,12 @@
     "aire": false,
     "amueblado": false,
     "ascensor": true,
-    "balcon": false,
+    "balcon": true,
     "calefaccion": false,
     "jardin": false,
-    "parking": false,
+    "parking": true,
     "piscina": false,
-    "reformado": false,
+    "reformado": true,
     "terraza": false,
     "trastero": false,
     "vistas_mar": false
@@ -2160,21 +2201,23 @@
    "habitaciones": 2,
    "id": "3331e6ac6254",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "habitaclia:4266494160000159",
-    "idealista:108310308"
+    "idealista:108310308",
+    "milanuncios:604723967"
    ],
    "portales": [
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 156000,
    "precio_anterior": null,
@@ -2187,11 +2230,15 @@
   "3341818bd27f": {
    "activo": true,
    "banos": 2,
-   "descripcion": "157.000 € Piso en Carrer del Doctor Pericot Torroella de Montgrí Poble y Áreas Rurales (Torroella de Montgrí) 3 habs. 2 baños 99 m² 2ª planta Actualmente, no es posible realizar visitas al interior del inmueble. Las fotografías pueden no reflejar el estado actual de la pr...",
+   "descripcion": "Ref: 007035. Actualmente, no es posible realizar visitas al interior del inmueble. Las fotografías pueden no reflejar el estado actual de la propiedad.\n\nFecha de fin de contrato: 11/2025 alquilado en Torroella de Montgrí, Girona. Dispone de una superficie de 99 m² distribuidos en salón-comedor, 3 habitaciones, cocina, lavadero, 2 baños y terraza. Piso situado en las inmediaciones del centro de la población, junto a servicios básicos, zonas deportivas y múltiples líneas de autobús. Con fácil acceso a la GI-641. Se alquila sin amueblar. # Lavadero #",
    "enlaces": [
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-torroella_de_montgri_poble_y_areas_rurales-54217398076_445400/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-552740021.htm"
     },
     {
      "portal": "habitaclia",
@@ -2208,7 +2255,7 @@
     "parking": false,
     "piscina": false,
     "reformado": false,
-    "terraza": false,
+    "terraza": true,
     "trastero": false,
     "vistas_mar": false
    },
@@ -2217,22 +2264,24 @@
    "habitaciones": 3,
    "id": "3341818bd27f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 99,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "habitaclia:0000025816000055",
     "habitaclia:0000258160000159",
     "habitaclia:00025816000055",
+    "milanuncios:552740021",
     "pisos:17398076445400"
    ],
    "portales": [
     "habitaclia",
+    "milanuncios",
     "pisos"
    ],
    "precio": 157000,
@@ -2350,7 +2399,7 @@
   "33c04d6bba90": {
    "activo": true,
    "banos": 1,
-   "descripcion": "FS FINQUES COSTA BRAVA comercializa  esta acogedora vivienda situada en una finca tranquila y con pocos vecinos, ideal para quienes buscan paz y calidad de vida sin renunciar a las comodidades del centro del pueblo.\n\nLa distribución es cómoda y funcional: al acceder a la vivienda, entramos en la zona de día, compuesta por un salón-comedor luminoso y acogedor, ideal para compartir momentos en familia o relajarse. La cocina es independiente, con una distribución práctica que permite adaptarla a distintos estilos de vida.\n\nDentro de esta misma zona de día se encuentra un lavadero independiente, que ofrece múltiples usos y, por su ubicación y dimensiones, podría acondicionarse como un segundo baño si se desea.\n\nLa zona de noche queda perfectamente diferenciada y ofrece tres dormitorios:\n\nUna habitación doble, amplia y tranquila, ideal como dormitorio principal.\n\nDos habitaciones individuales",
+   "descripcion": "Ref: R1058. FS FINQUES COSTA BRAVA comercializa  esta acogedora vivienda situada en una finca tranquila y con pocos vecinos, ideal para quienes buscan paz y calidad de vida sin renunciar a las comodidades del centro del pueblo.\n\nLa distribución es cómoda y funcional: al acceder a la vivienda, entramos en la zona de día, compuesta por un salón-comedor luminoso y acogedor, ideal para compartir momentos en familia o relajarse. La cocina es independiente, con una distribución práctica que permite adaptarla a distintos estilos de vida.\n\nDentro de esta misma zona de día se encuentra un lavadero independiente, que ofrece múltiples usos y, por su ubicación y dimensiones, podría acondicionarse como un segundo baño si se desea.\n\nLa zona de noche queda perfectamente diferenciada y ofrece tres dormitorios:\n\nUna habitación doble, amplia y tranquila, ideal como dormitorio principal.\n\nDos habitaciones ",
    "enlaces": [
     {
      "portal": "fotocasa",
@@ -2359,6 +2408,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-verges_centro_urbano-57504173406_100500/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-verges-girona/verges-556321252.htm"
     },
     {
      "portal": "habitaclia",
@@ -2384,23 +2437,25 @@
    "habitaciones": 3,
    "id": "33c04d6bba90",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0617460835055,
    "lon": 3.0464316927114647,
    "m2": 77,
    "minutos": 19,
    "municipio": "Verges",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:187471208",
     "habitaclia:0337832016000055",
     "habitaclia:37832016000055",
+    "milanuncios:556321252",
     "pisos:04173406100500"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
+    "milanuncios",
     "pisos"
    ],
    "precio": 124000,
@@ -2414,7 +2469,7 @@
   "33fbe1e3a4d7": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se vende acogedor piso de 60m² en planta baja, ideal para inversión (actualmente con alquiler activo).\nLa vivienda se distribuye en dos habitaciones dobles, un baño con ducha, cocina americana abierta al salón-comedor, creando un espacio funcional y luminoso.\nDisfruta de una amplia terraza privada de 50m², perfecta p",
+   "descripcion": "Ref: R-671. Se vende acogedor piso de 60m² en planta baja, ideal para inversión (actualmente con alquiler activo).\r\n\r\nLa vivienda se distribuye en dos habitaciones dobles, un baño con ducha, cocina americana abierta al salón-comedor, creando un espacio funcional y luminoso.\r\n\r\nDisfruta de una amplia terraza privada de 50m², perfecta para relajarse, comer al aire libre o recibir invitados.\r\n\r\nAdemás, incluye dos plazas de parking en el mismo edificio y un trastero de 6m², ofreciendo un extra de comodidad y almacenamiento.\r\n\r\nPara más información, no dude en contactarnos. [IW] # Cocina #",
    "enlaces": [
     {
      "portal": "idealista",
@@ -2423,6 +2478,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-60904326746_106600/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-575868811.htm"
     },
     {
      "portal": "habitaclia",
@@ -2440,7 +2499,7 @@
     "piscina": false,
     "reformado": false,
     "terraza": true,
-    "trastero": false,
+    "trastero": true,
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
@@ -2448,22 +2507,24 @@
    "habitaciones": 2,
    "id": "33fbe1e3a4d7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 116,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "habitaclia:0000189160000159",
     "idealista:109515035",
+    "milanuncios:575868811",
     "pisos:04326746106600"
    ],
    "portales": [
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 147000,
@@ -2477,15 +2538,15 @@
   "34c180fd4588": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Se encuentra en Palafrugell Dúplex  Carrer del bruc. Piso en venta en calle bruc Palafrugell - Piverd-Vila-Seca-Bruguerol 74m 2 - 1 habitacion - 2 baños - 1.070€/m 2 Agenda tu llamada aquí y recibe toda la información que necesitas: calendly. com/inversores-kalma  ¿Busca una oportunidad única... actualizado hace 2 días Añadir a favoritos 79.148 € Avísame si baja",
+   "descripcion": "79.148 € Dúplex en Carrer del Bruc Palafrugell Poble (Palafrugell) 1 hab. 2 baños 74 m² 2ª planta Agenda tu llamada aquí y recibe toda la información que necesitas:\nCalendly. Com/inversores-kalma\n\n¿Busca una oportunidad única de...",
    "enlaces": [
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-duplex-piso_en_venta_en_calle_bruc-palafrugell-i57258000000148.htm"
-    },
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/duplex-palafrugell_poble17200-65096123064_101800/"
+    },
+    {
+     "portal": "habitaclia",
+     "url": "https://www.habitaclia.com/comprar-duplex-piso_en_venta_en_calle_bruc-palafrugell-i57258000000148.htm"
     }
    ],
    "extras": {
@@ -2507,13 +2568,13 @@
    "habitaciones": 1,
    "id": "34c180fd4588",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 74,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "habitaclia:0000148160000159",
@@ -2528,7 +2589,7 @@
    "precio_m2": 1070,
    "preferente": true,
    "tipo": "dúplex",
-   "titulo": "Dúplex  Carrer del bruc. Piso en venta en calle bruc",
+   "titulo": "Dúplex en Carrer del Bruc",
    "zona": null
   },
   "35288852d91c": {
@@ -2564,13 +2625,13 @@
    "habitaciones": 2,
    "id": "35288852d91c",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 52,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:109433122",
@@ -2621,13 +2682,13 @@
    "habitaciones": 2,
    "id": "37b453771ac2",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.05196268199631,
    "lon": 3.1942698304659394,
    "m2": 57,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "4ª planta",
    "portal_ids": [
     "fotocasa:185762004",
@@ -2650,7 +2711,7 @@
   "37ed328ff832": {
    "activo": true,
    "banos": 1,
-   "descripcion": "¡Descubre este encantador estudio reformado en venta, ideal para disfrutar de la vida cerca de la playa de Pals! Con 29 m2 construidos, este espacio ha sido diseñado para maximizar la comodidad y funcionalidad. Cuenta con amplios espacios de almacenaje gracias a sus armarios hechos a medida y un mobiliario que se adapta perfectamente a tus necesidades. La cocina de inducción y el horno incluidos hacen que cocinar sea un placer.\n\nImagina relajarte en el amplio balcón, disfrutando del sol y las vistas a las zonas verdes que rodean la propiedad. Totalmente amueblado y listo para entrar a vivir o para disfrutar de unas vacaciones inolvidables, este estudio también ofrece una cama doble y una cama individual, ideal para recibir visitas. Además, cuenta con una lavadora y aire acondicionado para mayor comodidad.\n\nLa comunidad no se queda atrás: podrás refrescarte en la gran piscina, disfrutar d",
+   "descripcion": "Ref: E104. ¡Descubre este encantador estudio reformado en venta, ideal para disfrutar de la vida cerca de la playa de Pals! Con 29 m2 construidos, este espacio ha sido diseñado para maximizar la comodidad y funcionalidad. Cuenta con amplios espacios de almacenaje gracias a sus armarios hechos a medida y un mobiliario que se adapta perfectamente a tus necesidades. La cocina de inducción y el horno incluidos hacen que cocinar sea un placer.\n\nImagina relajarte en el amplio balcón, disfrutando del sol y las vistas a las zonas verdes que rodean la propiedad. Totalmente amueblado y listo para entrar a vivir o para disfrutar de unas vacaciones inolvidables, este estudio también ofrece una cama doble y una cama individual, ideal para recibir visitas. Además, cuenta con una lavadora y aire acondicionado para mayor comodidad.\n\nLa comunidad no se queda atrás: podrás refrescarte en la gran piscina, ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -2663,6 +2724,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/estudio-els_masos_de_pals-64186571151_100500/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-pals-girona/pals-596475234.htm"
     },
     {
      "portal": "habitaclia",
@@ -2688,13 +2753,13 @@
    "habitaciones": null,
    "id": "37ed328ff832",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.98589352324076,
    "lon": 3.1873343839119674,
    "m2": 29,
    "minutos": 7,
    "municipio": "Pals",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:189759502",
@@ -2702,12 +2767,14 @@
     "habitaclia:00031316000055",
     "idealista:108197274",
     "idealista:110604226",
+    "milanuncios:596475234",
     "pisos:86571151100500"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 135000,
@@ -2721,7 +2788,7 @@
   "390961a10e2f": {
    "activo": true,
    "banos": 2,
-   "descripcion": "AMPLIA VIVIENDA CON TERRAZA Y GRAN POTENCIAL\r\n\r\nSe ofrece excelente vivienda ideal para familias o para quienes buscan amplitud y múltiples posibilidades de actualización en una ubicación bien comunicada.\r\n\r\nLa propiedad se distribuye en:\r\n\r\nSalón-comedor\r\nCuatro dormitorios\r\nCocina independiente\r\nDos cuartos de baño\r\nVestíbulo\r\nTerraza privada\r\n\r\nLa vivienda requiere reforma para entrar a vivir, lo que permite adaptarla completamente al gusto y necesidades del futuro propietario.\r\n\r\nSituada en una segunda planta de un edificio residencial con ascensor, ofrece comodidad y fácil acceso.\r\n\r\nDispone de muy buenas comunicaciones por carretera a través de la C-31 y conexión mediante transporte público.\r\n\r\nUbicada cerca de todos los servicios esenciales, como centros educativos (Institut La Sureda), comercios, supermercados, farmacias y zonas verdes.\r\n\r\nUna excelente oportunidad para crear una",
+   "descripcion": "Ref: PIS3589. AMPLIA VIVIENDA CON TERRAZA Y GRAN POTENCIAL\r\n\r\nSe ofrece excelente vivienda ideal para familias o para quienes buscan amplitud y múltiples posibilidades de actualización en una ubicación bien comunicada.\r\n\r\nLa propiedad se distribuye en:\r\n\r\nSalón-comedor\r\nCuatro dormitorios\r\nCocina independiente\r\nDos cuartos de baño\r\nVestíbulo\r\nTerraza privada\r\n\r\nLa vivienda requiere reforma para entrar a vivir, lo que permite adaptarla completamente al gusto y necesidades del futuro propietario.\r\n\r\nSituada en una segunda planta de un edificio residencial con ascensor, ofrece comodidad y fácil acceso.\r\n\r\nDispone de muy buenas comunicaciones por carretera a través de la C-31 y conexión mediante transporte público.\r\n\r\nUbicada cerca de todos los servicios esenciales, como centros educativos (Institut La Sureda), comercios, supermercados, farmacias y zonas verdes.\r\n\r\nUna excelente oportunidad ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -2730,6 +2797,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor/190139706/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-594929319.htm"
     }
    ],
    "extras": {
@@ -2751,22 +2822,24 @@
    "habitaciones": 4,
    "id": "390961a10e2f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91680425088601,
    "lon": 3.160223150254103,
    "m2": 80,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:189658070",
     "fotocasa:190139706",
-    "idealista:111445341"
+    "idealista:111445341",
+    "milanuncios:594929319"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 140000,
    "precio_anterior": null,
@@ -2961,13 +3034,13 @@
    "habitaciones": 2,
    "id": "3b6958dda538",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 63,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "pisos:23456465530006"
@@ -2986,7 +3059,7 @@
   "3c17de371388": {
    "activo": true,
    "banos": 1,
-   "descripcion": "PLANTA BAJA CON TRASTERO EN ZONA RESIDENCIAL TRANQUILA\nUbicado en la periferia del centro de Palafrugell, a tan solo 15 minutos caminando del centro, de la plaza del mercado y comercios, cuenta con una superficie construida de 80m2 y consta de salón comedor, cocina americana, 2 amplias habitaciones con armarios empotrados (1 individual, 1 doble), baño completo con ducha, suelos de parquet, cerramientos de PVC y doble cristal, calefacción de gas natural. \nEs una buena oportunidad de disfrutar de un piso equilibrado, tanto en dimensiones y ubicación como en precio. \nSu estado de conservación es bueno, listo para entrar a vivir.\n- ESTADO: segunda mano, en buen estado\n- SUP. ÚTIL: 65,60m2\n- SUP. CONSTRUIDA: 80m2\n- HABITACIONES DOBLES: 1\n- HABITACIONES INDIVIDUALES: 1\n- BAÑOS: 1\n- Calefacción gas natural\n- Trastero de 11m2 incluido\n- ITP: tipo vigente\n- Gastos notariales y registrales a cargo",
+   "descripcion": "Ref: 1644. PLANTA BAJA CON TRASTERO EN ZONA RESIDENCIAL TRANQUILA\nUbicado en la periferia del centro de Palafrugell, a tan solo 15 minutos caminando del centro, de la plaza del mercado y comercios, cuenta con una superficie construida de 80m2 y consta de salón comedor, cocina americana, 2 amplias habitaciones con armarios empotrados (1 individual, 1 doble), baño completo con ducha, suelos de parquet, cerramientos de PVC y doble cristal, calefacción de gas natural. \nEs una buena oportunidad de disfrutar de un piso equilibrado, tanto en dimensiones y ubicación como en precio. \nSu estado de conservación es bueno, listo para entrar a vivir.\n- ESTADO: segunda mano, en buen estado\n- SUP. ÚTIL: 65,60m2\n- SUP. CONSTRUIDA: 80m2\n- HABITACIONES DOBLES: 1\n- HABITACIONES INDIVIDUALES: 1\n- BAÑOS: 1\n- Calefacción gas natural\n- Trastero de 11m2 incluido\n- ITP: tipo vigente\n- Gastos notariales y registra",
    "enlaces": [
     {
      "portal": "idealista",
@@ -2995,6 +3068,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/calefaccion-trastero-ascensor-no-amueblado/190404161/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-608685186.htm"
     }
    ],
    "extras": {
@@ -3017,21 +3094,23 @@
    "habitaciones": 2,
    "id": "3c17de371388",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.92043885595624,
    "lon": 3.1544271444893313,
    "m2": 80,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:190404161",
-    "idealista:112198147"
+    "idealista:112198147",
+    "milanuncios:608685186"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 160000,
    "precio_anterior": null,
@@ -3130,13 +3209,13 @@
    "habitaciones": null,
    "id": "3dd37a84137b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0507594,
    "lon": 3.1946659,
    "m2": 25,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "4ª planta",
    "portal_ids": [
     "fotocasa:189799659",
@@ -3246,13 +3325,13 @@
    "habitaciones": 2,
    "id": "3f1a6d9bbfbb",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.913132876073966,
    "lon": 3.1705016797156356,
    "m2": 65,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:190107005",
@@ -3302,13 +3381,13 @@
    "habitaciones": 2,
    "id": "3fa687e727c7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 77,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "idealista:109987514"
@@ -3353,13 +3432,13 @@
    "habitaciones": 3,
    "id": "3fa99c44972b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 88,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "5ª planta",
    "portal_ids": [
     "pisos:32911569531014"
@@ -3456,13 +3535,13 @@
    "habitaciones": 3,
    "id": "4163e78561df",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9608901925302,
    "lon": 3.0369770072902487,
    "m2": 284,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:182208243"
@@ -3567,13 +3646,13 @@
    "habitaciones": 1,
    "id": "44f1a0c07441",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91883237374709,
    "lon": 3.157735219734989,
    "m2": 47,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:190163229",
@@ -3649,7 +3728,7 @@
   "45f76e58f19b": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se ofrece piso en Torroella de Montgrí - Girona- actualmente en proceso de adjudicación.\nNO HIPOTECABLE\nLa vivienda cuenta con una superficie construida de 95 m2, distribuidos en tres habitaciones, un baño, salón-comedor, cocina y terraza. Dispone de acceso compartido con la vivienda inferior. El estado interior no e",
+   "descripcion": "Ref: CER-AV-TOR-10261. Se ofrece piso en Torroella de Montgrí - Girona-  actualmente en proceso de adjudicación.\n\nNO HIPOTECABLE\n\nLa vivienda cuenta con una superficie construida de 95 m2, distribuidos en tres habitaciones, un baño, salón-comedor, cocina y terraza. Dispone de acceso compartido con la vivienda inferior. El estado interior no es óptimo, siendo necesaria una reforma integral.\n\nEn este momento no es posible realizar visitas interiores. \n\nUna excelente oportunidad para inversores o profesionales del sector que buscan un inmueble con potencial de revalorización.\nPara más información, contacte con nosotros.",
    "enlaces": [
     {
      "portal": "idealista",
@@ -3658,6 +3737,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-torroella_de_montgri_poble_y_areas_rurales17257-58388865818_106600/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-562425408.htm"
     },
     {
      "portal": "habitaclia",
@@ -3683,24 +3766,26 @@
    "habitaciones": 3,
    "id": "45f76e58f19b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 95,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "habitaclia:0000256116000055",
     "habitaclia:0002561160000159",
     "habitaclia:00256116000055",
     "idealista:109586238",
+    "milanuncios:562425408",
     "pisos:88865818106600"
    ],
    "portales": [
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 85000,
@@ -3740,13 +3825,13 @@
    "habitaciones": 2,
    "id": "478932c266fe",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 60,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "idealista:106056514"
@@ -3819,7 +3904,7 @@
   "4ab50cb9e677": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Ponemos a la venta 19 viviendas en un edificio con ascensor, construido en 2006 y rehabilitado íntegramente en 2025, ubicado en una zona tranquila y bien comunicada de Palafrugell.\n\nEsta vivienda  de 71 m2 se encuentra en la segunda planta y destaca por su distribución funcional, acabados modernos y abundante luz natural.\n\nDistribución:\n\t•\tHall de entrada\n\t•\tEspacioso y luminoso salón-comedor con salida a un balcón con vistas despejadas, ideal para colocar una mesita con dos sillas\n\t•\tCocina independiente totalmente equipada\n\t•\t3 dormitorios:\n\t•\t1 dormitorio doble con armarios empotrados\n\t•\t2 dormitorios individuales\n\t•\t2 baños completos:\n\t•\tUno con ducha\n\t•\tOtro con bañera\n\nCaracterísticas destacadas:\n\t•\tEdificio de obra vista\n\t•\tAscensor\n\t•\tCarpintería de aluminio con doble acristalamiento\n\t•\tSuelos de madera y cerámica\n\t•\tCocina equipada\n\t•\tBalcón amplio y soleado\n\t•\tVivienda completa",
+   "descripcion": "Ref: 253713PLANSBBC. Ponemos a la venta 19 viviendas en un edificio con ascensor, construido en 2006 y rehabilitado íntegramente en 2025, ubicado en una zona tranquila y bien comunicada de Palafrugell.\n\nEsta vivienda  de 71 m2 se encuentra en la segunda planta y destaca por su distribución funcional, acabados modernos y abundante luz natural.\n\nDistribución:\n\t•\tHall de entrada\n\t•\tEspacioso y luminoso salón-comedor con salida a un balcón con vistas despejadas, ideal para colocar una mesita con dos sillas\n\t•\tCocina independiente totalmente equipada\n\t•\t3 dormitorios:\n\t•\t1 dormitorio doble con armarios empotrados\n\t•\t2 dormitorios individuales\n\t•\t2 baños completos:\n\t•\tUno con ducha\n\t•\tOtro con bañera\n\nCaracterísticas destacadas:\n\t•\tEdificio de obra vista\n\t•\tAscensor\n\t•\tCarpintería de aluminio con doble acristalamiento\n\t•\tSuelos de madera y cerámica\n\t•\tCocina equipada\n\t•\tBalcón amplio y soleado",
    "enlaces": [
     {
      "portal": "idealista",
@@ -3828,6 +3913,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-no-amueblado/186530218/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-544025102.htm"
     },
     {
      "portal": "habitaclia",
@@ -3853,23 +3942,25 @@
    "habitaciones": 3,
    "id": "4ab50cb9e677",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9139956,
    "lon": 3.1704637,
    "m2": 71,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:186530218",
     "habitaclia:4443550160000159",
-    "idealista:108212814"
+    "idealista:108212814",
+    "milanuncios:544025102"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 150000,
    "precio_anterior": null,
@@ -3934,7 +4025,7 @@
   "51e240840852": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Pis reformat amb encant i acabats moderns, situat en una finca tranquil·la de només 6 veïns. L’habitatge disposa de 2 habitacions, 1 bany complet i una còmoda zona de dia amb cuina oberta integrada al saló-menjador, creant un espai ampli i lluminós.\r\nLa reforma ha respectat un estil actual i funcional, amb terres d’efecte fusta,  acabats neutres que aporten calidesa i lluminositat a tot el conjunt.\r\nIdeal tant com a primera residència, segona residència o inversió, gràcies a la seva distribució pràctica i l’ambient tranquil de l’edifici.\r\nUna oportunitat per entrar a viure en un pis renovat, acollidor i amb pocs veï\r\nEl mobiliari mostrat a les fotografies es una creació orientativa per ajudar a visualitzar el potencial dels espais. [IW]",
+   "descripcion": "Ref: PIS0318. Pis reformat amb encant i acabats moderns, situat en una finca tranquil·la de només 6 veïns. L’habitatge disposa de 2 habitacions, 1 bany complet i una còmoda zona de dia amb cuina oberta integrada al saló-menjador, creant un espai ampli i lluminós.\r\nLa reforma ha respectat un estil actual i funcional, amb terres d’efecte fusta,  acabats neutres que aporten calidesa i lluminositat a tot el conjunt.\r\nIdeal tant com a primera residència, segona residència o inversió, gràcies a la seva distribució pràctica i l’ambient tranquil de l’edifici.\r\nUna oportunitat per entrar a viure en un pis renovat, acollidor i amb pocs veï\r\nEl mobiliari mostrat a les fotografies es una creació orientativa per ajudar a visualitzar el potencial dels espais. [IW]",
    "enlaces": [
     {
      "portal": "idealista",
@@ -3943,6 +4034,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/torroella-de-montgri/torroella-de-montgri/189706836/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-595819550.htm"
     },
     {
      "portal": "habitaclia",
@@ -3968,24 +4063,26 @@
    "habitaciones": 2,
    "id": "51e240840852",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.041108323160245,
    "lon": 3.1224745674252703,
    "m2": 66,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "fotocasa:189706836",
     "habitaclia:0000026116000055",
     "habitaclia:0000261160000159",
-    "idealista:109012017"
+    "idealista:109012017",
+    "milanuncios:595819550"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 159000,
    "precio_anterior": null,
@@ -3998,15 +4095,19 @@
   "5262eb1ad2f3": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Se vende acogedor piso de 79 m², situado en una segunda planta sin ascensor, con una distribución cómoda y varios espacios exteriores.\r\n\r\nLa vivienda dispone de 2 habitaciones y 1 baño, además de una zona de lavadero y una práctica despensa, que aporta un espacio extra de almacenamiento.\r\n\r\nUno de sus principales atractivos son sus 3 terrazas, ideales para disfrutar del aire libre, tener plantas o crear diferentes zonas de descanso.\r\n\r\nCuenta con ventanas de PVC con doble acristalamiento, que proporcionan un buen aislamiento térmico y acústico.\r\n\r\nCaracterísticas principales:\r\n\r\n79 m²\r\n2 habitaciones\r\n1 baño\r\n3 terrazas\r\nZona de lavadero\r\nDespensa\r\nVentanas de PVC con doble cristal\r\nSegunda planta\r\nSin ascensor\r\nPrecio: 129.000 €\r\n\r\nUna vivienda con muchas posibilidades, especialmente interesante para quienes buscan espacio exterior, buena distribución y una vivienda con capacidad de alm",
+   "descripcion": "Ref: CB6619. Se vende acogedor piso de 79 m², situado en una segunda planta sin ascensor, con una distribución cómoda y varios espacios exteriores.\r\nLa vivienda dispone de 2 habitaciones y 1 baño, además de una zona de lavadero y una práctica despensa, que aporta un espacio extra de almacenamiento.\r\nUno de sus principales atractivos son sus 3 terrazas, ideales para disfrutar del aire libre, tener plantas o crear diferentes zonas de descanso.\r\nCuenta con ventanas de PVC con doble acristalamiento, que proporcionan un buen aislamiento térmico y acústico.\r\nCaracterísticas principales:2 habitaciones, 1 baño, 3 terrazas, zona de lavadero, ventanas de PVC con doble cristal. Segunda planta sin ascensor.\r\nUna vivienda con muchas posibilidades, especialmente interesante para quienes buscan espacio exterior, buena distribución y una vivienda con capacidad de almacenamiento.\r\nEn cumplimiento de la L",
    "enlaces": [
     {
      "portal": "idealista",
-     "url": "https://www.idealista.com/inmueble/112277355/"
+     "url": "https://www.idealista.com/inmueble/112314486/"
     },
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/torroella-de-montgri/no-amueblado/190464560/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-610704592.htm"
     }
    ],
    "extras": {
@@ -4024,17 +4125,17 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/6f/2f/63/1464553291.webp",
+   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/c5/09/1b/1465658150.webp",
    "habitaciones": 2,
    "id": "5262eb1ad2f3",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04268775065804,
    "lon": 3.123263641615376,
    "m2": 79,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:190457838",
@@ -4042,14 +4143,24 @@
     "fotocasa:190466036",
     "fotocasa:190476392",
     "fotocasa:190489357",
+    "fotocasa:190506901",
+    "fotocasa:190506941",
+    "fotocasa:190510427",
     "idealista:112262273",
     "idealista:112276728",
     "idealista:112277355",
-    "idealista:112281326"
+    "idealista:112281326",
+    "idealista:112314486",
+    "milanuncios:609760956",
+    "milanuncios:609894941",
+    "milanuncios:610391622",
+    "milanuncios:610651540",
+    "milanuncios:610704592"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 129000,
    "precio_anterior": null,
@@ -4113,20 +4224,12 @@
   },
   "56e07e643706": {
    "activo": true,
-   "banos": 1,
-   "descripcion": "Se encuentra en Palafrugell Planta baja  en  Camí dels plans 29a. Planta baja reformada en venta – calle plans 29, palafrugell Palafrugell - Piverd-Vila-Seca-Bruguerol 57m 2 - 2 habitaciones - 1 baño - 2.456€/m 2 Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunida... Añadir a favoritos 140.000 € ha bajado 10.000 € Avísame si baja",
+   "banos": null,
+   "descripcion": "",
    "enlaces": [
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-internet-no-amueblado/186666830/d"
-    },
-    {
-     "portal": "habitaclia",
-     "url": "https://www.habitaclia.com/comprar-planta_baja-reformada_en_venta_calle_plans_29_cami_dels_plans_29a_piverd_vila_seca_bruguerol-palafrugell-i11955004443555.htm"
-    },
-    {
-     "portal": "idealista",
-     "url": "https://www.idealista.com/inmueble/108369741/"
     }
    ],
    "extras": {
@@ -4138,46 +4241,38 @@
     "jardin": false,
     "parking": false,
     "piscina": false,
-    "reformado": true,
+    "reformado": false,
     "terraza": false,
     "trastero": false,
     "vistas_mar": false
    },
    "fijado": true,
-   "first_seen": "2026-08-17",
-   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/06/66/4c/1342067560.webp",
+   "first_seen": "2026-08-19",
+   "foto": null,
    "fuera_de_criterios": false,
-   "habitaciones": 2,
+   "habitaciones": null,
    "id": "56e07e643706",
    "ideal": false,
-   "last_seen": "2026-08-17",
-   "lat": 41.9139956,
-   "lon": 3.1704637,
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
    "m2": 59,
    "minutos": 5,
    "municipio": "Palafrugell",
    "nuevo": true,
-   "planta": "Bajo",
+   "planta": null,
    "portal_ids": [
-    "fotocasa:186666830",
-    "fotocasa:186695079",
-    "habitaclia:0444355516000055",
-    "habitaclia:4443552160000159",
-    "habitaclia:4443555160000159",
-    "idealista:108354412",
-    "idealista:108369741"
+    "fotocasa:186666830"
    ],
    "portales": [
-    "fotocasa",
-    "habitaclia",
-    "idealista"
+    "fotocasa"
    ],
    "precio": 140000,
    "precio_m2": 2373,
    "preferente": true,
    "tipo": "piso",
    "titulo": "Piso con ascensor en Palafrugell",
-   "zona": "Vila de Palafrugell"
+   "zona": null
   },
   "56e5c59d8e9c": {
    "activo": false,
@@ -4264,13 +4359,13 @@
    "habitaciones": 3,
    "id": "5723298a9259",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 95,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:112155890",
@@ -4429,7 +4524,7 @@
    "m2": 76,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:190284566"
@@ -4481,13 +4576,13 @@
    "habitaciones": 2,
    "id": "5b062dde7109",
    "ideal": false,
-   "last_seen": "2026-08-17",
-   "lat": 42.04127311444209,
-   "lon": 3.19208933368974,
+   "last_seen": "2026-08-19",
+   "lat": 42.040197681013645,
+   "lon": 3.19347501230337,
    "m2": 48,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:190466030",
@@ -4644,13 +4739,13 @@
    "habitaciones": 1,
    "id": "5c819034d1e9",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.051664803065,
    "lon": 3.1930997187921,
    "m2": 43,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "fotocasa:189939050",
@@ -4753,13 +4848,13 @@
    "habitaciones": 3,
    "id": "5ebc596a17bb",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.951499379,
    "lon": 3.032947151,
    "m2": 87,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "4ª planta",
    "portal_ids": [
     "fotocasa:189397767",
@@ -4812,7 +4907,7 @@
    "m2": 105,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "bajo",
    "portal_ids": [
     "habitaclia:0234275916000055"
@@ -4985,6 +5080,57 @@
    "titulo": "Estudio  Carrer codina. Torroella de montgrí – planta baja reformada con encanto y techo",
    "zona": null
   },
+  "634a79b5e829": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Se vende acogedor piso de 79 m², situado en una segunda planta sin ascensor, con una distribución cómoda y varios espacios exteriores.\n\nLa vivienda dispone de 2 habitaciones y 1 baño, además de una zona de lavadero y una práctica despensa, que aporta un espacio extra de almacenamiento.\n\nUno de sus principales atractivos son sus 3 terrazas, ideales para disfrutar del aire libre, tener plantas o crear diferentes zonas de descanso.\n\nCuenta con ventanas de PVC con doble acristalamiento, que proporcionan un buen aislamiento térmico y acústico.\n\nCaracterísticas principales:\n\n79 m²\n2 habitaciones\n1 baño\n3 terrazas\nZona de lavadero\nDespensa\nVentanas de PVC con doble cristal\nSegunda planta\nSin ascensor\nPrecio: 129.000 ?\n\nUna vivienda con muchas posibilidades, especialmente interesante para quienes buscan espacio exterior, buena distribución y una vivienda con capacidad de almacenamiento.\n\nPrecio ",
+   "enlaces": [
+    {
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/torroella-de-montgri/terraza-no-amueblado/190509206/d"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": false,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": true,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://static.fotocasa.es/images/ads/3f7be9df-42b8-4a5c-a360-1b2d96c51b55?rule=original",
+   "habitaciones": 2,
+   "id": "634a79b5e829",
+   "ideal": false,
+   "last_seen": "2026-08-19",
+   "lat": 42.0429,
+   "lon": 3.1232,
+   "m2": 55,
+   "minutos": 14,
+   "municipio": "Torroella de Montgrí",
+   "nuevo": true,
+   "planta": null,
+   "portal_ids": [
+    "fotocasa:190509206"
+   ],
+   "portales": [
+    "fotocasa"
+   ],
+   "precio": 129000,
+   "precio_anterior": null,
+   "precio_m2": 2345,
+   "preferente": false,
+   "tipo": "apartamento",
+   "titulo": "Apartamento en Torroella de Montgrí",
+   "zona": null
+  },
   "65c0b50f9bfd": {
    "activo": false,
    "banos": null,
@@ -5074,13 +5220,13 @@
    "habitaciones": 1,
    "id": "6642ea7421b7",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.042158626242,
    "lon": 3.1933900673011,
    "m2": 41,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:187219663",
@@ -5134,13 +5280,13 @@
    "habitaciones": 2,
    "id": "67374ee9528b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.96305492486988,
    "lon": 3.0349966553386816,
    "m2": 52,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:188389405",
@@ -5353,13 +5499,13 @@
    "habitaciones": 1,
    "id": "698834d42b50",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.049393432956,
    "lon": 3.1944334460291,
    "m2": 45,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:189939284",
@@ -5464,13 +5610,13 @@
    "habitaciones": null,
    "id": "6e24f40c0346",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "pisos:84640616107000"
@@ -5489,7 +5635,7 @@
   "6e6894c20bd4": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Ideal para inversión: vivienda en el centro de Palamós con ingresos desde el primer momento\nGran oportunidad en Palamós, a tan solo 150 metros de la playa y en pleno centro, en el edificio Muntaner.\nCaracterísticas principales: Planta baja de 34 m²\nSalón-comedor con espacio de dormitorio doble\nBaño con ducha\nInformació",
+   "descripcion": "Ref: 000052. Ideal para inversión: vivienda en el centro de Palamós con ingresos desde el primer momento\nGran oportunidad en Palamós, a tan solo 150 metros de la playa y en pleno centro, en el edificio Muntaner.\nCaracterísticas principales: Planta baja de 34 m²\nSalón-comedor con espacio de dormitorio doble\nBaño con ducha\nInformación para inversores:\nLa vivienda se transmite actualmente arrendada, con contrato de alquiler en vigor. El comprador se subrogará en dicho contrato, percibiendo las rentas desde el momento de la adquisición.\nUbicación excelente, cerca de todos los servicios y del mar.\nInformación legal: El precio no incluye impuestos (ITP/IVA), gastos de notaría ni registro. Vivienda actualmente arrendada con contrato en vigor. # Armarios #",
    "enlaces": [
     {
      "portal": "idealista",
@@ -5498,6 +5644,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-zona_avinguda_de_catalunya-64233111907_529567/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palamos-girona/palamos-595416562.htm"
     },
     {
      "portal": "habitaclia",
@@ -5523,23 +5673,25 @@
    "habitaciones": 1,
    "id": "6e6894c20bd4",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 35,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "habitaclia:0000008516000055",
     "habitaclia:00008516000055",
     "idealista:111479273",
+    "milanuncios:595416562",
     "pisos:33111907529567"
    ],
    "portales": [
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 137000,
@@ -5550,10 +5702,61 @@
    "titulo": "Piso en Calle Indústria, Avinguda Catalunya, Palamós",
    "zona": null
   },
+  "6f4184ccbff3": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Ref: PIS 1 HAB TORROELLA. PIS D'UNA HABITACIÓ MOLT BEN SITUAT A TORROELLA DE MONTGRÍ. POSSIBILITAT DE PLAÇA DE PARQUING. # Armarios # Cerámica gres # Balcón # Electrodomésticos #Horno #",
+   "enlaces": [
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-608531878.htm"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": false,
+    "balcon": true,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": true,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://images-re.milanuncios.com/images/ads/32d9e544-e9b1-426c-a2ea-5ce72eef3490",
+   "habitaciones": 1,
+   "id": "6f4184ccbff3",
+   "ideal": false,
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
+   "m2": null,
+   "minutos": 14,
+   "municipio": "Torroella de Montgrí",
+   "nuevo": true,
+   "planta": null,
+   "portal_ids": [
+    "milanuncios:608531878"
+   ],
+   "portales": [
+    "milanuncios"
+   ],
+   "precio": 155000,
+   "precio_anterior": null,
+   "precio_m2": null,
+   "preferente": false,
+   "tipo": "piso",
+   "titulo": "ASESORANDUM",
+   "zona": null
+  },
   "70704cc43191": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Vivienda céntrica con una habitación doble y un baño completo con ducha en suite. Amplio y luminoso salón con cocina moderna equipada. Persianas eléctricas y mosquiteras, Tiene como anexo el uso de uno de los lavaderos y la mitad de la terraza situada en la cubierta del edificio, perfectamente delimitada.\n\nFinca de pocos vecinos, ideal por su cercanía a los servicios básicos que ofrece el pueblo de Palamós.  A 5 minutos a pie de la Platja Gran.\n\nEsta propiedad es perfecta cómo inversión, desde el minuto uno le puede sacar rentabilidad , tambien cómo primera o segunda residencia.\n\nNo lo deje escapar.",
+   "descripcion": "Ref: 13547. Vivienda céntrica con una habitación doble y un baño completo con ducha en suite. Amplio y luminoso salón con cocina moderna equipada. Persianas eléctricas y mosquiteras, Tiene como anexo el uso de uno de los lavaderos y la mitad de la terraza situada en la cubierta del edificio, perfectamente delimitada.\n\nFinca de pocos vecinos, ideal por su cercanía a los servicios básicos que ofrece el pueblo de Palamós.  A 5 minutos a pie de la Platja Gran.\n\nEsta propiedad es perfecta cómo inversión, desde el minuto uno le puede sacar rentabilidad , tambien cómo primera o segunda residencia.\n\nNo lo deje escapar. #Puerta de Seguridad # Cercano al transporte público # Lavadero # Suite con Baño #",
    "enlaces": [
     {
      "portal": "idealista",
@@ -5562,6 +5765,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palamos/terraza-patio-amueblado/189682270/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palamos-girona/palamos-595294575.htm"
     },
     {
      "portal": "habitaclia",
@@ -5577,7 +5784,7 @@
     "jardin": true,
     "parking": false,
     "piscina": false,
-    "reformado": true,
+    "reformado": false,
     "terraza": true,
     "trastero": false,
     "vistas_mar": false
@@ -5587,13 +5794,13 @@
    "habitaciones": 1,
    "id": "70704cc43191",
    "ideal": false,
-   "last_seen": "2026-08-17",
-   "lat": 41.84998477635275,
-   "lon": 3.130564362085627,
+   "last_seen": "2026-08-19",
+   "lat": 41.84981803496037,
+   "lon": 3.1301727484290174,
    "m2": 41,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:189682270",
@@ -5601,12 +5808,14 @@
     "habitaclia:0267616516000055",
     "habitaclia:0267619116000055",
     "idealista:110295413",
-    "idealista:111474315"
+    "idealista:111474315",
+    "milanuncios:595294575"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 160000,
    "precio_anterior": null,
@@ -5645,13 +5854,13 @@
    "habitaciones": 1,
    "id": "70f0dc685f5d",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 45,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "idealista:110792564"
@@ -5696,13 +5905,13 @@
    "habitaciones": 3,
    "id": "7197cd5d4bbd",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0519291,
    "lon": 3.1922704,
    "m2": 80,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:177746527"
@@ -5753,7 +5962,7 @@
    "m2": 103,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2 PLANTA",
    "portal_ids": [
     "habitaclia:0000207160000159"
@@ -5860,7 +6069,7 @@
    "m2": 75,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:4350204160000159",
@@ -5959,13 +6168,13 @@
    "habitaciones": 2,
    "id": "7966617a9b63",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 131,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "pisos:61118535500582"
@@ -6068,13 +6277,13 @@
    "habitaciones": 2,
    "id": "7c1b586a7358",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9138455,
    "lon": 3.158377,
    "m2": 64,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:141488294"
@@ -6119,13 +6328,13 @@
    "habitaciones": 3,
    "id": "7ce3d7474360",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 85,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "idealista:109972474"
@@ -6226,13 +6435,13 @@
    "habitaciones": 1,
    "id": "7d92f871cd99",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04058498996872,
    "lon": 3.19469979610137,
    "m2": 31,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:184166417",
@@ -6280,13 +6489,13 @@
    "habitaciones": 1,
    "id": "807e2c2c70ef",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 47,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "idealista:111476332"
@@ -6335,13 +6544,13 @@
    "habitaciones": null,
    "id": "80b6b844953b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.96877020471721,
    "lon": 3.043553933090427,
    "m2": 120,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189883929",
@@ -6396,13 +6605,13 @@
    "habitaciones": 1,
    "id": "811c51c707fc",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.051858523676614,
    "lon": 3.1934408161480925,
    "m2": 47,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:177728462",
@@ -6430,6 +6639,57 @@
    "tipo": "piso",
    "titulo": "Piso en Calle de la Gola, L'Estartit poble, Torroella de Montgrí",
    "zona": "L'Estartit Poble"
+  },
+  "81f3519c5b4d": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Ref: 01488.01º. FINCA EN LA ZONA CENTRO DE PALAMOS, EN EL SECTOR PRINCIPAL COMERCIAL\n\nInmueble con orientación Sur-Este, esquinero.\n\nPENDIENTE DIVISIÓN HORIZONTAL.\n\n\n\nVivienda a primera altura, distribuido por salón-comedor con cocina tipo office, 1 habitación y baño completo de 3 piezas. Cerramientos de aluminio imitación madera, con doble cristal. Suelo gres cerámico. Carece de calefacción y de aire acondicionado. Sin ascensor.\n\n\nINFORMACIÓN ADICIONAL MISMA FINCA:\n\nRESERVADO:\n\nEn la planta baja se ubica el local comercial de 30m², obtiene estancia abierta con escaparate a pie de la calle con persiana motorizada, trastero/galería y aseo.\n\n\nVENTA 189.000€\n\nDúplex de tres habitaciones, distribuido por salón comedor, cocina independiente, aseo y mediante escalera interior, se accede a la segunda planta, con una habitación matrimonial, dos individuales (una de ellas obtiene salida a un pequ",
+   "enlaces": [
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palamos-girona/palamos-525963960.htm"
+    }
+   ],
+   "extras": {
+    "aire": true,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": true,
+    "calefaccion": true,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": true,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://images-re.milanuncios.com/images/ads/853c2069-53e1-4fc2-9ba5-6d57dc6e0585",
+   "habitaciones": 1,
+   "id": "81f3519c5b4d",
+   "ideal": true,
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
+   "m2": 40,
+   "minutos": 16,
+   "municipio": "Palamós",
+   "nuevo": true,
+   "planta": "PRINCIPAL",
+   "portal_ids": [
+    "milanuncios:525963960"
+   ],
+   "portales": [
+    "milanuncios"
+   ],
+   "precio": 125000,
+   "precio_anterior": null,
+   "precio_m2": 3125,
+   "preferente": true,
+   "tipo": "piso",
+   "titulo": "INMOSEGUR",
+   "zona": null
   },
   "82338e84f846": {
    "activo": false,
@@ -6516,13 +6776,13 @@
    "habitaciones": 3,
    "id": "8303e5e6c7c7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.05194050185,
    "lon": 3.1921293185427,
    "m2": 75,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:189939752",
@@ -6573,13 +6833,13 @@
    "habitaciones": 3,
    "id": "840d3976fdb8",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.923112750980266,
    "lon": 3.153458053472351,
    "m2": 103,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:190248606",
@@ -6652,7 +6912,7 @@
   "8681fc5c51ae": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 93 m² construidos (83 m² de uso privativo más 10 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios: una suite, uno doble y uno individual.\n• Dos baños completos (uno de ellos el de la suite).\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos\n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en Carrer Plans 29, Pala",
+   "descripcion": "Ref: 2540P1PLANSBBC. Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 96 m² construidos (86 m² de uso privativo más 10 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios: una suite, uno doble y uno individual.\n• Dos baños completos (uno de ellos el de la suite).\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos\n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en ",
    "enlaces": [
     {
      "portal": "idealista",
@@ -6661,6 +6921,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-no-amueblado/186683057/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-545449652.htm"
     }
    ],
    "extras": {
@@ -6682,24 +6946,27 @@
    "habitaciones": 3,
    "id": "8681fc5c51ae",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9139956,
    "lon": 3.1704637,
    "m2": 96,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:186682085",
     "fotocasa:186683057",
     "idealista:108367928",
     "idealista:108368906",
-    "idealista:109825020"
+    "idealista:109825020",
+    "milanuncios:545444631",
+    "milanuncios:545449652"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 150000,
    "precio_anterior": null,
@@ -6842,13 +7109,13 @@
    "habitaciones": 3,
    "id": "8f6f204b2adf",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.913082075676634,
    "lon": 3.1576683530701866,
    "m2": 70,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189451534"
@@ -6897,14 +7164,14 @@
    "habitaciones": 2,
    "id": "91c911e5c0f1",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.85882032835353,
    "lon": 3.0763213276696004,
    "m2": 39,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
-   "planta": "Ático",
+   "nuevo": false,
+   "planta": null,
    "portal_ids": [
     "fotocasa:182127338",
     "habitaclia:0000010116000055"
@@ -6924,11 +7191,11 @@
   "93c50ea1e616": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Gran ocasion, se vende piso-duplex, sin vecinos. Tiene varios tramos de escaleras. La entrada desde la puerta principal, que da a las escaleras, en primera planta tiene comedor, con ventanas a la calle, cocina separada, independiente, y un baño completo, y en la segunda planta, tiene dos habitaciones dobles y otro baño",
+   "descripcion": "Piso céntrico para reformar ubicado en el corazón de Palafrugell. La propiedad consta de 97m², con 3 habitaciones dobles con armarios empotrados y 1 habitación individual interior, 1 baño completo con ducha y una cocina cerrada. Además, de un comedor con salida a una terraza con trastero y lavadero. Cuenta con calefacc",
    "enlaces": [
     {
      "portal": "idealista",
-     "url": "https://www.idealista.com/inmueble/111083862/"
+     "url": "https://www.idealista.com/inmueble/107238264/"
     }
    ],
    "extras": {
@@ -6946,17 +7213,17 @@
     "vistas_mar": false
    },
    "first_seen": "2026-08-17",
-   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/4b/1b/f6/1434453527.webp",
+   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/5d/20/d3/1307084600.webp",
    "habitaciones": 3,
    "id": "93c50ea1e616",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
-   "m2": 80,
+   "m2": 79,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:107238264",
@@ -6967,10 +7234,10 @@
    ],
    "precio": 145000,
    "precio_anterior": null,
-   "precio_m2": 1812,
+   "precio_m2": 1835,
    "preferente": true,
-   "tipo": "dúplex",
-   "titulo": "Dúplex en Piverd-La Roella-Bruguerol, Palafrugell",
+   "tipo": "piso",
+   "titulo": "Piso en Molí de Vent-La Sauleda-Santa Margarida, Palafrugell",
    "zona": null
   },
   "940f03fa7f84": {
@@ -7054,13 +7321,13 @@
    "habitaciones": 1,
    "id": "945c62c901d0",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 90,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "idealista:102784674"
@@ -7105,13 +7372,13 @@
    "habitaciones": 3,
    "id": "975f22ca74dd",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 94,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "idealista:110678534"
@@ -7220,13 +7487,13 @@
    "habitaciones": 1,
    "id": "97f53320e218",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.987633308864154,
    "lon": 3.1851651682873072,
    "m2": 32,
    "minutos": 7,
    "municipio": "Pals",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:190210596",
@@ -7252,7 +7519,7 @@
   "982d873776d9": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 79 m² construidos (71 m² de uso privativo más 8 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios\n• Dos baños completos.\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos y parquet \n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en Carrer Plans 29, Palafrugell, una zona tranquila y bien comunicada:\n• 🏙️ Centro d",
+   "descripcion": "Ref: 264612PLANSBBC. Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 79 m² construidos (71 m² de uso privativo más 8 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios\n• Dos baños completos.\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos y parquet \n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en Carrer Plans 29, Palafrugell, una zona tranquila y bien comu",
    "enlaces": [
     {
      "portal": "idealista",
@@ -7261,6 +7528,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-television-no-amueblado/186709358/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-545625858.htm"
     }
    ],
    "extras": {
@@ -7282,22 +7553,24 @@
    "habitaciones": 3,
    "id": "982d873776d9",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9145009,
    "lon": 3.1694208,
    "m2": 79,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:186709358",
     "idealista:107667406",
-    "idealista:108397566"
+    "idealista:108397566",
+    "milanuncios:545625858"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 150000,
    "precio_anterior": null,
@@ -7570,11 +7843,15 @@
   "a01c8597c94c": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso 3 habitaciones en Palafrugell | Oportunidad inversión | Económico | Fácil aparcamiento\nOPORTUNIDAD DE INVERSIÓN EN PALAFRUGELL – PISO DE 3 HABITACIONES A PRECIO COMPETITIVO\nSe vende piso en Palafrugell de 3 habitaciones, ideal tanto para inversores como para familias que buscan una vivienda funcional con gran potencial de rentabilidad en la Costa Brava.\nLa vivienda dispone de aproximadamente 75 m², con una distribución muy práctica:\n 3 habitaciones\n Salón luminoso\n Cocina independiente con galería\n 1 baño completo\n Trastero incluido\nUbicado en una segunda planta sin ascensor, lo que permite acceder a un precio más atractivo dentro del mercado actual, convirtiéndolo en una excelente opción como piso económico en Palafrugell.\nLa propiedad se vende sin muebles, perfecta para reformar o personalizar según tus necesidades, ya sea como vivienda habitual, segunda residencia o inversión par",
+   "descripcion": "Ref: 1405. Piso 3 habitaciones en Palafrugell | Oportunidad inversión | Económico | Fácil aparcamiento\nOPORTUNIDAD DE INVERSIÓN EN PALAFRUGELL – PISO DE 3 HABITACIONES A PRECIO COMPETITIVO\nSe vende piso en Palafrugell de 3 habitaciones, ideal tanto para inversores como para familias que buscan una vivienda funcional con gran potencial de rentabilidad en la Costa Brava.\nLa vivienda dispone de aproximadamente 75 m², con una distribución muy práctica:\n 3 habitaciones\n Salón luminoso\n Cocina independiente con galería\n 1 baño completo\n Trastero incluido\nUbicado en una segunda planta sin ascensor, lo que permite acceder a un precio más atractivo dentro del mercado actual, convirtiéndolo en una excelente opción como piso económico en Palafrugell.\nLa propiedad se vende sin muebles, perfecta para reformar o personalizar según tus necesidades, ya sea como vivienda habitual, segunda residencia o in",
    "enlaces": [
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/no-amueblado/189279741/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-589074760.htm"
     },
     {
      "portal": "habitaclia",
@@ -7600,22 +7877,24 @@
    "habitaciones": 3,
    "id": "a01c8597c94c",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.914464851638904,
    "lon": 3.1561570827939853,
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189279741",
     "habitaclia:0000034716000055",
-    "habitaclia:0000347160000159"
+    "habitaclia:0000347160000159",
+    "milanuncios:589074760"
    ],
    "portales": [
     "fotocasa",
-    "habitaclia"
+    "habitaclia",
+    "milanuncios"
    ],
    "precio": 125000,
    "precio_anterior": null,
@@ -7714,7 +7993,7 @@
    "m2": 65,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "pisos:66749195905"
@@ -7758,13 +8037,13 @@
    "habitaciones": 1,
    "id": "a274db746605",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04309416770542,
    "lon": 3.1255013663567097,
    "m2": null,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:190390931"
@@ -7836,7 +8115,7 @@
   "a3b679e3ccf0": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Una oportunidad excepcional en segunda línea de mar, a tan solo 50 metros de la playa. Excelente estado, ubicación privilegiada y un precio especialmente atractivo por venta rápida.\n\nTe presentamos este acogedor apartamento situado en Sant Antoni de Calonge, en plena Costa Brava, a escasos 50 metros de la playa. Una ubicación difícil de mejorar: en apenas un par de minutos andando podrás estar junto al mar y disfrutar del paseo marítimo y de todo lo que ofrece esta fantástica zona.\n\nLa vivienda se encuentra en una cuarta planta de un edificio sin ascensor, construido en 1969 y bien conservado, y destaca por su buen estado y su cuidada reforma. Estas características permiten disfrutar de una vivienda junto al mar a un precio especialmente atractivo.\n\nEl apartamento está preparado para disfrutarlo desde el primer día. Una excelente opción tanto como segunda residencia junto al mar como par",
+   "descripcion": "Ref: 000067. Una oportunidad excepcional en segunda línea de mar, a tan solo 50 metros de la playa. Excelente estado, ubicación privilegiada y un precio especialmente atractivo por venta rápida.\n\nTe presentamos este acogedor apartamento situado en Sant Antoni de Calonge, en plena Costa Brava, a escasos 50 metros de la playa. Una ubicación difícil de mejorar: en apenas un par de minutos andando podrás estar junto al mar y disfrutar del paseo marítimo y de todo lo que ofrece esta fantástica zona.\n\nLa vivienda se encuentra en una cuarta planta de un edificio sin ascensor, construido en 1969 y bien conservado, y destaca por su buen estado y su cuidada reforma. Estas características permiten disfrutar de una vivienda junto al mar a un precio especialmente atractivo.\n\nEl apartamento está preparado para disfrutarlo desde el primer día. Una excelente opción tanto como segunda residencia junto al",
    "enlaces": [
     {
      "portal": "idealista",
@@ -7845,6 +8124,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/calonge-i-sant-antoni/aire-acondicionado-calefaccion-amueblado/190463314/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-calonge-girona/calonge-i-sant-antoni-609820865.htm"
     }
    ],
    "extras": {
@@ -7866,21 +8149,23 @@
    "habitaciones": 1,
    "id": "a3b679e3ccf0",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.8484842997509,
    "lon": 3.1104047215569115,
    "m2": 44,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "4ª planta",
    "portal_ids": [
     "fotocasa:190463314",
-    "idealista:112267414"
+    "idealista:112267414",
+    "milanuncios:609820865"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 147000,
    "precio_anterior": null,
@@ -7923,13 +8208,13 @@
    "habitaciones": 3,
    "id": "a462156470fe",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 90,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:109434250",
@@ -8184,13 +8469,13 @@
    "habitaciones": 1,
    "id": "a7c1f0d86b03",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 84,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "idealista:109080495"
@@ -8444,13 +8729,13 @@
    "habitaciones": 2,
    "id": "b119478ea2f0",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 68,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "idealista:112069374"
@@ -8495,13 +8780,13 @@
    "habitaciones": null,
    "id": "b3faf2333df9",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 30,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:39129877"
@@ -8520,7 +8805,7 @@
   "b40dc9166ea3": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso de 70 m² construidos en la cuarta y última planta de un edificio sin ascensor, situado en la Avenida García Lorca de Palafrugell. Una vivienda luminosa y tranquila, ideal como residencia habitual o segunda vivienda.\n\nDispone de 3 habitaciones, 1 baño completo, cocina independiente, amplio salón-comedor y balcón cerrado. Además, cuenta con ventanas de aluminio con doble acristalamiento para un mejor aislamiento.\n\nLa finca ha pasado recientemente la ITE y la comunidad está formada mayoritariamente por propietarios, lo que favorece un entorno cuidado y estable.\n\nSu ubicación permite acceder fácilmente a supermercados, colegios, comercios, centros médicos y transporte público. Las playas de Calella de Palafrugell y Llafranc están a solo 10 minutos en coche.\n\nCaracterísticas principales:\n✓ 70 m² construidos\n✓ 3 habitaciones\n✓ 1 baño completo\n✓ Salón-comedor luminoso\n✓ Cocina independient",
+   "descripcion": "Ref: N-PALA. Piso de 70 m² construidos en la cuarta y última planta de un edificio sin ascensor, situado en la Avenida García Lorca de Palafrugell. Una vivienda luminosa y tranquila, ideal como residencia habitual o segunda vivienda.\n\nDispone de 3 habitaciones, 1 baño completo, cocina independiente, amplio salón-comedor y balcón cerrado. Además, cuenta con ventanas de aluminio con doble acristalamiento para un mejor aislamiento.\n\nLa finca ha pasado recientemente la ITE y la comunidad está formada mayoritariamente por propietarios, lo que favorece un entorno cuidado y estable.\n\nSu ubicación permite acceder fácilmente a supermercados, colegios, comercios, centros médicos y transporte público. Las playas de Calella de Palafrugell y Llafranc están a solo 10 minutos en coche.\n\nCaracterísticas principales:\n✓ 70 m² construidos\n✓ 3 habitaciones\n✓ 1 baño completo\n✓ Salón-comedor luminoso\n✓ Cocina",
    "enlaces": [
     {
      "portal": "idealista",
@@ -8533,6 +8818,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-65916355109_106600/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-605813684.htm"
     },
     {
      "portal": "habitaclia",
@@ -8558,13 +8847,13 @@
    "habitaciones": 3,
    "id": "b40dc9166ea3",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9153611,
    "lon": 3.1713544,
    "m2": 70,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Ático",
    "portal_ids": [
     "fotocasa:190028108",
@@ -8573,12 +8862,15 @@
     "habitaclia:4285940160000159",
     "idealista:111810918",
     "idealista:112044060",
+    "milanuncios:601669522",
+    "milanuncios:605813684",
     "pisos:16355109106600"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 155000,
@@ -8588,6 +8880,57 @@
    "tipo": "ático",
    "titulo": "Ático en Garcia Lorca, Piverd-La Roella-Bruguerol, Palafrugell",
    "zona": "Vila de Palafrugell"
+  },
+  "b819bf075a1c": {
+   "activo": true,
+   "banos": null,
+   "descripcion": "Apartamento lateral al mar. A 1 min de la playa, dispone de balcon, salon comedor, cocina abierta, baño, habitacion en buhardilla, luminoso, para enrar a vivir, 3ª planta sin ascensor. No tiene licencia turistica.",
+   "enlaces": [
+    {
+     "portal": "idealista",
+     "url": "https://www.idealista.com/inmueble/112314289/"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": true,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": false,
+    "vistas_mar": true
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/67/52/88/1465646089.webp",
+   "habitaciones": 1,
+   "id": "b819bf075a1c",
+   "ideal": false,
+   "last_seen": "2026-08-19",
+   "lat": null,
+   "lon": null,
+   "m2": 32,
+   "minutos": 20,
+   "municipio": "Calonge i Sant Antoni",
+   "nuevo": true,
+   "planta": "3ª planta",
+   "portal_ids": [
+    "idealista:112314289"
+   ],
+   "portales": [
+    "idealista"
+   ],
+   "precio": 135000,
+   "precio_anterior": null,
+   "precio_m2": 4219,
+   "preferente": false,
+   "tipo": "piso",
+   "titulo": "Piso en Calle de Josep Pla, Sant Antoni, Calonge",
+   "zona": null
   },
   "b8ea6526fc7a": {
    "activo": false,
@@ -8674,13 +9017,13 @@
    "habitaciones": 1,
    "id": "ba7d05b4cf1e",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04154659414876,
    "lon": 3.1944897753535098,
    "m2": 42,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:188836321",
@@ -8754,7 +9097,7 @@
   "bb9ad7a588aa": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Inmueble alquilado. Vivienda tipo dúplex ubicada en la segunda planta en el casco antiguo de Torroella de Montgrí, a escasos metros de la Plaza de la Vila. La vivienda se distribuye en planta segunda con salón-comedor con cocina integrada, 2 habitaciones, 2 baños y dos pequeños balcones. Interiormente se comunica media",
+   "descripcion": "Ref: 2061##02003588. Promoción de pisos en edificio situado en la calle Muralla 16 en la localidad de Torroella de Montgri, provincia de Girona. Inmueble alquilado\nVivienda tipo dúplex ubicada en la segunda planta en el casco antiguo de Torroella de Montgrí, a escasos metros de la Plaza de la Vila. La vivienda se distribuye en planta segunda con salón-comedor con cocina integrada, 2 habitaciones, 2 baños y dos pequeños balcones. Interiormente se comunica mediante escalera con la planta bajo cubierta, donde se ubica un espacio abuhardillado de aproximadamente 52 m², aportando un área adicional muy versátil. El inmueble se sitúa en un entorno de carácter histórico, con calles empedradas y amplia oferta de comercios y servicios a pie. Además, se encuentra a pocos minutos en coche de playas como l’Estartit y Pals, lo que la convierte en una opción adecuada tanto como residencia habitual como",
    "enlaces": [
     {
      "portal": "idealista",
@@ -8763,6 +9106,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/duplex-torroella_de_montgri_poble_y_areas_rurales17257-47577881736_103600/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-torroella-de-montgri-girona/torroella-de-montgri-595387464.htm"
     },
     {
      "portal": "habitaclia",
@@ -8788,24 +9135,26 @@
    "habitaciones": 2,
    "id": "bb9ad7a588aa",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 104,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
-   "planta": null,
+   "nuevo": false,
+   "planta": "bajo",
    "portal_ids": [
     "habitaclia:0004116316000055",
     "habitaclia:0041163160000159",
     "habitaclia:04116316000055",
     "idealista:111473381",
+    "milanuncios:595387464",
     "pisos:77881736103600"
    ],
    "portales": [
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 140000,
@@ -8851,7 +9200,7 @@
    "m2": 96,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:0444355316000055",
@@ -8927,7 +9276,7 @@
   "bd2fed1a221f": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Este interesante piso en planta baja se encuentra en una calle tranquila dentro de un edificio rehabilitado de 1925, conservando su encanto original con un toque moderno.\nLa vivienda cuenta con 93 m² distribuidos en un amplio salón-comedor con cocina americana, un espacio acogedor que mantiene detalles rústicos como techos abovedados y paredes de piedra.\nDesde el salón, se accede a un baño completamente reformado con ducha y a un pe-queño pasillo que distribuye las dos habitaciones dobles.\nEl inmueble puede revalorizarse con una simple actualización y es ideal tanto para parejas como para inversión. Anteriormente ha sido alquilado por 620€/mes, lo que lo convierte en una gran oportunidad en el casco antiguo.\n\n📌 Características\n✔ Edificio rehabilitado: 1925\n✔ Superficie construida: 93 m²\n✔ Planta: Baja\n✔ Habitaciones: 2 dobles\n✔ Baños: 1 reformado con ducha\n✔ Cocina americana\n✔ Salón-come",
+   "descripcion": "Ref: 2325BISBALJG. Este interesante piso en planta baja se encuentra en una calle tranquila dentro de un edificio rehabilitado de 1925, conservando su encanto original con un toque moderno.\nLa vivienda cuenta con 93 m² distribuidos en un amplio salón-comedor con cocina americana, un espacio acogedor que mantiene detalles rústicos como techos abovedados y paredes de piedra.\nDesde el salón, se accede a un baño completamente reformado con ducha y a un pe-queño pasillo que distribuye las dos habitaciones dobles.\nEl inmueble puede revalorizarse con una simple actualización y es ideal tanto para parejas como para inversión. Anteriormente ha sido alquilado por 620€/mes, lo que lo convierte en una gran oportunidad en el casco antiguo.\n\n📌 Características\n✔ Edificio rehabilitado: 1925\n✔ Superficie construida: 93 m²\n✔ Planta: Baja\n✔ Habitaciones: 2 dobles\n✔ Baños: 1 reformado con ducha\n✔ Cocina ame",
    "enlaces": [
     {
      "portal": "idealista",
@@ -8936,6 +9285,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/forallac/internet-no-amueblado/185944516/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-forallac-girona/forallac-539003532.htm"
     }
    ],
    "extras": {
@@ -8957,21 +9310,23 @@
    "habitaciones": 2,
    "id": "bd2fed1a221f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.962780894272385,
    "lon": 3.045150695478091,
    "m2": 93,
    "minutos": 9,
    "municipio": "Forallac",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:185944516",
-    "idealista:107655659"
+    "idealista:107655659",
+    "milanuncios:539003532"
    ],
    "portales": [
     "fotocasa",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 130000,
    "precio_anterior": null,
@@ -9071,13 +9426,13 @@
    "habitaciones": 1,
    "id": "c182a6aaeac1",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04117587949988,
    "lon": 3.193474479069484,
    "m2": 53,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Principal",
    "portal_ids": [
     "fotocasa:190150109",
@@ -9134,13 +9489,13 @@
    "habitaciones": 2,
    "id": "c19c71504a5b",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.054227,
    "lon": 3.1990797,
    "m2": 80,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "fotocasa:184128217",
@@ -9302,7 +9657,7 @@
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:0007088160000159"
@@ -9369,6 +9724,63 @@
    "tipo": "piso",
    "titulo": "Piso  en  Molí de Vent-La Sauleda. Venta en condiciones especiales  modalidad cesión de remate",
    "zona": null
+  },
+  "c704068bf2d2": {
+   "activo": true,
+   "banos": 2,
+   "descripcion": "Hi ha habitatges que destaquen per la seva ubicació, i aquest n’és un bon exemple. Situat al centre de L’Estartit, a només un minut del carrer principal, del port i de tots els comerços i serveis, podràs gaudir de tot el que ofereix el poble sense necessitat d’agafar el cotxe. A més, la platja és a només cinc minuts caminant.\n\nL’apartament es troba en una primera planta amb ascensor i ofereix una distribució pràctica i funcional. Disposa d’una habitació doble amb bany privat tipus suite, una habitació individual i un segon bany complet, adaptant-se tant a una parella com a una família o a qui busqui una segona residència.\n\nLa cuina és independent, mentre que el saló-menjador es converteix en el centre de la zona de dia. Des d’aquest espai, així com des de les dues habitacions, s’accedeix a la terrassa, un espai exterior ideal per gaudir de l’aire lliure en qualsevol moment del dia.\n\nLa s",
+   "enlaces": [
+    {
+     "portal": "idealista",
+     "url": "https://www.idealista.com/inmueble/112195394/"
+    },
+    {
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/l-estartit/aire-acondicionado-terraza-ascensor-amueblado-internet/190399833/d"
+    }
+   ],
+   "extras": {
+    "aire": true,
+    "amueblado": true,
+    "ascensor": true,
+    "balcon": false,
+    "calefaccion": false,
+    "jardin": false,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": true,
+    "trastero": false,
+    "vistas_mar": false
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/4b/56/2f/1461830586.webp",
+   "habitaciones": 2,
+   "id": "c704068bf2d2",
+   "ideal": false,
+   "last_seen": "2026-08-19",
+   "lat": 42.054883,
+   "lon": 3.2015043,
+   "m2": 76,
+   "minutos": 14,
+   "municipio": "Torroella de Montgrí",
+   "nuevo": true,
+   "planta": "1ª planta",
+   "portal_ids": [
+    "fotocasa:190399833",
+    "idealista:112195394"
+   ],
+   "portales": [
+    "fotocasa",
+    "idealista"
+   ],
+   "precio": 155000,
+   "precio_anterior": null,
+   "precio_m2": 2039,
+   "preferente": false,
+   "tipo": "piso",
+   "titulo": "Piso en Calle del Port, 24, L'Estartit poble, Torroella de Montgrí",
+   "zona": "L'Estartit Poble"
   },
   "c74d2239c405": {
    "activo": false,
@@ -9503,13 +9915,13 @@
    "habitaciones": 1,
    "id": "c8b8caac1d88",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0413927,
    "lon": 3.1959133,
    "m2": 32,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189449079"
@@ -9562,7 +9974,7 @@
    "m2": 61,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189945527"
@@ -9606,13 +10018,13 @@
    "habitaciones": 2,
    "id": "ca8009f40bde",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "pisos:29553882101800"
@@ -9657,13 +10069,13 @@
    "habitaciones": 2,
    "id": "caf551d51df8",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 60,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2 planta",
    "portal_ids": [
     "idealista:108303934"
@@ -9868,13 +10280,13 @@
    "habitaciones": 1,
    "id": "ceb4dcbfb798",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.042214213291025,
    "lon": 3.192182107151167,
    "m2": 52,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:189939545",
@@ -9921,13 +10333,13 @@
    "habitaciones": 3,
    "id": "cf135b44411f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 75,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:111102606"
@@ -10024,13 +10436,13 @@
    "habitaciones": 3,
    "id": "cfaa4127810f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 70,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:105262834"
@@ -10049,11 +10461,15 @@
   "d0af3b740694": {
    "activo": true,
    "banos": 2,
-   "descripcion": "¡No dejes pasar esta oportunidad! Apartamento con licencia turística.\r\n\r\nSe trata de un apartamento muy soleado y luminoso que no te dejará indiferente. Dispone de piscina comunitaria, zona de aparcamiento y es ideal tanto para vivir como para invertir, ya que cuenta con licencia turística.\r\n\r\nEl piso tiene 2 habitaciones dobles, un baño reformado, salón-comedor con cocina y una terraza sin acristalar con vistas despejadas y preciosas a la montaña.\r\n\r\nCalonge es un encantador municipio de la Costa Brava, situado a solo 4 km de la playa de Sant Antoni de Calonge.\r\n\r\nEl pueblo conserva un casco antiguo medieval con un castillo del siglo XIII, donde el ayuntamiento organiza actividades culturales y eventos durante todo el año.\r\n\r\nSi buscas un lugar tranquilo para vivir, cerca del mar y con encanto histórico, ¡Calonge es tu oportunidad perfecta! [IW]",
+   "descripcion": "Ref: HGG-251040-P. ¡No dejes pasar esta oportunidad! Apartamento con licencia turística.\r\n\r\nSe trata de un apartamento muy soleado y luminoso que no te dejará indiferente. Dispone de piscina comunitaria, zona de aparcamiento y es ideal tanto para vivir como para invertir, ya que cuenta con licencia turística.\r\n\r\nEl piso tiene 2 habitaciones dobles, un baño reformado, salón-comedor con cocina y una terraza sin acristalar con vistas despejadas y preciosas a la montaña.\r\n\r\nCalonge es un encantador municipio de la Costa Brava, situado a solo 4 km de la playa de Sant Antoni de Calonge.\r\n\r\nEl pueblo conserva un casco antiguo medieval con un castillo del siglo XIII, donde el ayuntamiento organiza actividades culturales y eventos durante todo el año.\r\n\r\nSi buscas un lugar tranquilo para vivir, cerca del mar y con encanto histórico, ¡Calonge es tu oportunidad perfecta! [IW] # Piscina comunitaria ",
    "enlaces": [
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/calonge-i-sant-antoni/aire-acondicionado-terraza-piscina/187856489/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-calonge-girona/calonge-i-sant-antoni-562334726.htm"
     },
     {
      "portal": "habitaclia",
@@ -10079,21 +10495,23 @@
    "habitaciones": 2,
    "id": "d0af3b740694",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.85635565741384,
    "lon": 3.079683052674259,
    "m2": 73,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:187856489",
-    "habitaclia:0437833316000055"
+    "habitaclia:0437833316000055",
+    "milanuncios:562334726"
    ],
    "portales": [
     "fotocasa",
-    "habitaclia"
+    "habitaclia",
+    "milanuncios"
    ],
    "precio": 160000,
    "precio_anterior": null,
@@ -10144,13 +10562,13 @@
    "habitaciones": 1,
    "id": "d0e147dfad76",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04196325514064,
    "lon": 3.1253307544499633,
    "m2": 49,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "fotocasa:188181899",
@@ -10270,13 +10688,13 @@
    "habitaciones": 1,
    "id": "d3ba061658c7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0561150963741,
    "lon": 3.1979124210662726,
    "m2": 57,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:190276996",
@@ -10500,7 +10918,7 @@
    "m2": 80,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2 PLANTA",
    "portal_ids": [
     "habitaclia:4348823160000159"
@@ -10545,13 +10963,13 @@
    "habitaciones": 2,
    "id": "dc023e413c8a",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.96062546711085,
    "lon": 3.0381952307691837,
    "m2": 89,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:189889231"
@@ -10585,6 +11003,10 @@
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-58387399399_109300/"
     },
     {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-563332326.htm"
+    },
+    {
      "portal": "habitaclia",
      "url": "https://www.habitaclia.com/comprar-piso-en_venta_en_calle_marcal_de_la_trinxeria_giron_la_punxa-palafrugell-i43082000001403.htm"
     }
@@ -10608,13 +11030,13 @@
    "habitaciones": 4,
    "id": "dc3f686bbb82",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91894142119888,
    "lon": 3.1569154968321067,
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:187929385",
@@ -10626,12 +11048,14 @@
     "habitaclia:0015866160000159",
     "idealista:111393110",
     "idealista:111516778",
+    "milanuncios:563332326",
     "pisos:87399399109300"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 134000,
@@ -10675,13 +11099,13 @@
    "habitaciones": 2,
    "id": "dc6c7f54705c",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.961323349155485,
    "lon": 3.0394691723344733,
    "m2": 114,
    "minutos": 10,
    "municipio": "La Bisbal d'Empordà",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "3ª planta",
    "portal_ids": [
     "fotocasa:190028759",
@@ -10909,12 +11333,20 @@
   },
   "e03489fae053": {
    "activo": true,
-   "banos": null,
-   "descripcion": "SE VENDE CON EL INQUILINO. PISO ALQUILADO, ES PARA INVERIÓN. En una segunda planta sin ascensor tenemos este piso actualmente alquilado, se puede visitar. Superficie construida de 75m2, tiene una terraza que da al salón comedor, gran cocina, un baño y una aseo y tres habitaciones. Las playas de las populares Calella de",
+   "banos": 1,
+   "descripcion": "Ref: VIM 782. SE VENDE CON EL INQUILINO.\r\nPISO ALQUILADO, ES PARA INVERIÓN.\r\nEn una segunda planta sin ascensor tenemos este piso actualmente alquilado, se puede visitar.\r\nSuperficie construida de 75m2, tiene una terraza que da al salón comedor, gran cocina, un baño y una aseo y tres habitaciones.\r\nLas playas de las populares Calella de Palafrugell, Llafranc y Tamariu se encuentran tan solo a 4km de Palafrugell población interior de la Costa Brava.\r\nInmueble con buena rentabilidad para comprar. \r\nCaracterísticas básicas:\r\n-Segunda mano: En buen estado\r\n-Zona: Carrer Carrilet\r\n-Sup. Útil: 56m2\r\n-Sup. Construida: 75m²\r\n- Habitaciones: 3 – Baños: 1\r\n- Ascensor. No\r\n- Terraza: Sí\r\n- Cedula de habitabilidad: CHG00744914001\r\n-Certificado energético: R4XKZ0XNV\r\n- Consumo:  E 183   kWh/m² año. Emisiones: CE 47 kg CO2/m²\r\n-Zona tensionada: Sí \r\n-ITP: Tipo vigente\r\n -Gastos notariales y registrale",
    "enlaces": [
     {
      "portal": "idealista",
      "url": "https://www.idealista.com/inmueble/111579766/"
+    },
+    {
+     "portal": "pisos",
+     "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-64255308963_101300/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-597064928.htm"
     }
    ],
    "extras": {
@@ -10936,19 +11368,23 @@
    "habitaciones": 3,
    "id": "e03489fae053",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 75,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
-    "idealista:111579766"
+    "idealista:111579766",
+    "milanuncios:597064928",
+    "pisos:55308963101300"
    ],
    "portales": [
-    "idealista"
+    "idealista",
+    "milanuncios",
+    "pisos"
    ],
    "precio": 120000,
    "precio_anterior": null,
@@ -10987,13 +11423,13 @@
    "habitaciones": 1,
    "id": "e0714445a5be",
    "ideal": true,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 55,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "idealista:103264175"
@@ -11097,7 +11533,7 @@
    "m2": 84,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "habitaclia:4151358160000159"
@@ -11254,13 +11690,13 @@
    "habitaciones": 2,
    "id": "e319931879a7",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.04193601589388,
    "lon": 3.194260829714767,
    "m2": 55,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:188468095",
@@ -11362,13 +11798,13 @@
    "habitaciones": 1,
    "id": "e3e6282debfe",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 162,
    "minutos": 20,
    "municipio": "Calonge i Sant Antoni",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:101934475"
@@ -11469,13 +11905,13 @@
    "habitaciones": 1,
    "id": "e654058588fd",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.0497796,
    "lon": 3.1902557,
    "m2": 35,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:190238928",
@@ -11574,13 +12010,13 @@
    "habitaciones": 2,
    "id": "e675b57a978d",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 94,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "pisos:82498138106400"
@@ -11633,13 +12069,13 @@
    "habitaciones": null,
    "id": "e82949652042",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 42.041629539418935,
    "lon": 3.1253579922507044,
    "m2": 52,
    "minutos": 14,
    "municipio": "Torroella de Montgrí",
-   "nuevo": true,
+   "nuevo": false,
    "planta": null,
    "portal_ids": [
     "fotocasa:188976834",
@@ -11663,7 +12099,7 @@
   "e86142ed8309": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Vivienda de 78 m² construidos según Catastro, situada en una segunda planta de un edificio residencial con ascensor en el municipio de Palafrugell, en la provincia de Girona.\r\nEl piso tiene 4 habitaciones, dos baños completos, cocina cerrada, comedor salida balcón grande, superficie construida del piso de 102,23m\r\nLa vivienda se ubica en una zona consolidada del municipio, próxima a todo tipo de servicios y equipamientos, como centros educativos (como el Institut La Sureda), comercios, supermercados, farmacias y zonas verdes, lo que garantiza buena conectividad y servicios en el entorno. [IW]",
+   "descripcion": "Ref: R-1367. Vivienda de 78 m² construidos según Catastro, situada en una segunda planta de un edificio residencial con ascensor en el municipio de Palafrugell, en la provincia de Girona.\r\nEl piso tiene 4 habitaciones, dos baños completos, cocina cerrada, comedor salida balcón grande, superficie construida del piso de 102,23m\r\nLa vivienda se ubica en una zona consolidada del municipio, próxima a todo tipo de servicios y equipamientos, como centros educativos (como el Institut La Sureda), comercios, supermercados, farmacias y zonas verdes, lo que garantiza buena conectividad y servicios en el entorno. [IW]",
    "enlaces": [
     {
      "portal": "idealista",
@@ -11676,6 +12112,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-62531235526_500582/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-585826038.htm"
     },
     {
      "portal": "habitaclia",
@@ -11701,13 +12141,13 @@
    "habitaciones": 4,
    "id": "e86142ed8309",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.91755265901399,
    "lon": 3.1578669110391573,
    "m2": 102,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:189090306",
@@ -11716,6 +12156,7 @@
     "habitaclia:00019516000055",
     "idealista:110790835",
     "idealista:110897873",
+    "milanuncios:585826038",
     "pisos:31235526500582",
     "pisos:59120832106600"
    ],
@@ -11723,6 +12164,7 @@
     "fotocasa",
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 134000,
@@ -11736,11 +12178,15 @@
   "ec837fde874f": {
    "activo": true,
    "banos": 2,
-   "descripcion": "AMPLIO PISO PARA REFORMAR A LA VENTA EN PALAFRUGELL\n\nBartrina y Asociados presenta A LA VENTA esta vivienda de 78 m2, una oportunidad ideal para quienes buscan un piso amplio, con cuatro dormitorios y con posibilidades reales de transformación en Palafrugell, dentro del entorno de Vila Palafrugell, una zona residencial consolidada que destaca por su proximidad a servicios, su buena comunicación y su ambiente práctico y dinámico. Para quienes analizan oportunidades de inversión inmobiliaria, este tipo de propiedades ofrece un recorrido muy interesante.\n\nLa vivienda se encuentra en una 2ª planta de un bloque residencial con ascensor, un detalle que aporta comodidad y accesibilidad. Su distribución es funcional y equilibrada: un salón‑comedor con buena entrada de luz natural, cuatro dormitorios que permiten múltiples configuraciones familiares o de teletrabajo, una cocina independiente, dos",
+   "descripcion": "Ref: 00753. AMPLIO PISO PARA REFORMAR A LA VENTA EN PALAFRUGELL\n\nBartrina y Asociados presenta A LA VENTA esta vivienda de 78 m2, una oportunidad ideal para quienes buscan un piso amplio, con cuatro dormitorios y con posibilidades reales de transformación en Palafrugell, dentro del entorno de Vila Palafrugell, una zona residencial consolidada que destaca por su proximidad a servicios, su buena comunicación y su ambiente práctico y dinámico. Para quienes analizan oportunidades de inversión inmobiliaria, este tipo de propiedades ofrece un recorrido muy interesante.\n\nLa vivienda se encuentra en una 2ª planta de un bloque residencial con ascensor, un detalle que aporta comodidad y accesibilidad. Su distribución es funcional y equilibrada: un salón‑comedor con buena entrada de luz natural, cuatro dormitorios que permiten múltiples configuraciones familiares o de teletrabajo, una cocina indepe",
    "enlaces": [
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/terraza-ascensor/190142487/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-603898638.htm"
     },
     {
      "portal": "habitaclia",
@@ -11766,23 +12212,25 @@
    "habitaciones": 2,
    "id": "ec837fde874f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.918701479737905,
    "lon": 3.1569856025352006,
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
-   "planta": null,
+   "nuevo": false,
+   "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:190142487",
     "habitaclia:0000072716000055",
     "habitaclia:0000727160000159",
-    "habitaclia:4151348160000159"
+    "habitaclia:4151348160000159",
+    "milanuncios:603898638"
    ],
    "portales": [
     "fotocasa",
-    "habitaclia"
+    "habitaclia",
+    "milanuncios"
    ],
    "precio": 134000,
    "precio_anterior": null,
@@ -11821,13 +12269,13 @@
    "habitaciones": 2,
    "id": "ecdfb183c58f",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": null,
    "lon": null,
    "m2": 78,
    "minutos": 16,
    "municipio": "Palamós",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "idealista:105242834"
@@ -11842,6 +12290,63 @@
    "tipo": "piso",
    "titulo": "Piso en Passatge Rutlla, Sant Joan-Vilarromà, Palamós",
    "zona": null
+  },
+  "ee15a04792d8": {
+   "activo": true,
+   "banos": 1,
+   "descripcion": "Ref: 24713. ¡Vivir en Palamós, a tan solo una calle del Passeig del Mar y de la Platja Gran, ahora puede estar a su alcance!\n\nSe vende planta baja de 50 m², situada en una zona céntrica de Palamós, en un edificio sin ascensor y a escasos metros del mar.\n\nLa vivienda se distribuye en:\n\nRecibidor-pasillo\nComedor-sala de estar\nCocina independiente\n1 Baño\n1 Habitación doble con armario empotrado\nPatio privado, donde actualmente existe una habitación/trastero\n\nSu excelente ubicación permite disfrutar de todos los servicios necesarios a escasos 5 -10 minutos a pie y en terreno prácticamente llano, mientras que la Platja Gran y el Passeig del Mar se encuentran a tan solo una calle.\n\nUna oportunidad ideal tanto para quienes buscan una vivienda junto al mar como para aquellos que desean disponer de un apartamento en Palamós para disfrutar durante todo el año o en vacaciones.\n\nUna propiedad con un",
+   "enlaces": [
+    {
+     "portal": "fotocasa",
+     "url": "https://www.fotocasa.es/es/comprar/vivienda/palamos/calefaccion-patio/190500166/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palamos-girona/palamos-610559482.htm"
+    }
+   ],
+   "extras": {
+    "aire": false,
+    "amueblado": false,
+    "ascensor": true,
+    "balcon": false,
+    "calefaccion": true,
+    "jardin": true,
+    "parking": false,
+    "piscina": false,
+    "reformado": false,
+    "terraza": false,
+    "trastero": true,
+    "vistas_mar": true
+   },
+   "first_seen": "2026-08-19",
+   "foto": "https://static.fotocasa.es/images/ads/a8cc98dd-66c1-4f9c-95f0-7b3581e44dfe?rule=original",
+   "habitaciones": 1,
+   "id": "ee15a04792d8",
+   "ideal": false,
+   "last_seen": "2026-08-19",
+   "lat": 41.85142279061129,
+   "lon": 3.121148363574833,
+   "m2": 50,
+   "minutos": 16,
+   "municipio": "Palamós",
+   "nuevo": true,
+   "planta": null,
+   "portal_ids": [
+    "fotocasa:190500166",
+    "milanuncios:610559482"
+   ],
+   "portales": [
+    "fotocasa",
+    "milanuncios"
+   ],
+   "precio": 145000,
+   "precio_anterior": null,
+   "precio_m2": 2900,
+   "preferente": true,
+   "tipo": "planta baja",
+   "titulo": "Planta baja en Platja Gran · Palamós",
+   "zona": "Platja Gran"
   },
   "ee4fc5193f12": {
    "activo": false,
@@ -11896,7 +12401,7 @@
    "zona": null
   },
   "eee9af6692dc": {
-   "activo": true,
+   "activo": false,
    "banos": null,
    "descripcion": "Local diafano en planta baja a nivel de calle. Todos los servivios dentro, falso techo y iluminación, suelo, y un aseo. Se puede habilitar a vivienda muy facilmente. Muy buena oportunidad! Oportunidad de tener una vivienda en el centro de Pals! Correos, Farmacia, Gimnasio, Panaderia, Cafeteria, Carniceria, Restaurantes",
    "enlaces": [
@@ -11930,7 +12435,7 @@
    "m2": 68,
    "minutos": 7,
    "municipio": "Pals",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "Bajo",
    "portal_ids": [
     "idealista:108138209"
@@ -12160,7 +12665,7 @@
   "f34cdee2be59": {
    "activo": true,
    "banos": 2,
-   "descripcion": "Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 84 m² construidos (75 m² de uso privativo más 9 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios: Dos dormitorios dobles y uno individual\n• Dos baños completos.\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos y parquet \n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en Carrer Plans 29, Palafrugell, una zona t",
+   "descripcion": "Ref: 254324PLANSBBC. Ubicada en un edificio construido en 2006 y completamente renovado en 2025, esta planta baja representa una excelente oportunidad tanto para vivir como para invertir. El edificio cuenta con un total de 19 viviendas reformadas disponibles, lo que garantiza una estética moderna y homogénea en toda la finca.\nLa vivienda tiene 84 m² construidos (75 m² de uso privativo más 9 m² de elementos comunes, según Catastro) distribuidos de manera funcional:\n• Recibidor\n• Salón-comedor con cocina abierta, totalmente nueva y equipada con electrodomésticos de última generación.\n• Tres dormitorios: Dos dormitorios dobles y uno individual\n• Dos baños completos.\n\nCaracterísticas destacadas:\n• Carpintería exterior de aluminio\n• Suelos cerámicos y parquet \n• Cocina reformada en 2025\n• Electrodomésticos nuevos\n\nUbicación y servicios cercanos\nLa propiedad se encuentra en Carrer Plans 29, Pa",
    "enlaces": [
     {
      "portal": "idealista",
@@ -12169,6 +12674,10 @@
     {
      "portal": "fotocasa",
      "url": "https://www.fotocasa.es/es/comprar/vivienda/palafrugell/ascensor-no-amueblado/186704672/d"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-545601478.htm"
     },
     {
      "portal": "habitaclia",
@@ -12194,13 +12703,13 @@
    "habitaciones": 3,
    "id": "f34cdee2be59",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.9139956,
    "lon": 3.1704637,
    "m2": 84,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "1ª planta",
    "portal_ids": [
     "fotocasa:186089286",
@@ -12216,12 +12725,17 @@
     "idealista:107799452",
     "idealista:108390659",
     "idealista:108393436",
-    "idealista:108394033"
+    "idealista:108394033",
+    "milanuncios:540350169",
+    "milanuncios:545601478",
+    "milanuncios:545611232",
+    "milanuncios:545614158"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
-    "idealista"
+    "idealista",
+    "milanuncios"
    ],
    "precio": 150000,
    "precio_anterior": null,
@@ -12390,7 +12904,7 @@
   "fdebe6c94181": {
    "activo": true,
    "banos": 1,
-   "descripcion": "Piso de 79 m² ubicado en Palafrugell, Girona. \n\nSe trata de un piso de 79 m² distribuidos en salón-comedor, cocina, 3 dormitorios y 2 baños. \n\nEl piso se sitúa en el núcleo urbano de Palafrugell, con acceso próximo por la carretera C-31. Dispone de líneas de autobús interurbano que comunican con Girona y otras localidades de la Costa Brava. En la zona se pueden encontrar servicios como supermercados, restaurantes, instalaciones deportivas, centros educativos, oficinas bancarias y otros comercios. Cerca del CAP Palafrugell y el mercado municipal. \n\nCon nuestros servicios podrá encontrar el piso que necesita y asegurar su inversión con el mejor de los asesoramientos especializados. Empiece ahora mismo pidiendo más información. Un responsable cercano a usted le atenderá personalmente. - El inmueble se encuentra inacabado y/o necesita de una reforma. El comprador deberá asumir los costes de ",
+   "descripcion": "Ref: C1-05146-0001. Piso de 79 m² ubicado en Palafrugell, Girona. \n\nSe trata de un piso de 79 m² distribuidos en salón-comedor, cocina, 3 dormitorios y 2 baños. \n\nEl piso se sitúa en el núcleo urbano de Palafrugell, con acceso próximo por la carretera C-31. Dispone de líneas de autobús interurbano que comunican con Girona y otras localidades de la Costa Brava. En la zona se pueden encontrar servicios como supermercados, restaurantes, instalaciones deportivas, centros educativos, oficinas bancarias y otros comercios. Cerca del CAP Palafrugell y el mercado municipal. \n\nCon nuestros servicios podrá encontrar el piso que necesita y asegurar su inversión con el mejor de los asesoramientos especializados. Empiece ahora mismo pidiendo más información. Un responsable cercano a usted le atenderá personalmente. - El inmueble se encuentra inacabado y/o necesita de una reforma. El comprador deberá a",
    "enlaces": [
     {
      "portal": "idealista",
@@ -12403,6 +12917,10 @@
     {
      "portal": "pisos",
      "url": "https://www.pisos.com/comprar/piso-palafrugell_poble17200-61692079744_105900/"
+    },
+    {
+     "portal": "milanuncios",
+     "url": "https://www.milanuncios.com/venta-de-pisos-en-palafrugell-girona/palafrugell-590862344.htm"
     },
     {
      "portal": "habitaclia",
@@ -12428,13 +12946,13 @@
    "habitaciones": 3,
    "id": "fdebe6c94181",
    "ideal": false,
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "lat": 41.913809226914715,
    "lon": 3.170622911658845,
    "m2": 78,
    "minutos": 5,
    "municipio": "Palafrugell",
-   "nuevo": true,
+   "nuevo": false,
    "planta": "2ª planta",
    "portal_ids": [
     "fotocasa:189388796",
@@ -12445,12 +12963,15 @@
     "idealista:111204760",
     "idealista:111205227",
     "idealista:111228079",
+    "milanuncios:590862344",
+    "milanuncios:590878007",
     "pisos:92079744105900"
    ],
    "portales": [
     "fotocasa",
     "habitaclia",
     "idealista",
+    "milanuncios",
     "pisos"
    ],
    "precio": 131000,
@@ -12514,5 +13035,5 @@
    "zona": null
   }
  },
- "ultima_actualizacion": "2026-08-17T22:24:27"
+ "ultima_actualizacion": "2026-08-19T11:27:48"
 }

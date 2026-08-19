@@ -111,6 +111,13 @@ def main():
         # Una ficha retirada no es una novedad, por muy de hoy que sea su fecha.
         f["nuevo"] = bool(f.get("activo")) and f.get("first_seen") == hoy
 
+    # El mismo criterio, aplicado también al histórico: lo que se coló antes de
+    # existir el filtro se va ahora. Los fijados a mano se respetan siempre.
+    antes = len(fichas)
+    fichas = [f for f in fichas
+              if f.get("fijado") or f.get("m2") or f.get("habitaciones") is not None]
+    stats["sin_datos"] = stats.get("sin_datos", 0) + (antes - len(fichas))
+
     # Los pisos que Albert ha fijado a mano salen siempre en verde, los haya
     # encontrado el escaneo o no.
     fichas, fij = pl.aplica_fijados(fichas, marcas, hoy)
@@ -186,7 +193,8 @@ def main():
     print(f"  Ideales (1 hab, ≤{cfg.IDEAL_PRECIO_MAX // 1000}k) {ideales}"
           + (f"  ({rozando} de 1 hab se pasan de precio)" if rozando else ""))
     print(f"  Descartados: fuera de zona {stats['fuera_zona']} | "
-          f"no piso {stats['no_piso']} | precio {stats['precio']} | raros {stats['raros']}")
+          f"no piso {stats['no_piso']} | precio {stats['precio']} | "
+          f"raros {stats['raros']} | sin datos {stats.get('sin_datos', 0)}")
     if stats["motivos_raros"]:
         print(f"  Motivos de descarte .. {stats['motivos_raros']}")
     print("-" * 58)

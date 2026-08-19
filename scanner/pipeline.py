@@ -469,7 +469,7 @@ def procesa(brutos):
     Devuelve (fichas, estadisticas_de_filtrado).
     """
     stats = {"total_bruto": len(brutos), "fuera_zona": 0, "no_piso": 0,
-             "precio": 0, "raros": 0, "motivos_raros": {}}
+             "precio": 0, "raros": 0, "sin_datos": 0, "motivos_raros": {}}
 
     validos = []
     for a in brutos:
@@ -485,6 +485,13 @@ def procesa(brutos):
 
         if not es_vivienda_en_edificio(a):
             stats["no_piso"] += 1
+            continue
+
+        # Sin superficie ni habitaciones no hay vivienda que valorar: en
+        # Milanuncios esto son anuncios de préstamos hipotecarios y servicios
+        # colados en el listado de pisos.
+        if not a.get("m2") and a.get("habitaciones") is None:
+            stats["sin_datos"] += 1
             continue
 
         motivo = motivo_descarte(a)
